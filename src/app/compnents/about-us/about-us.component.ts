@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-about-us',
@@ -8,5 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './about-us.component.css'
 })
 export class AboutUsComponent {
+  router: Router = inject(Router);
+
+  onContactUs() {
+    this.router.navigate(['/contactUs']);
+  }
 
 }
