@@ -1,19 +1,19 @@
 <nav class="navbar">
-  <div class="container-fluid bg-dark custom-navbar">
+  <div class="container-fluid custom-navbar">
     <a class="navbar-brand" href="#">
       <img src="logo.jpg" alt="Bootstrap" width="80" height="80">
     </a>
 
     <div class="d-flex flex-column">
 
-      <div class="d-flex align-items-center">
-        <a class="navbar-brand text-white login-link" href="#">LOGIN
-        <i class="bi bi-person-fill-gear icon text-white" style="font-size: 20px; margin-left: 5px;"></i></a>
+      <div class="d-flex align-items-center login-container">
+        <a class="navbar-brand login-link" style="color: #001e1d;" href="#">LOGIN
+        <i class="bi bi-person-fill-gear icon" style="font-size: 20px; margin-left: 5px; color: #001e1d;"></i></a>
       </div>
 
       <div class="d-flex search-container">
         <input type="text" class="form-control search-input" placeholder="Search enterie store here...">
-        <button class="btn btn-primary search-button">
+        <button class="btn search-button">
           <i class="bi bi-search"></i>
         </button>
       </div>
@@ -23,21 +23,21 @@
 </nav>
 
 <!---navbar2-->
-<nav class="navbar navbar-expand-lg m-2">
+<nav class="navbar navbar-expand-lg m-2 nav2">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="color: #fffffe;">
+      <span class="navbar-toggler-icon text-white"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <!-- Left Aligned Navbar Links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+          <a class="nav-link active" aria-current="page" style="color: #fffffe;" routerLink="/home">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #fffffe;" aria-expanded="false">
             Shop
           </a>
           <ul class="dropdown-menu">
@@ -47,15 +47,15 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/aboutUs">About us</a>
+          <a class="nav-link" style="color: #fffffe;" routerLink="/aboutUs">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contactUs">Contact us</a>
+          <a class="nav-link" style="color: #fffffe;" routerLink="/contactUs">Contact us</a>
         </li>
       </ul>
 
       <!-- Right Aligned List Group -->
-      <button class="btn btn-primary cart-button">
+      <button class="btn cart-button">
         <i class="bi bi-cart-check-fill"></i> nb item(s) - $montant
       </button>
     </div>

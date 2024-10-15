@@ -1,5 +1,8 @@
 .navbar {
     padding: 0;
+    background-color: #004643;
+    color: #fffffe;
+    font-weight: bold;
 }
 
 .search-container {
@@ -21,21 +24,39 @@
     border-radius: 0;
     border: none;
     padding: 10px 15px;
+    background-color: #f9bc60;
+    color: #001e1d;
 }
 
 .search-button:hover {
-    background-color: #0056b3;
+    background-color: #ce9c50;
 }
 
 .search-input::placeholder {
     font-style: italic;
 }
 
+.login-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #f9bc60;
+    color: #001e1d;
+    width: 50%;
+}
+.login-container:hover {
+    background-color: #ce9c50;
+    
+}
+.login-container:active {
+    transform: scale(0.95);
+}
 
 /* Navbar2 Styles */
-nav {
-    background-color: #f8f9fa;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.nav2 {
+    box-shadow: 0 4px 6px #001e1d;
     border-radius: 8px;
 }
 
@@ -45,8 +66,10 @@ nav {
     gap: 8px;
     padding: 10px 15px;
     font-weight: bold;
-    border-radius: 30px;
+    border-radius: 30px ;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #001e1d;
+    background-color: #f9bc60;
 }
 
 .cart-button i {
@@ -54,6 +77,10 @@ nav {
 }
 
 .cart-button:hover {
-    background-color: #0056b3;
+    background-color: #f9bc60;
     transform: scale(1.05);
+}
+.cart-button:active {
+    background-color: #ce9c50;
+    transform: scale(0.95);
 }

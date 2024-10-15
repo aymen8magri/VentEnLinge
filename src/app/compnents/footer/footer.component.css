@@ -1,6 +1,8 @@
 .footer {
     padding-bottom: 20px;
     font-size: 18px;
+    background-color: #004643;
+    
 }
 
 .footer a {
@@ -8,5 +10,8 @@
 }
 
 h5{
-    color: #fded0d;
-}   
+    color: #f9bc60;
+}  
+
+
+
