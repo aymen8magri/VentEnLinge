@@ -1,9 +1,15 @@
+.active {
+    background-color: #f9bc60;
+    color: #001e1d !important;
+}
+
 .navbar {
     padding: 0;
     background-color: #004643;
     color: #fffffe;
     font-weight: bold;
 }
+
 
 .search-container {
     width: 100%;
