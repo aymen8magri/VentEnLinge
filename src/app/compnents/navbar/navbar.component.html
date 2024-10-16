@@ -7,7 +7,7 @@
     <div class="d-flex flex-column">
 
       <div class="d-flex align-items-center login-container">
-        <a class="navbar-brand login-link" style="color: #001e1d;" href="#">LOGIN
+        <a class="navbar-brand login-link" style="color: #001e1d;" routerLink="/login">LOGIN
         <i class="bi bi-person-fill-gear icon" style="font-size: 20px; margin-left: 5px; color: #001e1d;"></i></a>
       </div>
 
@@ -37,7 +37,7 @@
           <a class="nav-link active" aria-current="page" style="color: #fffffe;" routerLink="/home" routerLinkActive="active">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #fffffe;" aria-expanded="false" routerLinkActive="active">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: #fffffe;" aria-expanded="false" routerLink="/shop" routerLinkActive="active">
             Shop
           </a>
           <ul class="dropdown-menu">
@@ -55,7 +55,7 @@
       </ul>
 
       <!-- Right Aligned List Group -->
-      <button class="btn cart-button">
+      <button class="btn cart-button" (click)="goToPanier()">
         <i class="bi bi-cart-check-fill"></i> nb item(s) - $montant
       </button>
     </div>
