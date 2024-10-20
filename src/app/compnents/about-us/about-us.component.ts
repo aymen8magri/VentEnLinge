@@ -15,4 +15,13 @@ export class AboutUsComponent {
     this.router.navigate(['/contactUs']);
   }
 
+  tabImg = [
+    'logo.jpg',
+    'logo.jpg',
+    'logo.jpg',
+    'logo.jpg',
+    'logo.jpg',
+    'logo.jpg',
+  ]
+
 }

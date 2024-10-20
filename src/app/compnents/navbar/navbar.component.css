@@ -90,3 +90,10 @@
     background-color: #ce9c50;
     transform: scale(0.95);
 }
+
+.sticky {
+    position: sticky;
+    top: 5px;
+    z-index: 1000;
+}
+
