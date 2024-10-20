@@ -159,7 +159,7 @@
   transform: scale(0.4) translate(160px, 150px);
 }
 
-
+/*about us*/
 h2{
   font-weight: 700;
   font-size: 38px;
@@ -224,3 +224,38 @@ header {
     filter: hue-rotate(360deg);
   }
 }
+.about-us-content{
+    animation: slideInFromTop 1s ease-out;
+    z-index: 0;
+  }
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-45%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .entreDuGauche{
+    animation: slideInFromLeft 1s ease-out;
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .entreDuDroite{
+    animation: slideInFromRight 1s ease-out;
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

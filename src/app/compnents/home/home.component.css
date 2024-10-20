@@ -94,3 +94,15 @@
     background-position: center;
     height: 430px;
   }  
+  .welcome-content{
+    animation: slideInFromTop 1s ease-out;
+    z-index: 0;
+  }
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-60%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
