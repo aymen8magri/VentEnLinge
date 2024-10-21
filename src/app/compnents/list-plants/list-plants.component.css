@@ -1,0 +1,61 @@
+.section-title {
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #dee2e6;
+    border-left: 7px solid #f9bc60;
+}
+.section-decriptipon {
+    padding: 55px;
+    color: #001e1d;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/***/
+
+.welcome {
+    background-image: url(../../../../public/wave2.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+  }  
+  .welcome-content{
+    animation: slideInFromTop 1s ease-out;
+    z-index: 0;
+  }
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-60%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .input-group-text{
+    background-color: #f9bc60;
+    color: #004643;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .input-group-text:hover{
+    background-color: #ce9c50;
+  }
+  .form-select:hover{
+    background-color: #ce9c50;
+  }
+
+.form-select{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #ad9064;
+    color: #001e1d;
+}
