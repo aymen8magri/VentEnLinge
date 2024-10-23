@@ -287,7 +287,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1556910103-1c6ae925b9d5"
+        "https://images.thdstatic.com/productImages/0f739995-ef7d-47ae-a1bb-a50fc46cd2dc/svn/united-nursery-monstera-plants-21887-64_600.jpg"
       ]
     },
     {
@@ -312,7 +312,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1539707336751-75c1fc8b4865"
+        "https://www.boutique.bencheikhgarden.tn/338-large_default/pothos.jpg"
       ]
     },
     {
@@ -337,7 +337,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1515676908133-7a6e84c0c845"
+        "https://www.rustica.fr/images/begonia-x-benariensis-red-bronze-leaf-fm220708-037.jpg"
       ]
     },
     {
@@ -365,7 +365,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1492524633066-622f6e6e7d84"
+        "https://d31ucaydsf5avx.cloudfront.net/10742-large_default/geranium-rose-artificiel.jpg"
       ]
     },
     {
@@ -390,7 +390,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1560963689-e613f9432a0c"
+        "https://www.cjlp.ca/wp-content/uploads/2024/05/cactus-bleu-773x1030.webp"
       ]
     },
     {
@@ -418,7 +418,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+        "https://www.monmagasinvert.fr/media/catalog/product/cache/5739b9c8f18ae7062b084f39115e268a/e/c/echeveria-ok_2_.png"
       ]
     },
     {
@@ -443,17 +443,17 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1586227747523-34993a2c7385"
+        "https://www.boutique.bencheikhgarden.tn/261-large_default/dracaena-drago.jpg"
       ]
     },
     {
       "id": 18,
-      "name": "Palmaire",
+      "name": "Palmier",
       "type": "Plantes purificatrices d'air",
       "personality": "Tropicale",
       "description": "Une plante purificatrice d'air qui apporte une ambiance tropicale.",
       "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Je suis Palmaire, j’apporte une ambiance tropicale et purifie l'air de votre intérieur.",
+      "biography": "Je suis Palmier, j’apporte une ambiance tropicale et purifie l'air de votre intérieur.",
       "entretien": "Moyen",
       "durée_vie": "5-8 ans",
       "in_stock": false,
@@ -464,14 +464,14 @@
       "date_ajout": "2024-10-15",
       "liste_des_commentaires": [
         {
-          "comment": "Mon Palmaire transforme mon salon en un véritable petit paradis tropical."
+          "comment": "Mon Palmier transforme mon salon en un véritable petit paradis tropical."
         },
         {
           "comment": "Facile à entretenir et vraiment superbe."
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1525302220185-278f5d29e8a4"
+        "https://www.jardins-de-lilou.com/223-large_default/palmier-bouteille-hyophorbe-lagenicaulis.jpg"
       ]
     },
     {
@@ -496,7 +496,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1562887006-0dff6c001f74"
+        "https://img.freepik.com/photos-premium/vase-illustration-jasmin-du-caractere_435599-2637.jpg"
       ]
     },
     {
@@ -521,35 +521,32 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1520186994231-bb5bb0b0b144"
+        "https://www.plantlovers.eu/cdn/shop/files/MG_9961_300x300.jpg?v=1682596894"
       ]
     },
     {
       "id": 21,
-      "name": "Tulipe",
-      "type": "Plante fleurie",
-      "personality": "Élégante",
-      "description": "Fleur emblématique du printemps, colorée et gracieuse.",
+      "name": "Maranta",
+      "type": "Plantes purificatrices d'air",
+      "personality": "Artiste",
+      "description": "Plante à feuilles décoratives qui se plie la nuit.",
       "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Tulipe, élégante et pleine de grâce, je suis la star du printemps.",
+      "biography": "Je suis la Maranta, mes feuilles dansent au rythme du jour et de la nuit.",
       "entretien": "Moyen",
-      "durée_vie": "1-2 ans",
+      "durée_vie": "3-5 ans",
       "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 7.99,
-      "stock": 25,
-      "date_ajout": "2024-10-17",
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": 13.99,
+      "stock": 10,
+      "date_ajout": "2024-10-25",
       "liste_des_commentaires": [
         {
-          "comment": "J'adore la couleur éclatante de mes tulipes !"
-        },
-        {
-          "comment": "Parfaites pour illuminer mon jardin au printemps."
+          "comment": "Une beauté à admirer !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        "https://images.unsplash.com/photo-1571576325078-c31cc0b2d61d"
       ]
     },
     {
@@ -2765,31 +2762,6 @@
       ],
       "images": [
         "https://images.unsplash.com/photo-1580694742857-45d9bc70e87c"
-      ]
-    },
-    {
-      "id": 110,
-      "name": "Maranta",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Artiste",
-      "description": "Plante à feuilles décoratives qui se plie la nuit.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis la Maranta, mes feuilles dansent au rythme du jour et de la nuit.",
-      "entretien": "Moyen",
-      "durée_vie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 13.99,
-      "stock": 10,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une beauté à admirer !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1571576325078-c31cc0b2d61d"
       ]
     }
   ]
