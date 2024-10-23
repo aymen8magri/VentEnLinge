@@ -1,0 +1,78 @@
+.discount {
+    background-color: red;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 15px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.wishlist {
+    height: 40px;
+    width: 40px;
+    background-color: #cfcbcb;
+    color: #b85252;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.wishlist:hover {
+    transform: scale(1.1);
+}
+button{
+    cursor: pointer;
+}
+
+.wishlist:active {
+    transform: scale(1.15);
+    background-color: #b85252;
+    color: #fff;
+}
+
+
+.first {
+    position: absolute;
+    width: 100%;
+    padding: 9px;
+}
+
+.new-price {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+
+}
+
+.old-price {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #246544;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    transition: filter 0.3s ease;
+}
+
+.image:hover {
+    filter: brightness(1.1) contrast(1.05);
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+}
