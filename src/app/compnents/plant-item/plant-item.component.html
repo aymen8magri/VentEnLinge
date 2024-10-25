@@ -1,4 +1,4 @@
-<div class="plant-item">    
+<div class="plant-item">   
     <div class="card" style="width: 18rem;">
         <div class="first">
 
@@ -10,21 +10,21 @@
     </div>
 
     <img [src]="plant.images[0]" width="100px" height="200px" class="card-img-top image" alt="...">
-    <div class="card-body">
+    <div class="card-body" style="background-color: #bddac2; border: none;">
 
-        <h5 class="card-title title" style="color: #12442C; font-size: 24px;">{{plant.name}}</h5>
+        <h5 class="card-title title" style="color: #1C593A; font-size: 24px;">{{plant.name}}</h5>
         <div class="d-flex flex-column mb-2 align-items-end">
-            <span class="new-price">{{plant.price}}€</span>
-            <small class="old-price ">{{plant.price+2}}€</small>
+            <span class="new-price">{{plant.price | currency:'TND'}}</span>
+            <small class="old-price">{{plant.price + 2 | currency:'TND'}}</small>
         </div>
         <p class="card-text" style=" font-size: 17px;"><span class="title">Description : </span> {{plant.description}}.</p>
     </div>
     <ul class="list-group list-group-flush">
-        <li class="list-group-item" style=" font-size: 17px;"><span class="title">Fun_filter : </span> {{plant.fun_filter}}</li>
+        <li class="list-group-item" style=" font-size: 17px; background-color: #bddac2; border-bottom: 1px solid #1C593A;"><span class="title">Fun_filter : </span> {{plant.fun_filter}}</li>
     </ul>
-    <div class="card-body d-flex justify-content-between ">
-        <button class="btn btn-primary" title="Ajouter au panier">Ajouter au panier</button>
-        <button class="btn btn-secondary" title="Voir la plante">Voir</button>
+    <div class="card-body d-flex justify-content-between" style="background-color: #bddac2;">
+        <button class="btn" style="background-color: #1C593A; color: #fff;" title="Ajouter au panier">Ajouter au panier</button>
+        <button class="btn" style="background-color: #529F76; color: #fff;" title="Voir la plante">Voir</button>
         </div>
     </div>
 </div>  

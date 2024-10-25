@@ -34,10 +34,10 @@
 <div id="plant-fleuries">
     <div class="pt-3 mb-1">
         <div class="section-title container">
-            <h4 class=" text-uppercase font-weight-bold text-dark">Plantes fleuries</h4>
+            <h4 class=" text-uppercase">Plantes fleuries</h4>
         </div>
 
-        <div class="section-decriptipon d-flex flex-wrap justify-content-center">
+        <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of plantsFleuries; track plant.id) {
             <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
             }
@@ -48,10 +48,10 @@
 <div id="plant-cactus">
     <div class="pt-5 mb-3">
         <div class="section-title container">
-            <h4 class=" text-uppercase font-weight-bold text-dark">Cactus et succulentes</h4>
+            <h4 class=" text-uppercase">Cactus et succulentes</h4>
         </div>
 
-        <div class="section-decriptipon d-flex flex-wrap justify-content-center">
+        <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of plantsCactus; track plant.id) {
             <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
             }
@@ -62,10 +62,10 @@
 <div id="plant-purificatrices">
     <div class="pt-5 mb-3">
         <div class="section-title container">
-            <h4 class=" text-uppercase font-weight-bold text-dark">Plantes purificatrices d'air</h4>
+            <h4 class=" text-uppercase">Plantes purificatrices d'air</h4>
         </div>
 
-        <div class="section-decriptipon d-flex flex-wrap justify-content-center">
+        <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of plantsPurificatrices; track plant.id) {
             <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
             }

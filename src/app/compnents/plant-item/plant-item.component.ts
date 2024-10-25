@@ -1,10 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Plant } from '../../model/plant';
+import { CurrencyPipe } from '@angular/common';
 
 @Component({
   selector: 'app-plant-item',
   standalone: true,
-  imports: [],
+  imports: [CurrencyPipe], 
   templateUrl: './plant-item.component.html',
   styleUrl: './plant-item.component.css'
 })

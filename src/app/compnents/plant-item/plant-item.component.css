@@ -12,7 +12,7 @@
 .wishlist {
     height: 40px;
     width: 40px;
-    background-color: #cfcbcb;
+    background-color: #bddac2;
     color: #b85252;
     display: flex;
     justify-content: center;
@@ -44,14 +44,14 @@ button{
 }
 
 .new-price {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     color: red;
 
 }
 
 .old-price {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: grey;
     text-decoration: line-through;
@@ -60,7 +60,7 @@ button{
 .title {
     font-size: 17px;
     font-weight: bold;
-    color: #246544;
+    color: #1C593A;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -73,6 +73,6 @@ button{
     filter: brightness(1.1) contrast(1.05);
 }
 .card:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #1C593A;
     transform: scale(1.01);
 }
