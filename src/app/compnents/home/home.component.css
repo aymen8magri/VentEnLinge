@@ -89,10 +89,10 @@
   }
   
   .welcome {
-    background-image: url(../../../../public/wave2.png);
+    background-image: url(../../../../public/waveG.png);
     background-size: cover;
     background-position: center;
-    height: 430px;
+    height: 420px;
   }  
   .welcome-content{
     animation: slideInFromTop 1s ease-out;
