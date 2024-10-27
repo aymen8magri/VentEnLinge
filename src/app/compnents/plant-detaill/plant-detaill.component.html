@@ -1,17 +1,18 @@
 <div class="container py-4 my-4 mx-auto d-flex flex-column">
     <!-- Return Button -->
-    <button class="">Return</button>
+    <a routerLink="/listePlantes"><button class="return-btn"> Return </button></a>
+    <hr>
 
     <!-- Header -->
     <div class="header">
         <div class="row r1">
-            <div class="col-md-9 abc">
+            <div class="col-md-9 title">
                 <h1>{{plant.name}}</h1>
             </div>
-            <div class="col-md-3 text-right pqr">
+            <div class="col-md-3 text-right note">
                 <span>⭐⭐⭐⭐⭐</span> <!-- Replace with the desired star icon -->
             </div>
-            <p class="text-right para"><strong>Category :</strong> {{plant.category}}</p>
+            <p class="text-right category"><strong>Category :</strong> {{plant.category}}</p>
         </div>
     </div>
 
@@ -26,17 +27,17 @@
                     <li><strong>Biography :</strong> {{plant.biography}}</li>
                     <li><strong>Watering Frequency :</strong> {{plant.watering_frequency}}</li>
                     <li><strong>Maintenance :</strong> {{plant.entretien}}</li>
-                    <!-- <li><strong>Lifespan :</strong> {{plant.dureeVie}}</li> -->
                     <li><strong>Fun Filter :</strong> {{plant.fun_filter}}</li>
                     <li><strong>Price :</strong> {{plant.price}} €</li>
                     <li><strong>In Stock :</strong> {{plant.stock}} pieces</li>
                     <li><strong>Date Added :</strong> {{plant.date_ajout}}</li>
+                    <li><strong>Lifespan :</strong> {{plant.dureeVie}}</li>
                 </ul>
             </div>
 
             <!-- Plant Image -->
             <div class="col-md-7">
-                <img [src]="plant.images[0]" alt="Image of {{plant.name}}" width="90%" height="95%">
+                <img [src]="plant.images[0]" alt="Image of {{plant.name}}">
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ export class Plant {
     watering_frequency: string;
     biography: string;
     entretien: string;
-    durée_vie: string;
+    dureeVie: string;
     in_stock: boolean;
     category: string;
     fun_filter: string;
@@ -17,7 +17,7 @@ export class Plant {
     liste_des_commentaires: Comment[];
     images: string[];
 
-    constructor(id: number, name: string, type: string, personality: string, description: string, watering_frequency: string, biography: string, entretien: string, durée_vie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, liste_des_commentaires: Comment[], images: string[]) {
+    constructor(id: number, name: string, type: string, personality: string, description: string, watering_frequency: string, biography: string, entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, liste_des_commentaires: Comment[], images: string[]) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -26,7 +26,7 @@ export class Plant {
         this.watering_frequency = watering_frequency;
         this.biography = biography;
         this.entretien = entretien;
-        this.durée_vie = durée_vie;
+        this.dureeVie = dureeVie;
         this.in_stock = in_stock;
         this.category = category;
         this.fun_filter = fun_filter;

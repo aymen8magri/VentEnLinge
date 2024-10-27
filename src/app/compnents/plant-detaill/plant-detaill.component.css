@@ -1,35 +1,62 @@
 .container {
-    background: #fff !important;
-    border: none;
-    border-radius: none
+    background: #629A74 !important;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #1C593A;
 }
 
-.abc {
-    padding-left: 40px
+.title {
+    padding-left: 120px;
+    color: #ffffff;
+    padding-top: 20px;
 }
 
-.pqr {
+.note {
     padding-right: 70px;
-    padding-top: 14px
+    padding-top: 40px;
 }
 
-.para {
+.return-btn {
+    background-color: #1C593A;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #1C593A;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    letter-spacing: 1px;
+}
+.return-btn:hover {
+    background-color: #79BA91; 
+    color: #1C593A; 
+    border: 1px solid #1C593A;
+}
+
+.category {
     float: right;
     margin-right: 0;
-    padding-left: 80%;
-    top: 0
-}
-
-.fa-star {
-    color: yellow
+    padding-left: 70%;
 }
 
 li {
     list-style: none;
     line-height: 50px;
-    color: #000
 }
 
+strong{
+    color: #1C593A;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+img{
+    border-radius: 20px;
+    box-shadow: 0 0 15px #1C593A;
+    margin: 20px;
+    width: 90%;
+    height: 95%;
+}
 .col-md-2 {
     padding-bottom: 20px;
     font-weight: bold
@@ -52,7 +79,7 @@ li {
     border-radius: 20px;
     height: 6px;
     width: 55%;
-    background: yellow;
+    background: #1C593A;
     margin: 14px 0
 }
 
@@ -62,7 +89,7 @@ li {
 
 .btn-outline-warning {
     border-radius: 0;
-    border: 2px solid yellow;
+    border: 2px solid #1C593A;
     color: #000;
     font-size: 12px;
     font-weight: bold;
@@ -84,7 +111,7 @@ li {
         border-radius: 20px;
         height: 6px;
         width: 35%;
-        background: yellow;
+        background: #1C593A;
         margin: 10px auto
     }
 
