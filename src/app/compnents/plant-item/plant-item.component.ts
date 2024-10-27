@@ -1,15 +1,17 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, inject, Input, OnInit } from '@angular/core';
 import { Plant } from '../../model/plant';
-import { CurrencyPipe } from '@angular/common';
+import { CurrencyPipe, NgClass } from '@angular/common';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-plant-item',
   standalone: true,
-  imports: [CurrencyPipe], 
+  imports: [CurrencyPipe, NgClass, RouterLink], 
   templateUrl: './plant-item.component.html',
   styleUrl: './plant-item.component.css'
 })
 export class PlantItemComponent implements OnInit {
+  
 
   @Input() plant!: Plant;
 

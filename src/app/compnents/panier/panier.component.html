@@ -1,49 +1,48 @@
 <div class="cart-container">
-    <h2 class="cart-header">Shopping Cart</h2>
-
-    <!-- Liste des articles -->
-    <div class="cart-item">
-        <img src="logo.jpg" width="120" height="110" style=" border: 1px solid #000;"
-            alt="Product 1">
-        <span class="text-primary fw-bold fs-5">Product 1</span>
-        <span class="text-success fw-bold fs-5">$29.99</span>
-        <div class="btn-group">
-            <button class="btn btn-primary"><i class="bi bi-eye-fill"></i></button>
-            <button class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button>
-        </div>
-    </div>
-
-    <div class="cart-item">
-        <img src="logo.jpg" width="120" height="110" style=" border: 1px solid #000;"
-            alt="Product 1">
-        <span class="text-primary fw-bold fs-5">Product 2</span>
-        <span class="text-success fw-bold fs-5">$19.99</span>
-        <div class="btn-group">
-            <button class="btn btn-primary"><i class="bi bi-eye-fill"></i></button>
-            <button class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button>
-        </div>
-    </div>
-
-    <div class="cart-item">
-        <img src="logo.jpg" width="120" height="110" style=" border: 1px solid #000;"
-            alt="Product 1">
-
-        <span class="text-primary fw-bold fs-5">Product 3</span>
-        <span class="text-success fw-bold fs-5">$39.99</span>
-        <div class="btn-group">
-            <button class="btn btn-primary"><i class="bi bi-eye-fill"></i></button>
-            <button class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button>
-        </div>
-    </div>
-
+    <h2 class="cart-header">Shopping Cart <i class="bi bi-cart-check" style="margin-left: 20px;"></i></h2>
     <!-- Total -->
     <div class="cart-total">
         Total: $89.97
     </div>
 
+    <!-- Liste des articles -->
+    <div class="cart-item">
+        <img src="logo.jpg" width="120" height="110" style=" border: 1px solid #000;"
+            alt="Product 1">
+        <span class="text-warning fw-bold fs-5">Product 1</span>
+        <span class="text-danger fw-bold fs-5">$29.99</span>
+        <div class="btn-group">
+            <button class="btn btn-primary" title="Voir"><i class="bi bi-eye-fill"></i></button>
+            <button class="btn btn-danger" title="Supprimer"><i class="bi bi-trash3-fill"></i></button>
+        </div>
+    </div>
+
+    <div class="cart-item">
+        <img src="logo.jpg" width="120" height="110" style=" border: 1px solid #000;"
+            alt="Product 1">
+        <span class="text-warning fw-bold fs-5">Product 2</span>
+        <span class="text-danger fw-bold fs-5">$19.99</span>
+        <div class="btn-group">
+            <button class="btn btn-primary" title="Voir"><i class="bi bi-eye-fill"></i></button>
+            <button class="btn btn-danger" title="Supprimer"><i class="bi bi-trash3-fill"></i></button>
+        </div>
+    </div>
+
+    <div class="cart-item">
+        <img src="logo.jpg" width="120" height="110" style=" border: 1px solid #000;"
+            alt="Product 1">
+
+        <span class="text-warning fw-bold fs-5">Product 3</span>
+        <span class="text-danger fw-bold fs-5">$39.99</span>
+        <div class="btn-group">
+            <button class="btn btn-primary" title="Voir"><i class="bi bi-eye-fill"></i></button>
+            <button class="btn btn-danger" title="Supprimer"><i class="bi bi-trash3-fill"></i></button>
+        </div>
+    </div>
+
     <!-- Boutons d'action -->
     <div class="text-center mt-3 d-flex justify-content-around">
-        <button class="btn btn-primary">Checkout</button>
-        <button class="btn btn-danger" >Clear Cart</button>
+        <button class="btn btn-primary" title="Passer à la caisse">Checkout</button>
+        <button class="btn btn-danger" title="Vider le panier">Clear Cart</button>
     </div>
 </div>

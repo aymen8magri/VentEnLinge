@@ -1,5 +1,10 @@
-.discount {
+.c1 {
+    background-color: green;
+}
+.c2 {
     background-color: red;
+}
+.discount{
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 4px;

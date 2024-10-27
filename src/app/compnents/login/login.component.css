@@ -1,5 +1,5 @@
 .contact-details {
-    background-color: #007bff;
+    background-color: #1C593A;
     color: #ffffff;
     padding: 30px;
     border-radius: 8px 0 0 8px;
@@ -17,10 +17,10 @@
 }
 
 .contact-form {
-    background-color: #f9f9f9;
+    background-color: #629A74; 
     padding: 40px;
     border-radius: 0 8px 8px 0;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px #1C593A;
 }
 
 .contact-form .form-label {
@@ -29,17 +29,23 @@
 }
 
 .submit-btn {
-    background-color: #007bff;
+    background-color: #1C593A;
     color: #ffffff;
-    width: 100%;
+    width: 50%;
     font-size: 1rem;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+input{
+    background-color: #B9F1C3;
+    border: 1px solid #1C593A;
+    width: 100%;
+}
 
 .submit-btn:hover {
-    background-color: #0056b3;
-    color: #ffffff;
+    background-color: #79BA91; 
+    color: #1C593A; 
+    border: 1px solid #1C593A;
 }
