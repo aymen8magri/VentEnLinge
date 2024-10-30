@@ -111,19 +111,21 @@
   /*cards*/
   /* From Uiverse.io by Pranali9922 */ 
 .card {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   transition: all 0.2s;
   position: relative;
   cursor: pointer;
+  margin: 50px;
 }
 
 .card-inner {
   width: inherit;
   height: inherit;
-  background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(10px);
+  background-image: url(../../../../public/PlantBuddy.png);
+  background-size: cover;
+  background-position: center;
   border-radius: 8px;
 }
 

@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom: 10px solid #1C593A;
 }
 
 #plant-quiz {
