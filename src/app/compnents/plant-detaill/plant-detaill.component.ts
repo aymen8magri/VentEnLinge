@@ -1,12 +1,14 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { Plant } from '../../model/plant';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { PalntService } from '../../services/palnt.service';
+import { PlantInformationComponent } from '../plant-information/plant-information.component';
+import { PlantCommentComponent } from '../plant-comment/plant-comment.component';
 
 @Component({
   selector: 'app-plant-detaill',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink,PlantInformationComponent, PlantCommentComponent, RouterOutlet, RouterLinkActive],
   templateUrl: './plant-detaill.component.html',
   styleUrl: './plant-detaill.component.css'
 })
@@ -21,7 +23,6 @@ export class PlantDetaillComponent implements OnInit{
     this.palntService.getPlantById(this.val).subscribe({
       next: (plant) => this.plant = plant,
       error: (error) => console.error('Failed to fetch plant:', error),
-      complete: () => console.log(this.plant)
     });
   }
 

@@ -1,15 +1,16 @@
-
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
         <h1 class="display-4">Welcome to PlantBuddy</h1>
         <p class="lead">Empowering students through technology and collaboration. Lorem, ipsum dolor sit amet
-        consectetur adipisicing elit. Vel iste aliquam atque, facere eveniet?</p>
+            consectetur adipisicing elit. Vel iste aliquam atque, facere eveniet?</p>
         <button class="button" (click)="onAboutUs()">
             <span>About Us!</span>
         </button>
     </div>
 </div>
 
+<!-- New Products -->
+<h2 class="text-center mt-5">New Products</h2>
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active bg-dark"
@@ -50,12 +51,43 @@
 
     </div>
 
-    <button class="carousel-control-prev buttonCarousel" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <button class="carousel-control-prev buttonCarousel" type="button" data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next buttonCarousel" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <button class="carousel-control-next buttonCarousel" type="button" data-bs-target="#carouselExampleFade"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+<button class="button">
+    <span>Show All</span>
+</button>
+
+<!-- Quiz -->
+<app-quiz></app-quiz>
+
+<!-- Explore by Category -->
+<h2 class="text-center mt-5">Explore by Category</h2>
+<div class="container row">
+    <div class="card">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="card-inner"></div>
+    </div>
+    <div class="card">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="card-inner"></div>
+    </div>
+    <div class="card">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="card-inner"></div>
+    </div>
+
+</div>
+
+<h2 class="text-center mt-5">Contact Us</h2>

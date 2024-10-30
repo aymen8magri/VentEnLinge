@@ -55,16 +55,24 @@ img{
     box-shadow: 0 0 15px #1C593A;
     margin: 20px;
     width: 90%;
-    height: 95%;
+    height: 50%;
 }
 .col-md-2 {
     padding-bottom: 20px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .col-md-2 a {
     text-decoration: none;
-    color: #000
+    color: #000;
+
+}
+.active{
+    border-bottom: 5px solid #1C593A;
+    border-radius: 5px;
+    color: #1C593A !important;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .col-md-2.mio {
@@ -72,16 +80,6 @@ img{
     padding-top: 7px
 }
 
-.des::after {
-    content: '.';
-    font-size: 0;
-    display: block;
-    border-radius: 20px;
-    height: 6px;
-    width: 55%;
-    background: #1C593A;
-    margin: 14px 0
-}
 
 .r4 {
     padding-left: 25px
@@ -96,40 +94,3 @@ img{
     width: 70%
 }
 
-@media screen and (max-width: 620px) {
-    .container {
-        width: 98%;
-        display: flex;
-        flex-flow: column;
-        text-align: center
-    }
-
-    .des::after {
-        content: '.';
-        font-size: 0;
-        display: block;
-        border-radius: 20px;
-        height: 6px;
-        width: 35%;
-        background: #1C593A;
-        margin: 10px auto
-    }
-
-    .pqr {
-        text-align: center;
-        margin: 0 30px
-    }
-
-    .para {
-        text-align: center;
-        padding-left: 90px;
-        padding-top: 10px
-    }
-
-    .klo {
-        display: flex;
-        text-align: center;
-        margin: 0 auto;
-        margin-right: 40px
-    }
-}
