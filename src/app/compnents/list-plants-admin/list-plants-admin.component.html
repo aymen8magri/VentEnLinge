@@ -1,0 +1,78 @@
+<div class="text-center welcome py-5 text-white">
+    <div class="welcome-content">
+        <h1 class="display-4 mb-5">Catalogue des Plantes</h1>
+        <div class="d-flex justify-content-center gap-5 flex-wrap">
+            <!-- Sélection du filtre amusant -->
+            <div class="input-group mb-3" style="width: 450px;">
+                <label class="input-group-text" for="inputGroupSelect01">Filtre Amusant</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Choisissez un filtre amusant...</option>
+                    <option value="Toutes">Toutes</option>
+                    <option value="Facile à vivre">Facile à vivre</option>
+                    <option value="Bavarde">Bavarde</option>
+                    <option value="Énergique">Énergique</option>
+                </select>
+            </div>
+
+            <!-- Sélection de la catégorie -->
+            <div class="input-group mb-3" style="width: 400px;">
+                <label class="input-group-text" for="inputGroupSelect02">Catégorie</label>
+                <select class="form-select" id="inputGroupSelect02">
+                    <option selected>Choisissez une catégorie...</option>
+                    <option value="Toutes">Toutes</option>
+                    <option value="Plantes fleuries">Plantes fleuries</option>
+                    <option value="Cactus et succulentes">Cactus et succulentes</option>
+                    <option value="Plantes purificatrices d'air">Plantes purificatrices d'air</option>
+                </select>
+            </div>
+        </div>
+    </div>
+   
+</div>
+<a [routerLink]="['/addPlant']" >
+    <button class="add-btn">Ajouter une Plante</button>
+</a>
+
+<!-- afficher selon catégorie-->
+<!--Plantes fleuries-->
+<div id="plant-fleuries">
+    <div class="pt-3 mb-1">
+        <div class="section-title container">
+            <h4 class=" text-uppercase">Plantes fleuries</h4>
+        </div>
+
+        <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
+            @for (plant of plantsFleuries; track plant.id) {
+            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeleteFleur($event)"></app-plant-item-admin>
+            }
+        </div>
+    </div>
+</div>
+<!--Plantes cactus et succulentes-->
+<div id="plant-cactus">
+    <div class="pt-5 mb-3">
+        <div class="section-title container">
+            <h4 class=" text-uppercase">Cactus et succulentes</h4>
+        </div>
+
+        <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
+            @for (plant of plantsCactus; track plant.id) {
+            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeleteSucc($event)"></app-plant-item-admin>
+            }
+        </div>
+    </div>
+</div>
+<!--Plantes purificatrices d'air-->
+<div id="plant-purificatrices">
+    <div class="pt-5 mb-3">
+        <div class="section-title container">
+            <h4 class=" text-uppercase">Plantes purificatrices d'air</h4>
+        </div>
+
+        <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
+            @for (plant of plantsPurificatrices; track plant.id) {
+            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeletePur($event)"></app-plant-item-admin>
+            }
+        </div>
+    </div>
+</div>

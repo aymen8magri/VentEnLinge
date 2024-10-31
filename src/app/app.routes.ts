@@ -9,6 +9,10 @@ import { ListPlantsComponent } from './compnents/list-plants/list-plants.compone
 import { PlantDetaillComponent } from './compnents/plant-detaill/plant-detaill.component';
 import { PlantInformationComponent } from './compnents/plant-information/plant-information.component';
 import { PlantCommentComponent } from './compnents/plant-comment/plant-comment.component';
+import { ListPlantsAdminComponent } from './compnents/list-plants-admin/list-plants-admin.component';
+import { AddPlantComponent } from './compnents/add-plant/add-plant.component';
+import { PlantDetailAdminComponent } from './compnents/plant-detail-admin/plant-detail-admin.component';
+import { PlantInformationAdminComponent } from './compnents/plant-information-admin/plant-information-admin.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -26,6 +30,13 @@ export const routes: Routes = [
             
         ]
     },
+    {path:'ListePlantesAdmin',title:'ListeAdmin',component:ListPlantsAdminComponent},
+    {path:'plantAdmin/:id',title:'Plant',component:PlantDetailAdminComponent,children:[
+        {path:'descriptionAdmin',component:PlantInformationAdminComponent},
+        {path:'',redirectTo:'descriptionAdmin',pathMatch:'full'},
+    ]},
+    {path:'addPlant',title:'AddPlant',component:AddPlantComponent},
+   
     { path: '**', title: '404', component: ErrorComponent }
 
 ];

@@ -1,0 +1,35 @@
+.contact-form {
+    background-color: #629A74; 
+    padding: 40px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 0 15px #1C593A;
+    margin: 50px;
+    position:relative;
+    left:400px
+}
+
+.contact-form .form-label {
+    font-weight: bold;
+    color: #333; 
+}
+
+.submit-btn {
+    background-color: #1C593A; 
+    color: #ffffff; 
+    width: 50%;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /* cursor: pointer; */
+}
+input , textarea{
+    background-color: #B9F1C3;
+    border: 1px solid #1C593A;
+}
+
+.submit-btn:hover {
+    background-color: #79BA91; 
+    color: #1C593A; 
+    border: 1px solid #1C593A;
+}

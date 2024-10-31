@@ -1,0 +1,36 @@
+
+li {
+    list-style: none;
+    line-height: 50px;
+}
+
+strong{
+    color: #1C593A;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.save-btn {
+    background-color: #1C593A;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #1C593A;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    letter-spacing: 1px;
+    margin: 5px;
+
+}
+.save-btn:hover {
+    background-color: #79BA91; 
+    color: #1C593A; 
+    border: 1px solid #1C593A;
+}
+.modif-form {
+    background-color: #97d0a9; 
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 0 15px #1C593A;
+    
+}

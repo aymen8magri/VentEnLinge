@@ -1,0 +1,24 @@
+<div class="klo">
+    <ul>
+        <li><strong>Personality :</strong> {{plant.personality}}</li>
+        <li><strong>Description :</strong> {{plant.description}}</li>
+        <li><strong>Biography :</strong> {{plant.biography}}</li>
+        <li><strong>Watering Frequency :</strong> {{plant.watering_frequency}}</li>
+        <li><strong>Maintenance :</strong> {{plant.entretien}}</li>
+        <li><strong>Fun Filter :</strong> {{plant.fun_filter}}</li>
+        <li><strong>Price :</strong> {{plant.price}} €</li>
+        <button class="save-btn" (click)="onHidePrix()">Modifier le prix</button>
+        <div [hidden]="hidePrix">
+            <input type="text" placeholder="Tapez le prix" class="modif-form" #prix>
+            <button class="save-btn" (click)="onSavePrix(prix.value)">Enregistrer</button>
+        </div>
+        <li><strong>In Stock :</strong> {{plant.stock}} pieces</li>
+        <button class="save-btn" (click)="onHideStock()">Modifier le stock</button>
+        <div [hidden]="hideStock">
+            <input type="text" placeholder="Tapez le stock" class="modif-form" #stock>
+            <button class="save-btn" (click)="onSaveStock(stock.value)">Enregistrer</button>
+        </div>
+        <li><strong>Date Added :</strong> {{plant.date_ajout}}</li>
+        <li><strong>Lifespan :</strong> {{plant.dureeVie}}</li>
+    </ul>
+</div>

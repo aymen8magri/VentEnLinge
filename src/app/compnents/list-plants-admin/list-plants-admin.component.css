@@ -1,0 +1,73 @@
+.section-title {
+    padding: 15px;
+    background: #72B58C;
+    border: 1px solid #72B58C;
+    border-left: 7px solid #1C593A;
+    color: white;
+}
+
+/***/
+
+.welcome {
+    background-image: url(../../../../public/waveG.png);
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+  }  
+  .welcome-content{
+    animation: slideInFromTop 1s ease-out;
+    z-index: 0;
+  }
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-60%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .input-group-text{
+    background-color: #f9bc60;
+    color: #004643;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .input-group-text:hover{
+    background-color: #ce9c50;
+  }
+  .form-select:hover{
+    background-color: #ce9c50;
+  }
+
+.form-select{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #ad9064;
+    color: #001e1d;
+}
+.add-btn {
+  background-color: #1C593A;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #1C593A;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  letter-spacing: 1px;
+  position: relative;
+  left:100px;
+}
+.add-btn:hover {
+  background-color: #79BA91; 
+  color: #1C593A; 
+  border: 1px solid #1C593A;
+}
