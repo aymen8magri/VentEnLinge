@@ -1052,7 +1052,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1519701981482-5cd881d049d0"
+        "https://cdn.shopify.com/s/files/1/0624/7972/8867/files/1_bd88b91d-7e44-48ce-9a00-127c00074359.png?v=1710785274"
       ]
     },
     {
@@ -1077,7 +1077,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1590630698665-b99ab60b104f"
+        "https://www.bonsai-shop.com/bs/button/bonsai/junischnee_200.jpg"
       ]
     },
     {
@@ -1102,57 +1102,57 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1603378610884-949c302d8c9e"
+        "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg"
       ]
     },
     {
       "id": 44,
-      "name": "Bégonia",
-      "type": "Plante fleurie",
-      "personality": "Chaleureuse",
-      "description": "Plante aux fleurs lumineuses et aux feuilles décoratives.",
+      "name": "Ficus lyrata",
+      "type": "Plantes purificatrices d'air",
+      "personality": "Majestueuse",
+      "description": "Plante à grandes feuilles qui apporte une touche tropicale.",
       "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Bégonia, avec mes fleurs chaleureuses, je suis là pour égayer votre espace.",
+      "biography": "Salut, je suis le Ficus lyrata, j'apporte une ambiance tropicale dans votre intérieur.",
       "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
+      "dureeVie": "5-10 ans",
       "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 10.99,
-      "stock": 25,
-      "date_ajout": "2024-10-22",
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": 24.99,
+      "stock": 10,
+      "date_ajout": "2024-10-25",
       "liste_des_commentaires": [
         {
-          "comment": "J'adore mes bégonias, ils sont si colorés !"
+          "comment": "Superbe plante d'intérieur !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1578858812645-c8b437434fd3"
+        "https://images.panierdachat.app/984/xjs7GBRO_img-7197-a2112853-b3af-48ff-904c-c84fb72aa40e.jpg?w=1512&h=2016"
       ]
     },
     {
       "id": 45,
-      "name": "Dracaena",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Robuste",
-      "description": "Plante d'intérieur populaire connue pour sa facilité d'entretien.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Je suis Dracaena, je suis robuste et je purifie l'air, parfaite pour les espaces intérieurs.",
+      "name": "Lithops",
+      "type": "Cactus et succulentes",
+      "personality": "Unique",
+      "description": "Cactus vivant qui ressemble à des pierres.",
+      "watering_frequency": "1 fois tous les 3-4 semaines",
+      "biography": "Je suis le Lithops, je me camoufle parmi les pierres pour éviter d'être remarqué.",
       "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": false,
-      "category": "Plantes purificatrices d'air",
+      "dureeVie": "10-20 ans",
+      "in_stock": true,
+      "category": "Cactus et succulentes",
       "fun_filter": "Facile à vivre",
-      "price": 19.99,
-      "stock": 0,
-      "date_ajout": "2024-10-22",
+      "price": 7.99,
+      "stock": 25,
+      "date_ajout": "2024-10-25",
       "liste_des_commentaires": [
         {
-          "comment": "Très facile à entretenir et très belle !"
+          "comment": "Vraiment intéressant comme plante !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1596766970705-659c8f68bb56"
+        "https://cdn.shopify.com/s/files/1/0043/3628/7813/files/lithops-blooming_480x480.jpg?v=1686228072"
       ]
     },
     {
@@ -2559,131 +2559,6 @@
       ],
       "images": [
         "https://images.unsplash.com/photo-1587783212101-7e660cc5a7e3"
-      ]
-    },
-    {
-      "id": 102,
-      "name": "Lithops",
-      "type": "Cactus et succulentes",
-      "personality": "Unique",
-      "description": "Cactus vivant qui ressemble à des pierres.",
-      "watering_frequency": "1 fois tous les 3-4 semaines",
-      "biography": "Je suis le Lithops, je me camoufle parmi les pierres pour éviter d'être remarqué.",
-      "entretien": "Facile",
-      "dureeVie": "10-20 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 7.99,
-      "stock": 25,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Vraiment intéressant comme plante !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1572598522445-90f1edc69b0c"
-      ]
-    },
-    {
-      "id": 103,
-      "name": "Dracaena",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Sereine",
-      "description": "Plante d'intérieur à feuilles longues et étroites.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Dracaena, je m'épanouis dans votre intérieur et purifie l'air.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 16.49,
-      "stock": 15,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Elle donne une belle touche à ma déco !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1514960721482-6b14c5a68a3e"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "Bégonia",
-      "type": "Plante fleurie",
-      "personality": "Chaleureuse",
-      "description": "Plante à fleurs colorées et feuillage décoratif.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Bégonia, je suis magnifique à l'intérieur comme à l'extérieur !",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 20,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un vrai bonheur à voir fleurir !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1604321557653-45c11ffef785"
-      ]
-    },
-    {
-      "id": 105,
-      "name": "Aloe Vera",
-      "type": "Cactus et succulentes",
-      "personality": "Sage",
-      "description": "Plante succulente connue pour ses propriétés médicinales.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis l'Aloe Vera, je suis là pour vous aider à prendre soin de votre peau !",
-      "entretien": "Facile",
-      "dureeVie": "5-25 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 12.99,
-      "stock": 30,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Indispensable dans chaque maison !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1585252956953-fb4002a8bda1"
-      ]
-    },
-    {
-      "id": 106,
-      "name": "Ficus lyrata",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Majestueuse",
-      "description": "Plante à grandes feuilles qui apporte une touche tropicale.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis le Ficus lyrata, j'apporte une ambiance tropicale dans votre intérieur.",
-      "entretien": "Moyen",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 24.99,
-      "stock": 10,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Superbe plante d'intérieur !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1581041202396-08ef72e58e73"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
         <h1 class="display-4 mb-5">Catalogue des Plantes</h1>
-        <div class="d-flex justify-content-center gap-5 flex-wrap">
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
             <!-- Sélection du filtre amusant -->
             <div class="input-group mb-3" style="width: 450px;">
                 <label class="input-group-text" for="inputGroupSelect01">Filtre Amusant</label>
@@ -25,6 +25,15 @@
                     <option value="Plantes purificatrices d'air">Plantes purificatrices d'air</option>
                 </select>
             </div>
+            <!-- Bouton pour trier les plantes par valeur -->
+            <button class="button">
+                <span>Trier par valeur</span>
+            </button>
+            <!-- filtre par prix -->
+            <div class="input-group mb-3" style="width: 400px;">
+                <label class="input-group-text" for="inputGroupSelect03">Prix</label>
+                <input type="range" class="form-range" id="inputGroupSelect03" min="0" max="100" step="10">
+            </div>  
         </div>
     </div>
 </div>

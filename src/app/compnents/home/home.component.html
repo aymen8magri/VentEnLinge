@@ -1,8 +1,9 @@
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
         <h1 class="display-4">Welcome to PlantBuddy</h1>
-        <p class="lead">Empowering students through technology and collaboration. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Vel iste aliquam atque, facere eveniet?</p>
+        <p class="lead px-5">PlantBuddy est votre destination en ligne pour acheter des plantes de qualité. Nous proposons
+            une vaste sélection de plantes d'intérieur et d'extérieur, accompagnées de conseils pour les entretenir.
+            Découvrez la beauté des plantes et embellissez votre espace avec PlantBuddy!</p>
         <button class="button" (click)="onAboutUs()">
             <span>About Us!</span>
         </button>
@@ -73,26 +74,35 @@
 <h2 class="text-center mt-5">Explore by Category</h2>
 
 <div class="d-flex justify-content-center row row-cols-1 row-cols-md-4">
+    <!-- Fleurs -->
     <div class="col">
-        <div class="card">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="card-inner"></div>
-        </div>
+        <a href="/fleurs">
+            <div class="card">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="card-innerFleur"></div>
+            </div>
+        </a>
     </div>
+    <!-- Cactus -->
     <div class="col">
-        <div class="card">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="card-inner"></div>
-        </div>
+        <a href="/cactus">
+            <div class="card">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="card-innerCactus"></div>
+            </div>
+        </a>
     </div>
+    <!-- Air -->
     <div class="col">
-        <div class="card">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="card-inner"></div>
-        </div>
+        <a href="/air">
+            <div class="card">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="card-innerAir"></div>
+            </div>
+        </a>
     </div>
 </div>
 

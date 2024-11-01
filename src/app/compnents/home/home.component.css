@@ -119,27 +119,40 @@
   margin: 50px;
 }
 
-.card-inner {
+.card-innerFleur {
   width: inherit;
   height: inherit;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  background-image: url(../../../../public/PlantBuddy.png);
+  background-image: url(../../../../public/plantesFleuries.png);
   background-size: cover;
   background-position: center;
-  border-radius: 8px;
+}
+.card-innerCactus {
+  width: inherit;
+  height: inherit;
+  background-image: url(../../../../public/cactusSucculentes.png);
+  background-size: cover;
+  background-position: center;
+}
+.card-innerAir {
+  width: inherit;
+  height: inherit;
+  background-image: url(../../../../public/plantesPurificatricesAir.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .card:hover {
   transform: scale(1.04) rotate(1deg);
+  filter: brightness(0.5);
 }
 
 .circle {
   width: 100px;
   height: 100px;
-  background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);
+  background: repeating-linear-gradient(48deg, #33845D 0%, #12452C 100%);
   border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;
   position: absolute;
-  animation: move-up6 2s ease-in infinite alternate-reverse;
+  animation: move-up6 1.5s ease-in infinite alternate-reverse;
 }
 
 .circle:nth-child(1) {
