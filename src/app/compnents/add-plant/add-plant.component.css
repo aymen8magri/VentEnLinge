@@ -21,7 +21,7 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 input , textarea{
     background-color: #B9F1C3;
@@ -32,4 +32,20 @@ input , textarea{
     background-color: #79BA91; 
     color: #1C593A; 
     border: 1px solid #1C593A;
+}
+.form-select{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #B9F1C3;
+    color: #001e1d;
+}
+.section-title {
+    padding: 15px;
+    background: #72B58C;
+    border: 1px solid #72B58C;
+    border-left: 7px solid #1C593A;
+    color: white;
 }

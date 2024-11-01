@@ -1,3 +1,5 @@
+import { Commentaire } from "./commentaire";
+
 export class Plant {
     id: number;
     name: string;
@@ -14,10 +16,10 @@ export class Plant {
     price: number;
     stock: number;
     date_ajout: Date;
-    liste_des_commentaires: Comment[];
-    images: string[];
+    liste_des_commentaires: Commentaire[];
+    images: string;
 
-    constructor(id: number, name: string, type: string, personality: string, description: string, watering_frequency: string, biography: string, entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, liste_des_commentaires: Comment[], images: string[]) {
+    constructor(id: number, name: string, type: string, personality: string, description: string, watering_frequency: string, biography: string, entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, images: string,liste_des_commentaires: Commentaire[]) {
         this.id = id;
         this.name = name;
         this.type = type;

@@ -27,5 +27,7 @@ export class ListPlantsComponent implements OnInit{
         this.plantService.getPlantsByCategory("Plantes purificatrices d'air").subscribe(plants => {
             this.plantsPurificatrices = plants;
         });
+
+        
     }
 }

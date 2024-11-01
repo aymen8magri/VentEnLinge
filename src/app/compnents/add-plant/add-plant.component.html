@@ -1,52 +1,81 @@
-<div>
-    <h1>Ajouter une plante</h1>
+<div class="section-title">
+    <h1>Ajouter une plante </h1>
 </div>
 <div class="col-lg-5 contact-form">
     <form>
         <div class="mb-3">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="nom" placeholder="Personality" name="personality" required #nom/>
+        </div>
+        <div class="mb-3">
+            <label for="type" class="form-label">Type</label>
+            <select name="type" id="type" class="form-select" #type >
+                <option value="Plante fleurie" selected>Plante fleurie</option>
+                <option value="Cactus et succulentes" >cactus et succulente</option>
+                <option value="Plantes purificatrices d'air">plante purificatrices d'air</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="category" class="form-label">Categorie</label>
+            <select name="category" id="category" class="form-select" #category >
+                <option value="Plantes fleurie" selected>Plantes fleurie</option>
+                <option value="Cactus et succulentes" >cactus et succulente</option>
+                <option value="Plantes purificatrices d'air">plante purificatrices d'air</option>
+            </select>
+        </div>
+        <div class="mb-3">
             <label for="personality" class="form-label">Personality</label>
-            <input type="text" class="form-control" id="personality" placeholder="Personality" name="personality" required />
+            <input type="text" class="form-control" id="personality" placeholder="Personality" name="personality" required #personality/>
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
-            <textarea class="form-control" id="description" placeholder="Description" name="description" required ></textarea>
+            <textarea class="form-control" id="description" placeholder="Description" name="description" required #description></textarea>
         </div>
         <div class="mb-3">
             <label for="bio" class="form-label">Biography</label>
-            <textarea  class="form-control" id="bio" placeholder="Biography" name="bio" required ></textarea>
+            <textarea  class="form-control" id="bio" placeholder="Biography" name="bio" required #bio ></textarea>
         </div>
         <div class="mb-3">
             <label for="watering" class="form-label">Watering frequency</label>
-            <input type="text" class="form-control" id="watering" rows="4" name="watering" placeholder="Watering frequency" required/>
+            <input type="text" class="form-control" id="watering" rows="4" name="watering" placeholder="Watering frequency" required #watering/>
         </div>
         <div class="mb-3">
             <label for="maintenance" class="form-label">Maintenance</label>
-            <input type="text" class="form-control" id="maintenance" name="maintenance" rows="4" placeholder="Maintenance" required/>
+            <select name="maintenance" id="maintenance" class="form-select" #maintenance >
+                <option value="facile" selected>Facile</option>
+                <option value="moyen" >Moyen</option>
+            </select>
         </div>
         <div class="mb-3">
             <label for="filter" class="form-label">Fun filter</label>
-            <input type="text" class="form-control" id="filter" placeholder="Fun filter" name="filter" required />
+            <select name="filter" id="filter" class="form-select" #filter>
+                <option value="Facile à vivre" selected>Facile à vivre</option>
+                <option value="Bavarde">Bavarde</option>
+                <option value="Energitique">Energitique</option>
+            </select>
         </div>
         <div class="mb-3">
             <label for="price" class="form-label">Price</label>
-            <input type="text" class="form-control" id="price" placeholder="Price" name="price" required />
+            <input type="text" class="form-control" id="price" placeholder="Price" name="price" required #price/>
         </div>
         <div class="mb-3">
-            <label for="stock" class="form-label">In Stock</label>
-            <input type="text" class="form-control" id="stock" placeholder="In stock" name="stock" required />
+            <label for="stock" class="form-label"> Stock</label>
+            <input type="text" class="form-control" id="stock" placeholder="In stock" name="stock" required #stock/>
         </div>
+        
         <div class="mb-3">
             <label for="date" class="form-label">Date Added</label>
-            <input type="text" class="form-control" id="date" placeholder="Date Added" name="date" required />
+            <input type="date" class="form-control" id="date" placeholder="Date Added" name="date" required #date/>
         </div>
         <div class="mb-3">
             <label for="lifespan" class="form-label">Lifespan</label>
-            <input type="text" class="form-control" id="lifespan" placeholder="Lifespan" name="lifespan" required />
+            <input type="text" class="form-control" id="lifespan" placeholder="Lifespan" name="lifespan" required #lifespan/>
         </div>
         <div class="mb-3">
             <label for="img" class="form-label">Image URL</label>
-            <input type="text" class="form-control" id="img" placeholder="Image URL" name="img" required />
+            <input type="text" class="form-control" id="img" placeholder="Image URL" name="img" required #img/>
         </div>
-        <button type="submit" class="submit-btn">Ajouter<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
+        <button type="submit" class="submit-btn" (click)="onAjouter(nom.value,type.value,personality.value,description.value,bio.value,watering.value,maintenance.value,filter.value,price.value,stock.value,date.value,lifespan.value,category.value,img.value)">Ajouter</button>
+        <div [hidden]="hide">Plante ajoutée avec succès</div>
     </form>
 </div>
