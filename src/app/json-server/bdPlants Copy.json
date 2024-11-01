@@ -1052,7 +1052,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1519701981482-5cd881d049d0"
+        "https://cdn.shopify.com/s/files/1/0624/7972/8867/files/1_bd88b91d-7e44-48ce-9a00-127c00074359.png?v=1710785274"
       ]
     },
     {
@@ -1077,7 +1077,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1590630698665-b99ab60b104f"
+        "https://www.bonsai-shop.com/bs/button/bonsai/junischnee_200.jpg"
       ]
     },
     {
@@ -1102,57 +1102,57 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1603378610884-949c302d8c9e"
+        "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg"
       ]
     },
     {
       "id": 44,
-      "name": "Bégonia",
-      "type": "Plante fleurie",
-      "personality": "Chaleureuse",
-      "description": "Plante aux fleurs lumineuses et aux feuilles décoratives.",
+      "name": "Ficus lyrata",
+      "type": "Plantes purificatrices d'air",
+      "personality": "Majestueuse",
+      "description": "Plante à grandes feuilles qui apporte une touche tropicale.",
       "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Bégonia, avec mes fleurs chaleureuses, je suis là pour égayer votre espace.",
+      "biography": "Salut, je suis le Ficus lyrata, j'apporte une ambiance tropicale dans votre intérieur.",
       "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
+      "dureeVie": "5-10 ans",
       "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 10.99,
-      "stock": 25,
-      "date_ajout": "2024-10-22",
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": 24.99,
+      "stock": 10,
+      "date_ajout": "2024-10-25",
       "liste_des_commentaires": [
         {
-          "comment": "J'adore mes bégonias, ils sont si colorés !"
+          "comment": "Superbe plante d'intérieur !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1578858812645-c8b437434fd3"
+        "https://images.panierdachat.app/984/xjs7GBRO_img-7197-a2112853-b3af-48ff-904c-c84fb72aa40e.jpg?w=1512&h=2016"
       ]
     },
     {
       "id": 45,
-      "name": "Dracaena",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Robuste",
-      "description": "Plante d'intérieur populaire connue pour sa facilité d'entretien.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Je suis Dracaena, je suis robuste et je purifie l'air, parfaite pour les espaces intérieurs.",
+      "name": "Lithops",
+      "type": "Cactus et succulentes",
+      "personality": "Unique",
+      "description": "Cactus vivant qui ressemble à des pierres.",
+      "watering_frequency": "1 fois tous les 3-4 semaines",
+      "biography": "Je suis le Lithops, je me camoufle parmi les pierres pour éviter d'être remarqué.",
       "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": false,
-      "category": "Plantes purificatrices d'air",
+      "dureeVie": "10-20 ans",
+      "in_stock": true,
+      "category": "Cactus et succulentes",
       "fun_filter": "Facile à vivre",
-      "price": 19.99,
-      "stock": 0,
-      "date_ajout": "2024-10-22",
+      "price": 7.99,
+      "stock": 25,
+      "date_ajout": "2024-10-25",
       "liste_des_commentaires": [
         {
-          "comment": "Très facile à entretenir et très belle !"
+          "comment": "Vraiment intéressant comme plante !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1596766970705-659c8f68bb56"
+        "https://cdn.shopify.com/s/files/1/0043/3628/7813/files/lithops-blooming_480x480.jpg?v=1686228072"
       ]
     },
     {
@@ -1177,7 +1177,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1511762620132-3099e71e3783"
+        "https://img.freepik.com/photos-premium/belles-fleurs-vase-table-orchidees-roses-orchidee-phalaenopsis-rose-fond-rose-pastel_410516-4886.jpg"
       ]
     },
     {
@@ -1202,7 +1202,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1518466482022-8f437ac16914"
+        "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0724000/724980_2115432.jpg?width=700&height=700&store=fr&image-type=image"
       ]
     },
     {
@@ -1227,7 +1227,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1569001086405-b75f3d203d7f"
+        "https://www.floristik24.fr/media/images/popup/Schneegloeckchen_weiss_Eis_Topf_25cm_64861-1.jpg"
       ]
     },
     {
@@ -1252,32 +1252,32 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1529702071640-fc82745b6b78"
+        "https://www.jardiner-malin.fr/wp-content/uploads/2018/11/areca.jpg"
       ]
     },
     {
       "id": 50,
-      "name": "Géranium",
+      "name": "Mandevilla",
       "type": "Plante fleurie",
-      "personality": "Chaleureux",
-      "description": "Fleur populaire avec des couleurs vives et un parfum agréable.",
+      "personality": "Enjouée",
+      "description": "Plante grimpante aux fleurs en forme de trompette.",
       "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Géranium, je fais vibrer les jardins avec mes couleurs et ma fragrance.",
-      "entretien": "Facile",
-      "dureeVie": "2-3 ans",
+      "biography": "Salut, je suis la Mandevilla, mes fleurs éblouissantes apportent une touche tropicale à votre jardin.",
+      "entretien": "Moyen",
+      "dureeVie": "3-5 ans",
       "in_stock": true,
       "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 9.99,
-      "stock": 22,
-      "date_ajout": "2024-10-22",
+      "fun_filter": "Énergique",
+      "price": 18.99,
+      "stock": 12,
+      "date_ajout": "2024-10-25",
       "liste_des_commentaires": [
         {
-          "comment": "Des couleurs éclatantes tout l'été !"
+          "comment": "Elle attire tous les regards !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1587650638617-1d6e728fd6d8"
+        "https://iqdho.com/wp-content/uploads/2024/04/Sun-Parasol-Bluephoria-Original-XP-Mandevilla-002-scaled-e1714504162149.jpg"
       ]
     },
     {
@@ -1302,7 +1302,7 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1606712094780-56482b803d6e"
+        "https://www.lesterps.fr/medias/2022/06/Euphorbe-des-garrigues.jpg"
       ]
     },
     {
@@ -1327,32 +1327,32 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1540492651-34d194f67f79"
+        "https://www.boutique.bencheikhgarden.tn/297-large_default/ficus-benjamina.jpg"
       ]
     },
     {
       "id": 53,
-      "name": "Aloe Vera",
-      "type": "Cactus et succulentes",
-      "personality": "Soin",
-      "description": "Plante médicinale célèbre pour ses propriétés apaisantes.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis l'Aloe Vera, votre alliée pour la santé et la beauté !",
-      "entretien": "Facile",
-      "dureeVie": "5-25 ans",
+      "name": "Chrysanthemum",
+      "type": "Plante fleurie",
+      "personality": "Rayonnante",
+      "description": "Fleurs éclatantes qui fleurissent à l'automne.",
+      "watering_frequency": "1 fois par semaine",
+      "biography": "Je suis le Chrysanthemum, mes fleurs sont le symbole de l'automne et apportent de la joie.",
+      "entretien": "Moyen",
+      "dureeVie": "2-3 ans",
       "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 12.99,
-      "stock": 18,
-      "date_ajout": "2024-10-22",
+      "category": "Plantes fleuries",
+      "fun_filter": "Énergique",
+      "price": 14.99,
+      "stock": 9,
+      "date_ajout": "2024-10-24",
       "liste_des_commentaires": [
         {
-          "comment": "Indispensable dans ma trousse de soins !"
+          "comment": "Parfaites pour les décorations d'automne !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1576002525157-e6e7b438c015"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWHCPtW5kbqu8viyz0RJ4dmk8gJgA85Md0Q&s"
       ]
     },
     {
@@ -1377,32 +1377,32 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1610219840647-5420f622e9d8"
+        "https://fr-fr.bakker.com/cdn/shop/files/55754_1.jpg?v=1706173125&width=533"
       ]
     },
     {
       "id": 55,
-      "name": "Spathiphyllum",
+      "name": "Spider Plant",
       "type": "Plantes purificatrices d'air",
-      "personality": "Apaisant",
-      "description": "Plante avec des fleurs blanches qui purifient l'air.",
+      "personality": "Joyeuse",
+      "description": "Plante qui produit des bébés et purifie l'air.",
       "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Spathiphyllum, avec mes fleurs élégantes, je rends l'air plus pur et votre espace plus beau.",
+      "biography": "Salut, je suis la Spider Plant, j'adore faire des bébés et je purifie l'air de votre maison.",
       "entretien": "Facile",
       "dureeVie": "5-10 ans",
       "in_stock": true,
       "category": "Plantes purificatrices d'air",
       "fun_filter": "Bavarde",
-      "price": 22.99,
-      "stock": 8,
-      "date_ajout": "2024-10-22",
+      "price": 11.99,
+      "stock": 18,
+      "date_ajout": "2024-10-24",
       "liste_des_commentaires": [
         {
-          "comment": "Mon coin de verdure préféré !"
+          "comment": "Idéale pour ma cuisine !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1548918372-13f59ee0d7f7"
+        "https://cdn11.bigcommerce.com/s-uemzj79jf9/images/stencil/2048x2048/products/1743/3808/Spider_Plant_pic1__77446.1626975447.jpg?c=2"
       ]
     },
     {
@@ -2409,281 +2409,6 @@
       ],
       "images": [
         "https://images.unsplash.com/photo-1598457851028-eccf2a6384d3"
-      ]
-    },
-    {
-      "id": 96,
-      "name": "Spider Plant",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Joyeuse",
-      "description": "Plante qui produit des bébés et purifie l'air.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Spider Plant, j'adore faire des bébés et je purifie l'air de votre maison.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 11.99,
-      "stock": 18,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Idéale pour ma cuisine !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1587751860662-d493af19a94c"
-      ]
-    },
-    {
-      "id": 97,
-      "name": "Lantana",
-      "type": "Plante fleurie",
-      "personality": "Vivante",
-      "description": "Fleurs multicolores qui attirent les papillons.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis la Lantana, mes fleurs multicolores apportent de la vie à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 12.99,
-      "stock": 10,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un aimant à papillons !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1598395940527-431c7caa4a14"
-      ]
-    },
-    {
-      "id": 98,
-      "name": "Echeveria",
-      "type": "Cactus et succulentes",
-      "personality": "Stylée",
-      "description": "Succulente en forme de rosette, parfaite pour les décorations.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis l'Echeveria, ma forme élégante et mes couleurs variées embelliront votre espace.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 10.49,
-      "stock": 22,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Très jolie sur mon rebord de fenêtre !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1519931418764-b2fc3e36236c"
-      ]
-    },
-    {
-      "id": 99,
-      "name": "Philodendron",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Sociable",
-      "description": "Plante grimpante à grandes feuilles qui purifie l'air.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis le Philodendron, je m'épanouis dans un coin lumineux et je purifie l'air autour de moi.",
-      "entretien": "Moyen",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 15.49,
-      "stock": 16,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une belle plante d'intérieur !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1571285153518-2f64b10baf5c"
-      ]
-    },
-    {
-      "id": 100,
-      "name": "Chrysanthemum",
-      "type": "Plante fleurie",
-      "personality": "Rayonnante",
-      "description": "Fleurs éclatantes qui fleurissent à l'automne.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Chrysanthemum, mes fleurs sont le symbole de l'automne et apportent de la joie.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 9,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Parfaites pour les décorations d'automne !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1570983533625-13f840d0982f"
-      ]
-    },
-    {
-      "id": 101,
-      "name": "Mandevilla",
-      "type": "Plante fleurie",
-      "personality": "Enjouée",
-      "description": "Plante grimpante aux fleurs en forme de trompette.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Mandevilla, mes fleurs éblouissantes apportent une touche tropicale à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 18.99,
-      "stock": 12,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Elle attire tous les regards !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1587783212101-7e660cc5a7e3"
-      ]
-    },
-    {
-      "id": 102,
-      "name": "Lithops",
-      "type": "Cactus et succulentes",
-      "personality": "Unique",
-      "description": "Cactus vivant qui ressemble à des pierres.",
-      "watering_frequency": "1 fois tous les 3-4 semaines",
-      "biography": "Je suis le Lithops, je me camoufle parmi les pierres pour éviter d'être remarqué.",
-      "entretien": "Facile",
-      "dureeVie": "10-20 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 7.99,
-      "stock": 25,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Vraiment intéressant comme plante !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1572598522445-90f1edc69b0c"
-      ]
-    },
-    {
-      "id": 103,
-      "name": "Dracaena",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Sereine",
-      "description": "Plante d'intérieur à feuilles longues et étroites.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Dracaena, je m'épanouis dans votre intérieur et purifie l'air.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 16.49,
-      "stock": 15,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Elle donne une belle touche à ma déco !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1514960721482-6b14c5a68a3e"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "Bégonia",
-      "type": "Plante fleurie",
-      "personality": "Chaleureuse",
-      "description": "Plante à fleurs colorées et feuillage décoratif.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Bégonia, je suis magnifique à l'intérieur comme à l'extérieur !",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 20,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un vrai bonheur à voir fleurir !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1604321557653-45c11ffef785"
-      ]
-    },
-    {
-      "id": 105,
-      "name": "Aloe Vera",
-      "type": "Cactus et succulentes",
-      "personality": "Sage",
-      "description": "Plante succulente connue pour ses propriétés médicinales.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis l'Aloe Vera, je suis là pour vous aider à prendre soin de votre peau !",
-      "entretien": "Facile",
-      "dureeVie": "5-25 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 12.99,
-      "stock": 30,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Indispensable dans chaque maison !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1585252956953-fb4002a8bda1"
-      ]
-    },
-    {
-      "id": 106,
-      "name": "Ficus lyrata",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Majestueuse",
-      "description": "Plante à grandes feuilles qui apporte une touche tropicale.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis le Ficus lyrata, j'apporte une ambiance tropicale dans votre intérieur.",
-      "entretien": "Moyen",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 24.99,
-      "stock": 10,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Superbe plante d'intérieur !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1581041202396-08ef72e58e73"
       ]
     }
   ]

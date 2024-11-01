@@ -27,7 +27,7 @@ export class AddPlantComponent implements OnInit {
     }  
   
   onAjouter(nom:string,type:string,personality:string,description:string,bio:string,watering:string,maintenance:string,filter:string,price:string,stock:string,date:string,lifespan:string,category:string,img:string){
-    this.plant=new Plant(this.plants.length+1,nom,type,personality,description,watering,bio,maintenance,lifespan,this.instock,category,filter,parseFloat(price),parseInt(stock),new Date(date),img,this.comments)
+    this.plant=new Plant(this.plants.length+1,nom,type,personality,description,watering,bio,maintenance,lifespan,this.instock,category,filter,parseFloat(price),parseInt(stock),new Date(date),this.comments,[img])
    
     this.plantService.addPlant(this.plant).subscribe(
       data=>console.log(data)

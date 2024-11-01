@@ -17,9 +17,9 @@ export class Plant {
     stock: number;
     date_ajout: Date;
     liste_des_commentaires: Commentaire[];
-    images: string;
+    images: string[];
 
-    constructor(id: number, name: string, type: string, personality: string, description: string, watering_frequency: string, biography: string, entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, images: string,liste_des_commentaires: Commentaire[]) {
+    constructor(id: number, name: string, type: string, personality: string, description: string, watering_frequency: string, biography: string, entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, liste_des_commentaires: Commentaire[], images: string[]) {
         this.id = id;
         this.name = name;
         this.type = type;

@@ -36,4 +36,5 @@ export class PalntService {
     return this.http.patch<Plant>(API_URL+'/',stock);
   }
 
+
 }

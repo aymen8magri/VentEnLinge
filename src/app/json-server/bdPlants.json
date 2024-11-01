@@ -1,7 +1,7 @@
 {
   "plants": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Rose",
       "type": "Plante fleurie",
       "personality": "Romantique",
@@ -19,6 +19,9 @@
       "liste_des_commentaires": [
         {
           "comment": "Une plante magnifique, qui apporte une touche romantique à mon jardin."
+        },
+        {
+          "comment": "Wow, c'est une plante magnifique !"
         }
       ],
       "images": [
@@ -26,7 +29,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Tulipe",
       "type": "Plante fleurie",
       "personality": "Élégante",
@@ -54,7 +57,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Orchidée",
       "type": "Plante fleurie",
       "personality": "Raffinée",
@@ -79,13 +82,13 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Cactus",
       "type": "Cactus et succulentes",
       "personality": "Indépendant",
       "description": "Le roi des plantes résistantes.",
       "watering_frequency": "1 fois par mois",
-      "biography": "Salut, je m’appelle Spike ! Je ne demande jamais rien à personne, sauf un peu de soleil et quelques gouttes d'eau de temps en temps.",
+      "biography": "Salut, je m'appelle Spike ! Je ne demande jamais rien à personne, sauf un peu de soleil et quelques gouttes d'eau de temps en temps.",
       "entretien": "Facile",
       "dureeVie": "10-15 ans",
       "in_stock": true,
@@ -107,7 +110,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Aloe Vera",
       "type": "Cactus et succulentes",
       "personality": "Serein",
@@ -132,7 +135,7 @@
       ]
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Lavande",
       "type": "Plante fleurie",
       "personality": "Relaxante",
@@ -157,7 +160,7 @@
       ]
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Marguerite",
       "type": "Plante fleurie",
       "personality": "Joyeuse",
@@ -185,7 +188,7 @@
       ]
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Ficus",
       "type": "Plantes purificatrices d'air",
       "personality": "Serein",
@@ -210,7 +213,7 @@
       ]
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Sansevieria",
       "type": "Plantes purificatrices d'air",
       "personality": "Robuste",
@@ -238,7 +241,7 @@
       ]
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Cactus Euphorbia",
       "type": "Cactus et succulentes",
       "personality": "Résistant",
@@ -263,7 +266,7 @@
       ]
     },
     {
-      "id": "11",
+      "id": 11,
       "name": "Monstera Deliciosa",
       "type": "Plantes purificatrices d'air",
       "personality": "Tropicale",
@@ -291,7 +294,7 @@
       ]
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Pothos",
       "type": "Plantes purificatrices d'air",
       "personality": "Aventureux",
@@ -316,7 +319,7 @@
       ]
     },
     {
-      "id": "13",
+      "id": 13,
       "name": "Bégonia",
       "type": "Plante fleurie",
       "personality": "Colorée",
@@ -341,7 +344,7 @@
       ]
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "Géranium",
       "type": "Plante fleurie",
       "personality": "Rustique",
@@ -369,7 +372,7 @@
       ]
     },
     {
-      "id": "15",
+      "id": 15,
       "name": "Cactus Cereus",
       "type": "Cactus et succulentes",
       "personality": "Imposant",
@@ -394,7 +397,7 @@
       ]
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Echeveria",
       "type": "Cactus et succulentes",
       "personality": "Discrète",
@@ -422,7 +425,7 @@
       ]
     },
     {
-      "id": "17",
+      "id": 17,
       "name": "Dracaena",
       "type": "Plantes purificatrices d'air",
       "personality": "Élégante",
@@ -447,13 +450,13 @@
       ]
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "Palmier",
       "type": "Plantes purificatrices d'air",
       "personality": "Tropicale",
       "description": "Une plante purificatrice d'air qui apporte une ambiance tropicale.",
       "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Je suis Palmier, j’apporte une ambiance tropicale et purifie l'air de votre intérieur.",
+      "biography": "Je suis Palmier, j'apporte une ambiance tropicale et purifie l'air de votre intérieur.",
       "entretien": "Moyen",
       "dureeVie": "5-8 ans",
       "in_stock": false,
@@ -475,7 +478,7 @@
       ]
     },
     {
-      "id": "19",
+      "id": 19,
       "name": "Jasmin",
       "type": "Plante fleurie",
       "personality": "Senteur",
@@ -500,7 +503,7 @@
       ]
     },
     {
-      "id": "20",
+      "id": 20,
       "name": "Philodendron",
       "type": "Plantes purificatrices d'air",
       "personality": "Grimpant",
@@ -525,7 +528,7 @@
       ]
     },
     {
-      "id": "21",
+      "id": 21,
       "name": "Maranta",
       "type": "Plantes purificatrices d'air",
       "personality": "Artiste",
@@ -550,7 +553,7 @@
       ]
     },
     {
-      "id": "22",
+      "id": 22,
       "name": "Cactus Mammillaria",
       "type": "Cactus et succulentes",
       "personality": "Compact",
@@ -575,7 +578,7 @@
       ]
     },
     {
-      "id": "23",
+      "id": 23,
       "name": "Pothos doré",
       "type": "Plantes purificatrices d'air",
       "personality": "Sociable",
@@ -600,7 +603,7 @@
       ]
     },
     {
-      "id": "24",
+      "id": 24,
       "name": "Aloe Vera",
       "type": "Cactus et succulentes",
       "personality": "Bienfaisant",
@@ -628,7 +631,7 @@
       ]
     },
     {
-      "id": "25",
+      "id": 25,
       "name": "Broméliacée",
       "type": "Plantes purificatrices d'air",
       "personality": "Exotique",
@@ -653,7 +656,7 @@
       ]
     },
     {
-      "id": "26",
+      "id": 26,
       "name": "Yucca",
       "type": "Plantes purificatrices d'air",
       "personality": "Résistant",
@@ -678,7 +681,7 @@
       ]
     },
     {
-      "id": "27",
+      "id": 27,
       "name": "Cactus Opuntia",
       "type": "Cactus et succulentes",
       "personality": "Spiky",
@@ -706,7 +709,7 @@
       ]
     },
     {
-      "id": "28",
+      "id": 28,
       "name": "Anthurium",
       "type": "Plante fleurie",
       "personality": "Exubérant",
@@ -731,7 +734,7 @@
       ]
     },
     {
-      "id": "29",
+      "id": 29,
       "name": "Dahlia",
       "type": "Plante fleurie",
       "personality": "Vibrante",
@@ -756,7 +759,7 @@
       ]
     },
     {
-      "id": "30",
+      "id": 30,
       "name": "Pilea",
       "type": "Cactus et succulentes",
       "personality": "Joviale",
@@ -781,7 +784,7 @@
       ]
     },
     {
-      "id": "31",
+      "id": 31,
       "name": "Ficus lyrata",
       "type": "Plantes purificatrices d'air",
       "personality": "Majestueux",
@@ -806,7 +809,7 @@
       ]
     },
     {
-      "id": "32",
+      "id": 32,
       "name": "Canna Lily",
       "type": "Plante fleurie",
       "personality": "Éclatante",
@@ -831,7 +834,7 @@
       ]
     },
     {
-      "id": "33",
+      "id": 33,
       "name": "Spathiphyllum",
       "type": "Plantes purificatrices d'air",
       "personality": "Chic",
@@ -856,7 +859,7 @@
       ]
     },
     {
-      "id": "34",
+      "id": 34,
       "name": "Pélargonium",
       "type": "Plante fleurie",
       "personality": "Joviale",
@@ -881,7 +884,7 @@
       ]
     },
     {
-      "id": "35",
+      "id": 35,
       "name": "Calathea",
       "type": "Plantes purificatrices d'air",
       "personality": "Artiste",
@@ -906,7 +909,7 @@
       ]
     },
     {
-      "id": "36",
+      "id": 36,
       "name": "Fuchsia",
       "type": "Plante fleurie",
       "personality": "Enchantée",
@@ -931,7 +934,7 @@
       ]
     },
     {
-      "id": "37",
+      "id": 37,
       "name": "Lisianthus",
       "type": "Plante fleurie",
       "personality": "Sensible",
@@ -956,7 +959,7 @@
       ]
     },
     {
-      "id": "38",
+      "id": 38,
       "name": "Cactus de Noël",
       "type": "Cactus et succulentes",
       "personality": "Festif",
@@ -981,7 +984,7 @@
       ]
     },
     {
-      "id": "39",
+      "id": 39,
       "name": "Bamboo",
       "type": "Plantes purificatrices d'air",
       "personality": "Flexible",
@@ -1006,7 +1009,7 @@
       ]
     },
     {
-      "id": "40",
+      "id": 40,
       "name": "Cymbidium",
       "type": "Plante fleurie",
       "personality": "Élégant",
@@ -1031,7 +1034,7 @@
       ]
     },
     {
-      "id": "41",
+      "id": 41,
       "name": "Kalanchoe",
       "type": "Cactus et succulentes",
       "personality": "Colorée",
@@ -1056,7 +1059,7 @@
       ]
     },
     {
-      "id": "42",
+      "id": 42,
       "name": "Sérissa",
       "type": "Plantes purificatrices d'air",
       "personality": "Petite et mignonne",
@@ -1081,7 +1084,7 @@
       ]
     },
     {
-      "id": "43",
+      "id": 43,
       "name": "Tilleul",
       "type": "Plante purificatrices d'air",
       "personality": "Calme",
@@ -1106,7 +1109,7 @@
       ]
     },
     {
-      "id": "44",
+      "id": 44,
       "name": "Ficus lyrata",
       "type": "Plantes purificatrices d'air",
       "personality": "Majestueuse",
@@ -1131,7 +1134,7 @@
       ]
     },
     {
-      "id": "45",
+      "id": 45,
       "name": "Lithops",
       "type": "Cactus et succulentes",
       "personality": "Unique",
@@ -1156,7 +1159,7 @@
       ]
     },
     {
-      "id": "46",
+      "id": 46,
       "name": "Orchidée Phalaenopsis",
       "type": "Plante fleurie",
       "personality": "Sublime",
@@ -1177,11 +1180,11 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1511762620132-3099e71e3783"
+        "https://img.freepik.com/photos-premium/belles-fleurs-vase-table-orchidees-roses-orchidee-phalaenopsis-rose-fond-rose-pastel_410516-4886.jpg"
       ]
     },
     {
-      "id": "47",
+      "id": 47,
       "name": "Fleur de Lantana",
       "type": "Plante fleurie",
       "personality": "Joyeuse",
@@ -1202,11 +1205,11 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1518466482022-8f437ac16914"
+        "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0724000/724980_2115432.jpg?width=700&height=700&store=fr&image-type=image"
       ]
     },
     {
-      "id": "48",
+      "id": 48,
       "name": "Cactus Perce-neige",
       "type": "Cactus et succulentes",
       "personality": "Sage",
@@ -1227,11 +1230,11 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1569001086405-b75f3d203d7f"
+        "https://www.floristik24.fr/media/images/popup/Schneegloeckchen_weiss_Eis_Topf_25cm_64861-1.jpg"
       ]
     },
     {
-      "id": "49",
+      "id": 49,
       "name": "Palmier Areca",
       "type": "Plantes purificatrices d'air",
       "personality": "Tropical",
@@ -1252,36 +1255,36 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1529702071640-fc82745b6b78"
+        "https://www.jardiner-malin.fr/wp-content/uploads/2018/11/areca.jpg"
       ]
     },
     {
-      "id": "50",
-      "name": "Géranium",
+      "id": 50,
+      "name": "Mandevilla",
       "type": "Plante fleurie",
-      "personality": "Chaleureux",
-      "description": "Fleur populaire avec des couleurs vives et un parfum agréable.",
+      "personality": "Enjouée",
+      "description": "Plante grimpante aux fleurs en forme de trompette.",
       "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Géranium, je fais vibrer les jardins avec mes couleurs et ma fragrance.",
-      "entretien": "Facile",
-      "dureeVie": "2-3 ans",
+      "biography": "Salut, je suis la Mandevilla, mes fleurs éblouissantes apportent une touche tropicale à votre jardin.",
+      "entretien": "Moyen",
+      "dureeVie": "3-5 ans",
       "in_stock": true,
       "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 9.99,
-      "stock": 22,
-      "date_ajout": "2024-10-22",
+      "fun_filter": "Énergique",
+      "price": 18.99,
+      "stock": 12,
+      "date_ajout": "2024-10-25",
       "liste_des_commentaires": [
         {
-          "comment": "Des couleurs éclatantes tout l'été !"
+          "comment": "Elle attire tous les regards !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1587650638617-1d6e728fd6d8"
+        "https://iqdho.com/wp-content/uploads/2024/04/Sun-Parasol-Bluephoria-Original-XP-Mandevilla-002-scaled-e1714504162149.jpg"
       ]
     },
     {
-      "id": "51",
+      "id": 51,
       "name": "Euphorbe",
       "type": "Cactus et succulentes",
       "personality": "Unique",
@@ -1302,11 +1305,11 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1606712094780-56482b803d6e"
+        "https://www.lesterps.fr/medias/2022/06/Euphorbe-des-garrigues.jpg"
       ]
     },
     {
-      "id": "52",
+      "id": 52,
       "name": "Ficus Benjamin",
       "type": "Plantes purificatrices d'air",
       "personality": "Élégant",
@@ -1327,36 +1330,36 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1540492651-34d194f67f79"
+        "https://www.boutique.bencheikhgarden.tn/297-large_default/ficus-benjamina.jpg"
       ]
     },
     {
-      "id": "53",
-      "name": "Aloe Vera",
-      "type": "Cactus et succulentes",
-      "personality": "Soin",
-      "description": "Plante médicinale célèbre pour ses propriétés apaisantes.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis l'Aloe Vera, votre alliée pour la santé et la beauté !",
-      "entretien": "Facile",
-      "dureeVie": "5-25 ans",
+      "id": 53,
+      "name": "Chrysanthemum",
+      "type": "Plante fleurie",
+      "personality": "Rayonnante",
+      "description": "Fleurs éclatantes qui fleurissent à l'automne.",
+      "watering_frequency": "1 fois par semaine",
+      "biography": "Je suis le Chrysanthemum, mes fleurs sont le symbole de l'automne et apportent de la joie.",
+      "entretien": "Moyen",
+      "dureeVie": "2-3 ans",
       "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 12.99,
-      "stock": 18,
-      "date_ajout": "2024-10-22",
+      "category": "Plantes fleuries",
+      "fun_filter": "Énergique",
+      "price": 14.99,
+      "stock": 9,
+      "date_ajout": "2024-10-24",
       "liste_des_commentaires": [
         {
-          "comment": "Indispensable dans ma trousse de soins !"
+          "comment": "Parfaites pour les décorations d'automne !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1576002525157-e6e7b438c015"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWHCPtW5kbqu8viyz0RJ4dmk8gJgA85Md0Q&s"
       ]
     },
     {
-      "id": "54",
+      "id": 54,
       "name": "Plante Araignée",
       "type": "Plantes purificatrices d'air",
       "personality": "Indépendante",
@@ -1377,36 +1380,36 @@
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1610219840647-5420f622e9d8"
+        "https://fr-fr.bakker.com/cdn/shop/files/55754_1.jpg?v=1706173125&width=533"
       ]
     },
     {
-      "id": "55",
-      "name": "Spathiphyllum",
+      "id": 55,
+      "name": "Spider Plant",
       "type": "Plantes purificatrices d'air",
-      "personality": "Apaisant",
-      "description": "Plante avec des fleurs blanches qui purifient l'air.",
+      "personality": "Joyeuse",
+      "description": "Plante qui produit des bébés et purifie l'air.",
       "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Spathiphyllum, avec mes fleurs élégantes, je rends l'air plus pur et votre espace plus beau.",
+      "biography": "Salut, je suis la Spider Plant, j'adore faire des bébés et je purifie l'air de votre maison.",
       "entretien": "Facile",
       "dureeVie": "5-10 ans",
       "in_stock": true,
       "category": "Plantes purificatrices d'air",
       "fun_filter": "Bavarde",
-      "price": 22.99,
-      "stock": 8,
-      "date_ajout": "2024-10-22",
+      "price": 11.99,
+      "stock": 18,
+      "date_ajout": "2024-10-24",
       "liste_des_commentaires": [
         {
-          "comment": "Mon coin de verdure préféré !"
+          "comment": "Idéale pour ma cuisine !"
         }
       ],
       "images": [
-        "https://images.unsplash.com/photo-1548918372-13f59ee0d7f7"
+        "https://cdn11.bigcommerce.com/s-uemzj79jf9/images/stencil/2048x2048/products/1743/3808/Spider_Plant_pic1__77446.1626975447.jpg?c=2"
       ]
     },
     {
-      "id": "56",
+      "id": 56,
       "name": "Fleur de Hibiscus",
       "type": "Plante fleurie",
       "personality": "Exotique",
@@ -1431,7 +1434,7 @@
       ]
     },
     {
-      "id": "57",
+      "id": 57,
       "name": "Cactus de l'Atlantique",
       "type": "Cactus et succulentes",
       "personality": "Rugueux",
@@ -1456,7 +1459,7 @@
       ]
     },
     {
-      "id": "58",
+      "id": 58,
       "name": "Lierre",
       "type": "Plantes purificatrices d'air",
       "personality": "Grimpant",
@@ -1481,7 +1484,7 @@
       ]
     },
     {
-      "id": "59",
+      "id": 59,
       "name": "Cactus à fleurs",
       "type": "Cactus et succulentes",
       "personality": "Coloré",
@@ -1506,7 +1509,7 @@
       ]
     },
     {
-      "id": "60",
+      "id": 60,
       "name": "Bambou",
       "type": "Plantes purificatrices d'air",
       "personality": "Flexible",
@@ -1531,7 +1534,7 @@
       ]
     },
     {
-      "id": "61",
+      "id": 61,
       "name": "Fleur de Lis",
       "type": "Plante fleurie",
       "personality": "Élégante",
@@ -1556,7 +1559,7 @@
       ]
     },
     {
-      "id": "62",
+      "id": 62,
       "name": "Succulente Echeveria",
       "type": "Cactus et succulentes",
       "personality": "Charmante",
@@ -1581,7 +1584,7 @@
       ]
     },
     {
-      "id": "63",
+      "id": 63,
       "name": "Plante ZZ",
       "type": "Plantes purificatrices d'air",
       "personality": "Résiliente",
@@ -1606,7 +1609,7 @@
       ]
     },
     {
-      "id": "64",
+      "id": 64,
       "name": "Dahlia",
       "type": "Plante fleurie",
       "personality": "Vibrante",
@@ -1634,7 +1637,7 @@
       ]
     },
     {
-      "id": "65",
+      "id": 65,
       "name": "Cactus de Noël",
       "type": "Cactus et succulentes",
       "personality": "Festif",
@@ -1659,7 +1662,7 @@
       ]
     },
     {
-      "id": "66",
+      "id": 66,
       "name": "Spathiphyllum",
       "type": "Plantes purificatrices d'air",
       "personality": "Calme",
@@ -1684,7 +1687,7 @@
       ]
     },
     {
-      "id": "67",
+      "id": 67,
       "name": "Fuchsia",
       "type": "Plante fleurie",
       "personality": "Énergique",
@@ -1709,7 +1712,7 @@
       ]
     },
     {
-      "id": "68",
+      "id": 68,
       "name": "Aloe Vera",
       "type": "Cactus et succulentes",
       "personality": "Pratique",
@@ -1734,7 +1737,7 @@
       ]
     },
     {
-      "id": "69",
+      "id": 69,
       "name": "Sansevière",
       "type": "Plantes purificatrices d'air",
       "personality": "Robuste",
@@ -1759,7 +1762,7 @@
       ]
     },
     {
-      "id": "70",
+      "id": 70,
       "name": "Pétunia",
       "type": "Plante fleurie",
       "personality": "Joyeuse",
@@ -1784,7 +1787,7 @@
       ]
     },
     {
-      "id": "71",
+      "id": 71,
       "name": "Philodendron",
       "type": "Plantes purificatrices d'air",
       "personality": "Luxuriant",
@@ -1809,7 +1812,7 @@
       ]
     },
     {
-      "id": "72",
+      "id": 72,
       "name": "Gazania",
       "type": "Plante fleurie",
       "personality": "Chaleureuse",
@@ -1834,7 +1837,7 @@
       ]
     },
     {
-      "id": "73",
+      "id": 73,
       "name": "Cactus de Pâques",
       "type": "Cactus et succulentes",
       "personality": "Jovial",
@@ -1859,7 +1862,7 @@
       ]
     },
     {
-      "id": "74",
+      "id": 74,
       "name": "Bamboo Palm",
       "type": "Plantes purificatrices d'air",
       "personality": "Détendu",
@@ -1884,7 +1887,7 @@
       ]
     },
     {
-      "id": "75",
+      "id": 75,
       "name": "Cosmos",
       "type": "Plante fleurie",
       "personality": "Lumineux",
@@ -1909,7 +1912,7 @@
       ]
     },
     {
-      "id": "76",
+      "id": 76,
       "name": "Echeveria",
       "type": "Cactus et succulentes",
       "personality": "Stylée",
@@ -1934,7 +1937,7 @@
       ]
     },
     {
-      "id": "77",
+      "id": 77,
       "name": "Dracaena",
       "type": "Plantes purificatrices d'air",
       "personality": "Équilibré",
@@ -1959,7 +1962,7 @@
       ]
     },
     {
-      "id": "78",
+      "id": 78,
       "name": "Hibiscus",
       "type": "Plante fleurie",
       "personality": "Tropical",
@@ -1984,7 +1987,7 @@
       ]
     },
     {
-      "id": "79",
+      "id": 79,
       "name": "Jade",
       "type": "Cactus et succulentes",
       "personality": "Chanceuse",
@@ -2009,7 +2012,7 @@
       ]
     },
     {
-      "id": "80",
+      "id": 80,
       "name": "Basilic",
       "type": "Plantes purificatrices d'air",
       "personality": "Aromatique",
@@ -2034,7 +2037,7 @@
       ]
     },
     {
-      "id": "81",
+      "id": 81,
       "name": "Freesia",
       "type": "Plante fleurie",
       "personality": "Sensible",
@@ -2062,7 +2065,7 @@
       ]
     },
     {
-      "id": "82",
+      "id": 82,
       "name": "Agave",
       "type": "Cactus et succulentes",
       "personality": "Résistant",
@@ -2087,7 +2090,7 @@
       ]
     },
     {
-      "id": "83",
+      "id": 83,
       "name": "Pothos",
       "type": "Plantes purificatrices d'air",
       "personality": "Aventurier",
@@ -2112,7 +2115,7 @@
       ]
     },
     {
-      "id": "84",
+      "id": 84,
       "name": "Bellflower",
       "type": "Plante fleurie",
       "personality": "Charmante",
@@ -2137,7 +2140,7 @@
       ]
     },
     {
-      "id": "85",
+      "id": 85,
       "name": "Sedum",
       "type": "Cactus et succulentes",
       "personality": "Solaire",
@@ -2162,7 +2165,7 @@
       ]
     },
     {
-      "id": "86",
+      "id": 86,
       "name": "Ficus elastica",
       "type": "Plantes purificatrices d'air",
       "personality": "Élégant",
@@ -2187,7 +2190,7 @@
       ]
     },
     {
-      "id": "87",
+      "id": 87,
       "name": "Dahlia",
       "type": "Plante fleurie",
       "personality": "Passionnée",
@@ -2212,7 +2215,7 @@
       ]
     },
     {
-      "id": "88",
+      "id": 88,
       "name": "Aloe Vera",
       "type": "Cactus et succulentes",
       "personality": "Réparatrice",
@@ -2237,7 +2240,7 @@
       ]
     },
     {
-      "id": "89",
+      "id": 89,
       "name": "Chlorophytum",
       "type": "Plantes purificatrices d'air",
       "personality": "Énergique",
@@ -2262,7 +2265,7 @@
       ]
     },
     {
-      "id": "90",
+      "id": 90,
       "name": "Snapdragon",
       "type": "Plante fleurie",
       "personality": "Joyaux",
@@ -2287,7 +2290,7 @@
       ]
     },
     {
-      "id": "91",
+      "id": 91,
       "name": "Petunia",
       "type": "Plante fleurie",
       "personality": "Colorée",
@@ -2312,7 +2315,7 @@
       ]
     },
     {
-      "id": "92",
+      "id": 92,
       "name": "Haworthia",
       "type": "Cactus et succulentes",
       "personality": "Complice",
@@ -2337,7 +2340,7 @@
       ]
     },
     {
-      "id": "93",
+      "id": 93,
       "name": "Citrus limon",
       "type": "Plantes purificatrices d'air",
       "personality": "Jovial",
@@ -2362,7 +2365,7 @@
       ]
     },
     {
-      "id": "94",
+      "id": 94,
       "name": "Zinnia",
       "type": "Plante fleurie",
       "personality": "Rayonnante",
@@ -2387,7 +2390,7 @@
       ]
     },
     {
-      "id": "95",
+      "id": 95,
       "name": "Kalanchoe",
       "type": "Cactus et succulentes",
       "personality": "Fleurie",
@@ -2410,326 +2413,6 @@
       "images": [
         "https://images.unsplash.com/photo-1598457851028-eccf2a6384d3"
       ]
-    },
-    {
-      "id": "96",
-      "name": "Spider Plant",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Joyeuse",
-      "description": "Plante qui produit des bébés et purifie l'air.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Spider Plant, j'adore faire des bébés et je purifie l'air de votre maison.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 11.99,
-      "stock": 18,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Idéale pour ma cuisine !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1587751860662-d493af19a94c"
-      ]
-    },
-    {
-      "id": "97",
-      "name": "Lantana",
-      "type": "Plante fleurie",
-      "personality": "Vivante",
-      "description": "Fleurs multicolores qui attirent les papillons.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis la Lantana, mes fleurs multicolores apportent de la vie à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 12.99,
-      "stock": 10,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un aimant à papillons !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1598395940527-431c7caa4a14"
-      ]
-    },
-    {
-      "id": "98",
-      "name": "Echeveria",
-      "type": "Cactus et succulentes",
-      "personality": "Stylée",
-      "description": "Succulente en forme de rosette, parfaite pour les décorations.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis l'Echeveria, ma forme élégante et mes couleurs variées embelliront votre espace.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 10.49,
-      "stock": 22,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Très jolie sur mon rebord de fenêtre !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1519931418764-b2fc3e36236c"
-      ]
-    },
-    {
-      "id": "99",
-      "name": "Philodendron",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Sociable",
-      "description": "Plante grimpante à grandes feuilles qui purifie l'air.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis le Philodendron, je m'épanouis dans un coin lumineux et je purifie l'air autour de moi.",
-      "entretien": "Moyen",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 15.49,
-      "stock": 16,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une belle plante d'intérieur !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1571285153518-2f64b10baf5c"
-      ]
-    },
-    {
-      "id": "100",
-      "name": "Chrysanthemum",
-      "type": "Plante fleurie",
-      "personality": "Rayonnante",
-      "description": "Fleurs éclatantes qui fleurissent à l'automne.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Chrysanthemum, mes fleurs sont le symbole de l'automne et apportent de la joie.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 9,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Parfaites pour les décorations d'automne !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1570983533625-13f840d0982f"
-      ]
-    },
-    {
-      "id": "101",
-      "name": "Mandevilla",
-      "type": "Plante fleurie",
-      "personality": "Enjouée",
-      "description": "Plante grimpante aux fleurs en forme de trompette.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Mandevilla, mes fleurs éblouissantes apportent une touche tropicale à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 18.99,
-      "stock": 12,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Elle attire tous les regards !"
-        }
-      ],
-      "images": [
-        "https://images.unsplash.com/photo-1587783212101-7e660cc5a7e3"
-      ]
-    },
-    {
-      "id": "102",
-      "name": "newp",
-      "type": "Plante fleurie",
-      "personality": "newp",
-      "description": "vvv",
-      "watering_frequency": "newwater",
-      "biography": "vvv",
-      "entretien": "facile",
-      "dureeVie": "10jours",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": 10,
-      "stock": 10,
-      "date_ajout": "2020-01-10T00:00:00.000Z",
-      "images": "urlimage"
-    },
-    {
-      "id": "103",
-      "name": "newp",
-      "type": "Plante fleurie",
-      "personality": "newp",
-      "description": "vvvv",
-      "watering_frequency": "ccc",
-      "biography": "vvvv",
-      "entretien": "facile",
-      "dureeVie": "10jours",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": null,
-      "stock": 10,
-      "date_ajout": "2020-10-10T00:00:00.000Z",
-      "images": "urlimage"
-    },
-    {
-      "id": 104,
-      "name": "",
-      "type": "Plante fleurie",
-      "personality": "",
-      "description": "",
-      "watering_frequency": "",
-      "biography": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": null,
-      "stock": null,
-      "date_ajout": null,
-      "images": ""
-    },
-    {
-      "id": 105,
-      "name": "",
-      "type": "Plante fleurie",
-      "personality": "",
-      "description": "",
-      "watering_frequency": "",
-      "biography": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": null,
-      "stock": null,
-      "date_ajout": null,
-      "images": ""
-    },
-    {
-      "id": 106,
-      "name": "",
-      "type": "Plante fleurie",
-      "personality": "",
-      "description": "",
-      "watering_frequency": "",
-      "biography": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": null,
-      "stock": null,
-      "date_ajout": null,
-      "images": ""
-    },
-    {
-      "id": 107,
-      "name": "",
-      "type": "Plante fleurie",
-      "personality": "",
-      "description": "",
-      "watering_frequency": "",
-      "biography": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": null,
-      "stock": null,
-      "date_ajout": null,
-      "images": ""
-    },
-    {
-      "id": 107,
-      "name": "",
-      "type": "Plante fleurie",
-      "personality": "",
-      "description": "",
-      "watering_frequency": "",
-      "biography": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": null,
-      "stock": null,
-      "date_ajout": null,
-      "images": ""
-    },
-    {
-      "id": 109,
-      "name": "",
-      "type": "Plante fleurie",
-      "personality": "",
-      "description": "",
-      "watering_frequency": "",
-      "biography": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": null,
-      "stock": null,
-      "date_ajout": null,
-      "images": ""
-    },
-    {
-      "id": 110,
-      "name": "newp",
-      "type": "Plante fleurie",
-      "personality": "newp",
-      "description": "cc",
-      "watering_frequency": "",
-      "biography": "cc",
-      "entretien": "facile",
-      "dureeVie": "vvv",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": 10,
-      "stock": 10,
-      "date_ajout": "2000-10-10T00:00:00.000Z",
-      "images": "ccccc"
-    },
-    {
-      "id": 110,
-      "name": "newp",
-      "type": "Plante fleurie",
-      "personality": "newp",
-      "description": "cc",
-      "watering_frequency": "ccc",
-      "biography": "cc",
-      "entretien": "facile",
-      "dureeVie": "vvv",
-      "category": "Plantes fleurie",
-      "fun_filter": "Facile à vivre",
-      "price": 10,
-      "stock": 10,
-      "date_ajout": "2000-10-10T00:00:00.000Z",
-      "images": "ccccc"
     }
   ]
 }

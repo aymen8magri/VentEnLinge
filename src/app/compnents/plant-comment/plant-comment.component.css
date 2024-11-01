@@ -1,0 +1,76 @@
+.container {
+    background-color: #1C593A; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px #1C593A;
+    width: 600px;
+    height: 500px;
+    overflow: auto;
+}
+
+.addtxt {
+    text-align: center;
+    font-size: 13px;
+    width: 500px;
+    background-color: #B9F1C3;
+    border: 3px solid #629A74;
+
+    font-weight: bold;
+}
+
+.form-control:focus {
+    color: #000;    
+}
+
+.second {
+    width: 480px;
+    background-color: #B9F1C3;
+    border: 3px solid #629A74;
+
+    border-radius: 4px;
+}
+
+.text1 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.text2 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 6px;
+    color: #56575b;
+}
+
+.text3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #828386;
+    margin-right: 10px;
+}
+
+.like {
+    color: #00a5f4;
+    border: none;
+    background-color: #B9F1C3;
+}
+.like:hover {
+    color: blue;
+    transform: scale(1.2);
+}
+.like:active {
+    color: #00a5f4;
+    transform: scale(1);     
+}
+.btn-add{
+    margin-right: 30px;
+}
+.btn{
+    background-color: #629A74;
+    color: #ffffff;
+    border: none;
+}
+.btn:hover{
+    background-color: #507a5d;
+    color: #ffffff;
+}
