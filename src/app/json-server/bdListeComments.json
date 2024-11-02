@@ -5,11 +5,11 @@
       "liste": [
         {
           "nom": "Alice",
-          "message": "This plant is amazing!"
+          "message": "Une plante magnifique, qui apporte une touche romantique à mon jardin."
         },
         {
           "nom": "Bob",
-          "message": "I've been growing this plant for years; it’s beautiful!"
+          "message": "Wow, c'est une plante magnifique !"
         }
       ]
     },
@@ -17,12 +17,12 @@
       "id": "2",
       "liste": [
         {
-          "nom": "Charlie",
-          "message": "Great addition to any garden."
+          "nom": "Mélanie",
+          "message": "Mes tulipes ont fleuri rapidement et elles sont magnifiques !"
         },
         {
-          "nom": "Dana",
-          "message": "I love how resilient this plant is!"
+          "nom": "Pierre",
+          "message": "Un entretien facile, mais la durée de vie est un peu courte."
         }
       ]
     },
@@ -31,11 +31,7 @@
       "liste": [
         {
           "nom": "Eve",
-          "message": "Thrives even in low light!"
-        },
-        {
-          "nom": "Frank",
-          "message": "Perfect for indoors."
+          "message": "Une plante magnifique mais qui demande beaucoup d'attention."
         }
       ]
     },
@@ -44,12 +40,12 @@
       "id": "4",
       "liste": [
         {
-          "nom": "Yara",
-          "message": "Stunning flowers every season!"
+          "nom": "Alice",
+          "message": "Le cactus parfait pour un jardinier débutant."
         },
         {
-          "nom": "Zane",
-          "message": "Easy to maintain and looks fantastic."
+          "nom": "Bob",
+          "message": "Très peu d'entretien, c'est exactement ce que je cherchais."
         }
       ]
     }

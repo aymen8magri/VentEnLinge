@@ -35,6 +35,17 @@ export class PalntService {
   public updateStock(id:number,stock:any):Observable<Plant>{
     return this.http.patch<Plant>(API_URL+'/',stock);
   }
+  public tabplants: Plant[] = [];
+  public addPlantToWishlist(plant: Plant): void {
+    this.tabplants.push(plant);
+    console.log(this.tabplants);
+  }
+  public inWishlist(plant: Plant): boolean {
+    return this.tabplants.some(p => p.id === plant.id);
+  }
+  public clearWishlist(): void {
+    this.tabplants = [];
+  }
 
 
 }

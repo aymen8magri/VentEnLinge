@@ -5,7 +5,12 @@
         <div class="d-flex justify-content-between align-items-center">
 
             <span class="discount" [ngClass]="{'c1': plant.in_stock, 'c2': !plant.in_stock}">{{plant.in_stock ? 'In stock' : 'Out of stock'}}</span>
-            <button class="wishlist" title="Add to wishlist"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
+            @if(inWishlist(plant)){
+            <button class="wishlist inWishlist" title="Add to wishlist" (click)="addToWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
+            }
+            @else{
+                <button class="wishlist" title="Add to wishlist" (click)="addToWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
+            }
         </div>
     </div>
 

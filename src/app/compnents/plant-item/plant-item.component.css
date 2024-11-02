@@ -31,15 +31,21 @@
 .wishlist:hover {
     transform: scale(1.1);
 }
-button{
-    cursor: pointer;
-}
-
 .wishlist:active {
+    transform: scale(1.15);
     transform: scale(1.15);
     background-color: #b85252;
     color: #fff;
 }
+.inWishlist{
+    transform: scale(1.15);
+    background-color: #b85252;
+    color: #fff;
+}
+button{
+    cursor: pointer;
+}
+
 
 
 .first {

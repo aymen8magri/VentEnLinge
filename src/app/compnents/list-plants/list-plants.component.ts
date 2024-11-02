@@ -2,15 +2,17 @@ import { Component, inject, OnInit } from '@angular/core';
 import { Plant } from '../../model/plant';
 import { PalntService } from '../../services/palnt.service';
 import { PlantItemComponent } from '../plant-item/plant-item.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-list-plants',
-  standalone: true,
-  imports: [PlantItemComponent],
-  templateUrl: './list-plants.component.html',
-  styleUrl: './list-plants.component.css'
+    selector: 'app-list-plants',
+    standalone: true,
+    imports: [PlantItemComponent, RouterLink],
+    templateUrl: './list-plants.component.html',
+    styleUrl: './list-plants.component.css'
 })
-export class ListPlantsComponent implements OnInit{
+export class ListPlantsComponent implements OnInit {
+
     plantsFleuries: Plant[] = [];
     plantsCactus: Plant[] = [];
     plantsPurificatrices: Plant[] = [];
@@ -27,7 +29,6 @@ export class ListPlantsComponent implements OnInit{
         this.plantService.getPlantsByCategory("Plantes purificatrices d'air").subscribe(plants => {
             this.plantsPurificatrices = plants;
         });
-
-        
     }
+
 }

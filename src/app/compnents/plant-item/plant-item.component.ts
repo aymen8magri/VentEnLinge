@@ -1,7 +1,8 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, inject, Input, OnInit, ViewChild } from '@angular/core';
 import { Plant } from '../../model/plant';
 import { CurrencyPipe, NgClass } from '@angular/common';
-import { Router, RouterLink } from '@angular/router';
+import { RouterLink } from '@angular/router';
+import { PalntService } from '../../services/palnt.service';
 
 @Component({
   selector: 'app-plant-item',
@@ -12,10 +13,18 @@ import { Router, RouterLink } from '@angular/router';
 })
 export class PlantItemComponent implements OnInit {
   
-
   @Input() plant!: Plant;
 
   ngOnInit(): void {
     console.log(this.plant);
+  }
+
+  private plantService: PalntService = inject(PalntService);
+  addToWishlist(plant: Plant) {
+    console.log(plant);
+    this.plantService.addPlantToWishlist(plant);
+  }
+  inWishlist(plant: Plant): boolean {
+    return this.plantService.inWishlist(plant);
   }
 }

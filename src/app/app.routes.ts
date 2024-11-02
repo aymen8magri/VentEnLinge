@@ -13,6 +13,7 @@ import { ListPlantsAdminComponent } from './compnents/list-plants-admin/list-pla
 import { AddPlantComponent } from './compnents/add-plant/add-plant.component';
 import { PlantDetailAdminComponent } from './compnents/plant-detail-admin/plant-detail-admin.component';
 import { PlantInformationAdminComponent } from './compnents/plant-information-admin/plant-information-admin.component';
+import { WishlistComponent } from './compnents/wishlist/wishlist.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -22,6 +23,7 @@ export const routes: Routes = [
     { path: 'contactUs', title: 'Contact Us', component: ContactUsComponent },
     { path: 'login', title: 'Login', component: LoginComponent },
     { path: 'panier', title: 'Panier', component: PanierComponent },
+    { path: 'wishlist', title: 'Wishlist', component: WishlistComponent },
     {
         path: 'plant/:id', title: 'Plant', component: PlantDetaillComponent, children: [
             { path: 'description', component: PlantInformationComponent },

@@ -1,42 +1,72 @@
+<a routerLink="/wishlist" title="Wishlist">
+<div class="svg-wrapper">
+  <svg height="60" width="190" xmlns="http://www.w3.org/2000/svg">
+    <rect class="shape" height="60" width="190"></rect>
+    </svg>
+    <div class="text">wishlist</div>
+</div>
+</a> 
+<!---------------->
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
         <h1 class="display-4 mb-5">Catalogue des Plantes</h1>
-        <div class="d-flex justify-content-center gap-2 flex-wrap">
-            <!-- Sélection du filtre amusant -->
-            <div class="input-group mb-3" style="width: 450px;">
-                <label class="input-group-text" for="inputGroupSelect01">Filtre Amusant</label>
-                <select class="form-select" id="inputGroupSelect01">
-                    <option selected>Choisissez un filtre amusant...</option>
-                    <option value="Toutes">Toutes</option>
-                    <option value="Facile à vivre">Facile à vivre</option>
-                    <option value="Bavarde">Bavarde</option>
-                    <option value="Énergique">Énergique</option>
-                </select>
+        <div class="row justify-content-center gap-2">
+            
+            <!-- Fun Filter Selection -->
+            <div class="col-md-3" style="width: 450px;">
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="funFilterSelect">Filtre Amusant</label>
+                    <select class="form-select" id="funFilterSelect">
+                        <option selected>Choisissez un filtre amusant...</option>
+                        <option value="Toutes">Toutes</option>
+                        <option value="Facile à vivre">Facile à vivre</option>
+                        <option value="Bavarde">Bavarde</option>
+                        <option value="Énergique">Énergique</option>
+                    </select>
+                </div>
             </div>
 
-            <!-- Sélection de la catégorie -->
-            <div class="input-group mb-3" style="width: 400px;">
-                <label class="input-group-text" for="inputGroupSelect02">Catégorie</label>
-                <select class="form-select" id="inputGroupSelect02">
-                    <option selected>Choisissez une catégorie...</option>
-                    <option value="Toutes">Toutes</option>
-                    <option value="Plantes fleuries">Plantes fleuries</option>
-                    <option value="Cactus et succulentes">Cactus et succulentes</option>
-                    <option value="Plantes purificatrices d'air">Plantes purificatrices d'air</option>
-                </select>
+            <!-- Category Selection -->
+            <div class="col-md-3" style="width: 400px;">
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="categorySelect">Catégorie</label>
+                    <select class="form-select" id="categorySelect">
+                        <option selected>Choisissez une catégorie...</option>
+                        <option value="Toutes">Toutes</option>
+                        <option value="Plantes fleuries">Plantes fleuries</option>
+                        <option value="Cactus et succulentes">Cactus et succulentes</option>
+                        <option value="Plantes purificatrices d'air">Plantes purificatrices d'air</option>
+                    </select>
+                </div>
             </div>
-            <!-- Bouton pour trier les plantes par valeur -->
-            <button class="button">
-                <span>Trier par valeur</span>
-            </button>
-            <!-- filtre par prix -->
-            <div class="input-group mb-3" style="width: 400px;">
-                <label class="input-group-text" for="inputGroupSelect03">Prix</label>
-                <input type="range" class="form-range" id="inputGroupSelect03" min="0" max="100" step="10">
-            </div>  
+
+            <!-- Sort by Value Button -->
+            <div class="col-md-3">
+                <button class="btn mb-3">
+                    <span class="d-flex align-items-center gap-2">Trier par valeur <i class="bi bi-arrow-down-up"></i></span>
+                </button>
+            </div>
+
+            <!-- Price Filter -->
+            <div class="col-md-3">
+                <div class="input-group mb-3">
+                    <div class="range">
+                        <div class="sliderValue">
+                            <span>100</span>
+                        </div>
+                        <div class="field">
+                            <div class="value left">10</div>
+                            <input type="range" min="10" max="200" value="100" steps="1">
+                            <div class="value right">200</div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            
         </div>
     </div>
 </div>
+
 
 <!-- afficher selon catégorie-->
 <!--Plantes fleuries-->
