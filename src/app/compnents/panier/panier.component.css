@@ -36,3 +36,31 @@
     margin-top: 20px;
     font-size: 1.5rem;
 }
+
+.alert {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.shop {
+    color: #1C593A;
+    font-weight: bold;
+    text-decoration: underline !important;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.shop:hover {
+    color: #529F76;
+}
+.back{
+    color: #12452C;
+    font-size: 44px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.back:hover {
+    color: #33845D;
+}

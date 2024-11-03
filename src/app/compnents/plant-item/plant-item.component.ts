@@ -24,7 +24,13 @@ export class PlantItemComponent implements OnInit {
     console.log(plant);
     this.plantService.addPlantToWishlist(plant);
   }
+  removeFromWishlist(plant: Plant) {
+    this.plantService.removePlantFromWishlist(plant);
+  }
   inWishlist(plant: Plant): boolean {
     return this.plantService.inWishlist(plant);
+  }
+  addToCart(plant: Plant) {
+    this.plantService.addPlantToCart(plant);
   }
 }

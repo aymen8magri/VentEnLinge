@@ -6,7 +6,7 @@
 
             <span class="discount" [ngClass]="{'c1': plant.in_stock, 'c2': !plant.in_stock}">{{plant.in_stock ? 'In stock' : 'Out of stock'}}</span>
             @if(inWishlist(plant)){
-            <button class="wishlist inWishlist" title="Add to wishlist" (click)="addToWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
+            <button class="wishlist inWishlist" title="Add to wishlist" (click)="addToWishlist(plant)" (click)="removeFromWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
             }
             @else{
                 <button class="wishlist" title="Add to wishlist" (click)="addToWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
@@ -28,7 +28,7 @@
         <li class="list-group-item" style=" font-size: 17px; background-color: #bddac2; border-bottom: 1px solid #1C593A;"><span class="title">Fun_filter : </span> {{plant.fun_filter}}</li>
     </ul>
     <div class="card-body d-flex justify-content-between" style="background-color: #bddac2;">
-        <button class="btn" style="background-color: #1C593A; color: #fff;" title="Add to cart">Add to cart</button>
+        <button class="btn" style="background-color: #1C593A; color: #fff;" (click)="addToCart(plant)" title="Add to cart">Add to cart</button>
         <a [routerLink]="['/plant', plant.id]"><button class="btn" style="background-color: #529F76; color: #fff;" title="View plant">View</button></a>
         </div>
     </div>

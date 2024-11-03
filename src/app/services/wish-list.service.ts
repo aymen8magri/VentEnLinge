@@ -6,6 +6,7 @@ import { ListPlantsAdminComponent } from '../compnents/list-plants-admin/list-pl
   providedIn: 'root'
 })
 export class WishListService {
+  private plants: Plant[] = [];
 
   constructor() { }
 

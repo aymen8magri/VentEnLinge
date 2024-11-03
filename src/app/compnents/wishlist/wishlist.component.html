@@ -1,5 +1,6 @@
 <a class="back" routerLink="/listePlantes" title="Back to shop"><i class="bi bi-arrow-bar-left"></i></a>
-<h1>Wishlist</h1>
+<div class="cart-container">
+    <h2 class="cart-header">Wishlist <i class="bi bi-cart-check" style="margin-left: 20px;"></i></h2>
 
 
 @if (tabplants.length > 0) {
@@ -17,3 +18,4 @@
         No plants in wishlist! visit our <a routerLink="/listePlantes" class="shop" title="Back to shop">shop</a> to add some plants.
     </div>
 }
+</div>

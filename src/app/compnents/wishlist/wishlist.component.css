@@ -36,3 +36,22 @@ h1 {
 .back:hover {
     color: #33845D;
 }
+.cart-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #629A74;
+    box-shadow: 0 0 10px 0 #1C593A;
+}
+
+.cart-header {
+    text-align: center;
+    color: #1C593A;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

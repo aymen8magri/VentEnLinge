@@ -35,6 +35,7 @@ export class PalntService {
   public updateStock(id:number,stock:any):Observable<Plant>{
     return this.http.patch<Plant>(API_URL+'/',stock);
   }
+  /*--------------------* Wishlist *---------------------------*/
   public tabplants: Plant[] = [];
   public addPlantToWishlist(plant: Plant): void {
     this.tabplants.push(plant);
@@ -46,6 +47,22 @@ export class PalntService {
   public clearWishlist(): void {
     this.tabplants = [];
   }
+  public removePlantFromWishlist(plant: Plant): void {
+    this.tabplants = this.tabplants.filter(p => p.id !== plant.id);
+  }
+  /*--------------------* Cart shop *---------------------------*/
+  public tabcart: Plant[] = [];
+  public addPlantToCart(plant: Plant): void {
+    this.tabcart.push(plant);
+    console.log(this.tabcart);
+  }
+  public deleteFromCart(plant: Plant): void {
+    this.tabcart = this.tabcart.filter(p => p.id !== plant.id);
+  }
+  public clearCart(): void {
+    this.tabcart = [];
+  }
+
 
 
 }
