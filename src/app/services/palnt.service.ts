@@ -19,7 +19,9 @@ export class PalntService {
   public getPlantsByCategory(category: string): Observable<Plant[]> {
     return this.http.get<Plant[]>(`${API_URL}?category=${category}`);
   }
-
+  public getPlantsByFunFilter(funFilter: string): Observable<Plant[]> {
+    return this.http.get<Plant[]>(`${API_URL}?fun_filter=${funFilter}`);
+  }
   public getPlantById(id: number): Observable<Plant> {
     return this.http.get<Plant>(`${API_URL}/${id}`);
   }

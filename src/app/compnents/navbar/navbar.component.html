@@ -50,7 +50,11 @@
 
       <!-- Right Aligned List Group -->
       <button class="btn cart-button" (click)="goToPanier()">
-        <i class="bi bi-cart-check-fill"></i> nb item(s) - $montant
+        @if (tabcart.length > 0) {
+          <i class="bi bi-cart-check-fill"></i> {{tabcart.length}} item(s) - {{total | currency:'USD'}}
+        } @else {
+          <i class="bi bi-cart-check-fill"></i> 0 item(s) - 0.00 USD
+        }
       </button>
     </div>
   </div>

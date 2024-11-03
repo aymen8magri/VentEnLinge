@@ -13,22 +13,46 @@ import { RouterLink } from '@angular/router';
 })
 export class ListPlantsComponent implements OnInit {
 
-    plantsFleuries: Plant[] = [];
-    plantsCactus: Plant[] = [];
-    plantsPurificatrices: Plant[] = [];
+    plants: Plant[] = [];            // Complete list of plants
+    filteredPlants: Plant[] = [];     // List of plants after filtering
+    selectedFunFilter: string = '';   // Stores the selected fun filter value
+    selectedCategory: string = '';    // Stores the selected category value
 
     private plantService: PalntService = inject(PalntService);
 
     ngOnInit(): void {
-        this.plantService.getPlantsByCategory("Plantes fleuries").subscribe(plants => {
-            this.plantsFleuries = plants;
+        // Fetch the list of plants from the service on component load
+        this.plantService.getPlants().subscribe((data: Plant[]) => {
+            this.plants = data;
+            this.filteredPlants = data;  // Initialize with the full list
         });
-        this.plantService.getPlantsByCategory("Cactus et succulentes").subscribe(plants => {
-            this.plantsCactus = plants;
+    }
+
+    /*--------------------* Filter by Fun *---------------------------*/
+    onFilter(event: Event): void {
+        // Get the values of the selected fun filter and category
+        const target = event.target as HTMLSelectElement;
+
+        if (target.id === 'funFilterSelect') {
+            this.selectedFunFilter = target.value;
+        } else if (target.id === 'categorySelect') {
+            this.selectedCategory = target.value;
+        }
+
+        // Filter the plants based on the selected values
+        this.filteredPlants = this.plants.filter(plant => {
+            const matchesFunFilter = this.selectedFunFilter ? plant.fun_filter === this.selectedFunFilter : true;
+            const matchesCategory = this.selectedCategory ? plant.category === this.selectedCategory : true;
+            return matchesFunFilter && matchesCategory;
         });
-        this.plantService.getPlantsByCategory("Plantes purificatrices d'air").subscribe(plants => {
-            this.plantsPurificatrices = plants;
-        });
+    }
+
+    /*--------------------* Sort by Price *---------------------------*/
+    sortAscending(): void {
+        this.filteredPlants.sort((a, b) => a.price - b.price);
+    }
+    sortDescending(): void {
+        this.filteredPlants.sort((a, b) => b.price - a.price);
     }
 
 }
