@@ -14,6 +14,7 @@ import { AddPlantComponent } from './compnents/add-plant/add-plant.component';
 import { PlantDetailAdminComponent } from './compnents/plant-detail-admin/plant-detail-admin.component';
 import { PlantInformationAdminComponent } from './compnents/plant-information-admin/plant-information-admin.component';
 import { WishlistComponent } from './compnents/wishlist/wishlist.component';
+import { PlantCommentAdminComponent } from './compnents/plant-comment-admin/plant-comment-admin.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -35,6 +36,7 @@ export const routes: Routes = [
     {path:'ListePlantesAdmin',title:'ListeAdmin',component:ListPlantsAdminComponent},
     {path:'plantAdmin/:id',title:'Plant',component:PlantDetailAdminComponent,children:[
         {path:'descriptionAdmin',component:PlantInformationAdminComponent},
+        {path:'commentsAdmin',component:PlantCommentAdminComponent},
         {path:'',redirectTo:'descriptionAdmin',pathMatch:'full'},
     ]},
     {path:'addPlant',title:'AddPlant',component:AddPlantComponent},
