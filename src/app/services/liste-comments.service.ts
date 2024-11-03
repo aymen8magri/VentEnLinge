@@ -19,4 +19,10 @@ export class ListeCommentsService {
     return this.http.get<ListeComments>(url+'/'+id)
 
   }
+  addComment(id:number,comment:any):Observable<ListeComments>{
+    return this.http.patch<ListeComments>(url+'/'+id,comment)
+  }
+  addLike(id:number,like:any):Observable<ListeComments>{
+    return this.http.patch<ListeComments>(url+'/'+id,like)
+  }
 }

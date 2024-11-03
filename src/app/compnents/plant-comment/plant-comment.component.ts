@@ -16,7 +16,9 @@ export class PlantCommentComponent {
   liste!:ListeComments;
   route: ActivatedRoute = inject(ActivatedRoute);
   listeCommentsService: ListeCommentsService = inject(ListeCommentsService);  
-  tabcom:Commentaire[]=[]
+  tabcom:Commentaire[]=[]; 
+  like:boolean=false;
+
   
 
   ngOnInit(): void {
@@ -30,10 +32,11 @@ export class PlantCommentComponent {
       if (!isNaN(this.val)) {
         this.listeCommentsService.getListById(this.val).subscribe({
           next: (data) => {
-            this.liste = data;
-            this.tabcom=this.liste.liste;
+            this.liste=data;
+            this.tabcom=this.liste.liste
            
             console.log("Fetched comments:", this.liste);
+            console.log(this.tabcom);
           },
           error: (error) => console.error('Failed to fetch comments:', error),
         });
@@ -43,6 +46,23 @@ export class PlantCommentComponent {
     });
    
     
+  }
+  onAddComment(name:string,comment:string){
+    const com=new Commentaire(name,comment);
+    this.tabcom.push(com)
+    this.listeCommentsService.addComment(this.val,{liste:this.tabcom}).subscribe(
+      data=>{
+        this.listeCommentsService.getListById(this.val).subscribe(
+          data=>{
+            this.tabcom=data.liste
+          }
+        )
+      }
+    )
+  }
+  onAddLike(){
+   
+
   }
   }
 

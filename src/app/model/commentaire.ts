@@ -3,9 +3,9 @@ export class Commentaire {
     message: string;
     nbLikes:number;
 
-    constructor(nom: string, message: string, nbLikes:number) {
+    constructor(nom: string, message: string) {
         this.nom = nom;
         this.message = message;
-        this.nbLikes=nbLikes;
+        this.nbLikes=0;
     }
 }
