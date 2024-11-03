@@ -6,7 +6,19 @@
         {
           "nom": "GreenThumb101",
           "message": "I love this type of succulent! It’s so easy to care for.",
-          "nbLikes": 15
+          "nbLikes": 17
+        },
+        {
+          "nom": "PlantLover88",
+          "message": "Just got a similar cactus! Perfect for my windowsill.",
+          "nbLikes": 10
+        }
+      ],
+      "like": [
+        {
+          "nom": "GreenThumb101",
+          "message": "I love this type of succulent! It’s so easy to care for.",
+          "nbLikes": 16
         },
         {
           "nom": "PlantLover88",
@@ -33,11 +45,6 @@
     {
       "id": "2",
       "liste": [
-        {
-          "nom": "NatureNut",
-          "message": "Ferns add such a lovely touch of green indoors.",
-          "nbLikes": 10
-        },
         {
           "nom": "LeafyGreens",
           "message": "I've struggled with ferns. Any tips on keeping them alive?",

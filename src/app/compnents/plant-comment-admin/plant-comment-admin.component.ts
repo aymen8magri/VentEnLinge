@@ -6,13 +6,13 @@ import { Commentaire } from '../../model/commentaire';
 import { NgClass } from '@angular/common';
 
 @Component({
-  selector: 'app-plant-comment',
+  selector: 'app-plant-comment-admin',
   standalone: true,
   imports: [NgClass],
-  templateUrl: './plant-comment.component.html',
-  styleUrl: './plant-comment.component.css'
+  templateUrl: './plant-comment-admin.component.html',
+  styleUrl: './plant-comment-admin.component.css'
 })
-export class PlantCommentComponent {
+export class PlantCommentAdminComponent {
   val:number=0;
   liste!:ListeComments;
   route: ActivatedRoute = inject(ActivatedRoute);
@@ -49,48 +49,20 @@ export class PlantCommentComponent {
    
     
   }
-  onAddComment(name:string,comment:string){
-    
-    const com=new Commentaire(name,comment);
-    this.tabcom.push(com)
-    this.listeCommentsService.addComment(this.val,{liste:this.tabcom}).subscribe(
+  onDelete(i:number){
+    this.tabcom.splice(i,1);
+    this.listeCommentsService.deleteComment(this.val,{liste:this.tabcom}).subscribe(
       data=>{
         this.listeCommentsService.getListById(this.val).subscribe(
-          data=>{
-            this.tabcom=data.liste
-          }
+          data=>this.tabcom=data.liste
         )
       }
     )
+    
   }
-  onAddLike(i:number){
-    this.like=!this.like
-    if(this.like==true){
-      this.tabcom[i].nbLikes++;
-      console.log(this.tabcom);
-      this.listeCommentsService.addLike(this.val,{liste:this.tabcom}).subscribe(
-        data=>{console.log(data)
-          this.listeCommentsService.getListById(this.val).subscribe(
-            data=>{this.tabcom=data.liste}
-          )
-
-        }
-      )
-    }
-    else{
-      this.tabcom[i].nbLikes--;
-      console.log(this.tabcom);
-      this.listeCommentsService.addLike(this.val,{liste:this.tabcom}).subscribe(
-        data=>{console.log(data)
-          this.listeCommentsService.getListById(this.val).subscribe(
-            data=>{this.tabcom=data.liste}
-          )
-
-        }
-      )
-    }
-   
+  
+  
 
   }
-  }
+  
 

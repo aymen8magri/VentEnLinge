@@ -25,4 +25,7 @@ export class ListeCommentsService {
   addLike(id:number,like:any):Observable<ListeComments>{
     return this.http.patch<ListeComments>(url+'/'+id,like)
   }
+  deleteComment(id:number,comment:any):Observable<ListeComments>{
+    return this.http.patch<ListeComments>(url+'/'+id,comment)
+  }
 }

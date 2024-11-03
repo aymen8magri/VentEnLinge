@@ -2,8 +2,8 @@
     background-color: #1C593A; 
     border-radius: 10px;
     box-shadow: 0 0 15px #1C593A;
+    
     overflow: auto;
-    height: 500px;
 }
 
 .addtxt {
