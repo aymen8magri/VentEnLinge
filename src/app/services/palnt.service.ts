@@ -50,7 +50,7 @@ export class PalntService {
     this.tabplants = [];
   }
   public removePlantFromWishlist(plant: Plant): void {
-    this.tabplants = this.tabplants.filter(p => p.id !== plant.id);
+    this.tabplants = this.tabplants.filter((p) => p.id !== plant.id);
   }
   /*--------------------* Cart shop *---------------------------*/
   public tabcart: Plant[] = [];

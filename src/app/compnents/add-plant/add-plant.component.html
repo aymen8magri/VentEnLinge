@@ -2,80 +2,86 @@
     <h1>Ajouter une plante </h1>
 </div>
 <div class="col-lg-5 contact-form">
-    <form>
+    <form [formGroup]="planteForm" (ngSubmit)="onAjouter()"> 
         <div class="mb-3">
             <label for="nom" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="nom" placeholder="Personality" name="personality" required #nom/>
+            <input type="text" class="form-control" id="nom" placeholder="nom" name="personality" required formControlName="nom"/>
         </div>
-        <div class="mb-3">
-            <label for="type" class="form-label">Type</label>
-            <select name="type" id="type" class="form-select" #type >
-                <option value="Plante fleurie" selected>Plante fleurie</option>
-                <option value="Cactus et succulentes" >cactus et succulente</option>
-                <option value="Plantes purificatrices d'air">plante purificatrices d'air</option>
-            </select>
-        </div>
+        
         <div class="mb-3">
             <label for="category" class="form-label">Categorie</label>
-            <select name="category" id="category" class="form-select" #category >
-                <option value="Plantes fleurie" selected>Plantes fleurie</option>
-                <option value="Cactus et succulentes" >cactus et succulente</option>
-                <option value="Plantes purificatrices d'air">plante purificatrices d'air</option>
+            <select name="category" id="category" class="form-select" formControlName="categorie" >
+               @for(c of cat; track $index){
+                <option [value]="c">{{c}}</option>
+               }
             </select>
         </div>
         <div class="mb-3">
-            <label for="personality" class="form-label">Personality</label>
-            <input type="text" class="form-control" id="personality" placeholder="Personality" name="personality" required #personality/>
+            <label for="personalité" class="form-label">Personalité</label>
+            <input type="text" class="form-control" id="personality" placeholder="Personality" name="personality" required formControlName="personalite"/>
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
-            <textarea class="form-control" id="description" placeholder="Description" name="description" required #description></textarea>
+            <textarea class="form-control" id="description" placeholder="Description" name="description" required formControlName="description"></textarea>
         </div>
-        <div class="mb-3">
-            <label for="bio" class="form-label">Biography</label>
-            <textarea  class="form-control" id="bio" placeholder="Biography" name="bio" required #bio ></textarea>
-        </div>
-        <div class="mb-3">
-            <label for="watering" class="form-label">Watering frequency</label>
-            <input type="text" class="form-control" id="watering" rows="4" name="watering" placeholder="Watering frequency" required #watering/>
-        </div>
+       
         <div class="mb-3">
             <label for="maintenance" class="form-label">Maintenance</label>
-            <select name="maintenance" id="maintenance" class="form-select" #maintenance >
-                <option value="facile" selected>Facile</option>
-                <option value="moyen" >Moyen</option>
+            <select name="maintenance" id="maintenance" class="form-select" formControlName="maintenance">
+               @for(m of maintenance;track $index){
+                <option [value]="m">{{m}}</option>
+               }
             </select>
         </div>
         <div class="mb-3">
             <label for="filter" class="form-label">Fun filter</label>
-            <select name="filter" id="filter" class="form-select" #filter>
-                <option value="Facile à vivre" selected>Facile à vivre</option>
-                <option value="Bavarde">Bavarde</option>
-                <option value="Energitique">Energitique</option>
+            <select name="filter" id="filter" class="form-select" formControlName="filter">
+                @for(f of filter;track $index){
+                    <option [value]="f">{{f}}</option>
+                }
             </select>
         </div>
         <div class="mb-3">
-            <label for="price" class="form-label">Price</label>
-            <input type="text" class="form-control" id="price" placeholder="Price" name="price" required #price/>
+            <label for="price" class="form-label">Prix</label>
+            <input type="text" class="form-control" id="price" placeholder="Prix" name="price" required formControlName="prix"/>
         </div>
         <div class="mb-3">
             <label for="stock" class="form-label"> Stock</label>
-            <input type="text" class="form-control" id="stock" placeholder="In stock" name="stock" required #stock/>
+            <input type="text" class="form-control" id="stock" placeholder="stock" name="stock" required formControlName="stock"/>
+        </div>
+        <div class="mb-3">
+            <label for="enstock">En Stock</label>
+            <input type="radio" formControlName="enStock">
         </div>
         
         <div class="mb-3">
-            <label for="date" class="form-label">Date Added</label>
-            <input type="date" class="form-control" id="date" placeholder="Date Added" name="date" required #date/>
+            <label for="date" class="form-label">Date ajout</label>
+            <input type="date" class="form-control" id="date" placeholder="Date ajout" name="date" required formControlName="dateAjout"/>
         </div>
         <div class="mb-3">
-            <label for="lifespan" class="form-label">Lifespan</label>
-            <input type="text" class="form-control" id="lifespan" placeholder="Lifespan" name="lifespan" required #lifespan/>
+            <label for="lifespan" class="form-label">Durée de vie</label>
+            <input type="text" class="form-control" id="lifespan" placeholder="Durée de vie" name="lifespan" required formControlName="durVie"/>
         </div>
+        <label for="waterin" class="form-label">Arrosage</label>
+        <div class="mb-3" formArrayName="arrosage">
+            @for(w of watering.controls;track $index){
+                <div [formGroupName]="$index">
+                <label for="">saison</label>
+                <input type="text" formControlName="s" class="form-control">
+                <label for="">Fréquence</label>
+                <input type="text" formControlName="'f'+$index" class="form-control">
+                <label for="">Quantité</label>
+                <input type="text" formControlName="'q'+$index" class="form-control">
+            </div>
+            }
+
+        </div>
+        <button type="button" class="btn btn-warning" (click)="onAjouterArrosage()">Ajouter une Saison</button>
         <div class="mb-3">
             <label for="img" class="form-label">Image URL</label>
             <input type="text" class="form-control" id="img" placeholder="Image URL" name="img" required #img/>
         </div>
-        <button type="submit" class="submit-btn" (click)="onAjouter(nom.value,type.value,personality.value,description.value,bio.value,watering.value,maintenance.value,filter.value,price.value,stock.value,date.value,lifespan.value,category.value,img.value)">Ajouter</button>
+        <button type="submit" class="submit-btn" >Ajouter</button>
         <div [hidden]="hide">Plante ajoutée avec succès</div>
     </form>
 </div>

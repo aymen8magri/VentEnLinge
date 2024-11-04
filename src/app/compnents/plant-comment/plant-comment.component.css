@@ -61,7 +61,8 @@
     color: #00a5f4;
     transform: scale(1);     
 }
-
+.liked{color: blue;
+    transform: scale(1.2);}
 .btn-add{
     margin-right: 30px;
 }

@@ -2,13 +2,18 @@
     <ul>
         <li><strong>Personality :</strong> {{plant.personality}}</li>
         <li><strong>Description :</strong> {{plant.description}}</li>
-        <li><strong>Biography :</strong> {{plant.biography}}</li>
-        <li><strong>Watering Frequency :</strong> {{plant.watering_frequency}}</li>
         <li><strong>Maintenance :</strong> {{plant.entretien}}</li>
         <li><strong>Fun Filter :</strong> {{plant.fun_filter}}</li>
         <li><strong>Price :</strong> {{plant.price}} €</li>
         <li><strong>In Stock :</strong> {{plant.stock}} pieces</li>
         <li><strong>Date Added :</strong> {{plant.date_ajout}}</li>
         <li><strong>Lifespan :</strong> {{plant.dureeVie}}</li>
+        <li>
+            <ul><strong>Arrosage</strong>
+            @for(w of plant.arrosage;track $index){
+                
+                    <li>Saison:{{w.saison}} fréquence:{{w.frequence}} quantitée:{{w.quantite}}</li>
+            }</ul>
+        </li>
     </ul>
 </div>

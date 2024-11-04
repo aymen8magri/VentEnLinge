@@ -1,13 +1,11 @@
 import { Commentaire } from "./commentaire";
+import { Watering } from "./watering";
 
 export class Plant {
-    id: number;
+    id: string;
     name: string;
-    type: string;
     personality: string;
     description: string;
-    watering_frequency: string;
-    biography: string;
     entretien: string;
     dureeVie: string;
     in_stock: boolean;
@@ -16,17 +14,14 @@ export class Plant {
     price: number;
     stock: number;
     date_ajout: Date;
-    liste_des_commentaires: Commentaire[];
-    images: string[];
+    arrosage:Watering[]
+    images: string;
 
-    constructor(id: number, name: string, type: string, personality: string, description: string, watering_frequency: string, biography: string, entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, liste_des_commentaires: Commentaire[], images: string[]) {
+    constructor(id: string, name: string, personality: string, description: string,  entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, images: string, arrosage:Watering[],) {
         this.id = id;
         this.name = name;
-        this.type = type;
         this.personality = personality;
         this.description = description;
-        this.watering_frequency = watering_frequency;
-        this.biography = biography;
         this.entretien = entretien;
         this.dureeVie = dureeVie;
         this.in_stock = in_stock;
@@ -35,7 +30,7 @@ export class Plant {
         this.price = price;
         this.stock = stock;
         this.date_ajout = date_ajout;
-        this.liste_des_commentaires = liste_des_commentaires;
         this.images = images;
+        this.arrosage=arrosage;
     }
 }

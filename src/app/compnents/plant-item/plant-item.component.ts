@@ -14,12 +14,13 @@ import { PalntService } from '../../services/palnt.service';
 export class PlantItemComponent implements OnInit {
   
   @Input() plant!: Plant;
-
   ngOnInit(): void {
     console.log(this.plant);
   }
 
   private plantService: PalntService = inject(PalntService);
+
+
   addToWishlist(plant: Plant) {
     console.log(plant);
     this.plantService.addPlantToWishlist(plant);

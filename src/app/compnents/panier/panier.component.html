@@ -14,7 +14,7 @@
         <span class="text-danger fw-bold fs-5">{{plant.price | currency:'USD'}}</span>
         <div class="btn-group">
             <button class="btn btn-primary" routerLink="/plant/{{plant.id}}/description" title="Voir"><i class="bi bi-eye-fill"></i></button>
-            <button class="btn btn-danger" (click)="deleteFromCart(plant)" title="Supprimer"><i class="bi bi-trash3-fill"></i></button>
+            <button class="btn btn-danger" (click)="deleteFromCart(plant)"  title="Supprimer"><i class="bi bi-trash3-fill"></i></button>
         </div>
     </div>
     }

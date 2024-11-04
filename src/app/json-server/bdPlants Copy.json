@@ -1,1990 +1,2890 @@
 {
   "plants": [
-    {
-      "id": "1",
-      "name": "Rose",
-      "type": "Plante fleurie",
-      "personality": "Romantique",
-      "description": "Plante emblématique de l'amour.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis Rose, la reine des fleurs. J'adore être au centre de l'attention et apporter de la couleur à votre jardin.",
-      "entretien": "Facile",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 12.99,
-      "stock": 10,
-      "date_ajout": "2024-10-21",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante magnifique, qui apporte une touche romantique à mon jardin."
-        },
-        {
-          "comment": "Wow, c'est une plante magnifique !"
-        }
-      ],
-      "images": [
-        "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Tulipe",
-      "type": "Plante fleurie",
-      "personality": "Élégante",
-      "description": "Symbolise la grâce et l'élégance.",
-      "watering_frequency": "2 fois par semaine",
-      "biography": "Je suis Tulipe, la plante élégante et délicate. Je préfère les matinées ensoleillées et une attention toute particulière.",
-      "entretien": "Moyen",
-      "dureeVie": "1-2 ans",
-      "in_stock": false,
-      "category": "Plantes fleuries",
-      "fun_filter": "Facile à vivre",
-      "price": 9.99,
-      "stock": 0,
-      "date_ajout": "2024-10-18",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mes tulipes ont fleuri rapidement et elles sont magnifiques !"
-        },
-        {
-          "comment": "Un entretien facile, mais la durée de vie est un peu courte."
-        }
-      ],
-      "images": [
-        "https://medias.florajet.com/_w_/produits/600/50113.jpg"
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Orchidée",
-      "type": "Plante fleurie",
-      "personality": "Raffinée",
-      "description": "Symbolise la rareté et l'élégance.",
-      "watering_frequency": "1 fois tous les 10 jours",
-      "biography": "Je suis Orchidée, la plante mystérieuse et raffinée. J'apporte une touche d'élégance où que je sois.",
-      "entretien": "Difficile",
-      "dureeVie": "5-7 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 7,
-      "date_ajout": "2024-10-17",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante magnifique mais qui demande beaucoup d'attention."
-        }
-      ],
-      "images": [
-        "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg"
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Cactus",
-      "type": "Cactus et succulentes",
-      "personality": "Indépendant",
-      "description": "Le roi des plantes résistantes.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Salut, je m'appelle Spike ! Je ne demande jamais rien à personne, sauf un peu de soleil et quelques gouttes d'eau de temps en temps.",
-      "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 7.99,
-      "stock": 15,
-      "date_ajout": "2024-10-19",
-      "liste_des_commentaires": [
-        {
-          "comment": "Le cactus parfait pour un jardinier débutant."
-        },
-        {
-          "comment": "Très peu d'entretien, c'est exactement ce que je cherchais."
-        }
-      ],
-      "images": [
-        "https://dms.mydukaan.io/original/jpeg/upload_file_service/337ed506-4d45-4550-83f7-419d72a0c751/baby-cactus-plants.png"
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Aloe Vera",
-      "type": "Cactus et succulentes",
-      "personality": "Serein",
-      "description": "Une plante aux multiples bienfaits.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Aloe Vera, toujours prêt à apaiser et embellir. Je suis là pour vous aider à soigner vos petites coupures.",
-      "entretien": "Moyen",
-      "dureeVie": "5-8 ans",
-      "in_stock": false,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Énergique",
-      "price": 8.99,
-      "stock": 0,
-      "date_ajout": "2024-10-20",
-      "liste_des_commentaires": [
-        {
-          "comment": "Parfait pour les soins de la peau, en plus d'être une belle plante."
-        }
-      ],
-      "images": [
-        "https://kendallsflorist.co.uk/wp-content/uploads/2016/01/Aloe-Vera-Plant-2.jpg"
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Lavande",
-      "type": "Plante fleurie",
-      "personality": "Relaxante",
-      "description": "Plante au parfum apaisant.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Lavande, je vous aide à vous détendre avec mon parfum délicat. Je suis parfaite pour les jardins de rêve.",
-      "entretien": "Facile",
-      "dureeVie": "4-6 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Facile à vivre",
-      "price": 11.99,
-      "stock": 8,
-      "date_ajout": "2024-10-18",
-      "liste_des_commentaires": [
-        {
-          "comment": "Son parfum est incroyablement apaisant, parfait pour ma terrasse."
-        }
-      ],
-      "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik"
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Marguerite",
-      "type": "Plante fleurie",
-      "personality": "Joyeuse",
-      "description": "Petite fleur blanche symbolisant l'innocence.",
-      "watering_frequency": "2 fois par semaine",
-      "biography": "Salut, je suis Marguerite ! Je suis joyeuse et lumineuse, toujours prête à égayer votre journée.",
-      "entretien": "Moyen",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 6.99,
-      "stock": 12,
-      "date_ajout": "2024-10-15",
-      "liste_des_commentaires": [
-        {
-          "comment": "Les marguerites ajoutent une touche de fraîcheur à mon jardin."
-        },
-        {
-          "comment": "Facile à entretenir, parfait pour un jardin coloré."
-        }
-      ],
-      "images": [
-        "https://media.vitrinemagique.com/pdmain/40108-H-01-3P_HAUPTBILD_WS_3P_FR.jpg"
-      ]
-    },
-    {
-      "id": "8",
-      "name": "Ficus",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Serein",
-      "description": "Plante d'intérieur très appréciée pour ses qualités purificatrices.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Je suis Ficus, la plante qui purifie l'air et qui ajoute une touche de sérénité à votre maison.",
-      "entretien": "Moyen",
-      "dureeVie": "5-10 ans",
-      "in_stock": false,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 19.99,
-      "stock": 0,
-      "date_ajout": "2024-10-12",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mon Ficus est superbe et il semble vraiment purifier l'air."
-        }
-      ],
-      "images": [
-        "https://www.rewilddc.com/cdn/shop/files/14e379efeaa83cdefe1ccce65ce406ca.jpg?v=1684342277&width=1333"
-      ]
-    },
-    {
-      "id": "9",
-      "name": "Sansevieria",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Robuste",
-      "description": "Connu pour sa capacité à survivre dans des conditions difficiles.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Sansevieria, on m'appelle aussi langue de belle-mère. Je purifie l'air tout en demandant peu d'attention.",
-      "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 20,
-      "date_ajout": "2024-10-20",
-      "liste_des_commentaires": [
-        {
-          "comment": "Très facile à entretenir, je l'adore !"
-        },
-        {
-          "comment": "Une plante robuste qui purifie l'air, je la recommande."
-        }
-      ],
-      "images": [
-        "https://eureka-farms.com/cdn/shop/products/20211119-EurekaFarmsPlantCatalog-444.jpg?v=1703906673&width=1500"
-      ]
-    },
-    {
-      "id": "10",
-      "name": "Cactus Euphorbia",
-      "type": "Cactus et succulentes",
-      "personality": "Résistant",
-      "description": "Un cactus qui aime les conditions arides.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Euphorbia, toujours prêt à affronter les climats les plus difficiles. Laissez-moi au soleil et je ferai le reste.",
-      "entretien": "Facile",
-      "dureeVie": "10-20 ans",
-      "in_stock": false,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 9.99,
-      "stock": 0,
-      "date_ajout": "2024-10-16",
-      "liste_des_commentaires": [
-        {
-          "comment": "Je l'ai depuis des années, très résistant et peu d'entretien."
-        }
-      ],
-      "images": [
-        "https://www.plantstore.ie/cdn/shop/products/Euphorbiaingens.png?v=1641578660"
-      ]
-    },
-    {
-      "id": "11",
-      "name": "Monstera Deliciosa",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Tropicale",
-      "description": "Plante populaire d'intérieur avec des feuilles larges et fendues.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Monstera, je viens des tropiques et j'apporte une touche d'exotisme à votre intérieur. J'adore grimper et étendre mes grandes feuilles.",
-      "entretien": "Moyen",
-      "dureeVie": "7-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 24.99,
-      "stock": 5,
-      "date_ajout": "2024-10-14",
-      "liste_des_commentaires": [
-        {
-          "comment": "Ma plante Monstera est si belle, elle grandit rapidement !"
-        },
-        {
-          "comment": "Une plante impressionnante avec de grandes feuilles, elle attire toujours l'attention."
-        }
-      ],
-      "images": [
-        "https://images.thdstatic.com/productImages/0f739995-ef7d-47ae-a1bb-a50fc46cd2dc/svn/united-nursery-monstera-plants-21887-64_600.jpg"
-      ]
-    },
-    {
-      "id": "12",
-      "name": "Pothos",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Aventureux",
-      "description": "Une plante grimpante facile à entretenir.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Salut, je suis Pothos, une plante grimpante facile à vivre. Je me plais partout, que ce soit en pot ou en suspension.",
-      "entretien": "Facile",
-      "dureeVie": "5-8 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 12.49,
-      "stock": 18,
-      "date_ajout": "2024-10-13",
-      "liste_des_commentaires": [
-        {
-          "comment": "Facile à entretenir, parfait pour les débutants."
-        }
-      ],
-      "images": [
-        "https://www.boutique.bencheikhgarden.tn/338-large_default/pothos.jpg"
-      ]
-    },
-    {
-      "id": "13",
-      "name": "Bégonia",
-      "type": "Plante fleurie",
-      "personality": "Colorée",
-      "description": "Une plante aux fleurs éclatantes et vibrantes.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis Bégonia, j'apporte une touche de couleur et de joie avec mes fleurs vibrantes.",
-      "entretien": "Moyen",
-      "dureeVie": "2-4 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 8.99,
-      "stock": 15,
-      "date_ajout": "2024-10-11",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mes bégonias fleurissent magnifiquement chaque année."
-        }
-      ],
-      "images": [
-        "https://www.rustica.fr/images/begonia-x-benariensis-red-bronze-leaf-fm220708-037.jpg"
-      ]
-    },
-    {
-      "id": "14",
-      "name": "Géranium",
-      "type": "Plante fleurie",
-      "personality": "Rustique",
-      "description": "Une plante résistante qui s'adapte à de nombreuses conditions.",
-      "watering_frequency": "2 fois par semaine",
-      "biography": "Je suis Géranium, une plante robuste et fiable. Je suis parfaite pour orner vos balcons et jardins.",
-      "entretien": "Facile",
-      "dureeVie": "5-7 ans",
-      "in_stock": false,
-      "category": "Plantes fleuries",
-      "fun_filter": "Facile à vivre",
-      "price": 5.99,
-      "stock": 0,
-      "date_ajout": "2024-10-08",
-      "liste_des_commentaires": [
-        {
-          "comment": "Très facile à entretenir, parfait pour décorer mon balcon."
-        },
-        {
-          "comment": "Résiste très bien aux changements de température, je suis ravi !"
-        }
-      ],
-      "images": [
-        "https://d31ucaydsf5avx.cloudfront.net/10742-large_default/geranium-rose-artificiel.jpg"
-      ]
-    },
-    {
-      "id": "15",
-      "name": "Cactus Cereus",
-      "type": "Cactus et succulentes",
-      "personality": "Imposant",
-      "description": "Un cactus géant qui attire les regards.",
-      "watering_frequency": "1 fois tous les 2 mois",
-      "biography": "Je suis Cactus Cereus, imposant et majestueux. J'aime dominer l'espace avec ma taille impressionnante.",
-      "entretien": "Facile",
-      "dureeVie": "15-25 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Énergique",
-      "price": 29.99,
-      "stock": 6,
-      "date_ajout": "2024-10-09",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un cactus vraiment impressionnant, il attire l'attention dans ma maison."
-        }
-      ],
-      "images": [
-        "https://www.cjlp.ca/wp-content/uploads/2024/05/cactus-bleu-773x1030.webp"
-      ]
-    },
-    {
-      "id": "16",
-      "name": "Echeveria",
-      "type": "Cactus et succulentes",
-      "personality": "Discrète",
-      "description": "Une succulente élégante et compacte.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Echeveria, petite mais élégante, je me fond dans le décor avec grâce et discrétion.",
-      "entretien": "Facile",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 5.99,
-      "stock": 20,
-      "date_ajout": "2024-10-12",
-      "liste_des_commentaires": [
-        {
-          "comment": "Parfaite pour les petits espaces, elle est très mignonne."
-        },
-        {
-          "comment": "Facile à entretenir et très esthétique."
-        }
-      ],
-      "images": [
-        "https://www.monmagasinvert.fr/media/catalog/product/cache/5739b9c8f18ae7062b084f39115e268a/e/c/echeveria-ok_2_.png"
-      ]
-    },
-    {
-      "id": "17",
-      "name": "Dracaena",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Élégante",
-      "description": "Une plante tropicale aux longues feuilles vertes.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Dracaena, je purifie l'air tout en ajoutant une touche de verdure élégante à votre intérieur.",
-      "entretien": "Moyen",
-      "dureeVie": "8-12 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 18.99,
-      "stock": 10,
-      "date_ajout": "2024-10-07",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante magnifique et facile à entretenir."
-        }
-      ],
-      "images": [
-        "https://www.boutique.bencheikhgarden.tn/261-large_default/dracaena-drago.jpg"
-      ]
-    },
-    {
-      "id": "18",
-      "name": "Palmier",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Tropicale",
-      "description": "Une plante purificatrice d'air qui apporte une ambiance tropicale.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Je suis Palmier, j'apporte une ambiance tropicale et purifie l'air de votre intérieur.",
-      "entretien": "Moyen",
-      "dureeVie": "5-8 ans",
-      "in_stock": false,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 23.99,
-      "stock": 0,
-      "date_ajout": "2024-10-15",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mon Palmier transforme mon salon en un véritable petit paradis tropical."
-        },
-        {
-          "comment": "Facile à entretenir et vraiment superbe."
-        }
-      ],
-      "images": [
-        "https://www.jardins-de-lilou.com/223-large_default/palmier-bouteille-hyophorbe-lagenicaulis.jpg"
-      ]
-    },
-    {
-      "id": "19",
-      "name": "Jasmin",
-      "type": "Plante fleurie",
-      "personality": "Senteur",
-      "description": "Une plante grimpante aux fleurs odorantes.",
-      "watering_frequency": "2 fois par semaine",
-      "biography": "Je suis Jasmin, je suis parfait pour ajouter une douce fragrance à votre jardin ou balcon.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 15.99,
-      "stock": 12,
-      "date_ajout": "2024-10-10",
-      "liste_des_commentaires": [
-        {
-          "comment": "L'odeur de mon Jasmin est envoûtante, j'adore !"
-        }
-      ],
-      "images": [
-        "https://img.freepik.com/photos-premium/vase-illustration-jasmin-du-caractere_435599-2637.jpg"
-      ]
-    },
-    {
-      "id": "20",
-      "name": "Philodendron",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Grimpant",
-      "description": "Une plante grimpante d'intérieur idéale pour purifier l'air.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Philodendron, une plante grimpante idéale pour ajouter du vert et purifier l'air dans votre maison.",
-      "entretien": "Facile",
-      "dureeVie": "7-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 17.99,
-      "stock": 15,
-      "date_ajout": "2024-10-16",
-      "liste_des_commentaires": [
-        {
-          "comment": "Super facile à entretenir et grandit rapidement."
-        }
-      ],
-      "images": [
-        "https://www.plantlovers.eu/cdn/shop/files/MG_9961_300x300.jpg?v=1682596894"
-      ]
-    },
-    {
-      "id": "21",
-      "name": "Maranta",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Artiste",
-      "description": "Plante à feuilles décoratives qui se plie la nuit.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis la Maranta, mes feuilles dansent au rythme du jour et de la nuit.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 13.99,
-      "stock": 10,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une beauté à admirer !"
-        }
-      ],
-      "images": [
-        "https://jnina.tn/411-large_default/maranta.jpg"
-      ]
-    },
-    {
-      "id": "22",
-      "name": "Cactus Mammillaria",
-      "type": "Cactus et succulentes",
-      "personality": "Compact",
-      "description": "Un petit cactus avec des fleurs délicates.",
-      "watering_frequency": "1 fois tous les deux mois",
-      "biography": "Je suis Mammillaria, je suis petit mais costaud, et je peux même produire des fleurs si vous me traitez bien.",
-      "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 6.99,
-      "stock": 30,
-      "date_ajout": "2024-10-19",
-      "liste_des_commentaires": [
-        {
-          "comment": "Il est petit mais adorable, facile à entretenir."
-        }
-      ],
-      "images": [
-        "https://http2.mlstatic.com/D_Q_NP_2X_852760-MLA29008045127_122018-T.webp"
-      ]
-    },
-    {
-      "id": "23",
-      "name": "Pothos doré",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Sociable",
-      "description": "Plante grimpante qui purifie l'air et ajoute une touche de verdure.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis le Pothos doré, je suis parfait pour égayer votre espace et je purifie l'air !",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 11.49,
-      "stock": 15,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Indispensable dans chaque maison !"
-        }
-      ],
-      "images": [
-        "https://pcfb.gumlet.io/images/articles/golden-pothos-in-hanging-basket.png?w=1200&h=800&s=105f23f6d863f4c9ad28d9e646087b89"
-      ]
-    },
-    {
-      "id": "24",
-      "name": "Aloe Vera",
-      "type": "Cactus et succulentes",
-      "personality": "Bienfaisant",
-      "description": "Plante connue pour ses propriétés médicinales et décoratives.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Aloe Vera, je suis autant décoratif que bénéfique pour votre peau, une plante à tout faire.",
-      "entretien": "Facile",
-      "dureeVie": "4-6 ans",
-      "in_stock": false,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 12.49,
-      "stock": 0,
-      "date_ajout": "2024-10-18",
-      "liste_des_commentaires": [
-        {
-          "comment": "Idéal pour des soins naturels, facile à entretenir."
-        },
-        {
-          "comment": "Une belle plante qui est aussi pratique pour des soins de la peau."
-        }
-      ],
-      "images": [
-        "https://www.willemsefrance.fr/cdn/shop/files/wil_56458_10_1709825051000_1000x.jpg?v=1709825073"
-      ]
-    },
-    {
-      "id": "25",
-      "name": "Broméliacée",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Exotique",
-      "description": "Plante tropicale aux feuilles colorées et originales.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Broméliacée, je viens des forêts tropicales et j'apporte une touche d'exotisme à votre maison.",
-      "entretien": "Moyen",
-      "dureeVie": "2-4 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 10,
-      "date_ajout": "2024-10-12",
-      "liste_des_commentaires": [
-        {
-          "comment": "J'adore son look exotique, elle ajoute une belle touche à mon salon."
-        }
-      ],
-      "images": [
-        "https://media.hornbach.ch/hb/packshot/as.46414875.jpg?dvid=8"
-      ]
-    },
-    {
-      "id": "26",
-      "name": "Yucca",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Résistant",
-      "description": "Plante robuste et peu exigeante qui purifie l'air.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis Yucca, robuste et toujours prêt à apporter de la verdure, même dans les conditions difficiles.",
-      "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": false,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 19.99,
-      "stock": 0,
-      "date_ajout": "2024-10-14",
-      "liste_des_commentaires": [
-        {
-          "comment": "Très robuste, idéal pour quelqu'un qui n'a pas la main verte."
-        }
-      ],
-      "images": [
-        "https://www.boutique.bencheikhgarden.tn/648-large_default/yucca-golden-sword.jpg"
-      ]
-    },
-    {
-      "id": "27",
-      "name": "Cactus Opuntia",
-      "type": "Cactus et succulentes",
-      "personality": "Spiky",
-      "description": "Un cactus aux formes uniques, également connu sous le nom de figuier de Barbarie.",
-      "watering_frequency": "1 fois tous les deux mois",
-      "biography": "Je suis Cactus Opuntia, je pique un peu mais je suis vraiment unique en mon genre avec mes formes distinctes.",
-      "entretien": "Facile",
-      "dureeVie": "10-20 ans",
-      "in_stock": false,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 9.99,
-      "stock": 0,
-      "date_ajout": "2024-10-13",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un cactus très original, j'adore sa forme !"
-        },
-        {
-          "comment": "Il a transformé mon intérieur en une petite oasis désertique."
-        }
-      ],
-      "images": [
-        "https://www.atypic-cactus.com/wp-content/uploads/2021/04/IMG_1669.jpg"
-      ]
-    },
-    {
-      "id": "28",
-      "name": "Anthurium",
-      "type": "Plante fleurie",
-      "personality": "Exubérant",
-      "description": "Plante fleurie exotique avec des feuilles et fleurs colorées.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Anthurium, je me démarque avec mes fleurs et feuilles éclatantes. J'aime être le centre d'attention.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 17.99,
-      "stock": 12,
-      "date_ajout": "2024-10-16",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mes anthuriums ajoutent tellement de couleur à mon intérieur !"
-        }
-      ],
-      "images": [
-        "https://www.boutique.bencheikhgarden.tn/278-large_default/anthurium-rouge.jpg"
-      ]
-    },
-    {
-      "id": "29",
-      "name": "Dahlia",
-      "type": "Plante fleurie",
-      "personality": "Vibrante",
-      "description": "Fleur magnifique qui vient dans une variété de couleurs et de formes.",
-      "watering_frequency": "2 fois par semaine",
-      "biography": "Je suis Dahlia, pleine de couleurs et de joie, je transforme chaque jardin en un spectacle vibrant.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 11.99,
-      "stock": 15,
-      "date_ajout": "2024-10-20",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mes dahlias attirent tous les regards dans le jardin !"
-        }
-      ],
-      "images": [
-        "https://juliatesta.com/cdn/shop/products/Unknown-34_b56ec946-7fb5-46cf-8fcf-0a8d52ee0016_1024x1024.jpg?v=1600199405"
-      ]
-    },
-    {
-      "id": "30",
-      "name": "Pilea",
-      "type": "Cactus et succulentes",
-      "personality": "Joviale",
-      "description": "Plante à feuilles rondes qui se propage facilement.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis la Pilea, je partage mon bonheur avec tous ceux qui m'entourent !",
-      "entretien": "Facile",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Bavarde",
-      "price": 9.99,
-      "stock": 20,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante amicale !"
-        }
-      ],
-      "images": [
-        "https://plantandstories.com/modules/prestablog/views/img/grid-for-1-7/up-img/14.jpg"
-      ]
-    },
-    {
-      "id": "31",
-      "name": "Ficus lyrata",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Majestueux",
-      "description": "Plante d'intérieur populaire avec de grandes feuilles en forme de violon.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Ficus Lyrata, j'ajoute une touche de majesté à votre intérieur, j'adore la lumière et l'attention.",
-      "entretien": "Moyen",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 24.99,
-      "stock": 5,
-      "date_ajout": "2024-10-19",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une magnifique plante qui apporte de la vie à mon salon !"
-        }
-      ],
-      "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZPvDeCrIHLYHv8-mx5lZKrk8_UKpJWAmWg&s"
-      ]
-    },
-    {
-      "id": "32",
-      "name": "Canna Lily",
-      "type": "Plante fleurie",
-      "personality": "Éclatante",
-      "description": "Plante tropicale aux grandes fleurs colorées.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Canna Lily, mes grandes fleurs ajouteront une touche de couleur à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 15.99,
-      "stock": 10,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une explosion de couleurs !"
-        }
-      ],
-      "images": [
-        "https://cdn2.bigcommerce.com/server4900/4f8a6/products/726/images/2847/canna_lily_red__24245.1725145014.1280.1280.jpg?c=2"
-      ]
-    },
-    {
-      "id": "33",
-      "name": "Spathiphyllum",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Chic",
-      "description": "Connu sous le nom de fleur de la paix, il apporte une touche de tranquillité.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Spathiphyllum, je suis chic et je purifie l'air tout en apportant sérénité à votre espace.",
-      "entretien": "Facile",
-      "dureeVie": "3-5 ans",
-      "in_stock": false,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 19.99,
-      "stock": 0,
-      "date_ajout": "2024-10-17",
-      "liste_des_commentaires": [
-        {
-          "comment": "Ma fleur de paix a égayé mon bureau."
-        }
-      ],
-      "images": [
-        "https://plantworldlondon.com/wp-content/uploads/2022/01/Spathiphyllum-Sweet-Lauretta-peace-lily2-800x1033.jpg"
-      ]
-    },
-    {
-      "id": "34",
-      "name": "Pélargonium",
-      "type": "Plante fleurie",
-      "personality": "Joviale",
-      "description": "Plante d'extérieur colorée, souvent utilisée pour les balcons.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Pélargonium, je suis toujours de bonne humeur avec mes couleurs vives et mon parfum doux.",
-      "entretien": "Facile",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 8.99,
-      "stock": 25,
-      "date_ajout": "2024-10-16",
-      "liste_des_commentaires": [
-        {
-          "comment": "Il est parfait pour les pots sur mon balcon."
-        }
-      ],
-      "images": [
-        "https://cdn.jacques-briant.fr/6683-large_default/pelargonium-aristo-darling.jpg"
-      ]
-    },
-    {
-      "id": "35",
-      "name": "Calathea",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Artiste",
-      "description": "Plante tropicale connue pour ses magnifiques motifs de feuilles.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Calathea, avec mes feuilles artistiques, je danse au rythme de la lumière.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 22.99,
-      "stock": 10,
-      "date_ajout": "2024-10-19",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante incroyable avec des feuilles si belles !"
-        }
-      ],
-      "images": [
-        "https://bergamotte.imgix.net/ce6g4t53u3dl9pc7rpz66qqj91v6?ixlib=rails-4.3.1&auto=format%2Ccompress&fit=crop&q=65&ar=1%3A1"
-      ]
-    },
-    {
-      "id": "36",
-      "name": "Fuchsia",
-      "type": "Plante fleurie",
-      "personality": "Enchantée",
-      "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Fuchsia, j'apporte une touche de magie avec mes fleurs tombantes et colorées.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 15.99,
-      "stock": 8,
-      "date_ajout": "2024-10-20",
-      "liste_des_commentaires": [
-        {
-          "comment": "Fleurs si belles, parfaites pour mon jardin."
-        }
-      ],
-      "images": [
-        "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg"
-      ]
-    },
-    {
-      "id": "37",
-      "name": "Lisianthus",
-      "type": "Plante fleurie",
-      "personality": "Sensible",
-      "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Lisianthus, douce et élégante, j'apporte une touche de raffinement à chaque occasion.",
-      "entretien": "Moyen",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 12,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une beauté incroyable dans mon jardin !"
-        }
-      ],
-      "images": [
-        "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg"
-      ]
-    },
-    {
-      "id": "38",
-      "name": "Cactus de Noël",
-      "type": "Cactus et succulentes",
-      "personality": "Festif",
-      "description": "Cactus qui fleurit en hiver, apportant une touche festive.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis le Cactus de Noël, je suis prêt à illuminer vos fêtes avec mes fleurs éclatantes.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Bavarde",
-      "price": 9.99,
-      "stock": 15,
-      "date_ajout": "2024-10-21",
-      "liste_des_commentaires": [
-        {
-          "comment": "Il apporte vraiment une ambiance festive !"
-        }
-      ],
-      "images": [
-        "https://i-dj.unimedias.fr/2023/09/12/djacactus-de-noel-65001d88d127e.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=crop&h=501&w=890"
-      ]
-    },
-    {
-      "id": "39",
-      "name": "Bamboo",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Flexible",
-      "description": "Plante tropicale qui purifie l'air et est facile à entretenir.",
-      "watering_frequency": "1 fois tous les 10 jours",
-      "biography": "Je suis Bamboo, je suis souple et élégant, j'aime être en harmonie avec mon environnement.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 18.99,
-      "stock": 20,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une belle addition à ma décoration intérieure !"
-        }
-      ],
-      "images": [
-        "https://bambouenfrance.fr/wp-content/uploads/2020/01/Lucky-bambou-artificiel-298x300.png"
-      ]
-    },
-    {
-      "id": "40",
-      "name": "Cymbidium",
-      "type": "Plante fleurie",
-      "personality": "Élégant",
-      "description": "Orchidée qui produit des fleurs spectaculaires et durables.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Cymbidium, je suis l'élégance incarnée, mes fleurs font sensation dans tous les jardins.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 29.99,
-      "stock": 8,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mes invités sont toujours impressionnés par sa beauté !"
-        }
-      ],
-      "images": [
-        "https://ff-florist.s3.amazonaws.com/s/thefloweralley/product/cymbidium-orchids-in-modern-vase/product_photo/cymbidium-orchids-in-modern-vase-large-29d0291d1df1f3e5ca91e5cb66b0f227.jpg"
-      ]
-    },
-    {
-      "id": "41",
-      "name": "Kalanchoe",
-      "type": "Cactus et succulentes",
-      "personality": "Colorée",
-      "description": "Plante grasse qui fleurit tout au long de l'année.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Kalanchoe, je suis la reine des couleurs, et je fais sourire tout le monde avec mes fleurs éclatantes.",
-      "entretien": "Facile",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Bavarde",
-      "price": 7.99,
-      "stock": 30,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mes Kalanchoes illuminent ma cuisine !"
-        }
-      ],
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0624/7972/8867/files/1_bd88b91d-7e44-48ce-9a00-127c00074359.png?v=1710785274"
-      ]
-    },
-    {
-      "id": "42",
-      "name": "Sérissa",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Petite et mignonne",
-      "description": "Petite plante avec de petites fleurs blanches parfumées.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Sérissa, petite mais pleine de charme, je fais briller votre intérieur avec mes fleurs délicates.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 12.99,
-      "stock": 10,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Elle apporte une ambiance douce dans ma chambre !"
-        }
-      ],
-      "images": [
-        "https://www.bonsai-shop.com/bs/button/bonsai/junischnee_200.jpg"
-      ]
-    },
-    {
-      "id": "43",
-      "name": "Tilleul",
-      "type": "Plante purificatrices d'air",
-      "personality": "Calme",
-      "description": "Plante d'intérieur qui purifie l'air et est connue pour ses feuilles apaisantes.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis Tilleul, calme et serein, je crée une atmosphère relaxante dans votre maison.",
-      "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 17.99,
-      "stock": 15,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Idéal pour mon bureau, j'adore !"
-        }
-      ],
-      "images": [
-        "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg"
-      ]
-    },
-    {
-      "id": "44",
-      "name": "Ficus lyrata",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Majestueuse",
-      "description": "Plante à grandes feuilles qui apporte une touche tropicale.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis le Ficus lyrata, j'apporte une ambiance tropicale dans votre intérieur.",
-      "entretien": "Moyen",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 24.99,
-      "stock": 10,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Superbe plante d'intérieur !"
-        }
-      ],
-      "images": [
-        "https://images.panierdachat.app/984/xjs7GBRO_img-7197-a2112853-b3af-48ff-904c-c84fb72aa40e.jpg?w=1512&h=2016"
-      ]
-    },
-    {
-      "id": "45",
-      "name": "Lithops",
-      "type": "Cactus et succulentes",
-      "personality": "Unique",
-      "description": "Cactus vivant qui ressemble à des pierres.",
-      "watering_frequency": "1 fois tous les 3-4 semaines",
-      "biography": "Je suis le Lithops, je me camoufle parmi les pierres pour éviter d'être remarqué.",
-      "entretien": "Facile",
-      "dureeVie": "10-20 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 7.99,
-      "stock": 25,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Vraiment intéressant comme plante !"
-        }
-      ],
-      "images": [
-        "https://cdn.shopify.com/s/files/1/0043/3628/7813/files/lithops-blooming_480x480.jpg?v=1686228072"
-      ]
-    },
-    {
-      "id": "46",
-      "name": "Orchidée Phalaenopsis",
-      "type": "Plante fleurie",
-      "personality": "Sublime",
-      "description": "Orchidée élégante avec des fleurs en forme de papillon.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis l'Orchidée Phalaenopsis, j'apporte de la beauté et de l'élégance avec mes fleurs exquises.",
-      "entretien": "Moyen",
-      "dureeVie": "2-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 29.99,
-      "stock": 7,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une beauté incroyable, j'en suis amoureux !"
-        }
-      ],
-      "images": [
-        "https://img.freepik.com/photos-premium/belles-fleurs-vase-table-orchidees-roses-orchidee-phalaenopsis-rose-fond-rose-pastel_410516-4886.jpg"
-      ]
-    },
-    {
-      "id": "47",
-      "name": "Fleur de Lantana",
-      "type": "Plante fleurie",
-      "personality": "Joyeuse",
-      "description": "Plante aux fleurs colorées qui attirent les papillons.",
-      "watering_frequency": "2 fois par semaine",
-      "biography": "Salut, je suis la Fleur de Lantana ! Je danse au soleil et fais le bonheur des papillons.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 11.99,
-      "stock": 15,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mes amis adorent venir voir mes fleurs colorées !"
-        }
-      ],
-      "images": [
-        "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0724000/724980_2115432.jpg?width=700&height=700&store=fr&image-type=image"
-      ]
-    },
-    {
-      "id": "48",
-      "name": "Cactus Perce-neige",
-      "type": "Cactus et succulentes",
-      "personality": "Sage",
-      "description": "Cactus à fleurs blanches en forme de cloche.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Bonjour, je suis le Cactus Perce-neige. Je préfère la paix et la tranquillité, comme les flocons de neige.",
-      "entretien": "Facile",
-      "dureeVie": "10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 8.99,
-      "stock": 20,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un cactus simple mais beau !"
-        }
-      ],
-      "images": [
-        "https://www.floristik24.fr/media/images/popup/Schneegloeckchen_weiss_Eis_Topf_25cm_64861-1.jpg"
-      ]
-    },
-    {
-      "id": "49",
-      "name": "Palmier Areca",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Tropical",
-      "description": "Plante d'intérieur qui apporte une ambiance de plage.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Palmier Areca, j'apporte le soleil et les vibes tropicales dans votre maison.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 24.99,
-      "stock": 10,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Il transforme mon salon en oasis !"
-        }
-      ],
-      "images": [
-        "https://www.jardiner-malin.fr/wp-content/uploads/2018/11/areca.jpg"
-      ]
-    },
-    {
-      "id": "50",
-      "name": "Mandevilla",
-      "type": "Plante fleurie",
-      "personality": "Enjouée",
-      "description": "Plante grimpante aux fleurs en forme de trompette.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Mandevilla, mes fleurs éblouissantes apportent une touche tropicale à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 18.99,
-      "stock": 12,
-      "date_ajout": "2024-10-25",
-      "liste_des_commentaires": [
-        {
-          "comment": "Elle attire tous les regards !"
-        }
-      ],
-      "images": [
-        "https://iqdho.com/wp-content/uploads/2024/04/Sun-Parasol-Bluephoria-Original-XP-Mandevilla-002-scaled-e1714504162149.jpg"
-      ]
-    },
-    {
-      "id": "51",
-      "name": "Euphorbe",
-      "type": "Cactus et succulentes",
-      "personality": "Unique",
-      "description": "Plante succulente avec des tiges épaisses et souvent colorées.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis l'Euphorbe, j'apporte une touche d'exotisme avec mes formes uniques et ma beauté saisissante.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 15.99,
-      "stock": 13,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante vraiment fascinante !"
-        }
-      ],
-      "images": [
-        "https://www.lesterps.fr/medias/2022/06/Euphorbe-des-garrigues.jpg"
-      ]
-    },
-    {
-      "id": "52",
-      "name": "Ficus Benjamin",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Élégant",
-      "description": "Arbre d'intérieur populaire avec des feuilles brillantes.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Ficus Benjamin, je dégage de l'élégance et purifie l'air tout en étant un vrai chef-d'œuvre.",
-      "entretien": "Moyen",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 34.99,
-      "stock": 5,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Parfait pour mon bureau !"
-        }
-      ],
-      "images": [
-        "https://www.boutique.bencheikhgarden.tn/297-large_default/ficus-benjamina.jpg"
-      ]
-    },
-    {
-      "id": "53",
-      "name": "Chrysanthemum",
-      "type": "Plante fleurie",
-      "personality": "Rayonnante",
-      "description": "Fleurs éclatantes qui fleurissent à l'automne.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Chrysanthemum, mes fleurs sont le symbole de l'automne et apportent de la joie.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 9,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Parfaites pour les décorations d'automne !"
-        }
-      ],
-      "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWHCPtW5kbqu8viyz0RJ4dmk8gJgA85Md0Q&s"
-      ]
-    },
-    {
-      "id": "54",
-      "name": "Plante Araignée",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Indépendante",
-      "description": "Plante résistante qui produit de nouvelles pousses.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Plante Araignée, je suis forte et autonome, je me reproduis facilement !",
-      "entretien": "Facile",
-      "dureeVie": "2-5 ans",
-      "in_stock": false,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 8.99,
-      "stock": 0,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante facile qui ne nécessite presque aucun entretien !"
-        }
-      ],
-      "images": [
-        "https://fr-fr.bakker.com/cdn/shop/files/55754_1.jpg?v=1706173125&width=533"
-      ]
-    },
-    {
-      "id": "55",
-      "name": "Spider Plant",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Joyeuse",
-      "description": "Plante qui produit des bébés et purifie l'air.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Spider Plant, j'adore faire des bébés et je purifie l'air de votre maison.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 11.99,
-      "stock": 18,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Idéale pour ma cuisine !"
-        }
-      ],
-      "images": [
-        "https://cdn11.bigcommerce.com/s-uemzj79jf9/images/stencil/2048x2048/products/1743/3808/Spider_Plant_pic1__77446.1626975447.jpg?c=2"
-      ]
-    },
-    {
-      "id": "56",
-      "name": "Fleur de Hibiscus",
-      "type": "Plante fleurie",
-      "personality": "Exotique",
-      "description": "Fleur tropicale avec de grandes pétales colorées.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Bonjour, je suis la Fleur de Hibiscus, et je fais vibrer votre jardin avec mes couleurs éclatantes.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 15.99,
-      "stock": 10,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un vrai rayon de soleil dans mon jardin !"
-        }
-      ],
-      "images": [
-        "https://img.freepik.com/photos-premium/fleurs-hibiscus-rouges-photorealistes-dans-vase-blanc-vintage_899449-25105.jpg"
-      ]
-    },
-    {
-      "id": "57",
-      "name": "Cactus de l'Atlantique",
-      "type": "Cactus et succulentes",
-      "personality": "Rugueux",
-      "description": "Cactus d'extérieur robuste et peu exigeant.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Salut, je suis le Cactus de l'Atlantique. Je suis résistant et je prospère même dans des conditions difficiles.",
-      "entretien": "Facile",
-      "dureeVie": "15 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 7.99,
-      "stock": 25,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Idéal pour les jardins secs !"
-        }
-      ],
-      "images": [
-        "https://www.usinenouvelle.com/mediatheque/7/0/3/001195307_896x598_c.jpg"
-      ]
-    },
-    {
-      "id": "58",
-      "name": "Lierre",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Grimpant",
-      "description": "Plante grimpante qui purifie l'air et est facile à cultiver.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Lierre, je grimpe et je me répands avec élégance, apportant une touche de nature à votre espace.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 14.99,
-      "stock": 12,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Il a transformé mon mur en une belle œuvre d'art végétal !"
-        }
-      ],
-      "images": [
-        "https://media.s-bol.com/qnKE9NO3R5mk/1wY3mBq/550x555.jpg"
-      ]
-    },
-    {
-      "id": "59",
-      "name": "Cactus à fleurs",
-      "type": "Cactus et succulentes",
-      "personality": "Coloré",
-      "description": "Cactus qui produit de magnifiques fleurs colorées.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Je suis le Cactus à fleurs, je ne demande que quelques gouttes d'eau pour éblouir vos yeux avec mes fleurs.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Énergique",
-      "price": 10.99,
-      "stock": 15,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Les fleurs sont magnifiques, un vrai spectacle !"
-        }
-      ],
-      "images": [
-        "https://www.florasuculenta.com/wp-content/uploads/2021/07/Rebutia_muscula.jpg"
-      ]
-    },
-    {
-      "id": "60",
-      "name": "Kalanchoe",
-      "type": "Cactus et succulentes",
-      "personality": "Fleurie",
-      "description": "Succulente qui produit de jolies fleurs.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis le Kalanchoe, mes fleurs colorées émerveillent tous ceux qui passent.",
-      "entretien": "Facile",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Bavarde",
-      "price": 13.99,
-      "stock": 10,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un vrai régal pour les yeux !"
-        }
-      ],
-      "images": [
-        "https://images-cdn.ubuy.co.in/633af321cb596e3941345d39-3-mother-of-thousands-kalanchoe.jpg"
-      ]
-    },
-    {
-      "id": "61",
-      "name": "Fleur de Lis",
-      "type": "Plante fleurie",
-      "personality": "Élégante",
-      "description": "Plante emblématique avec des fleurs délicates.",
-      "watering_frequency": "2 fois par semaine",
-      "biography": "Je suis la Fleur de Lis, symbole de beauté et d'élégance, je fais briller n'importe quel jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Bavarde",
-      "price": 13.99,
-      "stock": 14,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une vraie beauté, toujours admirée !"
-        }
-      ],
-      "images": [
-        "https://www.le-celadon.ma/wp-content/uploads/2021/09/CLD-0073.jpg"
-      ]
-    },
-    {
-      "id": "62",
-      "name": "Succulente Echeveria",
-      "type": "Cactus et succulentes",
-      "personality": "Charmante",
-      "description": "Succulente avec des rosettes compactes et colorées.",
-      "watering_frequency": "1 fois par mois",
-      "biography": "Salut, je suis l'Echeveria, je suis charmante et j'aime le soleil, parfait pour les petits espaces.",
-      "entretien": "Facile",
-      "dureeVie": "3-5 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Énergique",
-      "price": 9.99,
-      "stock": 20,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Vraiment mignonne, j'en veux plusieurs !"
-        }
-      ],
-      "images": [
-        "https://media.gerbeaud.net/2015/09/640/echeveria.jpg"
-      ]
-    },
-    {
-      "id": "63",
-      "name": "Plante ZZ",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Résiliente",
-      "description": "Plante d'intérieur robuste et à faible entretien.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis la Plante ZZ, je suis forte et je prospère même dans les environnements difficiles.",
-      "entretien": "Facile",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Facile à vivre",
-      "price": 24.99,
-      "stock": 8,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Presque indestructible, parfaite pour moi !"
-        }
-      ],
-      "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MbGBp9wmuy3HK-79epVZLfYGETMXDZG9Rg&s"
-      ]
-    },
-    {
-      "id": "64",
-      "name": "Zinnia",
-      "type": "Plante fleurie",
-      "personality": "Rayonnante",
-      "description": "Fleurs colorées qui fleurissent tout l'été.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis la Zinnia, mes couleurs vibrantes égayent votre jardin tout l'été.",
-      "entretien": "Facile",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 10.49,
-      "stock": 12,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une merveille pour les jardiniers débutants !"
-        }
-      ],
-      "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyNvOmUsKWIGK8gCeLTh8aGLfRZOkWMQq7w&s"
-      ]
-    },
-    {
-      "id": "65",
-      "name": "Citrus limon",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Jovial",
-      "description": "Citronnier nain qui purifie l'air et produit des fruits.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Salut, je suis le Citrus limon, je purifie l'air tout en vous offrant des citrons frais !",
-      "entretien": "Moyen",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 25.99,
-      "stock": 8,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Avoir des citrons frais à la maison, c'est super !"
-        }
-      ],
-      "images": [
-        "https://images.truffaut.com/media/catalog/product/6/4/640b1fd8ed1f29.28505670.jpg?store=fr&image-type=image"
-      ]
-    },
-    {
-      "id": "66",
-      "name": "Haworthia",
-      "type": "Cactus et succulentes",
-      "personality": "Complice",
-      "description": "Succulente à feuilles épaisses et décoratives.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis la Haworthia, j'aime vivre dans un petit pot et je suis très facile à entretenir.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 9.99,
-      "stock": 20,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une jolie plante pour le bureau !"
-        }
-      ],
-      "images": [
-        "https://images.immediate.co.uk/production/volatile/sites/10/2023/08/2048x1365-Haworthia-SEO-GettyImages-1407338403-d88b930.jpg?quality=90&resize=940,627"
-      ]
-    },
-    {
-      "id": "67",
-      "name": "Petunia",
-      "type": "Plante fleurie",
-      "personality": "Colorée",
-      "description": "Fleur vibrante qui attire les pollinisateurs.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Petunia, je suis pleine de couleurs et j'adore attirer les abeilles et les papillons !",
-      "entretien": "Facile",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 11.49,
-      "stock": 15,
-      "date_ajout": "2024-10-24",
-      "liste_des_commentaires": [
-        {
-          "comment": "Elles embellissent mon balcon !"
-        }
-      ],
-      "images": [
-        "https://img.freepik.com/premium-photo/photorealistic-purple-petunia-modern-ceramic-vase_899449-7472.jpg"
-      ]
-    },
-    {
-      "id": "68",
-      "name": "Snapdragon",
-      "type": "Plante fleurie",
-      "personality": "Joyaux",
-      "description": "Fleur colorée qui fleurit au printemps et en été.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Snapdragon, mes fleurs colorées apportent de la joie à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 13.99,
-      "stock": 14,
-      "date_ajout": "2024-10-23",
-      "liste_des_commentaires": [
-        {
-          "comment": "Des couleurs éclatantes !"
-        }
-      ],
-      "images": [
-        "https://www.bloomeroo.com.au/cdn/shop/files/BL-SNAPDRAGONS_IN_VASE_copy_bd8853eb-94ca-4c00-aa07-65f0e6206dd2_1200x.webp?v=1682567596"
-      ]
-    },
-    {
-      "id": "69",
-      "name": "Ficus elastica",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Élégant",
-      "description": "Plante d'intérieur avec de grandes feuilles brillantes.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Salut, je suis le Ficus elastica, j'apporte une touche d'élégance à votre intérieur tout en purifiant l'air.",
-      "entretien": "Moyen",
-      "dureeVie": "10-15 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Énergique",
-      "price": 19.99,
-      "stock": 10,
-      "date_ajout": "2024-10-23",
-      "liste_des_commentaires": [
-        {
-          "comment": "J'adore son apparence !"
-        }
-      ],
-      "images": [
-        "https://m.media-amazon.com/images/I/61f85jFiLqL.jpg"
-      ]
-    },
-    {
-      "id": "70",
-      "name": "Bellflower",
-      "type": "Plante fleurie",
-      "personality": "Charmante",
-      "description": "Fleur délicate en forme de cloche.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis la Bellflower, ma beauté délicate fera fondre votre cœur.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 12.49,
-      "stock": 15,
-      "date_ajout": "2024-10-23",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une belle fleur à cultiver !"
-        }
-      ],
-      "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAz5YsAEuiHc5OnkvJrtirjTmZYzAOBboEA&s"
-      ]
-    },
-    {
-      "id": "71",
-      "name": "Sedum",
-      "type": "Cactus et succulentes",
-      "personality": "Solaire",
-      "description": "Succulente qui aime le soleil et est très résistante.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Je suis le Sedum, j'adore le soleil et je peux prospérer dans des conditions sèches.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 8.99,
-      "stock": 20,
-      "date_ajout": "2024-10-23",
-      "liste_des_commentaires": [
-        {
-          "comment": "Parfaite pour mon jardin sec !"
-        }
-      ],
-      "images": [
-        "https://succulentmarket.com/cdn/shop/articles/Screen_Shot_2021-07-29_at_11.21.07_AM.jpg?v=1638207837"
-      ]
-    },
-    {
-      "id": "72",
-      "name": "Gazania",
-      "type": "Plante fleurie",
-      "personality": "Chaleureuse",
-      "description": "Fleur colorée qui aime le soleil et illumine votre jardin.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Salut, je suis la Gazania, je m'épanouis au soleil et je fais briller votre jardin avec mes couleurs éclatantes.",
-      "entretien": "Facile",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 11.99,
-      "stock": 15,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Ces fleurs ajoutent vraiment de la couleur à mon jardin !"
-        }
-      ],
-      "images": [
-        "https://bilder.obi.ch/d433a92c-6101-45a9-938d-e05a5137d277/prZZL/572568.jpg"
-      ]
-    },
-    {
-      "id": "73",
-      "name": "Cactus de Pâques",
-      "type": "Cactus et succulentes",
-      "personality": "Jovial",
-      "description": "Cactus qui fleurit au printemps avec des fleurs colorées.",
-      "watering_frequency": "1 fois toutes les deux semaines",
-      "biography": "Je suis le Cactus de Pâques, je vous apporte des fleurs joyeuses chaque printemps.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Bavarde",
-      "price": 13.49,
-      "stock": 12,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une belle surprise de fleurs au printemps !"
-        }
-      ],
-      "images": [
-        "https://plantes-interieur.info/wp-content/uploads/2023/12/rhipsalidopsis-gaertneri.jpg"
-      ]
-    },
-    {
-      "id": "74",
-      "name": "Agave",
-      "type": "Cactus et succulentes",
-      "personality": "Résistant",
-      "description": "Succulente robuste avec des feuilles épaisses.",
-      "watering_frequency": "1 fois toutes les 3-4 semaines",
-      "biography": "Je suis l'Agave, je suis très résistant et je peux survivre dans des conditions difficiles.",
-      "entretien": "Facile",
-      "dureeVie": "10-20 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 18.99,
-      "stock": 12,
-      "date_ajout": "2024-10-23",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une plante parfaite pour les débutants."
-        }
-      ],
-      "images": [
-        "https://images.squarespace-cdn.com/content/v1/586d2569e4fcb5622842efdb/1685484235383-Z916HYBX1E9HUCQ67LA2/20230530_145616.jpg?format=750w"
-      ]
-    },
-    {
-      "id": "75",
-      "name": "Cosmos",
-      "type": "Plante fleurie",
-      "personality": "Lumineux",
-      "description": "Fleurs délicates qui attirent les pollinisateurs.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Cosmos, mes fleurs délicates et colorées apporteront de la vie à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 9.99,
-      "stock": 20,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Une belle addition à mon jardin de fleurs !"
-        }
-      ],
-      "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT71Tc96THlxZfVpopXgzEaVBu4afgHRPbXGg&s"
-      ]
-    },
-    {
-      "id": "76",
-      "name": "Jade",
-      "type": "Cactus et succulentes",
-      "personality": "Chanceuse",
-      "description": "Succulente réputée pour apporter la prospérité.",
-      "watering_frequency": "1 fois toutes les 2-3 semaines",
-      "biography": "Salut, je suis le Jade, on dit que je porte chance, alors je suis parfait pour votre maison.",
-      "entretien": "Facile",
-      "dureeVie": "5-10 ans",
-      "in_stock": true,
-      "category": "Cactus et succulentes",
-      "fun_filter": "Facile à vivre",
-      "price": 10.99,
-      "stock": 15,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Mon porte-bonheur préféré !"
-        }
-      ],
-      "images": [
-        "https://hips.hearstapps.com/hmg-prod/images/beautiful-crassula-ovata-jade-plant-money-plant-royalty-free-image-1722349156.jpg?crop=0.668xw:1.00xh;0.194xw,0&resize=1120:*"
-      ]
-    },
-    {
-      "id": "77",
-      "name": "Basilic",
-      "type": "Plantes purificatrices d'air",
-      "personality": "Aromatique",
-      "description": "Plante aromatique qui purifie l'air et est utilisée en cuisine.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Je suis le Basilic, je parfume vos plats tout en purifiant l'air de votre cuisine.",
-      "entretien": "Facile",
-      "dureeVie": "1 an",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": 7.99,
-      "stock": 30,
-      "date_ajout": "2024-10-22",
-      "liste_des_commentaires": [
-        {
-          "comment": "Un indispensable pour toute cuisine !"
-        }
-      ],
-      "images": [
-        "https://www.france-culinaire.com/app/uploads/2020/07/Image-SI-Basilic.png"
-      ]
-    },
-    {
-      "id": "78",
-      "name": "Freesia",
-      "type": "Plante fleurie",
-      "personality": "Sensible",
-      "description": "Fleurs parfumées qui fleurissent au printemps.",
-      "watering_frequency": "1 fois par semaine",
-      "biography": "Salut, je suis la Freesia, mes fleurs parfumées apporteront une touche délicate à votre jardin.",
-      "entretien": "Moyen",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 14.99,
-      "stock": 10,
-      "date_ajout": "2024-10-23",
-      "liste_des_commentaires": [
-        {
-          "comment": "Le parfum de ces fleurs est incroyable !"
-        },
-        {
-          "comment": "Une de mes fleurs préférées."
-        }
-      ],
-      "images": [
-        "https://bulbsdirect.co.nz/cdn/shop/products/visi20483_800x.jpg?v=1609807395"
-      ]
-    }
+      {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "2",
+          "name": "Tulipe",
+          "personality": "Élégante",
+          "description": "Symbolise la grâce et l'élégance.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": false,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 9.99,
+          "stock": 0,
+          "date_ajout": "2024-10-18",
+          "images": "https://medias.florajet.com/_w_/produits/600/50113.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "4",
+          "name": "Cactus",
+          "personality": "Indépendant",
+          "description": "Le roi des plantes résistantes.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 7.99,
+          "stock": 15,
+          "date_ajout": "2024-10-19",
+          "images": "https://dms.mydukaan.io/original/jpeg/upload_file_service/337ed506-4d45-4550-83f7-419d72a0c751/baby-cactus-plants.png",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "5",
+          "name": "Aloe Vera",
+          "personality": "Serein",
+          "description": "Une plante aux multiples bienfaits.",
+          "entretien": "Moyen",
+          "dureeVie": "5-8 ans",
+          "in_stock": false,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Énergique",
+          "price": 8.99,
+          "stock": 0,
+          "date_ajout": "2024-10-20",
+          "images": "https://kendallsflorist.co.uk/wp-content/uploads/2016/01/Aloe-Vera-Plant-2.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "6",
+          "name": "Lavande",
+          "personality": "Relaxante",
+          "description": "Plante au parfum apaisant.",
+          "entretien": "Facile",
+          "dureeVie": "4-6 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 11.99,
+          "stock": 8,
+          "date_ajout": "2024-10-18",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "7",
+          "name": "Marguerite",
+          "personality": "Joyeuse",
+          "description": "Petite fleur blanche symbolisant l'innocence.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 6.99,
+          "stock": 12,
+          "date_ajout": "2024-10-15",
+          "images": "https://media.vitrinemagique.com/pdmain/40108-H-01-3P_HAUPTBILD_WS_3P_FR.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "8",
+          "name": "Ficus",
+          "personality": "Serein",
+          "description": "Plante d'intérieur très appréciée pour ses qualités purificatrices.",
+          "entretien": "Moyen",
+          "dureeVie": "5-10 ans",
+          "in_stock": false,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 19.99,
+          "stock": 0,
+          "date_ajout": "2024-10-12",
+          "images": "https://www.rewilddc.com/cdn/shop/files/14e379efeaa83cdefe1ccce65ce406ca.jpg?v=1684342277&width=1333",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "9",
+          "name": "Sansevieria",
+          "personality": "Robuste",
+          "description": "Connu pour sa capacité à survivre dans des conditions difficiles.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 20,
+          "date_ajout": "2024-10-20",
+          "images": "https://eureka-farms.com/cdn/shop/products/20211119-EurekaFarmsPlantCatalog-444.jpg?v=1703906673&width=1500",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "10",
+          "name": "Cactus Euphorbia",
+          "personality": "Résistant",
+          "description": "Un cactus qui aime les conditions arides.",
+          "entretien": "Facile",
+          "dureeVie": "10-20 ans",
+          "in_stock": false,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 9.99,
+          "stock": 0,
+          "date_ajout": "2024-10-16",
+          "images": "https://www.plantstore.ie/cdn/shop/products/Euphorbiaingens.png?v=1641578660",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "11",
+          "name": "Monstera Deliciosa",
+          "personality": "Tropicale",
+          "description": "Plante populaire d'intérieur avec des feuilles larges et fendues.",
+          "entretien": "Moyen",
+          "dureeVie": "7-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 24.99,
+          "stock": 5,
+          "date_ajout": "2024-10-14",
+          "images": "https://images.thdstatic.com/productImages/0f739995-ef7d-47ae-a1bb-a50fc46cd2dc/svn/united-nursery-monstera-plants-21887-64_600.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "12",
+          "name": "Pothos",
+          "personality": "Aventureux",
+          "description": "Une plante grimpante facile à entretenir.",
+          "entretien": "Facile",
+          "dureeVie": "5-8 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 12.49,
+          "stock": 18,
+          "date_ajout": "2024-10-13",
+          "images": "https://www.boutique.bencheikhgarden.tn/338-large_default/pothos.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "13",
+          "name": "Bégonia",
+          "personality": "Colorée",
+          "description": "Une plante aux fleurs éclatantes et vibrantes.",
+          "entretien": "Moyen",
+          "dureeVie": "2-4 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 8.99,
+          "stock": 15,
+          "date_ajout": "2024-10-11",
+          "images": "https://www.rustica.fr/images/begonia-x-benariensis-red-bronze-leaf-fm220708-037.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "14",
+          "name": "Géranium",
+          "personality": "Rustique",
+          "description": "Une plante résistante qui s'adapte à de nombreuses conditions.",
+          "entretien": "Facile",
+          "dureeVie": "5-7 ans",
+          "in_stock": false,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 5.99,
+          "stock": 0,
+          "date_ajout": "2024-10-08",
+          "images": "https://d31ucaydsf5avx.cloudfront.net/10742-large_default/geranium-rose-artificiel.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "15",
+          "name": "Cactus Cereus",
+          "personality": "Imposant",
+          "description": "Un cactus géant qui attire les regards.",
+          "entretien": "Facile",
+          "dureeVie": "15-25 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Énergique",
+          "price": 29.99,
+          "stock": 6,
+          "date_ajout": "2024-10-09",
+          "images": "https://www.cjlp.ca/wp-content/uploads/2024/05/cactus-bleu-773x1030.webp",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "16",
+          "name": "Echeveria",
+          "personality": "Discrète",
+          "description": "Une succulente élégante et compacte.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 5.99,
+          "stock": 20,
+          "date_ajout": "2024-10-12",
+          "images": "https://www.monmagasinvert.fr/media/catalog/product/cache/5739b9c8f18ae7062b084f39115e268a/e/c/echeveria-ok_2_.png",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "17",
+          "name": "Dracaena",
+          "personality": "Élégante",
+          "description": "Une plante tropicale aux longues feuilles vertes.",
+          "entretien": "Moyen",
+          "dureeVie": "8-12 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 18.99,
+          "stock": 10,
+          "date_ajout": "2024-10-07",
+          "images": "https://www.boutique.bencheikhgarden.tn/261-large_default/dracaena-drago.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "18",
+          "name": "Palmier",
+          "personality": "Tropicale",
+          "description": "Une plante purificatrice d'air qui apporte une ambiance tropicale.",
+          "entretien": "Moyen",
+          "dureeVie": "5-8 ans",
+          "in_stock": false,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 23.99,
+          "stock": 0,
+          "date_ajout": "2024-10-15",
+          "images": "https://www.jardins-de-lilou.com/223-large_default/palmier-bouteille-hyophorbe-lagenicaulis.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "19",
+          "name": "Jasmin",
+          "personality": "Senteur",
+          "description": "Une plante grimpante aux fleurs odorantes.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 12,
+          "date_ajout": "2024-10-10",
+          "images": "https://img.freepik.com/photos-premium/vase-illustration-jasmin-du-caractere_435599-2637.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "20",
+          "name": "Philodendron",
+          "personality": "Grimpant",
+          "description": "Une plante grimpante d'intérieur idéale pour purifier l'air.",
+          "entretien": "Facile",
+          "dureeVie": "7-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 17.99,
+          "stock": 15,
+          "date_ajout": "2024-10-16",
+          "images": "https://www.plantlovers.eu/cdn/shop/files/MG_9961_300x300.jpg?v=1682596894",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "21",
+          "name": "Maranta",
+          "personality": "Artiste",
+          "description": "Plante à feuilles décoratives qui se plie la nuit.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 13.99,
+          "stock": 10,
+          "date_ajout": "2024-10-25",
+          "images": "https://jnina.tn/411-large_default/maranta.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "22",
+          "name": "Cactus Mammillaria",
+          "personality": "Compact",
+          "description": "Un petit cactus avec des fleurs délicates.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 6.99,
+          "stock": 30,
+          "date_ajout": "2024-10-19",
+          "images": "https://http2.mlstatic.com/D_Q_NP_2X_852760-MLA29008045127_122018-T.webp",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "23",
+          "name": "Pothos doré",
+          "personality": "Sociable",
+          "description": "Plante grimpante qui purifie l'air et ajoute une touche de verdure.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 11.49,
+          "stock": 15,
+          "date_ajout": "2024-10-25",
+          "images": "https://pcfb.gumlet.io/images/articles/golden-pothos-in-hanging-basket.png?w=1200&h=800&s=105f23f6d863f4c9ad28d9e646087b89",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "24",
+          "name": "Aloe Vera",
+          "personality": "Bienfaisant",
+          "description": "Plante connue pour ses propriétés médicinales et décoratives.",
+          "entretien": "Facile",
+          "dureeVie": "4-6 ans",
+          "in_stock": false,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 12.49,
+          "stock": 0,
+          "date_ajout": "2024-10-18",
+          "images": "https://www.willemsefrance.fr/cdn/shop/files/wil_56458_10_1709825051000_1000x.jpg?v=1709825073",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "25",
+          "name": "Broméliacée",
+          "personality": "Exotique",
+          "description": "Plante tropicale aux feuilles colorées et originales.",
+          "entretien": "Moyen",
+          "dureeVie": "2-4 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 10,
+          "date_ajout": "2024-10-12",
+          "images": "https://media.hornbach.ch/hb/packshot/as.46414875.jpg?dvid=8",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "26",
+          "name": "Yucca",
+          "personality": "Résistant",
+          "description": "Plante robuste et peu exigeante qui purifie l'air.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": false,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 19.99,
+          "stock": 0,
+          "date_ajout": "2024-10-14",
+          "images": "https://www.boutique.bencheikhgarden.tn/648-large_default/yucca-golden-sword.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "27",
+          "name": "Cactus Opuntia",
+          "personality": "Spiky",
+          "description": "Un cactus aux formes uniques, également connu sous le nom de figuier de Barbarie.",
+          "entretien": "Facile",
+          "dureeVie": "10-20 ans",
+          "in_stock": false,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 9.99,
+          "stock": 0,
+          "date_ajout": "2024-10-13",
+          "images": "https://www.atypic-cactus.com/wp-content/uploads/2021/04/IMG_1669.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "28",
+          "name": "Anthurium",
+          "personality": "Exubérant",
+          "description": "Plante fleurie exotique avec des feuilles et fleurs colorées.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 17.99,
+          "stock": 12,
+          "date_ajout": "2024-10-16",
+          "images": "https://www.boutique.bencheikhgarden.tn/278-large_default/anthurium-rouge.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "29",
+          "name": "Dahlia",
+          "personality": "Vibrante",
+          "description": "Fleur magnifique qui vient dans une variété de couleurs et de formes.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 11.99,
+          "stock": 15,
+          "date_ajout": "2024-10-20",
+          "images": "https://juliatesta.com/cdn/shop/products/Unknown-34_b56ec946-7fb5-46cf-8fcf-0a8d52ee0016_1024x1024.jpg?v=1600199405",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "30",
+          "name": "Pilea",
+          "personality": "Joviale",
+          "description": "Plante à feuilles rondes qui se propage facilement.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Bavarde",
+          "price": 9.99,
+          "stock": 20,
+          "date_ajout": "2024-10-25",
+          "images": "https://plantandstories.com/modules/prestablog/views/img/grid-for-1-7/up-img/14.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "31",
+          "name": "Ficus lyrata",
+          "personality": "Majestueux",
+          "description": "Plante d'intérieur populaire avec de grandes feuilles en forme de violon.",
+          "entretien": "Moyen",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 24.99,
+          "stock": 5,
+          "date_ajout": "2024-10-19",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZPvDeCrIHLYHv8-mx5lZKrk8_UKpJWAmWg&s",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "32",
+          "name": "Canna Lily",
+          "personality": "Éclatante",
+          "description": "Plante tropicale aux grandes fleurs colorées.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 15.99,
+          "stock": 10,
+          "date_ajout": "2024-10-25",
+          "images": "https://cdn2.bigcommerce.com/server4900/4f8a6/products/726/images/2847/canna_lily_red__24245.1725145014.1280.1280.jpg?c=2",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "33",
+          "name": "Spathiphyllum",
+          "personality": "Chic",
+          "description": "Connu sous le nom de fleur de la paix, il apporte une touche de tranquillité.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": false,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 19.99,
+          "stock": 0,
+          "date_ajout": "2024-10-17",
+          "images": "https://plantworldlondon.com/wp-content/uploads/2022/01/Spathiphyllum-Sweet-Lauretta-peace-lily2-800x1033.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "34",
+          "name": "Pélargonium",
+          "personality": "Joviale",
+          "description": "Plante d'extérieur colorée, souvent utilisée pour les balcons.",
+          "entretien": "Facile",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 8.99,
+          "stock": 25,
+          "date_ajout": "2024-10-16",
+          "images": "https://cdn.jacques-briant.fr/6683-large_default/pelargonium-aristo-darling.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "35",
+          "name": "Calathea",
+          "personality": "Artiste",
+          "description": "Plante tropicale connue pour ses magnifiques motifs de feuilles.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 22.99,
+          "stock": 10,
+          "date_ajout": "2024-10-19",
+          "images": "https://bergamotte.imgix.net/ce6g4t53u3dl9pc7rpz66qqj91v6?ixlib=rails-4.3.1&auto=format%2Ccompress&fit=crop&q=65&ar=1%3A1",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "36",
+          "name": "Fuchsia",
+          "personality": "Enchantée",
+          "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 8,
+          "date_ajout": "2024-10-20",
+          "images": "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "38",
+          "name": "Cactus de Noël",
+          "personality": "Festif",
+          "description": "Cactus qui fleurit en hiver, apportant une touche festive.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Bavarde",
+          "price": 9.99,
+          "stock": 15,
+          "date_ajout": "2024-10-21",
+          "images": "https://i-dj.unimedias.fr/2023/09/12/djacactus-de-noel-65001d88d127e.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=crop&h=501&w=890",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "39",
+          "name": "Bamboo",
+          "personality": "Flexible",
+          "description": "Plante tropicale qui purifie l'air et est facile à entretenir.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 18.99,
+          "stock": 20,
+          "date_ajout": "2024-10-22",
+          "images": "https://bambouenfrance.fr/wp-content/uploads/2020/01/Lucky-bambou-artificiel-298x300.png",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "40",
+          "name": "Cymbidium",
+          "personality": "Élégant",
+          "description": "Orchidée qui produit des fleurs spectaculaires et durables.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 29.99,
+          "stock": 8,
+          "date_ajout": "2024-10-22",
+          "images": "https://ff-florist.s3.amazonaws.com/s/thefloweralley/product/cymbidium-orchids-in-modern-vase/product_photo/cymbidium-orchids-in-modern-vase-large-29d0291d1df1f3e5ca91e5cb66b0f227.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "41",
+          "name": "Kalanchoe",
+          "personality": "Colorée",
+          "description": "Plante grasse qui fleurit tout au long de l'année.",
+          "entretien": "Facile",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Bavarde",
+          "price": 7.99,
+          "stock": 30,
+          "date_ajout": "2024-10-22",
+          "images": "https://cdn.shopify.com/s/files/1/0624/7972/8867/files/1_bd88b91d-7e44-48ce-9a00-127c00074359.png?v=1710785274",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "42",
+          "name": "Sérissa",
+          "personality": "Petite et mignonne",
+          "description": "Petite plante avec de petites fleurs blanches parfumées.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.bonsai-shop.com/bs/button/bonsai/junischnee_200.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "43",
+          "name": "Tilleul",
+          "personality": "Calme",
+          "description": "Plante d'intérieur qui purifie l'air et est connue pour ses feuilles apaisantes.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 17.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "44",
+          "name": "Ficus lyrata",
+          "personality": "Majestueuse",
+          "description": "Plante à grandes feuilles qui apporte une touche tropicale.",
+          "entretien": "Moyen",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 24.99,
+          "stock": 10,
+          "date_ajout": "2024-10-25",
+          "images": "https://images.panierdachat.app/984/xjs7GBRO_img-7197-a2112853-b3af-48ff-904c-c84fb72aa40e.jpg?w=1512&h=2016",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "45",
+          "name": "Lithops",
+          "personality": "Unique",
+          "description": "Cactus vivant qui ressemble à des pierres.",
+          "entretien": "Facile",
+          "dureeVie": "10-20 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 7.99,
+          "stock": 25,
+          "date_ajout": "2024-10-25",
+          "images": "https://cdn.shopify.com/s/files/1/0043/3628/7813/files/lithops-blooming_480x480.jpg?v=1686228072",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "46",
+          "name": "Orchidée Phalaenopsis",
+          "personality": "Sublime",
+          "description": "Orchidée élégante avec des fleurs en forme de papillon.",
+          "entretien": "Moyen",
+          "dureeVie": "2-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 29.99,
+          "stock": 7,
+          "date_ajout": "2024-10-22",
+          "images": "https://img.freepik.com/photos-premium/belles-fleurs-vase-table-orchidees-roses-orchidee-phalaenopsis-rose-fond-rose-pastel_410516-4886.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "47",
+          "name": "Fleur de Lantana",
+          "personality": "Joyeuse",
+          "description": "Plante aux fleurs colorées qui attirent les papillons.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 11.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0724000/724980_2115432.jpg?width=700&height=700&store=fr&image-type=image",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "48",
+          "name": "Cactus Perce-neige",
+          "personality": "Sage",
+          "description": "Cactus à fleurs blanches en forme de cloche.",
+          "entretien": "Facile",
+          "dureeVie": "10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 8.99,
+          "stock": 20,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.floristik24.fr/media/images/popup/Schneegloeckchen_weiss_Eis_Topf_25cm_64861-1.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "49",
+          "name": "Palmier Areca",
+          "personality": "Tropical",
+          "description": "Plante d'intérieur qui apporte une ambiance de plage.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 24.99,
+          "stock": 10,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.jardiner-malin.fr/wp-content/uploads/2018/11/areca.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "50",
+          "name": "Mandevilla",
+          "personality": "Enjouée",
+          "description": "Plante grimpante aux fleurs en forme de trompette.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 18.99,
+          "stock": 12,
+          "date_ajout": "2024-10-25",
+          "images": "https://iqdho.com/wp-content/uploads/2024/04/Sun-Parasol-Bluephoria-Original-XP-Mandevilla-002-scaled-e1714504162149.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "51",
+          "name": "Euphorbe",
+          "personality": "Unique",
+          "description": "Plante succulente avec des tiges épaisses et souvent colorées.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 15.99,
+          "stock": 13,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.lesterps.fr/medias/2022/06/Euphorbe-des-garrigues.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "52",
+          "name": "Ficus Benjamin",
+          "personality": "Élégant",
+          "description": "Arbre d'intérieur populaire avec des feuilles brillantes.",
+          "entretien": "Moyen",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 34.99,
+          "stock": 5,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.boutique.bencheikhgarden.tn/297-large_default/ficus-benjamina.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "53",
+          "name": "Chrysanthemum",
+          "personality": "Rayonnante",
+          "description": "Fleurs éclatantes qui fleurissent à l'automne.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-24",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWHCPtW5kbqu8viyz0RJ4dmk8gJgA85Md0Q&s",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "54",
+          "name": "Plante Araignée",
+          "personality": "Indépendante",
+          "description": "Plante résistante qui produit de nouvelles pousses.",
+          "entretien": "Facile",
+          "dureeVie": "2-5 ans",
+          "in_stock": false,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 8.99,
+          "stock": 0,
+          "date_ajout": "2024-10-22",
+          "images": "https://fr-fr.bakker.com/cdn/shop/files/55754_1.jpg?v=1706173125&width=533",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "55",
+          "name": "Spider Plant",
+          "personality": "Joyeuse",
+          "description": "Plante qui produit des bébés et purifie l'air.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 11.99,
+          "stock": 18,
+          "date_ajout": "2024-10-24",
+          "images": "https://cdn11.bigcommerce.com/s-uemzj79jf9/images/stencil/2048x2048/products/1743/3808/Spider_Plant_pic1__77446.1626975447.jpg?c=2",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "56",
+          "name": "Fleur de Hibiscus",
+          "personality": "Exotique",
+          "description": "Fleur tropicale avec de grandes pétales colorées.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 15.99,
+          "stock": 10,
+          "date_ajout": "2024-10-22",
+          "images": "https://img.freepik.com/photos-premium/fleurs-hibiscus-rouges-photorealistes-dans-vase-blanc-vintage_899449-25105.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "57",
+          "name": "Cactus de l'Atlantique",
+          "personality": "Rugueux",
+          "description": "Cactus d'extérieur robuste et peu exigeant.",
+          "entretien": "Facile",
+          "dureeVie": "15 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 7.99,
+          "stock": 25,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.usinenouvelle.com/mediatheque/7/0/3/001195307_896x598_c.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "58",
+          "name": "Lierre",
+          "personality": "Grimpant",
+          "description": "Plante grimpante qui purifie l'air et est facile à cultiver.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://media.s-bol.com/qnKE9NO3R5mk/1wY3mBq/550x555.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "59",
+          "name": "Cactus à fleurs",
+          "personality": "Coloré",
+          "description": "Cactus qui produit de magnifiques fleurs colorées.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Énergique",
+          "price": 10.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.florasuculenta.com/wp-content/uploads/2021/07/Rebutia_muscula.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "60",
+          "name": "Kalanchoe",
+          "personality": "Fleurie",
+          "description": "Succulente qui produit de jolies fleurs.",
+          "entretien": "Facile",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Bavarde",
+          "price": 13.99,
+          "stock": 10,
+          "date_ajout": "2024-10-24",
+          "images": "https://images-cdn.ubuy.co.in/633af321cb596e3941345d39-3-mother-of-thousands-kalanchoe.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "61",
+          "name": "Fleur de Lis",
+          "personality": "Élégante",
+          "description": "Plante emblématique avec des fleurs délicates.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 13.99,
+          "stock": 14,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.le-celadon.ma/wp-content/uploads/2021/09/CLD-0073.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "62",
+          "name": "Succulente Echeveria",
+          "personality": "Charmante",
+          "description": "Succulente avec des rosettes compactes et colorées.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Énergique",
+          "price": 9.99,
+          "stock": 20,
+          "date_ajout": "2024-10-22",
+          "images": "https://media.gerbeaud.net/2015/09/640/echeveria.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "63",
+          "name": "Plante ZZ",
+          "personality": "Résiliente",
+          "description": "Plante d'intérieur robuste et à faible entretien.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 24.99,
+          "stock": 8,
+          "date_ajout": "2024-10-22",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MbGBp9wmuy3HK-79epVZLfYGETMXDZG9Rg&s",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "64",
+          "name": "Zinnia",
+          "personality": "Rayonnante",
+          "description": "Fleurs colorées qui fleurissent tout l'été.",
+          "entretien": "Facile",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 10.49,
+          "stock": 12,
+          "date_ajout": "2024-10-24",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyNvOmUsKWIGK8gCeLTh8aGLfRZOkWMQq7w&s",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "65",
+          "name": "Citrus limon",
+          "personality": "Jovial",
+          "description": "Citronnier nain qui purifie l'air et produit des fruits.",
+          "entretien": "Moyen",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 25.99,
+          "stock": 8,
+          "date_ajout": "2024-10-24",
+          "images": "https://images.truffaut.com/media/catalog/product/6/4/640b1fd8ed1f29.28505670.jpg?store=fr&image-type=image",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "66",
+          "name": "Haworthia",
+          "personality": "Complice",
+          "description": "Succulente à feuilles épaisses et décoratives.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 9.99,
+          "stock": 20,
+          "date_ajout": "2024-10-24",
+          "images": "https://images.immediate.co.uk/production/volatile/sites/10/2023/08/2048x1365-Haworthia-SEO-GettyImages-1407338403-d88b930.jpg?quality=90&resize=940,627",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "67",
+          "name": "Petunia",
+          "personality": "Colorée",
+          "description": "Fleur vibrante qui attire les pollinisateurs.",
+          "entretien": "Facile",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 11.49,
+          "stock": 15,
+          "date_ajout": "2024-10-24",
+          "images": "https://img.freepik.com/premium-photo/photorealistic-purple-petunia-modern-ceramic-vase_899449-7472.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "68",
+          "name": "Snapdragon",
+          "personality": "Joyaux",
+          "description": "Fleur colorée qui fleurit au printemps et en été.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 13.99,
+          "stock": 14,
+          "date_ajout": "2024-10-23",
+          "images": "https://www.bloomeroo.com.au/cdn/shop/files/BL-SNAPDRAGONS_IN_VASE_copy_bd8853eb-94ca-4c00-aa07-65f0e6206dd2_1200x.webp?v=1682567596",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "69",
+          "name": "Ficus elastica",
+          "personality": "Élégant",
+          "description": "Plante d'intérieur avec de grandes feuilles brillantes.",
+          "entretien": "Moyen",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 19.99,
+          "stock": 10,
+          "date_ajout": "2024-10-23",
+          "images": "https://m.media-amazon.com/images/I/61f85jFiLqL.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "70",
+          "name": "Bellflower",
+          "personality": "Charmante",
+          "description": "Fleur délicate en forme de cloche.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 12.49,
+          "stock": 15,
+          "date_ajout": "2024-10-23",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAz5YsAEuiHc5OnkvJrtirjTmZYzAOBboEA&s",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "71",
+          "name": "Sedum",
+          "personality": "Solaire",
+          "description": "Succulente qui aime le soleil et est très résistante.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 8.99,
+          "stock": 20,
+          "date_ajout": "2024-10-23",
+          "images": "https://succulentmarket.com/cdn/shop/articles/Screen_Shot_2021-07-29_at_11.21.07_AM.jpg?v=1638207837",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "72",
+          "name": "Gazania",
+          "personality": "Chaleureuse",
+          "description": "Fleur colorée qui aime le soleil et illumine votre jardin.",
+          "entretien": "Facile",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 11.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://bilder.obi.ch/d433a92c-6101-45a9-938d-e05a5137d277/prZZL/572568.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "73",
+          "name": "Cactus de Pâques",
+          "personality": "Jovial",
+          "description": "Cactus qui fleurit au printemps avec des fleurs colorées.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Bavarde",
+          "price": 13.49,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://plantes-interieur.info/wp-content/uploads/2023/12/rhipsalidopsis-gaertneri.jpg",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "74",
+          "name": "Agave",
+          "personality": "Résistant",
+          "description": "Succulente robuste avec des feuilles épaisses.",
+          "entretien": "Facile",
+          "dureeVie": "10-20 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 18.99,
+          "stock": 12,
+          "date_ajout": "2024-10-23",
+          "images": "https://images.squarespace-cdn.com/content/v1/586d2569e4fcb5622842efdb/1685484235383-Z916HYBX1E9HUCQ67LA2/20230530_145616.jpg?format=750w",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      },
+      {
+          "id": "75",
+          "name": "Cosmos",
+          "personality": "Lumineux",
+          "description": "Fleurs délicates qui attirent les pollinisateurs.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 9.99,
+          "stock": 20,
+          "date_ajout": "2024-10-22",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT71Tc96THlxZfVpopXgzEaVBu4afgHRPbXGg&s",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "76",
+          "name": "Jade",
+          "personality": "Chanceuse",
+          "description": "Succulente réputée pour apporter la prospérité.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 10.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://hips.hearstapps.com/hmg-prod/images/beautiful-crassula-ovata-jade-plant-money-plant-royalty-free-image-1722349156.jpg?crop=0.668xw:1.00xh;0.194xw,0&resize=1120:*",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "450 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 4 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Chaque semaine",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "77",
+          "name": "Basilic",
+          "personality": "Aromatique",
+          "description": "Plante aromatique qui purifie l'air et est utilisée en cuisine.",
+          "entretien": "Facile",
+          "dureeVie": "1 an",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 7.99,
+          "stock": 30,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.france-culinaire.com/app/uploads/2020/07/Image-SI-Basilic.png",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Tous les 2 jours",
+                  "quantite": "500 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "400 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 5 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "200 ml"
+              }
+          ]
+      },
+      {
+          "id": "78",
+          "name": "Freesia",
+          "personality": "Sensible",
+          "description": "Fleurs parfumées qui fleurissent au printemps.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 10,
+          "date_ajout": "2024-10-23",
+          "images": "https://bulbsdirect.co.nz/cdn/shop/products/visi20483_800x.jpg?v=1609807395",
+          "arrosage": [
+              {
+                  "saison": "Été",
+                  "frequence": "Chaque jour",
+                  "quantite": "600 ml"
+              },
+              {
+                  "saison": "Printemps",
+                  "frequence": "Tous les 3 jours",
+                  "quantite": "350 ml"
+              },
+              {
+                  "saison": "Automne",
+                  "frequence": "Tous les 6 jours",
+                  "quantite": "300 ml"
+              },
+              {
+                  "saison": "Hiver",
+                  "frequence": "Chaque semaine",
+                  "quantite": "150 ml"
+              }
+          ]
+      }
   ]
 }

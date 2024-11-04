@@ -36,17 +36,17 @@ export class ListPlantsAdminComponent implements OnInit {
 }
 onDeleteFleur(id:number){
   this.plantService.deletePlant(id).subscribe(
-    data=>{this.plantsFleuries=this.plantsFleuries.filter((i)=>i.id!==id)}
+    data=>{this.plantsFleuries=this.plantsFleuries.filter((i)=>parseInt(i.id)!==id)}
   )
 }
 onDeleteSucc(id:number){
   this.plantService.deletePlant(id).subscribe(
-    data=>{this.plantsCactus=this.plantsCactus.filter((i)=>i.id!==id)}
+    data=>{this.plantsCactus=this.plantsCactus.filter((i)=>parseInt(i.id)!==id)}
   )
 }
 onDeletePur(id:number){
   this.plantService.deletePlant(id).subscribe(
-    data=>{this.plantsPurificatrices=this.plantsPurificatrices.filter((i)=>i.id!==id)}
+    data=>{this.plantsPurificatrices=this.plantsPurificatrices.filter((i)=>parseInt(i.id)!==id)}
   )
 }
 }

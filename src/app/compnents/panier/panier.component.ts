@@ -14,6 +14,7 @@ import { RouterLink } from '@angular/router';
 export class PanierComponent {
   tabcart: Plant[] = [];
 
+
   constructor(private palntService: PalntService) {}
 
   ngOnInit(): void {
@@ -28,6 +29,7 @@ export class PanierComponent {
   deleteFromCart(plant: Plant): void {
     this.palntService.deleteFromCart(plant);
     this.tabcart = this.palntService.tabcart;
+    
   }
 
   clearCart(): void {
