@@ -15,4 +15,7 @@ export class HomeComponent {
     onAboutUs(){
         this.router.navigate(['/aboutUs']);
     } 
+    onShowAllPlants(){
+        this.router.navigate(['/listePlantes']);
+    }
 }

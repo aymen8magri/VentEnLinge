@@ -175,55 +175,6 @@ header {
   height: 420px;
 }
 
-.animate{
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #001e1d;
-  background: linear-gradient(to right, #001e1d, #f9bc60);  
-  background-clip: text; /* Added standard property for compatibility */
-  -webkit-text-fill-color: transparent;
-  animation: myAnim 2s ease 0s infinite normal forwards;
-
-}
-
-@keyframes animate {
-  0% {  }
-  100% {  }
-}
-
-@keyframes myAnim {
-	0% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-		transform-origin: center center;
-    filter: hue-rotate(0deg);
-	}
-
-	10% {
-		animation-timing-function: ease-in;
-		transform: scale(0.91);
-	}
-
-	17% {
-		animation-timing-function: ease-out;
-		transform: scale(0.98);
-	}
-
-	33% {
-		animation-timing-function: ease-in;
-		transform: scale(0.87);
-	}
-
-	45% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-	}
-  100%{
-    filter: hue-rotate(360deg);
-  }
-}
 .about-us-content{
     animation: slideInFromTop 1s ease-out;
     z-index: 0;

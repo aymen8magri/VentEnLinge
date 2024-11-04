@@ -1,4 +1,3 @@
-import { Commentaire } from "./commentaire";
 import { Watering } from "./watering";
 
 export class Plant {
