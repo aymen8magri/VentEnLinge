@@ -61,7 +61,7 @@ export class AddPlantComponent implements OnInit {
         const arrosageGroup = this.fb.group({
           saison: '',   // Saison
           frequence: '',   // Fréquence
-          qantite: ''    // Quantité
+          quantite: ''    // Quantité
         });
         this.watering.push(arrosageGroup);
       }
@@ -72,7 +72,7 @@ export class AddPlantComponent implements OnInit {
   
   onAjouter(){
     
-    
+    console.log(this.watering.value);
     this.date=new Date(this.planteForm.value['dateAjout']);
     this.plant=new Plant(
       String(this.plants.length+1),
@@ -90,6 +90,7 @@ export class AddPlantComponent implements OnInit {
       this.planteForm.value['img'],
       this.watering.value
     )
+    console.log(this.plant);
     this.plantService.addPlant(this.plant).subscribe(
       data=>console.log(data)
     
