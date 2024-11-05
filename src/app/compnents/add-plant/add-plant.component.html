@@ -51,7 +51,7 @@
         </div>
         <div class="mb-3">
             <label for="enstock">En Stock</label>
-            <input type="radio" formControlName="enStock">
+            <input type="checkbox" formControlName="enStock">
         </div>
         
         <div class="mb-3">
@@ -67,12 +67,26 @@
             @for(w of watering.controls;track $index){
                 <div [formGroupName]="$index">
                 <label for="">saison</label>
-                <input type="text" formControlName="s" class="form-control">
+                <select name="" id="" formControlName="saison" class="form-select">
+                    <option value="été" >été</option>
+                    <option value="hiver">automne</option>
+                    <option value="hiver">hiver</option>
+                    <option value="printemps">printemps</option>
+                </select>
                 <label for="">Fréquence</label>
-                <input type="text" formControlName="'f'+$index" class="form-control">
+                <select name="" id="" formControlName="fequence" class="form-select">
+                    <option value="Chaque jour" >Chaque jour</option>
+                    <option value="Tous les 3 jours">Tous les 3 jours</option>
+                    <option value="Tous les 6 jours">Tous les 6 jours</option>
+                    <option value="Chaque semaine">Chaque semaine</option>
+                </select>                
                 <label for="">Quantité</label>
-                <input type="text" formControlName="'q'+$index" class="form-control">
-            </div>
+                <select name="" id="" formControlName="quantite" class="form-select">
+                    <option value="600 ml" >600 ml</option>
+                    <option value="350 ml">350 ml</option>
+                    <option value="300 ml">300 ml</option>
+                    <option value="150 ml">150 ml</option>
+                </select>            </div>
             }
 
         </div>
@@ -82,6 +96,7 @@
             <input type="text" class="form-control" id="img" placeholder="Image URL" name="img" required #img/>
         </div>
         <button type="submit" class="submit-btn" >Ajouter</button>
+        <button type="button" (click)="onReset()" class="submit-btn">Ajouter de nouveau</button>
         <div [hidden]="hide">Plante ajoutée avec succès</div>
     </form>
 </div>

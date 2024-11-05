@@ -18,8 +18,8 @@ export class AddPlantComponent implements OnInit {
   
   plantService:PalntService=inject(PalntService);
   plant!:Plant;
+  date!:Date
   plants!:Plant[];
-  instock!:boolean;
   arrosage!:Watering[]
   hide:boolean=true;
   planteForm!:FormGroup;
@@ -28,11 +28,10 @@ export class AddPlantComponent implements OnInit {
   filter:String[]=Object.values(Filter);
   readonly fb:FormBuilder=inject(FormBuilder);
   ngOnInit(): void {
-   
-      this.plantService.getPlants().subscribe(
-        data=>this.plants=data
-        
-      )
+    this.plantService.getPlants().subscribe(
+      data=>this.plants=data
+    )
+     
       this.planteForm=this.fb.nonNullable.group(
         {
           id:[0],
@@ -44,8 +43,8 @@ export class AddPlantComponent implements OnInit {
           filter:[Filter.bavarde],
           prix:[0],
           stock:[0],
-          enStock:[false],
-          dateAjout:[new Date()],
+          enStock:[true],
+          dateAjout:[''],
           durVie:[''],
           arrosage:this.fb.array([]),
           img:[''],
@@ -58,21 +57,53 @@ export class AddPlantComponent implements OnInit {
       return this.planteForm.get('arrosage') as FormArray;
     }
     onAjouterArrosage(){
-      this.watering.push(this.fb.control(''));
-    }
+     
+        const arrosageGroup = this.fb.group({
+          saison: '',   // Saison
+          frequence: '',   // Fréquence
+          qantite: ''    // Quantité
+        });
+        this.watering.push(arrosageGroup);
+      }
+     
+    
 
     
   
   onAjouter(){
     
-   
+    
+    this.date=new Date(this.planteForm.value['dateAjout']);
+    this.plant=new Plant(
+      String(this.plants.length+1),
+      this.planteForm.value['name'],
+      this.planteForm.value['personalite'],
+      this.planteForm.value['description'],
+      this.planteForm.value['maintenance'],
+      this.planteForm.value['durVie'],
+      this.planteForm.value['enStock'],
+      this.planteForm.value['categorie'],
+      this.planteForm.value['filter'],
+      this.planteForm.value['prix'],
+      this.planteForm.value['stock'],
+      this.date,
+      this.planteForm.value['img'],
+      this.watering.value
+    )
     this.plantService.addPlant(this.plant).subscribe(
       data=>console.log(data)
     
     )
-    
+    this.hide=false;
   }
+onReset(){
+  this.plantService.getPlants().subscribe(
+    data=>this.plants=data
+  )
+  this.planteForm.reset();
+  this.hide=true;
 
+}
 }
   
   
