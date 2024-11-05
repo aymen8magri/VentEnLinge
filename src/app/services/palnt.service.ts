@@ -64,6 +64,10 @@ export class PalntService {
   public clearCart(): void {
     this.tabcart = [];
   }
+  /*--------------------* Search *---------------------------*/
+  public search(searchTerm: string): Observable<Plant[]> {
+    return this.http.get<Plant[]>(`${API_URL}?name=${searchTerm}`);
+  }
 
 
 

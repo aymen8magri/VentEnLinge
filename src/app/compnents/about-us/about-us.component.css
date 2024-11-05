@@ -113,7 +113,6 @@
   color: var(--font-color);
   font-size: 27px;
   font-weight: 400;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .card-title span {
@@ -210,3 +209,36 @@ header {
       transform: translateX(0);
     }
   }
+.activities{
+  background-image: url(../../../../public/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.activities-card{
+  background-color: #33845D;
+  color: #fff;
+  border: 2px solid #001e1d;
+  box-shadow: 4px 4px #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.activities-card:hover{
+  transform: scale(1.05);
+  box-shadow: 4px 4px #001e1d;
+  background-color: #2e6d4f;
+  color: #fff;
+}
+.imgActivities{
+  width: 110px;
+  height: 110px;
+  margin: 10px;
+}
+.imgActivities:hover{
+  transform: scale(1.1);
+}
+

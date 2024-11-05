@@ -28,13 +28,11 @@ export class PanierComponent {
 
   deleteFromCart(plant: Plant): void {
     this.palntService.deleteFromCart(plant);
-    this.tabcart = this.palntService.tabcart;
-    
+    this.tabcart = this.palntService.tabcart; 
   }
 
   clearCart(): void {
     this.palntService.clearCart();
     this.tabcart = this.palntService.tabcart;
   }
-
 }
