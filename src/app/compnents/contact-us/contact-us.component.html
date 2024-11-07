@@ -7,24 +7,29 @@
             </div>
 
             <div class="col-lg-8 contact-form">
-                <form>
+                <form (ngSubmit)="sendEmail()">
                     <div class="mb-3">
-                        <label for="first-name" class="form-label">First Name:</label>
-                        <input type="text" class="form-control" id="first-name" placeholder="Your First Name" name="fname" required />
+                        <label  for="first-name" class="form-label">Pénom:</label>
+                        <input [(ngModel)]="fname" type="text" class="form-control" id="first-name" placeholder="Your First Name" name="fname" required />
                     </div>
                     <div class="mb-3">
-                        <label for="last-name" class="form-label">Last Name:</label>
-                        <input type="text" class="form-control" id="last-name" placeholder="Your Last Name" name="lname" required />
+                        <label for="last-name" class="form-label">Nom:</label>
+                        <input [(ngModel)]="lname"type="text" class="form-control" id="last-name" placeholder="Your Last Name" name="lname" required />
                     </div>
+                    
                     <div class="mb-3">
                         <label for="email-address" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email-address" placeholder="Your Email" name="email" required />
+                        <input [(ngModel)]="mail"type="email" class="form-control" id="email-address" placeholder="Email" name="email" required />
+                    </div><div class="mb-3">
+                        <label for="subject" class="form-label">Objet:</label>
+                        <input [(ngModel)]="subject"type="text" class="form-control" id="subject" placeholder="Objet" name="subject" required />
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message:</label>
-                        <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..." required></textarea>
+                        <textarea [(ngModel)]="message" class="form-control" id="message" rows="4" required></textarea>
+                        {{message}}
                     </div>
-                    <button type="submit" class="submit-btn">Send Message<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
+                    <button type="submit" class="submit-btn">Envoyer<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
                 </form>
             </div>
 
