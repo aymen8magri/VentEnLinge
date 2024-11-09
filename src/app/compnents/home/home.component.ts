@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { QuizComponent } from '../quiz/quiz.component';
 import { ContactUsComponent } from "../contact-us/contact-us.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [QuizComponent, ContactUsComponent],
+  imports: [QuizComponent, ContactUsComponent,RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
