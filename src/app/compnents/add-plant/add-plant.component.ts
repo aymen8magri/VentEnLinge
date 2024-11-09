@@ -6,12 +6,11 @@ import { FormArray, FormBuilder, FormControl, FormGroup, ReactiveFormsModule } f
 import { Categorie } from '../../model/categorie';
 import { Maintenance } from '../../model/maintenance';
 import { Filter } from '../../model/filter';
-import { NavbarAdminComponent } from "../navbar-admin/navbar-admin.component";
 
 @Component({
   selector: 'app-add-plant',
   standalone: true,
-  imports: [ReactiveFormsModule, NavbarAdminComponent],
+  imports: [ReactiveFormsModule, ],
   templateUrl: './add-plant.component.html',
   styleUrl: './add-plant.component.css'
 })

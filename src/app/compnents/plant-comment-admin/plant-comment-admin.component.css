@@ -2,29 +2,14 @@
     background-color: #1C593A; 
     border-radius: 10px;
     box-shadow: 0 0 15px #1C593A;
-    
+    border: 2px solid #5B8F6D;
     overflow: auto;
-}
-
-.addtxt {
-    text-align: center;
-    font-size: 13px;
-    width: 500px;
-    background-color: #B9F1C3;
-    border: 3px solid #629A74;
-
-    font-weight: bold;
-}
-
-.form-control:focus {
-    color: #000;    
 }
 
 .second {
     width: 480px;
     background-color: #B9F1C3;
     border: 3px solid #629A74;
-
     border-radius: 4px;
 }
 
@@ -62,15 +47,3 @@
     transform: scale(1);     
 }
 
-.btn-add{
-    margin-right: 30px;
-}
-.btn{
-    background-color: #629A74;
-    color: #ffffff;
-    border: none;
-}
-.btn:hover{
-    background-color: #507a5d;
-    color: #ffffff;
-}

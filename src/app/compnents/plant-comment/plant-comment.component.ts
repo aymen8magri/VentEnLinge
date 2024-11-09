@@ -3,12 +3,11 @@ import { ListeComments } from '../../model/liste-comments';
 import { ActivatedRoute } from '@angular/router';
 import { ListeCommentsService } from '../../services/liste-comments.service';
 import { Commentaire } from '../../model/commentaire';
-import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-plant-comment',
   standalone: true,
-  imports: [NgClass],
+  imports: [],
   templateUrl: './plant-comment.component.html',
   styleUrl: './plant-comment.component.css'
 })

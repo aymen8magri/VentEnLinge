@@ -71,13 +71,18 @@ img{
     border-bottom: 5px solid #1C593A;
     border-radius: 5px;
     color: #1C593A !important;
-    font-size: 18px;
     letter-spacing: 1px;
 }
 
-.col-md-2.mio {
-    font-size: 12px;
-    padding-top: 7px
+.col-md-2 {
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+.col-md-2 a:hover {
+    color: #1C593A !important;
+    border-bottom: 5px solid #1C593A;
+    border-radius: 5px;
 }
 
 

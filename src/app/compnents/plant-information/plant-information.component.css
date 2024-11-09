@@ -1,12 +1,40 @@
-
-li {
-    list-style: none;
-    line-height: 50px;
+.plant-card {
+    background-color: #1C593A; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px #1C593A;
+    border: 2px solid #5B8F6D;
+    padding: 16px;
+    margin: 16px 0;
 }
 
-strong{
-    color: #1C593A;
-    font-size: 20px;
-    letter-spacing: 1px;
+.plant-info, .plant-details, .plant-watering {
+    margin-bottom: 16px;
+}
+
+.plant-info h2, .plant-details h3, .plant-watering h3 {
+    color: #f9bc60;
+    font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.tab {
+    width: 100%;
+    margin-top: 8px;
+    cursor: pointer;
+    background-color: #B9F1C3;
+    border: 3px solid #629A74;
+}
+strong{
+    color: #6BAE86;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+p{
+    color: #A2DAAF;
+    font-size: 18px;
+    letter-spacing: 1px;
 }

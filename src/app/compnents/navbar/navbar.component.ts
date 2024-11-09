@@ -31,7 +31,7 @@ export class NavbarComponent {
     console.log(this.tabcart);
     this.interval = setInterval(() => {
       this.tabcart = this.palntService.tabcart;
-    }, 1000);
+    }, 500);
   }
 
   get total(): number {

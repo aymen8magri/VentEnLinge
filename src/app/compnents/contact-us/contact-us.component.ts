@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
-import { NavbarComponent } from "../navbar/navbar.component";
 
 
 @Component({
   selector: 'app-contact-us',
   standalone: true,
-  imports: [FormsModule, NavbarComponent],
+  imports: [FormsModule],
   templateUrl: './contact-us.component.html',
   styleUrl: './contact-us.component.css'
 })

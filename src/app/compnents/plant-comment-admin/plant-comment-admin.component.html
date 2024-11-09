@@ -1,5 +1,5 @@
 <div class="container justify-content-center">
-   
+
     <!-------------------------------------------------------->
     <div class="mb-5 mt-2">
         @for(com of tabcom;track $index){
@@ -10,10 +10,11 @@
                     <div>
                         <img src="https://i.imgur.com/AgAC1Is.jpg" width="18"><span class="text2">{{com.nom}}</span>
                     </div>
-                    <div>
-                        <button class="btn" style="background-color: red; color: #fff;" title="delete" (click)="onDelete($index)">Effacer</button>
+                    <div class="d-flex justify-content-between align-items-center gap-1">
+                        <button class="btn btn-danger" (click)="onDelete($index)" title="Supprimer"><i
+                                class="bi bi-trash3-fill"></i></button>
                         <span class="text3">{{com.nbLikes}}</span>
-                        <button class="like" ><i class="bi bi-emoji-heart-eyes"></i></button>
+                        <button class="like"><i class="bi bi-emoji-heart-eyes"></i></button>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 .container {
     background-color: #1C593A; 
     border-radius: 10px;
+    border: 2px solid #5B8F6D;
     box-shadow: 0 0 15px #1C593A;
     overflow: auto;
     height: 500px;
@@ -12,8 +13,8 @@
     width: 500px;
     background-color: #B9F1C3;
     border: 3px solid #629A74;
-
     font-weight: bold;
+    padding: 10px;
 }
 
 .form-control:focus {
@@ -24,7 +25,6 @@
     width: 480px;
     background-color: #B9F1C3;
     border: 3px solid #629A74;
-
     border-radius: 4px;
 }
 
@@ -64,7 +64,7 @@
 .liked{color: blue;
     transform: scale(1.2);}
 .btn-add{
-    margin-right: 30px;
+    margin-right: 50px;
 }
 .btn{
     background-color: #629A74;

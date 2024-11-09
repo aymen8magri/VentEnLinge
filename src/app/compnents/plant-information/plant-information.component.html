@@ -1,19 +1,39 @@
-<div class="klo">
-    <ul>
-        <li><strong>Personalité :</strong> {{plant.personality}}</li>
-        <li><strong>Description :</strong> {{plant.description}}</li>
-        <li><strong>Maintenance :</strong> {{plant.entretien}}</li>
-        <li><strong>Fun Filter :</strong> {{plant.fun_filter}}</li>
-        <li><strong>Prix :</strong> {{plant.price}} €</li>
-        <li><strong>En Stock :</strong> {{plant.stock}} pièces</li>
-        <li><strong>Date d'ajout :</strong> {{plant.date_ajout}}</li>
-        <li><strong>Durée de vie :</strong> {{plant.dureeVie}}</li>
-        <li>
-            <ul><strong>Arrosage</strong>
-            @for(w of plant.arrosage;track $index){
-                
-                    <!-- <li><strong> Saison: </strong>{{w.saison}} <strong> fréquence: </strong>{{w.frequence}}  <strong> quantitée: </strong>{{w.quantite}}</li> -->
-            }</ul>
-        </li>
-    </ul>
+<div class="plant-card">
+    <div class="plant-info">
+        <h2>Informations sur la plante</h2>
+        <p><strong>Personnalité :</strong> {{plant.personality}}</p>
+        <p><strong>Description :</strong> {{plant.description}}</p>
+        <p><strong>Maintenance :</strong> {{plant.entretien}}</p>
+        <p><strong>Fun Filter :</strong> {{plant.fun_filter}}</p>
+    </div>
+
+    <div class="plant-details">
+        <h3>Détails</h3>
+        <p><strong>Prix :</strong> {{plant.price}} €</p>
+        <p><strong>En Stock :</strong> {{plant.stock}} pièces</p>
+        <p><strong>Date d'ajout :</strong> {{plant.date_ajout}}</p>
+        <p><strong>Durée de vie :</strong> {{plant.dureeVie}}</p>
+    </div>
+
+    <div class="plant-watering">
+        <h3>Arrosage</h3>
+        <table class="tab table-striped table-bordered table-hover table-sm">
+            <thead>
+                <tr>
+                    <th>Saison</th>
+                    <th>Fréquence</th>
+                    <th>Quantité</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for(w of plant.arrosage;track $index){
+                    <tr>
+                        <td>{{w.saison}}</td>
+                        <td>{{w.frequence}}</td>
+                        <td>{{w.quantite}}</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>

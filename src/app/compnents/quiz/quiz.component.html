@@ -10,7 +10,7 @@
                 <input type="radio" id="autumn" name="q1" value="C">
                 <label for="autumn">Automne 🍂</label>
 
-                <input type="radio" id="winter" name="q1" value="D">
+                <input type="radio" id="winter" name="q1" value="C">
                 <label for="winter">Hiver ❄️</label>
 
                 <input type="radio" id="summer" name="q1" value="B">
@@ -30,7 +30,7 @@
                 <input type="radio" id="easygoing" name="q2" value="B">
                 <label for="easygoing">Facile à vivre et indépendant 🛋️</label>
 
-                <input type="radio" id="capricious" name="q2" value="D">
+                <input type="radio" id="capricious" name="q2" value="B">
                 <label for="capricious">Un peu capricieux, mais toujours de bonne compagnie 🎭</label>
             </div>
         </div>
@@ -44,7 +44,7 @@
                 <input type="radio" id="sunny" name="q3" value="C">
                 <label for="sunny">Lumineux et ensoleillé ☀️</label>
 
-                <input type="radio" id="anywhere" name="q3" value="D">
+                <input type="radio" id="anywhere" name="q3" value="A">
                 <label for="anywhere">Peu importe, tant que je suis bien installé 🛋️</label>
 
                 <input type="radio" id="calm" name="q3" value="A">
@@ -61,7 +61,7 @@
                 <input type="radio" id="weekly" name="q4" value="A">
                 <label for="weekly">Une fois par semaine, c'est parfait 🌱</label>
 
-                <input type="radio" id="occasional" name="q4" value="D">
+                <input type="radio" id="occasional" name="q4" value="C">
                 <label for="occasional">Juste de temps en temps 🌺</label>
 
                 <input type="radio" id="monthly" name="q4" value="B">
@@ -72,7 +72,7 @@
         <div class="question">
             <p>5. Qu'est-ce qui te décrit le mieux ?</p>
             <div class="option-group">
-                <input type="radio" id="creative" name="q5" value="D">
+                <input type="radio" id="creative" name="q5" value="A">
                 <label for="creative">Amusant et créatif 🎨</label>
 
                 <input type="radio" id="curious" name="q5" value="C">
@@ -86,7 +86,20 @@
             </div>
         </div>
 
-        <button type="button">Résultat</button>
+        <button type="button" (click)="calculateResult()">Résultat</button>
     </form>
-    <p id="result"></p>
+    <div>
+        @if(tabPlant.length>0){
+            <h2 class="text-center mt-5 ">Nous avons trouvé pour toi :</h2>
+            <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
+                @for (plant of tabPlant; track plant.id) {
+                    <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
+                }
+            </div>
+        }
+        @else{
+            <p id="result">Répondez à toutes les questions pour voir les résultats...</p>
+        }
+    </div>
+    
 </div>

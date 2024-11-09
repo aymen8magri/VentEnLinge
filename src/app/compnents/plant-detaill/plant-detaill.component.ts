@@ -26,4 +26,8 @@ export class PlantDetaillComponent implements OnInit{
     });
   }
 
+  addToCart(plant: Plant) {
+    this.palntService.addPlantToCart(plant);
+  }
+
 }

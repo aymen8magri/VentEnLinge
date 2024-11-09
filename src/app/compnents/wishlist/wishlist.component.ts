@@ -3,12 +3,11 @@ import { Plant } from '../../model/plant';
 import { PlantItemComponent } from '../plant-item/plant-item.component';
 import { PalntService } from '../../services/palnt.service';
 import { RouterLink } from '@angular/router';
-import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-wishlist',
   standalone: true,
-  imports: [PlantItemComponent, RouterLink, NavbarComponent],
+  imports: [PlantItemComponent, RouterLink],
   templateUrl: './wishlist.component.html',
   styleUrl: './wishlist.component.css'
 })

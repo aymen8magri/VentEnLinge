@@ -34,20 +34,16 @@
     <!-- Footer --> 
     <div class="footer d-flex flex-column mt-5">
         <div class="row r4">
-            <div class="col-md-2 myt des">
-                <a [routerLink]="['description']" routerLinkActive="active">Description</a>
+            <div class="col-md-2">
+                <a [routerLink]="['description']" routerLinkActive="active" title="Description">Description</a>
             </div>
-            <div class="col-md-2 myt">
-                <a [routerLink]="['comments']" routerLinkActive="active">Commentaires</a>
+            <div class="col-md-2">
+                <a [routerLink]="['comments']" routerLinkActive="active" title="Commentaires">Commentaires</a>
             </div>
-            <div class="col-md-2 mio offset-md-4">
-                <a href="#">Ajouter au panier</a>
+            <div class="col-md-2 d-flex justify-content-end flex-grow-1" style="cursor: pointer;">
+                <a (click)="addToCart(plant)" title="Ajouter au panier">Ajouter au panier</a>
             </div>
-            <div class="col-md-2 myt">
-                <button type="button" class="btn btn-outline-warning">
-                    <a href="#">Acheter maintenant</a>
-                </button>
-            </div>
+            
         </div>
     </div>
 </div>
