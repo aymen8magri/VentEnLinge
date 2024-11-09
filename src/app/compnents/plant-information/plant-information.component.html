@@ -1,18 +1,18 @@
 <div class="klo">
     <ul>
-        <li><strong>Personality :</strong> {{plant.personality}}</li>
+        <li><strong>Personalité :</strong> {{plant.personality}}</li>
         <li><strong>Description :</strong> {{plant.description}}</li>
         <li><strong>Maintenance :</strong> {{plant.entretien}}</li>
         <li><strong>Fun Filter :</strong> {{plant.fun_filter}}</li>
-        <li><strong>Price :</strong> {{plant.price}} €</li>
-        <li><strong>In Stock :</strong> {{plant.stock}} pieces</li>
-        <li><strong>Date Added :</strong> {{plant.date_ajout}}</li>
-        <li><strong>Lifespan :</strong> {{plant.dureeVie}}</li>
+        <li><strong>Prix :</strong> {{plant.price}} €</li>
+        <li><strong>En Stock :</strong> {{plant.stock}} pièces</li>
+        <li><strong>Date d'ajout :</strong> {{plant.date_ajout}}</li>
+        <li><strong>Durée de vie :</strong> {{plant.dureeVie}}</li>
         <li>
             <ul><strong>Arrosage</strong>
             @for(w of plant.arrosage;track $index){
                 
-                    <li>Saison:{{w.saison}} fréquence:{{w.frequence}} quantitée:{{w.quantite}}</li>
+                    <!-- <li><strong> Saison: </strong>{{w.saison}} <strong> fréquence: </strong>{{w.frequence}}  <strong> quantitée: </strong>{{w.quantite}}</li> -->
             }</ul>
         </li>
     </ul>

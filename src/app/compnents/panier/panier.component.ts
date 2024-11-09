@@ -3,11 +3,12 @@ import { Plant } from '../../model/plant';
 import { PalntService } from '../../services/palnt.service';
 import { CurrencyPipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-panier',
   standalone: true,
-  imports: [CurrencyPipe, RouterLink],
+  imports: [CurrencyPipe, RouterLink, NavbarComponent],
   templateUrl: './panier.component.html',
   styleUrl: './panier.component.css'
 })

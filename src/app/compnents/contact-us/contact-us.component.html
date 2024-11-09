@@ -1,20 +1,22 @@
-        <div class="row align-items-center py-5 m-4">
+       
+       <app-navbar></app-navbar>
+       <div class="row align-items-center py-5 m-4">
 
             <div class="col-lg-4 contact-details">
                 <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="Contact Image" />
-                <h2>Get in Touch</h2>
-                <p>Your feedback is important to us!</p>
+                <h2>Dites nous tout</h2>
+                <p>Votre avis est important pour nous</p>
             </div>
 
             <div class="col-lg-8 contact-form">
                 <form (ngSubmit)="sendEmail()">
                     <div class="mb-3">
                         <label  for="first-name" class="form-label">Pénom:</label>
-                        <input [(ngModel)]="fname" type="text" class="form-control" id="first-name" placeholder="Your First Name" name="fname" required />
+                        <input [(ngModel)]="fname" type="text" class="form-control" id="first-name" placeholder="Prénom" name="fname" required />
                     </div>
                     <div class="mb-3">
                         <label for="last-name" class="form-label">Nom:</label>
-                        <input [(ngModel)]="lname"type="text" class="form-control" id="last-name" placeholder="Your Last Name" name="lname" required />
+                        <input [(ngModel)]="lname"type="text" class="form-control" id="last-name" placeholder="Nom" name="lname" required />
                     </div>
                     
                     <div class="mb-3">
@@ -26,8 +28,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message:</label>
-                        <textarea [(ngModel)]="message" class="form-control" id="message" rows="4" required></textarea>
-                        {{message}}
+                        <textarea [(ngModel)]="message" class="form-control" name="message" rows="4" required></textarea>
                     </div>
                     <button type="submit" class="submit-btn">Envoyer<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
                 </form>

@@ -3,11 +3,12 @@ import { Plant } from '../../model/plant';
 import { PalntService } from '../../services/palnt.service';
 import { PlantItemComponent } from '../plant-item/plant-item.component';
 import { RouterLink } from '@angular/router';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
     selector: 'app-list-plants',
     standalone: true,
-    imports: [PlantItemComponent, RouterLink],
+    imports: [PlantItemComponent, RouterLink, NavbarComponent],
     templateUrl: './list-plants.component.html',
     styleUrl: './list-plants.component.css'
 })
