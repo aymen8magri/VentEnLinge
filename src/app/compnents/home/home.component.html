@@ -1,17 +1,19 @@
+<app-navbar></app-navbar>
+
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
-        <h1 class="display-4">Welcome to PlantBuddy</h1>
+        <h1 class="display-4">Bienvenue chez PlantBuddy</h1>
         <p class="lead px-5">PlantBuddy est votre destination en ligne pour acheter des plantes de qualité. Nous proposons
             une vaste sélection de plantes d'intérieur et d'extérieur, accompagnées de conseils pour les entretenir.
             Découvrez la beauté des plantes et embellissez votre espace avec PlantBuddy!</p>
         <button class="button" (click)="onAboutUs()">
-            <span>About Us!</span>
+            <span>A porpos</span>
         </button>
     </div>
 </div>
 
 <!-- New Products -->
-<h2 class="text-center mt-5">New Products</h2>
+<h2 class="text-center mt-5">Nouveaux produits</h2>
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active bg-dark"
@@ -70,14 +72,14 @@
     </button> -->
 </div>
 <button class="button mt-3 mb-5 mx-auto d-block w-50" (click)="onShowAllPlants()">
-    <span>Show All Plants</span>
+    <span>Voir tout le catalogue</span>
 </button>
 
 <!-- Quiz -->
 <app-quiz></app-quiz>
 
 <!-- Explore by Category -->
-<h2 class="text-center mt-5">Explore by Category</h2>
+<h2 class="text-center mt-5">Chercher par catégorie</h2>
 
 <div class="d-flex justify-content-center row row-cols-1 row-cols-md-4" style="width: 100%;">
     <!-- Fleurs -->
@@ -112,7 +114,7 @@
     </div>
 </div>
 
-<h2 class="text-center mt-5">Contact Us</h2>
+<h2 class="text-center mt-5">Nous contacter</h2>
 <div style="width: 100%; background-color: #1C593A;">
     <app-contact-us></app-contact-us>
 </div>

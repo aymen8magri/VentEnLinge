@@ -71,3 +71,45 @@
   color: #1C593A; 
   border: 1px solid #1C593A;
 }
+.svg-wrapper {
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1000;
+  position: absolute;
+  background-color: #5A8F6C;
+}
+a{
+  position: relative;
+  left:100px;
+  bottom: 100px;
+}
+
+.shape {
+  stroke-dasharray: 100 300;
+  stroke-dashoffset: -297;
+  fill: transparent;
+  stroke: #1C593A;
+  stroke-width: 5px;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text {
+  font-size: 22px;
+  top: -45px;
+  position: relative;
+  color: #AFE7BB;
+  letter-spacing: 2px;
+}
+
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+.svg-wrapper:hover {
+  background-color: #72B58C;
+  transition: 1s;
+}

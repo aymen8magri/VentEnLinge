@@ -1,7 +1,7 @@
 <div class="container py-4 my-4 mx-auto d-flex flex-column">
     <!-- Return Button -->
     <a [routerLink]="['/ListePlantesAdmin']">
-        <button class="return-btn">Return</button>
+        <button class="return-btn">Retour</button>
     </a>
     <hr>
 
@@ -14,7 +14,7 @@
             <div class="col-md-3 text-right note">
                 <span>⭐⭐⭐⭐⭐</span>
             </div>
-            <p class="text-right category"><strong>Category :</strong> {{ plant.category }}</p>
+            <p class="text-right category"><strong>Categorie :</strong> {{ plant.category }}</p>
         </div>
     </div>
 
@@ -35,10 +35,10 @@
     <div class="footer d-flex flex-column mt-5">
         <div class="row r4">
             <div class="col-md-2 myt des">
-                <a [routerLink]="['descriptionAdmin']" routerLinkActive="active">View Description</a>
+                <a [routerLink]="['descriptionAdmin']" routerLinkActive="active">Description</a>
             </div>
             <div class="col-md-2 myt">
-                <a [routerLink]="['commentsAdmin']" routerLinkActive="active">View Comments</a>
+                <a [routerLink]="['commentsAdmin']" routerLinkActive="active">Commentaires</a>
             </div>
             
             

@@ -1,5 +1,5 @@
 div {
-    background-image: url('../../../../public/error404.gif');
+    background-image: url('../../../../public/AdobeStock_297132091_Preview.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@ div {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    background: #181743;
+    background: #79BA91;
     min-width: 200px;
     border: 0;
     border-radius: 4px;
@@ -32,7 +32,7 @@ div {
 }
 
 .btnBack:hover {
-    background-color: #6a69ce;
+    background-color: #1C593A;
     color: #000;
 }
 
@@ -42,7 +42,7 @@ div {
 }
 
 .btnBack:active {
-    background-color: #181743;
+    background-color: #1C593A;
 }
 
 

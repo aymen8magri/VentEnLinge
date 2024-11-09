@@ -1,18 +1,18 @@
 <nav class="navbar">
   <div class="container-fluid custom-navbar">
     <a class="navbar-brand" routerLink="/home">
-      <img src="logo.png" alt="Bootstrap">
+      <img src="logo.png" alt="Bootstrap" >
     </a>
 
     <div class="d-flex flex-column">
 
       <div class="d-flex align-items-center login-container">
-        <a class="navbar-brand login-link" style="color: #1C593A;" routerLink="/login">LOGIN
+        <a class="navbar-brand login-link" style="color: #1C593A;" routerLink="/login">Se Connecter
         <i class="bi bi-person-fill-gear icon" style="font-size: 20px; margin-left: 5px; color: #1C593A;"></i></a>
       </div>
 
       <div class="d-flex search-container">
-        <input type="text" class="form-control search-input" style="color: #1C593A;" [(ngModel)]="searchTerm" (input)="search()" placeholder="Search enterie store here...">
+        <input type="text" class="form-control search-input" style="color: #1C593A;" [(ngModel)]="searchTerm" (input)="search()" placeholder="Chercher une plante ...">
         <button class="btn search-button">
           <i class="bi bi-search"></i>
         </button>
@@ -34,26 +34,26 @@
       <!-- Left Aligned Navbar Links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" style="color: #fffffe;" routerLink="/home" routerLinkActive="active">Home</a>
+          <a class="nav-link active" aria-current="page" style="color: #fffffe;" routerLink="/home" routerLinkActive="active">Accueil</a>
         </li>
         
         <li class="nav-item">
           <a class="nav-link" style="color: #fffffe;" routerLink="/listePlantes" routerLinkActive="active">Catalogue des Plantes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="color: #fffffe;" routerLink="/aboutUs" routerLinkActive="active">About us</a>
+          <a class="nav-link" style="color: #fffffe;" routerLink="/aboutUs" routerLinkActive="active">A propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="color: #fffffe;" routerLink="/contactUs" routerLinkActive="active">Contact us</a>
+          <a class="nav-link" style="color: #fffffe;" routerLink="/contactUs" routerLinkActive="active">Nous contacter</a>
         </li>
       </ul>
 
       <!-- Right Aligned List Group -->
       <button class="btn cart-button" (click)="goToPanier()">
         @if (tabcart.length > 0) {
-          <i class="bi bi-cart-check-fill"></i> {{tabcart.length}} item(s) - {{total | currency:'USD'}}
+          <i class="bi bi-cart-check-fill"></i> {{tabcart.length}} article(s) - {{total | currency:'USD'}}
         } @else {
-          <i class="bi bi-cart-check-fill"></i> 0 item(s) - 0.00 USD
+          <i class="bi bi-cart-check-fill"></i> 0 article(s) - 0.00 USD
         }
       </button>
     </div>

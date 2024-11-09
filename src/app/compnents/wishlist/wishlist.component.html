@@ -1,6 +1,8 @@
+
+<app-navbar></app-navbar>
 <a class="back" routerLink="/listePlantes" title="Back to shop"><i class="bi bi-arrow-bar-left"></i></a>
 <div class="cart-container">
-    <h2 class="cart-header">Wishlist <i class="bi bi-bag-heart" style="margin-left: 20px;"></i></h2>
+    <h2 class="cart-header">Vos coups de coeur <i class="bi bi-bag-heart" style="margin-left: 20px;"></i></h2>
 
 
 @if (tabplants.length > 0) {
@@ -15,7 +17,7 @@
 } 
 @else {
     <div class="alert alert-success container text-center" role="alert">
-        No plants in wishlist! visit our <a routerLink="/listePlantes" class="shop" title="Back to shop">shop</a> to add some plants.
+        Pas de coups de coeur ? Visitez notre  <a routerLink="/listePlantes" class="shop" title="Back to shop">catalogue</a>
     </div>
 }
 </div>

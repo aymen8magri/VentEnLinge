@@ -1,0 +1,52 @@
+<nav class="navbar">
+    <div class="container-fluid custom-navbar">
+      <a class="navbar-brand" routerLink="/home">
+        <img src="logo.png" alt="Bootstrap" >
+      </a>
+  
+      <div class="d-flex flex-column">
+  
+        <div class="d-flex align-items-center login-container">
+          <a class="navbar-brand login-link" style="color: #1C593A;" routerLink="/home">Se Déonnecter
+          <i class="bi bi-person-fill-gear icon" style="font-size: 20px; margin-left: 5px; color: #1C593A;"></i></a>
+        </div>
+  
+        <div class="d-flex search-container">
+          <input type="text" class="form-control search-input" style="color: #1C593A;" [(ngModel)]="searchTerm" (input)="search()" placeholder="Chercher une plante ...">
+          <button class="btn search-button">
+            <i class="bi bi-search"></i>
+          </button>
+        </div>
+  
+      </div>
+    </div>
+  </nav>
+  
+  <!---navbar2-->
+  <nav class="navbar navbar-expand-lg m-2 nav2 sticky">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="color: #fffffe;">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- Left Aligned Navbar Links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" style="color: #fffffe;" routerLink="/ListePlantesAdmin" routerLinkActive="active">Catalogue des Plantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #fffffe;" routerLink="/addPlant" routerLinkActive="active">Ajouter une plante</a>
+          </li>
+          
+        </ul>
+  
+        <!-- Right Aligned List Group -->
+       
+      </div>
+    </div>
+  </nav>
+  

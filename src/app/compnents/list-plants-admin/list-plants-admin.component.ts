@@ -4,12 +4,13 @@ import { PalntService } from '../../services/palnt.service';
 import { PlantItemComponent } from '../plant-item/plant-item.component';
 import { PlantItemAdminComponent } from "../plant-item-admin/plant-item-admin.component";
 import { RouterLink } from '@angular/router';
+import { NavbarAdminComponent } from "../navbar-admin/navbar-admin.component";
 
 
 @Component({
   selector: 'app-list-plants-admin',
   standalone: true,
-  imports: [PlantItemAdminComponent,RouterLink],
+  imports: [PlantItemAdminComponent, RouterLink, NavbarAdminComponent],
   templateUrl: './list-plants-admin.component.html',
   styleUrl: './list-plants-admin.component.css'
 })

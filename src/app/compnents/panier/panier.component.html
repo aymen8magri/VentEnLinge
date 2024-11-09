@@ -1,3 +1,5 @@
+<app-navbar></app-navbar>
+
 <a class="back" routerLink="/listePlantes" title="Back to shop"><i class="bi bi-arrow-bar-left"></i></a>
 
 <div class="cart-container">
@@ -22,13 +24,13 @@
     }
     <!-- Boutons d'action -->
     <div class="text-center mt-3 d-flex justify-content-around">
-        <button class="btn btn-primary" title="Passer à la caisse">Checkout</button>
-        <button class="btn btn-danger" (click)="clearCart()" title="Vider le panier">Clear Cart</button>
+        <button class="btn btn-primary" title="Passer à la caisse">Passer au payement</button>
+        <button class="btn btn-danger" (click)="clearCart()" title="Vider le panier">Tout effacer</button>
     </div>
     }
     @else {
         <div class="alert alert-success container text-center" role="alert">
-            No plants in wishlist! visit our <a routerLink="/listePlantes" class="shop" title="Back to shop">shop</a> to add some plants.
+            Pas de coup de coeur ? vivsitez notre<a routerLink="/listePlantes" class="shop" title="Back to shop"> catalogue</a> 
         </div>
     }
 </div>
