@@ -48,3 +48,11 @@ input , textarea{
     color: #1C593A; 
     border: 1px solid #1C593A;
 }
+.shop {
+    color: #1C593A;
+    font-weight: bold;
+    text-decoration: underline !important;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}

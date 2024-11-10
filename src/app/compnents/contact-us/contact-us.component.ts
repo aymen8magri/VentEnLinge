@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 
 
 @Component({
   selector: 'app-contact-us',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule,RouterLink],
   templateUrl: './contact-us.component.html',
   styleUrl: './contact-us.component.css'
 })
@@ -16,6 +17,8 @@ export class ContactUsComponent {
   mail='';
   subject = '';
   message ='' ;
+  formHide:boolean=false;
+  msgHide:boolean=true;
 
   sendEmail() {
     const templateParams = {
@@ -31,6 +34,8 @@ export class ContactUsComponent {
         console.log(templateParams.message);
         console.log(templateParams.mail)
         console.log('Email sent successfully!', response.status, response.text);
+        this.formHide=true;
+        this.msgHide=false;
       })
       .catch((error) => {
         console.error('Failed to send email.', error);

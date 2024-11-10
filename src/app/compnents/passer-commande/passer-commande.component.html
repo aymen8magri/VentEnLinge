@@ -7,28 +7,31 @@
     </div>
 
     <div class="col-lg-8 contact-form">
-        <form>
+        <form [hidden]="formHide">
             <div class="mb-3">
                 <label for="name" class="form-label">Nom :</label>
-                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" required />
+                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" required #nom/>
             </div>
             <div class="mb-3">
                 <label for="firstname" class="form-label">Prénom :</label>
-                <input type="text" class="form-control" id="firstname" placeholder="Entrez votre prénom" name="firstname" required />
+                <input type="text" class="form-control" id="firstname" placeholder="Entrez votre prénom" name="firstname" required #pnom />
             </div>
             <div class="mb-3">
                 <label for="tel" class="form-label">Téléphone :</label>
                 <input type="number" class="form-control" id="tel" placeholder="Entrez votre téléphone" name="tel"
-                    required />
+                    required #tel />
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">Email :</label>
-                <input type="email" class="form-control" id="email" placeholder="Entrez votre email" name="email"
-                    required />
+                <label for="adresse" class="form-label"> Adresse</label>
+                <input type="text" class="form-control" id="Adresse" placeholder="Entrez votre adresse" name="adresse"
+                    required #adresse />
             </div>
-            <button type="submit" class="submit-btn">Passer à la caisse <i class="bi bi-cash-coin"
+            <button type="submit" class="submit-btn" (click)="onCommande(nom.value,pnom.value,tel.value,adresse.value)">Passer la commande <i class="bi bi-cash-coin"
                     style="margin-left: 10px;"></i></button>
         </form>
+        <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">
+           Commande passsée avec succés ! Faites un tour dans la  <a routerLink="/home" class="shop" title="Back to shop"> page d'accueil</a> 
+        </div>
     </div>
 
 </div>

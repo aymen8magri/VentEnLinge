@@ -8,7 +8,7 @@
             </div>
 
             <div class="col-lg-8 contact-form">
-                <form (ngSubmit)="sendEmail()">
+                <form (ngSubmit)="sendEmail()" [hidden]="formHide">
                     <div class="mb-3">
                         <label  for="first-name" class="form-label">Pénom:</label>
                         <input [(ngModel)]="fname" type="text" class="form-control" id="first-name" placeholder="Prénom" name="fname" required />
@@ -31,6 +31,9 @@
                     </div>
                     <button type="submit" class="submit-btn">Envoyer<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
                 </form>
+                <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">
+                    email envoyé avec succés! Consultez notre  <a routerLink="/listePlantes" class="shop" title="Back to shop"> catalogue</a> 
+                 </div>
             </div>
 
         </div>
