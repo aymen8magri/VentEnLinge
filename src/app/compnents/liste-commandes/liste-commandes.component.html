@@ -1,1 +1,65 @@
-<p>liste-commandes works!</p>
+<div class="container my-5">
+    <h2 class="text-center mb-4 cart-header">Liste des Commandes <i class="bi bi-list-check"
+            style="margin-left: 20px;"></i></h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover ">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nom et Prénom</th>
+                    <th scope="col">ID Commande</th>
+                    <th scope="col" class="d-flex align-items-center gap-2">Montant <i class="bi bi-sort-up"
+                            style="cursor: pointer;" title="Trier par montant"></i></th>
+                    <th scope="col">Téléphone</th>
+                    <th scope="col">Adresse</th>
+                    <th scope="col">État de la Commande</th>
+                    <th scope="col">Options</th>
+                </tr>
+            </thead>
+            <tbody class="table-info">
+                <tr>
+                    <td>John Doe</td>
+                    <td>CMD12345</td>
+                    <td>1000$</td>
+                    <td>+21612345678</td>
+                    <td>123 Avenue, City zeda zecazc zadzad</td>
+                    <td>En cours</td>
+                    <td>
+                        <div class="d-flex justify-content-center gap-2">
+                            <button class="btn btn-primary btn-sm" type="button" 
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" 
+                                title="Voir">
+                                <i class="bi bi-eye-fill"></i>
+                            </button>
+                            <button class="btn btn-danger btn-sm" title="Supprimer"><i
+                                    class="bi bi-trash3-fill"></i>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Offcanvas: aperçu de la commande -->
+        <div class="offcanvas offcanvas-start bg-success" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Aperçu de la commande</h5>
+                    <p class="text-white" style="font-size: 1.2rem; margin: 0;">Total: 1000$</p>
+                </div>
+                
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body text-white">
+                <h3>Nom du produit 1</h3>
+                <p>Prix: 100$</p>
+                <p>Quantité: 2</p>
+                <hr>
+                <h3>Nom du produit 2</h3>
+                <p>Prix: 200$</p>
+                <p>Quantité: 4</p>
+            </div>
+        </div>
+    </div>
+</div>
