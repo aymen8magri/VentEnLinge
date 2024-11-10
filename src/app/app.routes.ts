@@ -16,6 +16,7 @@ import { PlantInformationAdminComponent } from './compnents/plant-information-ad
 import { WishlistComponent } from './compnents/wishlist/wishlist.component';
 import { PlantCommentAdminComponent } from './compnents/plant-comment-admin/plant-comment-admin.component';
 import { NavbarAdminComponent } from './compnents/navbar-admin/navbar-admin.component';
+import { PasserCommandeComponent } from './compnents/passer-commande/passer-commande.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -26,6 +27,7 @@ export const routes: Routes = [
     { path: 'login', title: 'Login', component: LoginComponent },
     { path: 'panier', title: 'Panier', component: PanierComponent },
     { path: 'wishlist', title: 'Wishlist', component: WishlistComponent },
+    { path: 'passerCommande', title: 'Passer Commande', component: PasserCommandeComponent },
     {
         path: 'plant/:id', title: 'Plant', component: PlantDetaillComponent, children: [
             { path: 'description', component: PlantInformationComponent },

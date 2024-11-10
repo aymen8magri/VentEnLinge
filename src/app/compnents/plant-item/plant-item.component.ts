@@ -1,4 +1,4 @@
-import { Component, inject, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, inject, Input, OnInit } from '@angular/core';
 import { Plant } from '../../model/plant';
 import { CurrencyPipe, NgClass } from '@angular/common';
 import { RouterLink } from '@angular/router';
@@ -14,6 +14,7 @@ import { PalntService } from '../../services/palnt.service';
 export class PlantItemComponent implements OnInit {
   
   @Input() plant!: Plant;
+
   ngOnInit(): void {
     console.log(this.plant);
   }

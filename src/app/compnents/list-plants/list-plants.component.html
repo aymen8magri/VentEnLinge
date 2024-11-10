@@ -53,6 +53,14 @@
                 </button>
             </div>
 
+            <!-- Search -->
+            <div class="d-flex search-container">
+                <input type="text" class="form-control search-input" style="color: #1C593A;" [(ngModel)]="searchTerm" (input)="search()" placeholder="Chercher une plante ...">
+                <button class="btn search-button">
+                  <i class="bi bi-search"></i>
+                </button>
+            </div>
+
             <!-- Price Filter -->
             <!-- <div class="col-md-3">
                 <div class="input-group mb-3">

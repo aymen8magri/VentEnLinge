@@ -38,16 +38,5 @@ export class NavbarComponent {
     return this.tabcart.reduce((acc, plant) => acc + plant.price, 0);
   }
 
-  searchTerm: string = '';
-
-  search(){
-    this.palntService.search(this.searchTerm).subscribe(plants => {
-      this.tabsearch = plants;
-      console.log(this.tabsearch);
-    });
-    console.log(this.searchTerm);
-  }
-
-
 
 }
