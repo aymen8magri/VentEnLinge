@@ -1,4 +1,3 @@
-
 <!-- Header Section -->
 <header class="text-white text-center py-5">
     <div class="container about-us-content">
@@ -10,9 +9,11 @@
         <button class="button" (click)="onContactUs()">
             <span>Contactez nous !</span>
         </button>
-
     </div>
 </header>
+<!--fin header-->
+
+
 <!-- About Us Section -->
 <section class="py-5">
     <div class="container">
@@ -38,12 +39,13 @@
         </div>
     </div>
 </section>
+<!--fin qui sommes nous-->
 
 <div style="height: 200px; background-image: url(waveD.png);"></div>
 
 
+<!--notre équipe-->
 <div class="container">
-    <!--our devaloppers -->
     <section class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Notre équipe</h2>
@@ -59,7 +61,8 @@
                             <span>Étudiant en 2ème année de développement système informatique</span>
                         </div>
                         <div class="card-socials">
-                            <a class="card-socials-btn facebook" href="https://www.facebook.com/profile.php?id=100018812626522" target="_blank">
+                            <a class="card-socials-btn facebook"
+                                href="https://www.facebook.com/profile.php?id=100018812626522" target="_blank">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"
                                     id="Layer_21" height="24" data-name="Layer 21">
                                     <title></title>
@@ -74,7 +77,8 @@
                                     </path>
                                 </svg>
                             </a>
-                            <a class="card-socials-btn linkedin" href="https://www.linkedin.com/in/aymen-magri-94453329b/" target="_blank">
+                            <a class="card-socials-btn linkedin"
+                                href="https://www.linkedin.com/in/aymen-magri-94453329b/" target="_blank">
                                 <svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="m51.326 185.85h90.011v270.872h-90.011zm45.608-130.572c-30.807 0-50.934 20.225-50.934 46.771 0 26 19.538 46.813 49.756 46.813h.574c31.396 0 50.948-20.814 50.948-46.813-.589-26.546-19.551-46.771-50.344-46.771zm265.405 124.209c-47.779 0-69.184 26.28-81.125 44.71v-38.347h-90.038c1.192 25.411 0 270.872 0 270.872h90.038v-151.274c0-8.102.589-16.174 2.958-21.978 6.519-16.174 21.333-32.923 46.182-32.923 32.602 0 45.622 24.851 45.622 61.248v144.926h90.024v-155.323c0-83.199-44.402-121.911-103.661-121.911z">
@@ -125,52 +129,53 @@
         </div>
     </section>
 </div>
+<!--fin notre équipe-->
 
-
-    <!-- Activities Section -->
-    <section class="activities py-5 mt-4 mb-5">
-        <div class="container">
-            <div class="text-white text-center mb-5">
-                <h2>Qu'est ce qu'on propose</h2>
-                <p class="lead">Découvrez nos activités qui rendent PlantBuddy unique.</p>
+<!-- Qu'est ce qu'on propose-->
+<section class="activities py-5 mt-4 mb-5">
+    <div class="container">
+        <div class="text-white text-center mb-5">
+            <h2>Qu'est ce qu'on propose</h2>
+            <p class="lead">Découvrez nos activités qui rendent PlantBuddy unique.</p>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card activities-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Vente de Plantes</h5>
+                        <img src="vente.png" class="imgActivities" alt="">
+                        <p class="card-text">
+                            Nous proposons une large sélection de plantes d'intérieur et d'extérieur, soigneusement
+                            choisies pour leur qualité et leur beauté.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
-                    <div class="card activities-card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">Vente de Plantes</h5>
-                            <img src="vente.png" class="imgActivities" alt="">
-                            <p class="card-text">
-                                Nous proposons une large sélection de plantes d'intérieur et d'extérieur, soigneusement
-                                choisies pour leur qualité et leur beauté.
-                            </p>
-                        </div>
+            <div class="col-md-4 mb-4">
+                <div class="card activities-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Conseils d'Entretien</h5>
+                        <img src="conseil.png" class="imgActivities" alt="">
+                        <p class="card-text">
+                            Notre équipe d'experts fournit des conseils utiles pour prendre soin de vos plantes et les
+                            garder en bonne santé.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card activities-card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">Conseils d'Entretien</h5>
-                            <img src="conseil.png" class="imgActivities" alt="">
-                            <p class="card-text">
-                                Notre équipe d'experts fournit des conseils utiles pour prendre soin de vos plantes et les
-                                garder en bonne santé.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card activities-card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">Communauté de Passionnés</h5>
-                            <img src="communite.png" class="imgActivities" alt="">
-                            <p class="card-text">
-                                Rejoignez notre communauté en ligne pour partager vos expériences, poser des questions et
-                                vous connecter avec d'autres amateurs de plantes.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card activities-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Communauté de Passionnés</h5>
+                        <img src="communite.png" class="imgActivities" alt="">
+                        <p class="card-text">
+                            Rejoignez notre communauté en ligne pour partager vos expériences, poser des questions et
+                            vous connecter avec d'autres amateurs de plantes.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<!--fin Qu'est ce qu'on propose-->

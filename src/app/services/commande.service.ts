@@ -1,8 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { map, Observable, of } from 'rxjs';
 import { Commande } from '../model/commande';
 import { observableToBeFn } from 'rxjs/internal/testing/TestScheduler';
+import { Plant } from '../model/plant';
 const url="http://localhost:5000/commandes";
 @Injectable({
   providedIn: 'root'
@@ -27,5 +28,9 @@ public changeState(id:string,etat:any):Observable<Commande>{
   return this.http.patch<Commande>(url+'/'+id,etat);
 }
 
-  
+public getArticles(id:string): Observable<Plant[]> {
+  return this.getCommande().pipe(
+    map(commandes => commandes.find(commande => commande.id === id)?.articles || [])
+  );
+} 
 }

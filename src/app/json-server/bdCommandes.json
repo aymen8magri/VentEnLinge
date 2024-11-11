@@ -1,134 +1,13 @@
 {
   "commandes": [
     {
-      "id": "9268",
-      "nom": "Kalai",
-      "prenom": "Sara",
-      "tel": "28997072",
-      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "id": "77bb",
+      "nom": "aymen",
+      "prenom": "magri",
+      "tel": "93552014",
+      "adresse": "Al-Ghazala ",
       "etat": "Validée",
-      "articles": [
-        {
-          "id": "77",
-          "name": "Basilic",
-          "personality": "Aromatique",
-          "description": "Plante aromatique qui purifie l'air et est utilisée en cuisine.",
-          "entretien": "Facile",
-          "dureeVie": "1 an",
-          "in_stock": true,
-          "category": "Plantes purificatrices d'air",
-          "fun_filter": "Bavarde",
-          "price": 7.99,
-          "stock": 30,
-          "date_ajout": "2024-10-22",
-          "images": "https://www.france-culinaire.com/app/uploads/2020/07/Image-SI-Basilic.png",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 2 jours",
-              "quantite": "500 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 3 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Tous les 5 jours",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "77",
-          "name": "Basilic",
-          "personality": "Aromatique",
-          "description": "Plante aromatique qui purifie l'air et est utilisée en cuisine.",
-          "entretien": "Facile",
-          "dureeVie": "1 an",
-          "in_stock": true,
-          "category": "Plantes purificatrices d'air",
-          "fun_filter": "Bavarde",
-          "price": 7.99,
-          "stock": 30,
-          "date_ajout": "2024-10-22",
-          "images": "https://www.france-culinaire.com/app/uploads/2020/07/Image-SI-Basilic.png",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 2 jours",
-              "quantite": "500 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 3 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Tous les 5 jours",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "77",
-          "name": "Basilic",
-          "personality": "Aromatique",
-          "description": "Plante aromatique qui purifie l'air et est utilisée en cuisine.",
-          "entretien": "Facile",
-          "dureeVie": "1 an",
-          "in_stock": true,
-          "category": "Plantes purificatrices d'air",
-          "fun_filter": "Bavarde",
-          "price": 7.99,
-          "stock": 30,
-          "date_ajout": "2024-10-22",
-          "images": "https://www.france-culinaire.com/app/uploads/2020/07/Image-SI-Basilic.png",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 2 jours",
-              "quantite": "500 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 3 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Tous les 5 jours",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "17ed",
-      "nom": "",
-      "prenom": "",
-      "tel": "",
-      "adresse": "",
-      "etat": "Validée",
-      "total": 12.99,
+      "total": 39.97,
       "articles": [
         {
           "id": "1",
@@ -164,6 +43,202 @@
               "saison": "Hiver",
               "frequence": "Chaque semaine",
               "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Lavande",
+          "personality": "Relaxante",
+          "description": "Plante au parfum apaisant.",
+          "entretien": "Facile",
+          "dureeVie": "4-6 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 11.99,
+          "stock": 8,
+          "date_ajout": "2024-10-18",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b18f",
+      "nom": "foulen",
+      "prenom": "foulen",
+      "tel": "12121212",
+      "adresse": "ariana",
+      "etat": "en attente",
+      "total": 23.97,
+      "articles": [
+        {
+          "id": "4",
+          "name": "Cactus",
+          "personality": "Indépendant",
+          "description": "Le roi des plantes résistantes.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 7.99,
+          "stock": 15,
+          "date_ajout": "2024-10-19",
+          "images": "https://dms.mydukaan.io/original/jpeg/upload_file_service/337ed506-4d45-4550-83f7-419d72a0c751/baby-cactus-plants.png",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "name": "Cactus Mammillaria",
+          "personality": "Compact",
+          "description": "Un petit cactus avec des fleurs délicates.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 6.99,
+          "stock": 30,
+          "date_ajout": "2024-10-19",
+          "images": "https://http2.mlstatic.com/D_Q_NP_2X_852760-MLA29008045127_122018-T.webp",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "71",
+          "name": "Sedum",
+          "personality": "Solaire",
+          "description": "Succulente qui aime le soleil et est très résistante.",
+          "entretien": "Facile",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Cactus et succulentes",
+          "fun_filter": "Facile à vivre",
+          "price": 8.99,
+          "stock": 20,
+          "date_ajout": "2024-10-23",
+          "images": "https://succulentmarket.com/cdn/shop/articles/Screen_Shot_2021-07-29_at_11.21.07_AM.jpg?v=1638207837",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
             }
           ]
         }

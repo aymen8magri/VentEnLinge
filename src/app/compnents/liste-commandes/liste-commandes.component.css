@@ -7,3 +7,25 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.offcanvas-body {
+    margin-left: 20px;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+}
+
+.item-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

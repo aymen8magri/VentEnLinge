@@ -1,3 +1,4 @@
+/*bouton contactez nous*/
 .button {
   position: relative;
   text-decoration: none;
@@ -80,7 +81,9 @@
   ;
 }
 
-/*card*/
+/*fin bouton contactez nous*/
+
+/*card du notre équipe*/
 .card-dev {
   --font-color: #323232;
   --font-color-sub: #666;
@@ -106,7 +109,6 @@
   margin-top: -165px;
   background-repeat: no-repeat;
 }
-
 
 .card-title {
   text-align: center;
@@ -158,15 +160,20 @@
   transform: scale(0.4) translate(160px, 150px);
 }
 
-/*about us*/
-h2{
+/*fin card du notre équipe*/
+
+/*about us titre*/
+h2 {
   font-weight: 700;
   font-size: 38px;
   text-align: center;
   margin-bottom: 50px;
 }
 
+/*fin about us titre*/
 
+
+/*qui sommes nous*/
 header {
   background-image: url(../../../../public/waveG.png);
   background-size: cover;
@@ -174,49 +181,62 @@ header {
   height: 420px;
 }
 
-.about-us-content{
-    animation: slideInFromTop 1s ease-out;
-    z-index: 0;
-  }
-  @keyframes slideInFromTop {
-    0% {
-      transform: translateY(-45%);
-    }
-    100% {
-      transform: translateY(0);
-    }
+.about-us-content {
+  animation: slideInFromTop 1s ease-out;
+  z-index: 0;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-45%);
   }
 
-  .entreDuGauche{
-    animation: slideInFromLeft 1s ease-out;
+  100% {
+    transform: translateY(0);
   }
-  @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+}
+
+.entreDuGauche {
+  animation: slideInFromLeft 1s ease-out;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
   }
-  .entreDuDroite{
-    animation: slideInFromRight 1s ease-out;
+
+  100% {
+    transform: translateX(0);
   }
-  @keyframes slideInFromRight {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+}
+
+.entreDuDroite {
+  animation: slideInFromRight 1s ease-out;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
   }
-.activities{
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*fin qui sommes nous*/
+
+
+/*Qu'est ce qu'on propose*/
+.activities {
   background-image: url(../../../../public/bg2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
 }
-.activities-card{
+
+.activities-card {
   background-color: #33845D;
   color: #fff;
   border: 2px solid #001e1d;
@@ -227,18 +247,21 @@ header {
   font-size: 18px;
 }
 
-.activities-card:hover{
+.activities-card:hover {
   transform: scale(1.05);
   box-shadow: 4px 4px #001e1d;
   background-color: #2e6d4f;
   color: #fff;
 }
-.imgActivities{
+
+.imgActivities {
   width: 110px;
   height: 110px;
   margin: 10px;
 }
-.imgActivities:hover{
+
+.imgActivities:hover {
   transform: scale(1.1);
 }
 
+/*fin Qu'est ce qu'on propose*/
