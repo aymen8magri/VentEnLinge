@@ -6,7 +6,7 @@
       "prenom": "Sara",
       "tel": "28997072",
       "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
-      "etat": "en attente",
+      "etat": "Validée",
       "articles": [
         {
           "id": "77",
@@ -116,6 +116,54 @@
               "saison": "Hiver",
               "frequence": "Chaque semaine",
               "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17ed",
+      "nom": "",
+      "prenom": "",
+      "tel": "",
+      "adresse": "",
+      "etat": "Validée",
+      "total": 12.99,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
             }
           ]
         }

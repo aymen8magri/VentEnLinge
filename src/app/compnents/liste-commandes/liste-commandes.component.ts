@@ -1,11 +1,13 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { commandeService } from '../../services/commande.service';
 import { Commande } from '../../model/commande';
+import { Plant } from '../../model/plant';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-liste-commandes',
   standalone: true,
-  imports: [],
+  imports: [NgClass],
   templateUrl: './liste-commandes.component.html',
   styleUrl: './liste-commandes.component.css'
 })
@@ -17,7 +19,9 @@ export class ListeCommandesComponent implements OnInit{
       data=>{this.commandes=data,
       console.log(data)
       }
+      
     )
+    
   }
  onDeleteCommande(id:string){
   this.commandeService.deleteCommande(id).subscribe(

@@ -445,43 +445,6 @@
       ]
     },
     {
-      "id": "13",
-      "name": "Bégonia",
-      "personality": "Colorée",
-      "description": "Une plante aux fleurs éclatantes et vibrantes.",
-      "entretien": "Moyen",
-      "dureeVie": "2-4 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 8.99,
-      "stock": 15,
-      "date_ajout": "2024-10-11",
-      "images": "https://www.rustica.fr/images/begonia-x-benariensis-red-bronze-leaf-fm220708-037.jpg",
-      "arrosage": [
-        {
-          "saison": "Été",
-          "frequence": "Tous les 2 jours",
-          "quantite": "500 ml"
-        },
-        {
-          "saison": "Printemps",
-          "frequence": "Tous les 3 jours",
-          "quantite": "400 ml"
-        },
-        {
-          "saison": "Automne",
-          "frequence": "Tous les 5 jours",
-          "quantite": "300 ml"
-        },
-        {
-          "saison": "Hiver",
-          "frequence": "Chaque semaine",
-          "quantite": "200 ml"
-        }
-      ]
-    },
-    {
       "id": "14",
       "name": "Géranium",
       "personality": "Rustique",
@@ -491,7 +454,7 @@
       "in_stock": false,
       "category": "Plantes fleuries",
       "fun_filter": "Facile à vivre",
-      "price": 5.99,
+      "price": 2222,
       "stock": 0,
       "date_ajout": "2024-10-08",
       "images": "https://d31ucaydsf5avx.cloudfront.net/10742-large_default/geranium-rose-artificiel.jpg",

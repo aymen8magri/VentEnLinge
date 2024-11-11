@@ -7,8 +7,7 @@
                 <tr>
                     <th scope="col">Nom et Prénom</th>
                     <th scope="col">ID Commande</th>
-                    <th scope="col" class="d-flex align-items-center gap-2">Montant <i class="bi bi-sort-up"
-                            style="cursor: pointer;" title="Trier par montant"></i></th>
+                    <th scope="col" >Montant</th>
                     <th scope="col">Téléphone</th>
                     <th scope="col">Adresse</th>
                     <th scope="col">État de la Commande</th>
@@ -16,50 +15,52 @@
                 </tr>
             </thead>
             <tbody class="table-info">
+                @for(c of commandes;track $index){
                 <tr>
-                    <td>John Doe</td>
-                    <td>CMD12345</td>
-                    <td>1000$</td>
-                    <td>+21612345678</td>
-                    <td>123 Avenue, City zeda zecazc zadzad</td>
-                    <td>En cours</td>
+                   
+                    <td>{{c.nom}}</td>
+                    <td>{{c.prenom}}</td>
+                    <td>{{c.total}}$</td>
+                    <td>{{c.tel}}</td>
+                    <td>{{c.adresse}}</td>
+                    <td><button (click)="onValiderCommande(c.id)" [ngClass]="(c.etat == 'en attente') ? 'btn btn-warning' : 'btn btn-success'">{{c.etat}}</button></td>
                     <td>
                         <div class="d-flex justify-content-center gap-2">
                             <button class="btn btn-primary btn-sm" type="button" 
                                 data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" 
-                                title="Voir">
+                                data-bs-target="#$index" aria-controls="offcanvasExample" 
+                                title="Voir" >
                                 <i class="bi bi-eye-fill"></i>
                             </button>
-                            <button class="btn btn-danger btn-sm" title="Supprimer"><i
+                            <button class="btn btn-danger btn-sm" title="Supprimer" (click)="onDeleteCommande(c.id)"><i
                                     class="bi bi-trash3-fill"></i>
                             </button>
                         </div>
                     </td>
-                </tr>
+                </tr>}
             </tbody>
         </table>
 
         <!-- Offcanvas: aperçu de la commande -->
-        <div class="offcanvas offcanvas-start bg-success" tabindex="-1" id="offcanvasExample"
+        @for(c of commandes;track $index){
+        <div class="offcanvas offcanvas-start bg-success" tabindex="-1" [id]="$index"
             aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
                 <div class="d-flex justify-content-between align-items-center w-100">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Aperçu de la commande</h5>
-                    <p class="text-white" style="font-size: 1.2rem; margin: 0;">Total: 1000$</p>
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Aperçu de la commande {{$index}}</h5>
+                    <p class="text-white" style="font-size: 1.2rem; margin: 0;">Total: {{c.total}}$</p>
                 </div>
                 
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            @for(p of c.articles;track $index){
             <div class="offcanvas-body text-white">
-                <h3>Nom du produit 1</h3>
-                <p>Prix: 100$</p>
+                <h3>{{p.name}}</h3>
+                <p>Prix: {{p.price}}$</p>
                 <p>Quantité: 2</p>
                 <hr>
-                <h3>Nom du produit 2</h3>
-                <p>Prix: 200$</p>
-                <p>Quantité: 4</p>
-            </div>
-        </div>
+                
+            </div>}
+        </div>}
     </div>
 </div>

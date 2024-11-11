@@ -22,7 +22,7 @@ export class PasserCommandeComponent {
   onCommande(nom:string,pnom:string,tel:string,adresse:string){
     console.log(this.tabcom);
     console.log(nom,pnom)
-    this.com=new Commande(nom,pnom,tel,adresse,"en attente",this.tabcom);
+    this.com=new Commande(nom,pnom,tel,adresse,"en attente",this.plantService.total(),this.tabcom);
     console.log(this.com);
     this.commandeService.addCommande(this.com).subscribe(
       data=>console.log(data)

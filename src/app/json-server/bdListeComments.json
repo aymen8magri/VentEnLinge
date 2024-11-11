@@ -204,11 +204,6 @@
       "id": "14",
       "liste": [
         {
-          "nom": "SucculentAddict",
-          "message": "Aloe vera is a must-have in any plant collection.",
-          "nbLikes": 18
-        },
-        {
           "nom": "DesertDweller",
           "message": "Aloe is my go-to plant for burns and scrapes!",
           "nbLikes": 6

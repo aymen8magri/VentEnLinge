@@ -13,6 +13,7 @@ import { RouterLink } from '@angular/router';
 })
 export class PanierComponent {
   tabcart: Plant[] = [];
+  total!:number
 
 
   constructor(private palntService: PalntService) {}
@@ -20,19 +21,20 @@ export class PanierComponent {
   ngOnInit(): void {
     this.tabcart = this.palntService.tabcart;
     console.log(this.tabcart);
+    this.total=this.palntService.total();
   }
 
-  get total(): number {
-    return this.tabcart.reduce((acc, plant) => acc + plant.price, 0);
-  }
-
+   
   deleteFromCart(plant: Plant): void {
     this.palntService.deleteFromCart(plant);
     this.tabcart = this.palntService.tabcart; 
+    this.total=this.palntService.total();
   }
 
   clearCart(): void {
     this.palntService.clearCart();
     this.tabcart = this.palntService.tabcart;
+    this.total=this.palntService.total();
+    
   }
 }

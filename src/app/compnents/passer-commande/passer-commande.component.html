@@ -26,7 +26,7 @@
                 <input type="text" class="form-control" id="Adresse" placeholder="Entrez votre adresse" name="adresse"
                     required #adresse />
             </div>
-            <button type="submit" class="submit-btn" (click)="onCommande(nom.value,pnom.value,tel.value,adresse.value)">Passer la commande <i class="bi bi-cash-coin"
+            <button type="button" class="submit-btn" (click)="onCommande(nom.value,pnom.value,tel.value,adresse.value)">Passer la commande <i class="bi bi-cash-coin"
                     style="margin-left: 10px;"></i></button>
         </form>
         <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">
