@@ -55,7 +55,13 @@
 
             <!-- Search -->
             <div class="d-flex search-container">
-                <input type="text" class="form-control search-input" style="color: #1C593A;" [(ngModel)]="searchTerm" (input)="search()" placeholder="Chercher une plante ...">
+                <input type="text" 
+                    class="form-control search-input" 
+                    style="color: #1C593A;" 
+                    [(ngModel)]="searchTerm" 
+                     
+                    placeholder="Chercher une plante ..."
+                    aria-label="Chercher une plante ...">
                 <button class="btn search-button">
                   <i class="bi bi-search"></i>
                 </button>
@@ -91,7 +97,7 @@
         </div>
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
-            @for (plant of filteredPlants; track plant.id) {
+            @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
                 @if (plant.category === "Plantes fleuries") {
                     <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
                 }
@@ -107,7 +113,7 @@
         </div>
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
-            @for (plant of filteredPlants; track plant.id) {
+            @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
                 @if (plant.category === "Cactus et succulentes") {
                     <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
                 }
@@ -123,7 +129,7 @@
         </div>
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
-            @for (plant of filteredPlants; track plant.id) {
+            @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
                 @if (plant.category === "Plantes purificatrices d'air") {
                     <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
                 }

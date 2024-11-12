@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './compnents/navbar/navbar.component';
 import { FooterComponent } from './compnents/footer/footer.component';
 import { BackToTopButtonComponent } from './compnents/back-to-top-button/back-to-top-button.component';
@@ -11,7 +11,16 @@ import { BackToTopButtonComponent } from './compnents/back-to-top-button/back-to
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'VentEnLinge';
 
+  constructor(private router: Router) {}
+
+  ngOnInit(): void {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        window.scrollTo(0, 0); // Scroll to the top of the page
+      }
+    });
+  }
 }

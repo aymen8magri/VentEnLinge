@@ -1,143 +1,188 @@
-<div class="section-title">
-    <h1>Ajouter une plante </h1>
-</div>
-<div class="col-lg-5 contact-form">
-    <form [formGroup]="planteForm" (ngSubmit)="onAjouter()" >
-        <div class="mb-3">
-            <label for="nom" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="nom" placeholder="nom" name="personality" 
-                formControlName="nom" />
-                @if(nom?.invalid && nom?.touched){
-                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                }     
-        </div>
-
-        <div class="mb-3">
-            <label for="category" class="form-label">Categorie</label>
-            <select name="category" id="category" class="form-select" formControlName="categorie">
-                @for(c of cat; track $index){
-                <option [value]="c">{{c}}</option>
+<div class="bgfixed">
+    <!-- titre de la page -->
+    <div class="section-title">
+        <h1>Ajouter une plante </h1>
+    </div>
+    <!-- formulaire de ajout de la plante par le admin -->
+    <div class="contact-form">
+        <form [formGroup]="planteForm" (ngSubmit)="onAjouter()">
+            <!-- champ nom de la plante -->
+            <div class="mb-3">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="nom" name="personality"
+                    formControlName="nom" />
+                @if(nom?.errors?.['required'] && nom?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
                 }
-            </select>
-        </div>
-        <div class="mb-3">
-            <label for="personalité" class="form-label">Personalité</label>
-            <input type="text" class="form-control" id="personality" placeholder="personalite" name="personalite"
-                 formControlName="personalite" />
-                @if(personalite?.invalid && personalite?.touched){
-                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                }  
-        </div>
-        <div class="mb-3">
-            <label for="description" class="form-label">Description</label>
-            <textarea class="form-control" id="description" placeholder="Description" name="description" 
-                formControlName="description"></textarea>
-                @if(description?.invalid && description?.touched){
-                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                }  
-        </div>
-
-        <div class="mb-3">
-            <label for="maintenance" class="form-label">Maintenance</label>
-            <select name="maintenance" id="maintenance" class="form-select" formControlName="maintenance">
-                @for(m of maintenance;track $index){
-                <option [value]="m">{{m}}</option>
+                @if(nom?.errors?.['minlength'] && nom?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
                 }
-            </select>
-        </div>
-        <div class="mb-3">
-            <label for="filter" class="form-label">Fun filter</label>
-            <select name="filter" id="filter" class="form-select" formControlName="filter">
-                @for(f of filter;track $index){
-                <option [value]="f">{{f}}</option>
+                @if(nom?.errors?.['maxlength'] && nom?.touched){
+                <p class="pAlert">Maximum 20 caractères</p>
                 }
-            </select>
-            
-        </div>
-        <div class="mb-3">
-            <label for="price" class="form-label">Prix</label>
-            <input type="text" class="form-control" id="price" placeholder="Prix" name="price" 
-                formControlName="prix" />
-                 
-                @if(prix?.errors?.['min'] && prix?.dirty){
-                    <div class="alert alert-warning">Le prix doit être supérieur a 5</div>
-
-                }@else if(prix?.invalid && prix?.touched){
-                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                } 
-        </div>
-        <div class="mb-3">
-            <label for="stock" class="form-label"> Stock</label>
-            <input type="text" class="form-control" id="stock" placeholder="stock" name="stock" 
-                formControlName="stock" />
-                @if(stock?.errors?.['min'] && stock?.dirty){
-                    <div class="alert alert-warning">Minimum 1 en stock</div>
-
-                } 
-                @else if(stock?.invalid && stock?.touched){
-                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                }
-        </div>
-        <div class="mb-3">
-            <label for="enstock">En Stock</label>
-            <input type="checkbox" formControlName="enStock">
-        </div>
-
-        <div class="mb-3">
-            <label for="date" class="form-label">Date ajout</label>
-            <input type="date" class="form-control" id="date" placeholder="Date ajout" name="date" 
-                formControlName="dateAjout" />
-                @if(dateAjout?.invalid && dateAjout?.touched){
-                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                }  
-        </div>
-        <div class="mb-3">
-            <label for="lifespan" class="form-label">Durée de vie</label>
-            <input type="text" class="form-control" id="lifespan" placeholder="Durée de vie" name="lifespan" 
-                formControlName="durVie" />
-                @if(durVie?.invalid && durVie?.touched){
-                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                }  
-        </div>
-        <label for="waterin" class="form-label">Arrosage</label>
-        <div class="mb-3" formArrayName="arrosage">
-            @for(w of watering.controls;track $index){
-            <div [formGroupName]="$index">
-                <label for="">saison</label>
-                <select name="" id="" formControlName="saison" class="form-select">
-                    <option value="été">été</option>
-                    <option value="hiver">automne</option>
-                    <option value="hiver">hiver</option>
-                    <option value="printemps">printemps</option>
-                </select>
-                <label for="">Fréquence</label>
-                <select name="" id="" formControlName="frequence" class="form-select">
-                    <option value="Chaque jour">Chaque jour</option>
-                    <option value="Tous les 3 jours">Tous les 3 jours</option>
-                    <option value="Tous les 6 jours">Tous les 6 jours</option>
-                    <option value="Chaque semaine">Chaque semaine</option>
-                </select>
-                <label for="">Quantité</label>
-                <select name="" id="" formControlName="quantite" class="form-select">
-                    <option value="600 ml">600 ml</option>
-                    <option value="350 ml">350 ml</option>
-                    <option value="300 ml">300 ml</option>
-                    <option value="150 ml">150 ml</option>
+            </div>
+            <!-- champ categorie de la plante -->
+            <div class="mb-3">
+                <label for="category" class="form-label">Categorie</label>
+                <select name="category" id="category" class="form-select" formControlName="categorie">
+                    @for(c of cat; track $index){
+                    <option [value]="c">{{c}}</option>
+                    }
                 </select>
             </div>
-            }
+            <!-- champ personalite de la plante -->
+            <div class="mb-3">
+                <label for="personalité" class="form-label">Personalité</label>
+                <input type="text" class="form-control" id="personality" placeholder="personalite" name="personalite"
+                    formControlName="personalite" />
+                @if(personalite?.errors?.['required'] && personalite?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(personalite?.errors?.['minlength'] && personalite?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
+                }
+                @if(personalite?.errors?.['maxlength'] && personalite?.touched){
+                <p class="pAlert">Maximum 20 caractères</p>
+                }
+            </div>
+            <!-- champ description de la plante -->
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" placeholder="Description" name="description"
+                    formControlName="description"></textarea>
+                @if(description?.errors?.['required'] && description?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(description?.errors?.['minlength'] && description?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
+                }
+                @if(description?.errors?.['maxlength'] && description?.touched){
+                <p class="pAlert">Maximum 20 caractères</p>
+                }
+            </div>
+            <!-- champ maintenance de la plante -->
+            <div class="mb-3">
+                <label for="maintenance" class="form-label">Maintenance</label>
+                <select name="maintenance" id="maintenance" class="form-select" formControlName="maintenance">
+                    @for(m of maintenance;track $index){
+                    <option [value]="m">{{m}}</option>
+                    }
+                </select>
+            </div>
+            <!-- champ filtre de la plante -->
+            <div class="mb-3">
+                <label for="filter" class="form-label">Fun filter</label>
+                <select name="filter" id="filter" class="form-select" formControlName="filter">
+                    @for(f of filter;track $index){
+                    <option [value]="f">{{f}}</option>
+                    }
+                </select>
 
-        </div>
-        <button type="button" class="btn btn-warning" (click)="onAjouterArrosage()">Ajouter une Saison</button>
-        <div class="mb-3">
-            <label for="img" class="form-label">Image URL</label>
-            <input type="text" class="form-control" id="img" placeholder="Image URL" name="img"   formControlName="img"/>
-            @if(img?.invalid && img?.touched){
-                <div class="alert alert-warning">Veuillez remplir ce champ</div>
-            }
-        </div>
-        <button type="submit" class="submit-btn" [disabled]="planteForm.invalid">Ajouter</button>
-        <button type="button" (click)="onReset()" class="submit-btn">Ajouter de nouveau</button>
-        <div [hidden]="hide">Plante ajoutée avec succès</div>
-    </form>
+            </div>
+            <!-- champ prix de la plante -->
+            <div class="mb-3">
+                <label for="price" class="form-label">Prix</label>
+                <input type="text" class="form-control" id="price" placeholder="Prix" name="price"
+                    formControlName="prix" />
+                @if(prix?.errors?.['min'] && prix?.dirty){
+                <p class="pAlert">Le prix doit être supérieur a 5</p>
+                }
+                @if(prix?.errors?.['required'] && prix?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(prix?.errors?.['pattern'] && prix?.touched){
+                <p class="pAlert">Le prix doit être un nombre</p>
+                }
+            </div>
+            <!-- champ stock de la plante -->
+            <div class="mb-3">
+                <label for="stock" class="form-label"> Stock</label>
+                <input type="text" class="form-control" id="stock" placeholder="stock" name="stock"
+                    formControlName="stock" />
+                @if(stock?.errors?.['min'] && stock?.dirty){
+                <p class="pAlert">Minimum 1 en stock</p>
+                }
+                @if(stock?.errors?.['required'] && stock?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(stock?.errors?.['pattern'] && stock?.touched){
+                <p class="pAlert">Le stock doit être un nombre</p>
+                }
+            </div>
+            <!-- champ en stock de la plante -->
+            <div class="mb-3 form-check">
+                <label for="enstock">En Stock</label>
+                <input type="checkbox" class="form-check-input" formControlName="enStock">
+            </div>
+            <!-- champ date ajout de la plante -->
+            <div class="mb-3">
+                <label for="date" class="form-label">Date ajout</label>
+                <input type="date" class="form-control" id="date" placeholder="Date ajout" name="date"
+                    formControlName="dateAjout" />
+                @if(dateAjout?.errors?.['required'] && dateAjout?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+            </div>
+            <!-- champ durée de vie de la plante -->
+            <div class="mb-3">
+                <label for="lifespan" class="form-label">Durée de vie</label>
+                <input type="text" class="form-control" id="lifespan" placeholder="Durée de vie" name="lifespan"
+                    formControlName="durVie" />
+                @if(durVie?.errors?.['required'] && durVie?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(durVie?.errors?.['pattern'] && durVie?.touched){
+                <p class="pAlert">La durée de vie doit être sous la forme "1-2 ans"</p>
+                }
+            </div>
+            <!-- champ arrosage de la plante -->
+            <label for="waterin" class="form-label">Arrosage</label>
+            <div class="mb-3" formArrayName="arrosage">
+                @for(w of watering.controls;track $index){
+                <div [formGroupName]="$index">
+                    <label for="">saison</label>
+                    <select name="" id="" formControlName="saison" class="form-select">
+                        <option value="été">été</option>
+                        <option value="hiver">automne</option>
+                        <option value="hiver">hiver</option>
+                        <option value="printemps">printemps</option>
+                    </select>
+                    <label for="">Fréquence</label>
+                    <select name="" id="" formControlName="frequence" class="form-select">
+                        <option value="Chaque jour">Chaque jour</option>
+                        <option value="Tous les 3 jours">Tous les 3 jours</option>
+                        <option value="Tous les 6 jours">Tous les 6 jours</option>
+                        <option value="Chaque semaine">Chaque semaine</option>
+                    </select>
+                    <label for="">Quantité</label>
+                    <select name="" id="" formControlName="quantite" class="form-select">
+                        <option value="600 ml">600 ml</option>
+                        <option value="350 ml">350 ml</option>
+                        <option value="300 ml">300 ml</option>
+                        <option value="150 ml">150 ml</option>
+                    </select>
+                </div>
+                }
+
+            </div>
+            <!-- bouton pour ajouter une saison -->
+            <button type="button" class="btn btn-warning" (click)="onAjouterArrosage()">Ajouter une Saison</button>
+            <!-- champ image de la plante -->
+            <div class="mb-3">
+                <label for="img" class="form-label">Image URL</label>
+                <input type="text" class="form-control" id="img" placeholder="Image URL" name="img"
+                    formControlName="img" />
+                @if(img?.errors?.['required'] && img?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+            </div>
+            <!-- bouton pour ajouter la plante -->
+            <div class="mb-3 d-flex justify-content-between gap-3 ">
+                <button type="submit" class="submit-btn" [disabled]="planteForm.invalid">Ajouter la plante</button>
+                <button type="button" (click)="onReset()" class="submit-btn">Ajouter de nouveau</button>
+            </div>
+            <!-- message de succès -->
+            <div [hidden]="hide">Plante ajoutée avec succès</div>
+        </form>
+    </div>
 </div>

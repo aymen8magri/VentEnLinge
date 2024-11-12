@@ -1,35 +1,70 @@
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
         <h1 class="display-4 mb-5">Catalogue des Plantes</h1>
-        <div class="d-flex justify-content-center gap-5 flex-wrap">
-            <!-- Sélection du filtre amusant -->
-            <div class="input-group mb-3" style="width: 450px;">
-                <label class="input-group-text" for="inputGroupSelect01">Filtre Amusant</label>
-                <select class="form-select" id="inputGroupSelect01">
-                    <option selected>Choisissez un filtre amusant...</option>
-                    <option value="Toutes">Toutes</option>
-                    <option value="Facile à vivre">Facile à vivre</option>
-                    <option value="Bavarde">Bavarde</option>
-                    <option value="Énergique">Énergique</option>
-                </select>
+        <div class="row justify-content-center gap-2">
+
+            <!-- Fun Filter Selection -->
+            <div class="col-md-3" style="width: 450px;">
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="funFilterSelect">Filtre Amusant</label>
+                    <select class="form-select" id="funFilterSelect" (change)="onFilter($event)">
+                        <option selected value="">Choisissez un filtre amusant...</option>
+                        <option value="">Toutes</option>
+                        <option value="Facile à vivre">Facile à vivre</option>
+                        <option value="Bavarde">Bavarde</option>
+                        <option value="Énergique">Énergique</option>
+                    </select>
+                </div>
             </div>
 
-            <!-- Sélection de la catégorie -->
-            <div class="input-group mb-3" style="width: 400px;">
-                <label class="input-group-text" for="inputGroupSelect02">Catégorie</label>
-                <select class="form-select" id="inputGroupSelect02">
-                    <option selected>Choisissez une catégorie...</option>
-                    <option value="Toutes">Toutes</option>
-                    <option value="Plantes fleuries">Plantes fleuries</option>
-                    <option value="Cactus et succulentes">Cactus et succulentes</option>
-                    <option value="Plantes purificatrices d'air">Plantes purificatrices d'air</option>
-                </select>
+            <!-- Category Selection -->
+            <div class="col-md-3" style="width: 400px;">
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="categorySelect">Catégorie</label>
+                    <select class="form-select" id="categorySelect" (change)="onFilter($event)">
+                        <option selected value="">Choisissez une catégorie...</option>
+                        <option value="">Toutes</option>
+                        <option value="Plantes fleuries">Plantes fleuries</option>
+                        <option value="Cactus et succulentes">Cactus et succulentes</option>
+                        <option value="Plantes purificatrices d'air">Plantes purificatrices d'air</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Sort by Value Button -->
+            <div class="col-md-3 col-sm-6 btn-group">
+                <button class="btn mb-3" title="Trier par valeur">
+                    <span class="d-flex align-items-center gap-2">Trier par valeur <i
+                            class="bi bi-currency-dollar"></i></span>
+                </button>
+                <button class="btn mb-3" (click)="sortAscending()" title="Trier par valeur croissante">
+                    <i class="bi bi-arrow-up"></i>
+                </button>
+                <button class="btn mb-3" (click)="sortDescending()" title="Trier par valeur décroissante">
+                    <i class="bi bi-arrow-down"></i>
+                </button>
+            </div>
+
+            <!-- Search -->
+            <div class="d-flex search-container">
+                <input type="text" 
+                    class="form-control search-input" 
+                    style="color: #1C593A;" 
+                    [(ngModel)]="searchTerm" 
+                     
+                    placeholder="Chercher une plante ..."
+                    aria-label="Chercher une plante ...">
+                <button class="btn search-button">
+                  <i class="bi bi-search"></i>
+                </button>
             </div>
         </div>
+
     </div>
-   
 </div>
- 
+
+
+
 
 <!-- afficher selon catégorie-->
 <!--Plantes fleuries-->
@@ -40,8 +75,10 @@
         </div>
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
-            @for (plant of plantsFleuries; track plant.id) {
+            @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
+            @if (plant.category === "Plantes fleuries") {
             <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeleteFleur($event)"></app-plant-item-admin>
+            }
             }
         </div>
     </div>
@@ -54,8 +91,10 @@
         </div>
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
-            @for (plant of plantsCactus; track plant.id) {
+            @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
+            @if (plant.category === "Cactus et succulentes") {
             <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeleteSucc($event)"></app-plant-item-admin>
+            }
             }
         </div>
     </div>
@@ -68,8 +107,10 @@
         </div>
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
-            @for (plant of plantsPurificatrices; track plant.id) {
+            @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
+            @if (plant.category === "Plantes purificatrices d'air") {
             <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeletePur($event)"></app-plant-item-admin>
+            }
             }
         </div>
     </div>

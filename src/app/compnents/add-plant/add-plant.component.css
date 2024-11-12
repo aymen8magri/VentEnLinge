@@ -1,11 +1,14 @@
+.bgfixed{
+    background-image: url('../../../../public/bg3.png');
+    background-attachment: fixed;
+}
 .contact-form {
     background-color: #629A74; 
     padding: 40px;
-    border-radius: 0 8px 8px 0;
-    box-shadow: 0 0 15px #1C593A;
-    margin: 50px;
-    position:relative;
-    left:400px
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+    bottom: 20px;
 }
 
 .contact-form .form-label {
@@ -48,9 +51,35 @@ input , textarea{
     color: #001e1d;
 }
 .section-title {
-    padding: 15px;
-    background: #72B58C;
-    border: 1px solid #72B58C;
+    padding: 10px;
+    background-color: #629A74;
     border-left: 7px solid #1C593A;
+    border-right: 7px solid #1C593A;
     color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    text-decoration: underline;
 }
+.pAlert{
+    color: #591c1c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+input.ng-valid.ng-touched,
+textarea.ng-valid.ng-touched,
+select.ng-valid.ng-touched {
+    border-left: 7px solid #1C593A;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+    border-left: 7px solid #591c1c;
+}
+

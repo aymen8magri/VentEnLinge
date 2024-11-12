@@ -87,11 +87,5 @@ export class PalntService {
   public  total(): number {
     return this.tabcart.reduce((acc, plant) => acc + plant.price, 0);
   }
-  /*--------------------* Search *---------------------------*/
-  public search(searchTerm: string): Observable<Plant[]> {
-    return this.http.get<Plant[]>(`${API_URL}?name=${searchTerm[0].toUpperCase()+searchTerm.slice(1)}`);
-  }
-
-
 
 }

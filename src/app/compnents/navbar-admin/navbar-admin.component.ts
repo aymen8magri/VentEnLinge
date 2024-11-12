@@ -40,14 +40,5 @@ export class NavbarAdminComponent {
 
   searchTerm: string = '';
 
-  search(){
-    this.palntService.search(this.searchTerm).subscribe(plants => {
-      this.tabsearch = plants;
-      console.log(this.tabsearch);
-    });
-    console.log(this.searchTerm);
-  }
-
-
 
 }

@@ -4,11 +4,12 @@ import { PalntService } from '../../services/palnt.service';
 import { PlantItemComponent } from '../plant-item/plant-item.component';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { FilterPipe } from '../../filter.pipe';
 
 @Component({
     selector: 'app-list-plants',
     standalone: true,
-    imports: [PlantItemComponent, RouterLink, FormsModule],
+    imports: [PlantItemComponent, RouterLink, FormsModule, FilterPipe],
     templateUrl: './list-plants.component.html',
     styleUrl: './list-plants.component.css'
 })
@@ -57,13 +58,8 @@ export class ListPlantsComponent implements OnInit {
     }
 
     /*--------------------* Search *---------------------------*/
-    searchTerm: string = '';
+    searchTerm: any;
 
-    search(): void {
-        this.plantService.search(this.searchTerm).subscribe(plants => {
-            this.filteredPlants = plants;
-            console.log(this.filteredPlants);
-        });
-    }
+
 
 }

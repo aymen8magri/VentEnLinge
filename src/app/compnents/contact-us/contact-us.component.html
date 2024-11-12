@@ -1,58 +1,99 @@
-       
-       <div class="row align-items-center py-5 m-4">
-
-            <div class="col-lg-4 contact-details">
-                <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="Contact Image" />
-                <h2>Dites nous tout</h2>
-                <p>Votre avis est important pour nous</p>
+<div class="row align-items-center py-5 m-4">
+    <!-- contact details -->
+    <div class="col-lg-4 contact-details">
+        <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="Contact Image" />
+        <h2>Dites nous tout</h2>
+        <p>Votre avis est important pour nous</p>
+    </div>
+    <!-- contact form -->
+    <div class="col-lg-8 contact-form">
+        <!-- form contact -->
+        <form [formGroup]="mailForm" (ngSubmit)="sendEmail()" [hidden]="formHide">
+            <!-- prenom -->
+            <div class="mb-3">
+                <label for="first-name" class="form-label">Pénom:</label>
+                <input type="text" class="form-control" id="first-name" placeholder="Prénom" name="fname"
+                    formControlName="prenom" />
+                @if(prenom?.errors?.['minlength'] && prenom?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
+                }
+                @if(prenom?.errors?.['maxlength'] && prenom?.touched){
+                <p class="pAlert">Maximum 20 caractères</p>
+                }
+                @if(prenom?.errors?.['pattern'] && prenom?.touched){
+                <p class="pAlert">Seuls les lettres sont autorisées</p>
+                }
+                @if(prenom?.invalid && prenom?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
             </div>
-
-            <div class="col-lg-8 contact-form">
-                <form [formGroup]="mailForm" (ngSubmit)="sendEmail()" [hidden]="formHide"  >
-                    <div class="mb-3">
-                        <label  for="first-name" class="form-label">Pénom:</label>
-                        <input  type="text" class="form-control" id="first-name" placeholder="Prénom" name="fname" formControlName="prenom" />
-                        @if(prenom?.invalid && prenom?.touched){
-                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                        }
-                    </div>
-                    <div class="mb-3">
-                        <label for="last-name" class="form-label">Nom:</label>
-                        <input type="text" class="form-control" id="last-name" placeholder="Nom" name="lname" formControlName="nom" />
-                        @if(nom?.invalid && nom?.touched){
-                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                        }
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="email-address" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email-address" placeholder="Email" name="email" formControlName="mail" />
-                        @if(mail?.errors?.['pattern'] && prenom?.dirty){
-                            <div class="alert alert-warning">Adresse email invalide</div>
-                        }@else if(mail?.invalid && mail?.touched){
-                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                        }
-                    </div><div class="mb-3">
-                        <label for="subject" class="form-label">Objet:</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Objet" name="subject" formControlName="objet" />
-                        @if(objet?.invalid && objet?.touched){
-                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                        }
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message:</label>
-                        <textarea  class="form-control" name="message" rows="4" placeholder="Votre message" formControlName="message"></textarea>
-                        @if(message?.invalid && message?.touched){
-                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
-                        }
-                    </div>
-                    <button type="submit" class="submit-btn" [disabled]="mailForm.invalid">Envoyer<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
-                </form>
-                <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">
-                    email envoyé avec succés! Consultez notre  <a routerLink="/listePlantes" class="shop" title="Back to shop"> catalogue</a> 
-                 </div>
+            <!-- nom -->
+            <div class="mb-3">
+                <label for="last-name" class="form-label">Nom:</label>
+                <input type="text" class="form-control" id="last-name" placeholder="Nom" name="lname"
+                    formControlName="nom" />
+                @if(nom?.errors?.['minlength'] && nom?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
+                }
+                @if(nom?.errors?.['maxlength'] && nom?.touched){
+                <p class="pAlert">Maximum 20 caractères</p>
+                }
+                @if(nom?.errors?.['pattern'] && nom?.touched){
+                <p class="pAlert">Seuls les lettres sont autorisées</p>
+                }
+                @if(nom?.invalid && nom?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
             </div>
-
+            <!-- email -->
+            <div class="mb-3">
+                <label for="email-address" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email-address" placeholder="Email" name="email"
+                    formControlName="mail" />
+                @if(mail?.errors?.['pattern'] && mail?.touched){
+                <p class="pAlert">Adresse email invalide</p>
+                }@else if(mail?.invalid && mail?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+            </div>
+            <!-- objet -->
+            <div class="mb-3">
+                <label for="subject" class="form-label">Objet:</label>
+                <input type="text" class="form-control" id="subject" placeholder="Objet" name="subject"
+                    formControlName="objet" />
+                @if(objet?.invalid && objet?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(objet?.errors?.['minlength'] && objet?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
+                }
+                @if(objet?.errors?.['maxlength'] && objet?.touched){
+                <p class="pAlert">Maximum 20 caractères</p>
+                }
+            </div>
+            <!-- message -->
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" name="message" rows="4" placeholder="Votre message"
+                    formControlName="message"></textarea>
+                @if(message?.invalid && message?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(message?.errors?.['minlength'] && message?.touched){
+                <p class="pAlert">Minimum 10 caractères</p>
+                }
+                @if(message?.errors?.['maxlength'] && message?.touched){
+                <p class="pAlert">Maximum 100 caractères</p>
+                }
+            </div>
+            <!-- submit -->
+            <button type="submit" class="submit-btn" [disabled]="mailForm.invalid">Envoyer<i class="bi bi-send-plus"
+                    style="margin-left: 10px;"></i></button>
+        </form>
+        <!-- message de succès -->
+        <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">
+            email envoyé avec succés! Consultez notre <a routerLink="/listePlantes" class="shop" title="Back to shop">
+                catalogue</a>
         </div>
-    
-
+    </div>
+</div>
