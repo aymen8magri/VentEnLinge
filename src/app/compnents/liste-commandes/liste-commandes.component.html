@@ -81,7 +81,7 @@
             </div>
             <!-- body -->
             <div class="offcanvas-body text-white" style="margin-left: 20px;">
-                @for(a of articles;track $index){
+                @for(a of uniqueArticles;track $index){
                 <div class="item-container">
                     <img [src]="a.images" alt="image" class="item-image">
                     <div class="item-details">

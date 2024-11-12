@@ -15,6 +15,7 @@ export class ListeCommandesComponent implements OnInit {
   commandeService: commandeService = inject(commandeService);
   commandes: Commande[] = [];
   articles: Plant[] = [];
+  uniqueArticles:Plant[]=[];
   ngOnInit(): void {
     //get commandes
     this.commandeService.getCommande().subscribe(
@@ -30,9 +31,16 @@ export class ListeCommandesComponent implements OnInit {
     this.commandeService.getArticles(id).subscribe(data => {
       this.articles = data;
       console.log(data);
+      this.removeDuplicates();
     });
   }
-
+  removeDuplicates(): void {
+    this.uniqueArticles = this.articles.filter((value, index, self) => 
+      index === self.findIndex((t) => (
+        t.id === value.id 
+      ))
+    );
+  }
   //get total de la commande
   getTotal(articles:Plant[]){
     return articles.reduce((acc,curr)=>acc+curr.price,0);

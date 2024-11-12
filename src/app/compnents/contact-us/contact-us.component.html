@@ -8,28 +8,45 @@
             </div>
 
             <div class="col-lg-8 contact-form">
-                <form (ngSubmit)="sendEmail()" [hidden]="formHide">
+                <form [formGroup]="mailForm" (ngSubmit)="sendEmail()" [hidden]="formHide"  >
                     <div class="mb-3">
                         <label  for="first-name" class="form-label">Pénom:</label>
-                        <input [(ngModel)]="fname" type="text" class="form-control" id="first-name" placeholder="Prénom" name="fname" required />
+                        <input  type="text" class="form-control" id="first-name" placeholder="Prénom" name="fname" formControlName="prenom" />
+                        @if(prenom?.invalid && prenom?.touched){
+                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                        }
                     </div>
                     <div class="mb-3">
                         <label for="last-name" class="form-label">Nom:</label>
-                        <input [(ngModel)]="lname"type="text" class="form-control" id="last-name" placeholder="Nom" name="lname" required />
+                        <input type="text" class="form-control" id="last-name" placeholder="Nom" name="lname" formControlName="nom" />
+                        @if(nom?.invalid && nom?.touched){
+                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                        }
                     </div>
                     
                     <div class="mb-3">
                         <label for="email-address" class="form-label">Email:</label>
-                        <input [(ngModel)]="mail"type="email" class="form-control" id="email-address" placeholder="Email" name="email" required />
+                        <input type="email" class="form-control" id="email-address" placeholder="Email" name="email" formControlName="mail" />
+                        @if(mail?.errors?.['pattern'] && prenom?.dirty){
+                            <div class="alert alert-warning">Adresse email invalide</div>
+                        }@else if(mail?.invalid && mail?.touched){
+                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                        }
                     </div><div class="mb-3">
                         <label for="subject" class="form-label">Objet:</label>
-                        <input [(ngModel)]="subject"type="text" class="form-control" id="subject" placeholder="Objet" name="subject" required />
+                        <input type="text" class="form-control" id="subject" placeholder="Objet" name="subject" formControlName="objet" />
+                        @if(objet?.invalid && objet?.touched){
+                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                        }
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message:</label>
-                        <textarea [(ngModel)]="message" class="form-control" name="message" rows="4" placeholder="Votre message" required></textarea>
+                        <textarea  class="form-control" name="message" rows="4" placeholder="Votre message" formControlName="message"></textarea>
+                        @if(message?.invalid && message?.touched){
+                            <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                        }
                     </div>
-                    <button type="submit" class="submit-btn">Envoyer<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
+                    <button type="submit" class="submit-btn" [disabled]="mailForm.invalid">Envoyer<i class="bi bi-send-plus" style="margin-left: 10px;"></i></button>
                 </form>
                 <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">
                     email envoyé avec succés! Consultez notre  <a routerLink="/listePlantes" class="shop" title="Back to shop"> catalogue</a> 

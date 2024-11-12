@@ -3,30 +3,54 @@
     <div class="col-lg-4 contact-details">
         <img src="passerCommande.png" alt="Login Image" />
         <h2>Passer à la caisse</h2>
-        <p>Veuillez entrer vos informations de connexion</p>
+        <p>Veuillez entrer vos informations </p>
     </div>
 
     <div class="col-lg-8 contact-form">
-        <form [hidden]="formHide">
+        <form [formGroup]="commandeForm" [hidden]="formHide" (ngSubmit)="onCommande()">
             <div class="mb-3">
                 <label for="name" class="form-label">Nom :</label>
-                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" required #nom/>
+                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" formControlName="nom"/>
+                @if(nom?.invalid && nom?.touched){
+                    <div class="alert alert-warning">
+                        Veuillez remplir ce champ
+                    </div>
+                }
             </div>
             <div class="mb-3">
                 <label for="firstname" class="form-label">Prénom :</label>
-                <input type="text" class="form-control" id="firstname" placeholder="Entrez votre prénom" name="firstname" required #pnom />
+                <input type="text" class="form-control" id="firstname" placeholder="Entrez votre prénom" name="firstname" formControlName="prenom" />
+                @if(prenom?.invalid && prenom?.touched){
+                    <div class="alert alert-warning">
+                        Veuillez remplir ce champ
+                    </div>
+                }
             </div>
             <div class="mb-3">
                 <label for="tel" class="form-label">Téléphone :</label>
                 <input type="number" class="form-control" id="tel" placeholder="Entrez votre téléphone" name="tel"
-                    required #tel />
+                    formControlName="tel" />
+                    @if(tel?.errors?.['pattern'] && tel?.dirty){
+                        <div class="alert alert-warning">
+                            Numéro de téléphone invalide
+                        </div>
+                    }@else if(tel?.invalid && tel?.touched){
+                        <div class="alert alert-warning">
+                            Veuillez remplir ce champ
+                        </div>
+                    }
             </div>
             <div class="mb-3">
                 <label for="adresse" class="form-label"> Adresse</label>
                 <input type="text" class="form-control" id="Adresse" placeholder="Entrez votre adresse" name="adresse"
-                    required #adresse />
+                    formControlName="adresse" />
+                    @if(adresse?.invalid && adresse?.touched){
+                        <div class="alert alert-warning">
+                            Veuillez remplir ce champ
+                        </div>
+                    }
             </div>
-            <button type="button" class="submit-btn" (click)="onCommande(nom.value,pnom.value,tel.value,adresse.value)">Passer la commande <i class="bi bi-cash-coin"
+            <button type="submit" class="submit-btn" [disabled]="commandeForm.invalid">Passer la commande <i class="bi bi-cash-coin"
                     style="margin-left: 10px;"></i></button>
         </form>
         <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">

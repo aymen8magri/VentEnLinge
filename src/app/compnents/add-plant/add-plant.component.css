@@ -23,6 +23,11 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.submit-btn:disabled {
+    background-color: #ccc;  
+    cursor: not-allowed;
+    opacity: 0.6;            
+}
 input , textarea{
     background-color: #B9F1C3;
     border: 1px solid #1C593A;

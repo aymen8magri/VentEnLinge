@@ -2848,6 +2848,22 @@
           "quantite": "150 ml"
         }
       ]
+    },
+    {
+      "id": "78",
+      "name": "newp",
+      "personality": "xx",
+      "description": "gg",
+      "entretien": "facile",
+      "dureeVie": "vvv",
+      "in_stock": true,
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": "08",
+      "stock": "08",
+      "date_ajout": "2024-11-12T00:00:00.000Z",
+      "arrosage": [],
+      "images": "r"
     }
   ]
 }

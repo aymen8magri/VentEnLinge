@@ -1,28 +1,58 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { Plant } from '../../model/plant';
 import { PalntService } from '../../services/palnt.service';
 import { Commande } from '../../model/commande';
 import { commandeService } from '../../services/commande.service';
 import { RouterLink } from '@angular/router';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-passer-commande',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink,ReactiveFormsModule],
   templateUrl: './passer-commande.component.html',
   styleUrl: './passer-commande.component.css'
 })
-export class PasserCommandeComponent {
+export class PasserCommandeComponent implements OnInit{
+  
   plantService:PalntService=inject(PalntService);
   tabcom:Plant[]=this.plantService.tabcart;
   commandeService:commandeService=inject(commandeService)
   com!:Commande;
   formHide!:boolean;
   msgHide:boolean=true;
-  onCommande(nom:string,pnom:string,tel:string,adresse:string){
+  commandeForm!:FormGroup
+  fb:FormBuilder=inject(FormBuilder);
+  ngOnInit(): void {
+    this.commandeForm=this.fb.group({
+      nom:['',Validators.required],
+      prenom:['',Validators.required],
+      tel:['',[Validators.required,Validators.pattern('[0-9]{8}')]],
+      adresse:['',Validators.required]
+
+    })
+  }
+  get nom(){
+    return this.commandeForm.get('nom');
+  }
+
+  get prenom(){
+    return this.commandeForm.get('prenom');
+  }
+
+  get tel(){
+    return this.commandeForm.get('tel');
+  }
+
+  get adresse(){
+    return this.commandeForm.get('adresse');
+  }
+
+ 
+  onCommande(){
     console.log(this.tabcom);
-    console.log(nom,pnom)
-    this.com=new Commande(nom,pnom,tel,adresse,"en attente",this.plantService.total(),this.tabcom);
+   
+    this.com=new Commande(this.nom?.value,this.prenom?.value,this.tel?.value,this.adresse?.value,"en attente",this.plantService.total(),this.tabcom);
     console.log(this.com);
     this.commandeService.addCommande(this.com).subscribe(
       data=>console.log(data)

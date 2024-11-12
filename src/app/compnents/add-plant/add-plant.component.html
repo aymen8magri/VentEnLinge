@@ -2,11 +2,14 @@
     <h1>Ajouter une plante </h1>
 </div>
 <div class="col-lg-5 contact-form">
-    <form [formGroup]="planteForm" (ngSubmit)="onAjouter()">
+    <form [formGroup]="planteForm" (ngSubmit)="onAjouter()" >
         <div class="mb-3">
             <label for="nom" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="nom" placeholder="nom" name="personality" required
+            <input type="text" class="form-control" id="nom" placeholder="nom" name="personality" 
                 formControlName="nom" />
+                @if(nom?.invalid && nom?.touched){
+                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                }     
         </div>
 
         <div class="mb-3">
@@ -19,13 +22,19 @@
         </div>
         <div class="mb-3">
             <label for="personalité" class="form-label">Personalité</label>
-            <input type="text" class="form-control" id="personality" placeholder="Personality" name="personality"
-                required formControlName="personalite" />
+            <input type="text" class="form-control" id="personality" placeholder="personalite" name="personalite"
+                 formControlName="personalite" />
+                @if(personalite?.invalid && personalite?.touched){
+                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                }  
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
-            <textarea class="form-control" id="description" placeholder="Description" name="description" required
+            <textarea class="form-control" id="description" placeholder="Description" name="description" 
                 formControlName="description"></textarea>
+                @if(description?.invalid && description?.touched){
+                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                }  
         </div>
 
         <div class="mb-3">
@@ -43,16 +52,31 @@
                 <option [value]="f">{{f}}</option>
                 }
             </select>
+            
         </div>
         <div class="mb-3">
             <label for="price" class="form-label">Prix</label>
-            <input type="text" class="form-control" id="price" placeholder="Prix" name="price" required
+            <input type="text" class="form-control" id="price" placeholder="Prix" name="price" 
                 formControlName="prix" />
+                 
+                @if(prix?.errors?.['min'] && prix?.dirty){
+                    <div class="alert alert-warning">Le prix doit être supérieur a 5</div>
+
+                }@else if(prix?.invalid && prix?.touched){
+                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                } 
         </div>
         <div class="mb-3">
             <label for="stock" class="form-label"> Stock</label>
-            <input type="text" class="form-control" id="stock" placeholder="stock" name="stock" required
+            <input type="text" class="form-control" id="stock" placeholder="stock" name="stock" 
                 formControlName="stock" />
+                @if(stock?.errors?.['min'] && stock?.dirty){
+                    <div class="alert alert-warning">Minimum 1 en stock</div>
+
+                } 
+                @else if(stock?.invalid && stock?.touched){
+                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                }
         </div>
         <div class="mb-3">
             <label for="enstock">En Stock</label>
@@ -61,13 +85,19 @@
 
         <div class="mb-3">
             <label for="date" class="form-label">Date ajout</label>
-            <input type="date" class="form-control" id="date" placeholder="Date ajout" name="date" required
+            <input type="date" class="form-control" id="date" placeholder="Date ajout" name="date" 
                 formControlName="dateAjout" />
+                @if(dateAjout?.invalid && dateAjout?.touched){
+                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                }  
         </div>
         <div class="mb-3">
             <label for="lifespan" class="form-label">Durée de vie</label>
-            <input type="text" class="form-control" id="lifespan" placeholder="Durée de vie" name="lifespan" required
+            <input type="text" class="form-control" id="lifespan" placeholder="Durée de vie" name="lifespan" 
                 formControlName="durVie" />
+                @if(durVie?.invalid && durVie?.touched){
+                    <div class="alert alert-warning">Veuillez remplir ce champ</div>
+                }  
         </div>
         <label for="waterin" class="form-label">Arrosage</label>
         <div class="mb-3" formArrayName="arrosage">
@@ -101,9 +131,12 @@
         <button type="button" class="btn btn-warning" (click)="onAjouterArrosage()">Ajouter une Saison</button>
         <div class="mb-3">
             <label for="img" class="form-label">Image URL</label>
-            <input type="text" class="form-control" id="img" placeholder="Image URL" name="img" required #img />
+            <input type="text" class="form-control" id="img" placeholder="Image URL" name="img"   formControlName="img"/>
+            @if(img?.invalid && img?.touched){
+                <div class="alert alert-warning">Veuillez remplir ce champ</div>
+            }
         </div>
-        <button type="submit" class="submit-btn">Ajouter</button>
+        <button type="submit" class="submit-btn" [disabled]="planteForm.invalid">Ajouter</button>
         <button type="button" (click)="onReset()" class="submit-btn">Ajouter de nouveau</button>
         <div [hidden]="hide">Plante ajoutée avec succès</div>
     </form>

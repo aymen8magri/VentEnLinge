@@ -7,16 +7,26 @@
     </div>
 
     <div class="col-lg-8 contact-form">
-        <form>
+        <form [formGroup]="loginForm" (ngSubmit)="onEnvoyer()">
             <div class="mb-3">
-                <label for="email" class="form-label">Email :</label>
-                <input type="email" class="form-control" id="email" placeholder="Entrez votre email" name="email" required />
+                <label for="user" class="form-label">Nom d'utilisateur :</label>
+                <input type="text" class="form-control" id="user" placeholder="Entrez votre Nom d'utilisateur" name="user" formControlName="user" />
+                @if(user?.invalid && user?.touched){
+                    <div class="alert alert-warning">
+                        Veuillez remplir ce champ
+                    </div>
+                }
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe :</label>
-                <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe" name="password" required />
+                <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe" name="password" formControlName="pwd" />
+                @if(pwd?.invalid && pwd?.touched){
+                    <div class="alert alert-warning">
+                        Veuillez remplir ce champ
+                    </div>
+                }
             </div>
-            <button type="submit" class="submit-btn" [routerLink]="['/ListePlantesAdmin']"  >Se connecter <i class="bi bi-box-arrow-in-right" style="margin-left: 10px;"></i></button>
+            <button type="submit" class="submit-btn" [routerLink]="['/ListePlantesAdmin']" [disabled]="loginForm.invalid" >Se connecter <i class="bi bi-box-arrow-in-right" style="margin-left: 10px;"></i></button>
             <p class="mt-3">
                 <a href="#">Mot de passe oublié ?</a>
             </p>
