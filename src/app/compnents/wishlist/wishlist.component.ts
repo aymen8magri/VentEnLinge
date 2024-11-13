@@ -13,12 +13,15 @@ import { RouterLink } from '@angular/router';
 })
 export class WishlistComponent {
   tabplants: Plant[] = [];
-
+  interval:any;
   constructor(private palntService: PalntService) {}
 
   ngOnInit(): void {
     this.tabplants = this.palntService.tabplants;
     console.log(this.tabplants);
+    this.interval = setInterval(() => {
+      this.tabplants = this.palntService.tabplants;
+    }, 500);
   }
 
   clearAll(): void {

@@ -23,8 +23,8 @@ export class PlantItemComponent implements OnInit {
 
 
   addToWishlist(plant: Plant) {
-    console.log(plant);
-    this.plantService.addPlantToWishlist(plant);
+    if(!(this.plantService.inWishlist(plant))){
+    this.plantService.addPlantToWishlist(plant);}
   }
   removeFromWishlist(plant: Plant) {
     this.plantService.removePlantFromWishlist(plant);

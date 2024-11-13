@@ -14,9 +14,7 @@ import { FilterPipe } from '../../filter.pipe';
   styleUrl: './list-plants-admin.component.css'
 })
 export class ListPlantsAdminComponent implements OnInit {
-  plantsFleuries: Plant[] = [];
-  plantsCactus: Plant[] = [];
-  plantsPurificatrices: Plant[] = [];
+  
   plants: Plant[] = [];            // Complete list of plants
   filteredPlants: Plant[] = [];     // List of plants after filtering
   selectedFunFilter: string = '';   // Stores the selected fun filter value
@@ -27,37 +25,19 @@ export class ListPlantsAdminComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.plantService.getPlantsByCategory("Plantes fleuries").subscribe(plants => {
-      this.plantsFleuries = plants;
-    });
-    this.plantService.getPlantsByCategory("Cactus et succulentes").subscribe(plants => {
-      this.plantsCactus = plants;
-    });
-    this.plantService.getPlantsByCategory("Plantes purificatrices d'air").subscribe(plants => {
-      this.plantsPurificatrices = plants;
-    });
-    // Fetch the list of plants from the service on component load
+    
     this.plantService.getPlants().subscribe((data: Plant[]) => {
       this.plants = data;
       this.filteredPlants = data;  // Initialize with the full list
     });
 
   }
-  onDeleteFleur(id: number) {
+  onDeletePlant(id: number) {
     this.plantService.deletePlant(id).subscribe(
-      data => { this.plantsFleuries = this.plantsFleuries.filter((i) => parseInt(i.id) !== id) }
+      data => { this.filteredPlants = this.filteredPlants.filter((i) => parseInt(i.id) !== id) }
     )
   }
-  onDeleteSucc(id: number) {
-    this.plantService.deletePlant(id).subscribe(
-      data => { this.plantsCactus = this.plantsCactus.filter((i) => parseInt(i.id) !== id) }
-    )
-  }
-  onDeletePur(id: number) {
-    this.plantService.deletePlant(id).subscribe(
-      data => { this.plantsPurificatrices = this.plantsPurificatrices.filter((i) => parseInt(i.id) !== id) }
-    )
-  }
+  
 
   /*--------------------* Filter by Fun *---------------------------*/
   onFilter(event: Event): void {

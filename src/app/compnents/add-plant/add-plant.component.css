@@ -1,7 +1,7 @@
-.bgfixed{
+/* .bgfixed{
     background-image: url('../../../../public/bg3.png');
     background-attachment: fixed;
-}
+} */
 .contact-form {
     background-color: #629A74; 
     padding: 40px;
@@ -9,6 +9,7 @@
     margin: 40px auto;
     position: relative;
     bottom: 20px;
+    top: 20px;
 }
 
 .contact-form .form-label {
@@ -63,7 +64,6 @@ input , textarea{
     position: relative;
     top: 20px;
     text-align: center;
-    text-decoration: underline;
 }
 .pAlert{
     color: #591c1c;

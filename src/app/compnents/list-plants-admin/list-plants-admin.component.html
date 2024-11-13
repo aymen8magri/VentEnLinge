@@ -71,13 +71,13 @@
 <div id="plant-fleuries">
     <div class="pt-3 mb-1">
         <div class="section-title container">
-            <h4 class=" text-uppercase">Plantes fleuries</h4>
+            <h4 class=" text-uppercase" >Plantes fleuries</h4>
         </div>
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
             @if (plant.category === "Plantes fleuries") {
-            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeleteFleur($event)"></app-plant-item-admin>
+            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeletePlant($event)"></app-plant-item-admin>
             }
             }
         </div>
@@ -93,7 +93,7 @@
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
             @if (plant.category === "Cactus et succulentes") {
-            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeleteSucc($event)"></app-plant-item-admin>
+            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeletePlant($event)"></app-plant-item-admin>
             }
             }
         </div>
@@ -109,7 +109,7 @@
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
             @if (plant.category === "Plantes purificatrices d'air") {
-            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeletePur($event)"></app-plant-item-admin>
+            <app-plant-item-admin [plant]="plant" class="m-2" (notify)="onDeletePlant($event)"></app-plant-item-admin>
             }
             }
         </div>

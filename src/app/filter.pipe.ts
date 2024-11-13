@@ -14,6 +14,6 @@ export class FilterPipe implements PipeTransform {
     args = args.toLowerCase();// convertie l'argument en minuscule
 
     // filtre les plantes selon le terme de recherche
-    return value.filter((item: any) => JSON.stringify(item).toLowerCase().includes(args));
+    return value.filter((item: any) => JSON.stringify(item.name).toLowerCase().includes(args));
   }
 }
