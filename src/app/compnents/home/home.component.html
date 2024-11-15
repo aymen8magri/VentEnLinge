@@ -1,19 +1,23 @@
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
         <h1 class="display-4">Bienvenue chez PlantBuddy</h1>
-        <p class="lead px-5">PlantBuddy est votre destination en ligne pour acheter des plantes de qualité. Nous proposons
+        <p class="lead px-5">
+            PlantBuddy est votre destination en ligne pour acheter des plantes de qualité. Nous proposons
             une vaste sélection de plantes d'intérieur et d'extérieur, accompagnées de conseils pour les entretenir.
-            Découvrez la beauté des plantes et embellissez votre espace avec PlantBuddy!</p>
+            Découvrez la beauté des plantes et embellissez votre espace avec PlantBuddy!
+        </p>
         <button class="button" (click)="onAboutUs()">
             <span>A porpos</span>
         </button>
     </div>
 </div>
 
-<!-- New Products -->
+<!-- ------------------------------ les nouveaux produits ------------------------------ -->
 <h2 class="text-center mt-5">Nouveaux produits</h2>
+
+<!-- ------------------------------ le carousel ------------------------------ -->
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <!-- Carousel Indicators -->
+    <!-- ------------------------------ les indicateurs du carousel ------------------------------ -->
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active bg-dark"
             aria-current="true" aria-label="Slide 1"></button>
@@ -23,7 +27,7 @@
             aria-label="Slide 3"></button>
     </div>
 
-    <!-- Carousel Items -->
+    <!-- ------------------------------ les items du carousel ------------------------------ -->
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="4000">
             <a [routerLink]="['/plant', 46]">
@@ -55,18 +59,19 @@
     </button>
 </div>
 
+<!-- ------------------------------ le bouton pour aller au catalogue des plantes ------------------------------ -->
 <button class="button mt-3 mb-5 mx-auto d-block w-50" (click)="onShowAllPlants()">
     <span>Voir tout le catalogue</span>
 </button>
 
-<!-- Quiz -->
+<!-- ------------------------------ le quiz ------------------------------ -->
 <app-quiz></app-quiz>
 
-<!-- Explore by Category -->
+<!-- ------------------------------ la navigation par catégorie ------------------------------ -->
 <h2 class="text-center mt-5">Chercher par catégorie</h2>
 
 <div class="d-flex justify-content-center row row-cols-1 row-cols-md-4" style="width: 100%;">
-    <!-- Fleurs -->
+    <!-- ------------------------------ les fleurs ------------------------------ -->
     <div class="col">
         <a routerLink="/listePlantes">
             <div class="card">
@@ -76,7 +81,7 @@
             </div>
         </a>
     </div>
-    <!-- Cactus -->
+    <!-- ------------------------------ les cactus et succulentes ------------------------------ -->
     <div class="col">
         <a routerLink="/listePlantes">
             <div class="card">
@@ -86,7 +91,7 @@
             </div>
         </a>
     </div>
-    <!-- Air -->
+    <!-- ------------------------------ les plantes purificatrices d'air ------------------------------ -->
     <div class="col">
         <a routerLink="/listePlantes">
             <div class="card">
@@ -98,6 +103,7 @@
     </div>
 </div>
 
+<!-- ------------------------------ la page de contact ------------------------------ -->
 <h2 class="text-center mt-5">Nous contacter</h2>
 <div style="width: 100%; background-color: #1C593A;">
     <app-contact-us></app-contact-us>

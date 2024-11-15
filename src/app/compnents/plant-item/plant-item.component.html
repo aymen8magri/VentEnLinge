@@ -1,35 +1,42 @@
-<div class="plant-item">  
+<div class="plant-item">
     <div class="card" style="width: 18rem;">
         <div class="first">
 
-        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
 
-            <span class="discount" [ngClass]="{'c1': plant.in_stock, 'c2': !plant.in_stock}">{{plant.in_stock ? 'In stock' : 'Out of stock'}}</span>
-            @if(inWishlist(plant)){
-            <button class="wishlist inWishlist" title="Add to wishlist" (click)="addToWishlist(plant)" (click)="removeFromWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
-            }
-            @else{
-                <button class="wishlist" title="Add to wishlist" (click)="addToWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
-            }
+                <span class="discount" [ngClass]="{'c1': plant.in_stock, 'c2': !plant.in_stock}">{{plant.in_stock ? 'En stock' : 'Rupture de stock'}}</span>
+                @if(inWishlist(plant)){
+                <button class="wishlist inWishlist" title="Add to wishlist" (click)="addToWishlist(plant)"
+                    (click)="removeFromWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>
+                }
+                @else{
+                <button class="wishlist" title="Add to wishlist" (click)="addToWishlist(plant)"><i class="bi bi-heart"
+                        style="font-size: 20px;"></i></button>
+                }
+            </div>
+        </div>
+
+        <img [src]="plant.images" width="100px" height="200px" class="card-img-top image" alt="...">
+        <div class="card-body" style="background-color: #bddac2; border: none;">
+
+            <h5 class="card-title title" style="color: #1C593A; font-size: 24px;">{{plant.name}}</h5>
+            <div class="d-flex flex-column mb-2 align-items-end">
+                <span class="new-price">{{plant.price | currency:'USD'}}</span>
+                <small class="old-price">{{plant.price + 2 | currency:'USD'}}</small>
+            </div>
+            <p class="card-text" style=" font-size: 17px;"><span class="title">Description : </span>
+                {{plant.description}}.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"
+                style=" font-size: 17px; background-color: #bddac2; border-bottom: 1px solid #1C593A;"><span
+                    class="title">Fun_filter : </span> {{plant.fun_filter}}</li>
+        </ul>
+        <div class="card-body d-flex justify-content-between" style="background-color: #bddac2;">
+            <button class="btn" style="background-color: #1C593A; color: #fff;" (click)="addToCart(plant)"
+                title="Add to cart">Ajouter au panier</button>
+            <a [routerLink]="['/plant', plant.id]"><button class="btn" style="background-color: #529F76; color: #fff;"
+                    title="View plant">Voir plus</button></a>
         </div>
     </div>
-
-    <img [src]="plant.images" width="100px" height="200px" class="card-img-top image" alt="...">
-    <div class="card-body" style="background-color: #bddac2; border: none;">
-
-        <h5 class="card-title title" style="color: #1C593A; font-size: 24px;">{{plant.name}}</h5>
-        <div class="d-flex flex-column mb-2 align-items-end">
-            <span class="new-price">{{plant.price | currency:'USD'}}</span>
-            <small class="old-price">{{plant.price + 2 | currency:'USD'}}</small>
-        </div>
-        <p class="card-text" style=" font-size: 17px;"><span class="title">Description : </span> {{plant.description}}.</p>
-    </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item" style=" font-size: 17px; background-color: #bddac2; border-bottom: 1px solid #1C593A;"><span class="title">Fun_filter : </span> {{plant.fun_filter}}</li>
-    </ul>
-    <div class="card-body d-flex justify-content-between" style="background-color: #bddac2;">
-        <button class="btn" style="background-color: #1C593A; color: #fff;" (click)="addToCart(plant)" title="Add to cart">Ajouter au panier</button>
-        <a [routerLink]="['/plant', plant.id]"><button class="btn" style="background-color: #529F76; color: #fff;" title="View plant">Voir plus</button></a>
-        </div>
-    </div>      
 </div>

@@ -1,17 +1,19 @@
+<!-- ------------------------------ le coup de coeur ------------------------------ -->
 <a routerLink="/wishlist" title="Wishlist">
-<div class="svg-wrapper">
-  <svg height="60" width="190" xmlns="http://www.w3.org/2000/svg">
-    <rect class="shape" height="60" width="190"></rect>
-    </svg>
-    <div class="text">Coup de coeur</div>
-</div>
-</a> 
-<!---------------->
+    <div class="svg-wrapper">
+        <svg height="60" width="190" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="190"></rect>
+        </svg>
+        <div class="text">Coup de coeur</div>
+    </div>
+</a>
+
+<!-- ------------------------------ la page d'accueil ------------------------------ -->
 <div class="text-center welcome py-5 text-white">
     <div class="welcome-content">
         <h1 class="display-4 mb-5">Catalogue des Plantes</h1>
+        <!-- ------------------------------ des Filtres pour les plantes ------------------------------ -->
         <div class="row justify-content-center gap-2">
-            
             <!-- Fun Filter Selection -->
             <div class="col-md-3" style="width: 450px;">
                 <div class="input-group mb-3">
@@ -43,10 +45,11 @@
             <!-- Sort by Value Button -->
             <div class="col-md-3 col-sm-6 btn-group">
                 <button class="btn mb-3" title="Trier par valeur">
-                    <span class="d-flex align-items-center gap-2">Trier par valeur <i class="bi bi-currency-dollar"></i></span>
+                    <span class="d-flex align-items-center gap-2">Trier par valeur <i
+                            class="bi bi-currency-dollar"></i></span>
                 </button>
                 <button class="btn mb-3" (click)="sortAscending()" title="Trier par valeur croissante">
-                     <i class="bi bi-arrow-up"></i>
+                    <i class="bi bi-arrow-up"></i>
                 </button>
                 <button class="btn mb-3" (click)="sortDescending()" title="Trier par valeur décroissante">
                     <i class="bi bi-arrow-down"></i>
@@ -55,41 +58,21 @@
 
             <!-- Search -->
             <div class="d-flex search-container">
-                <input type="text" 
-                    class="form-control search-input" 
-                    style="color: #1C593A;" 
-                    [(ngModel)]="searchTerm" 
-                     
-                    placeholder="Chercher une plante ..."
-                    aria-label="Chercher une plante ...">
+                <input type="text" class="form-control search-input" style="color: #1C593A;" [(ngModel)]="searchTerm"
+                    placeholder="Chercher une plante ..." aria-label="Chercher une plante ...">
                 <button class="btn search-button">
-                  <i class="bi bi-search"></i>
+                    <i class="bi bi-search"></i>
                 </button>
             </div>
-
-            <!-- Price Filter -->
-            <!-- <div class="col-md-3">
-                <div class="input-group mb-3">
-                    <div class="range">
-                        <div class="sliderValue">
-                            <span>100</span>
-                        </div>
-                        <div class="field">
-                            <div class="value left">10</div>
-                            <input type="range" min="10" max="200" value="100" steps="1">
-                            <div class="value right">200</div>
-                        </div>
-                    </div>
-                </div>  
-            </div> -->
-            
         </div>
+        <!-- ------------------------------ des Filtres pour les plantes ------------------------------ -->
     </div>
 </div>
 
 
 <!-- afficher selon catégorie-->
-<!--Plantes fleuries-->
+
+<!-- ------------------------------ les plantes fleuries ------------------------------ -->
 <div id="plant-fleuries">
     <div class="pt-3 mb-1">
         <div class="section-title container">
@@ -98,14 +81,15 @@
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
-                @if (plant.category === "Plantes fleuries") {
-                    <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
-                }
+            @if (plant.category === "Plantes fleuries") {
+            <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
+            }
             }
         </div>
     </div>
 </div>
-<!--Plantes cactus et succulentes-->
+
+<!-- ------------------------------ les plantes cactus et succulentes ------------------------------ -->
 <div id="plant-cactus">
     <div class="pt-5 mb-3">
         <div class="section-title container">
@@ -114,14 +98,15 @@
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
-                @if (plant.category === "Cactus et succulentes") {
-                    <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
-                }
+            @if (plant.category === "Cactus et succulentes") {
+            <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
+            }
             }
         </div>
     </div>
 </div>
-<!--Plantes purificatrices d'air-->
+
+<!-- ------------------------------ les plantes purificatrices d'air ------------------------------ -->
 <div id="plant-purificatrices">
     <div class="pt-5 mb-3">
         <div class="section-title container">
@@ -130,9 +115,9 @@
 
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
-                @if (plant.category === "Plantes purificatrices d'air") {
-                    <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
-                }
+            @if (plant.category === "Plantes purificatrices d'air") {
+            <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
+            }
             }
         </div>
     </div>
