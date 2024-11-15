@@ -82,4 +82,12 @@ textarea.ng-invalid.ng-touched,
 select.ng-invalid.ng-touched {
     border-left: 7px solid #591c1c;
 }
+.shop {
+    color: #1C593A;
+    font-weight: bold;
+    text-decoration: underline !important;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
 

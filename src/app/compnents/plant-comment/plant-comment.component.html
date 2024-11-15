@@ -22,7 +22,7 @@
                         <div>
                             <span class="text3">{{com.nbLikes}}</span>
                            
-                            <button class="like" (click)="onAddLike($index)"><i class="bi bi-emoji-heart-eyes"></i></button>
+                            <button class="like" (click)="onAddLike($index)" [ngClass]="{'liked': com.liked}"><i class="bi bi-emoji-heart-eyes"></i></button>
                            
                         
                         </div>

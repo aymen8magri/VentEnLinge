@@ -6,6 +6,7 @@ import { FormArray, FormBuilder, FormGroup, ReactiveFormsModule, Validators } fr
 import { Categorie } from '../../model/categorie';
 import { Maintenance } from '../../model/maintenance';
 import { Filter } from '../../model/filter';
+import { BackToTopButtonComponent } from "../back-to-top-button/back-to-top-button.component";
 
 @Component({
   selector: 'app-add-plant',
@@ -22,7 +23,8 @@ export class AddPlantComponent implements OnInit {
   date!: Date // date d'ajout
   plants!: Plant[]; // liste des plantes
   arrosage!: Watering[] // arrosage de la plante
-  hide: boolean = true; // booléen pour masquer le formulaire
+  hidef: boolean = false; // booléen pour masquer le formulaire
+  hide:boolean=true;// booléen pour masquer affichage de success
   planteForm!: FormGroup; // formulaire de la plante
   cat: String[] = Object.values(Categorie); // catégories des plantes
   maintenance: String[] = Object.values(Maintenance); // types de maintenance
@@ -36,11 +38,11 @@ export class AddPlantComponent implements OnInit {
         nom: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
         categorie: [Categorie.Pure],
         personalite: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
-        description: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
+        description: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(50)]],
         maintenance: [Maintenance.facile],
         filter: [Filter.bavarde],
-        prix: [0, [Validators.required, Validators.min(5), Validators.pattern('^[0-9]+$')]],
-        stock: [0, [Validators.required, Validators.min(1), Validators.pattern('^[0-9]+$')]],
+        prix: ['', [Validators.required, Validators.min(5),Validators.pattern('^[0-9]+(\\.[0-9]{1,2})?$')]],
+        stock: ['', [Validators.required, Validators.min(1), Validators.pattern('^[0-9]+$')]],
         enStock: [true],
         dateAjout: ['', Validators.required],
         durVie: ['', [
@@ -127,14 +129,18 @@ export class AddPlantComponent implements OnInit {
       data => console.log(data)
 
     )
-    this.hide = false;
+    this.hide=false;
+    this.hidef = true;
+    
   }
   onReset() {
     this.plantService.getPlants().subscribe(
       data => this.plants = data
     )
     this.planteForm.reset();
-    this.hide = true;
+    this.hidef = false;
+    this.hide=true;
+    
 
   }
 }

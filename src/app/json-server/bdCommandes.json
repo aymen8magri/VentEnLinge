@@ -335,7 +335,7 @@
       "prenom": "Sara",
       "tel": 28997072,
       "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
-      "etat": "en attente",
+      "etat": "Validée",
       "total": 38.97,
       "articles": [
         {
@@ -446,6 +446,54 @@
               "saison": "Hiver",
               "frequence": "Chaque semaine",
               "quantite": "150 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04ab",
+      "nom": "anas",
+      "prenom": "lemjid",
+      "tel": 96226617,
+      "adresse": "rue moscow, cite ennour, kelibia 8090",
+      "etat": "Validée",
+      "total": 14.99,
+      "articles": [
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
             }
           ]
         }

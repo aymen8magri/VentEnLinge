@@ -38,10 +38,7 @@
     border: none;
     background-color: #B9F1C3;
 }
-.like:hover {
-    color: blue;
-    transform: scale(1.2);
-}
+
 .like:active {
     color: #00a5f4;
     transform: scale(1);     

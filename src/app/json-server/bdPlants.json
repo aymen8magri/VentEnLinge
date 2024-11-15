@@ -2848,6 +2848,38 @@
           "quantite": "150 ml"
         }
       ]
+    },
+    {
+      "id": "84",
+      "name": "newp",
+      "personality": "new",
+      "description": "cccc",
+      "entretien": "facile",
+      "dureeVie": "1-3 ans",
+      "in_stock": true,
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": "5",
+      "stock": "8",
+      "date_ajout": "2024-11-15T00:00:00.000Z",
+      "arrosage": [],
+      "images": "url"
+    },
+    {
+      "id": "79",
+      "name": "",
+      "personality": "",
+      "description": "",
+      "entretien": "facile",
+      "dureeVie": "",
+      "in_stock": true,
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": "",
+      "stock": "",
+      "date_ajout": null,
+      "arrosage": [],
+      "images": ""
     }
   ]
 }

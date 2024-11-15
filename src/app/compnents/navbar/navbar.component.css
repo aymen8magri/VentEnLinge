@@ -51,6 +51,7 @@
     border-radius: 30px;
     background-color: #f9bc60;
     width: 100%;
+    padding-left: 7px;
 }
 .login-container:hover {
     background-color: #ce9c50;
@@ -80,6 +81,8 @@
 
 .cart-button i {
     font-size: 1.2rem;
+    
+
 }
 
 .cart-button:hover {

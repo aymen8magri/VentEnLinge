@@ -3,7 +3,7 @@
         <h1>Ajouter une plante </h1>
     </div>
     <!-- formulaire de ajout de la plante par le admin -->
-    <div class="contact-form">
+    <div class="contact-form" [hidden]="hidef">
         <form [formGroup]="planteForm" (ngSubmit)="onAjouter()">
             <!-- champ nom de la plante -->
             <div class="mb-3">
@@ -178,9 +178,14 @@
             <!-- bouton pour ajouter la plante -->
             <div class="mb-3 d-flex justify-content-between gap-3 ">
                 <button type="submit" class="submit-btn" [disabled]="planteForm.invalid">Ajouter la plante</button>
-                <button type="button" (click)="onReset()" class="submit-btn">Ajouter de nouveau</button>
             </div>
             <!-- message de succès -->
-            <div [hidden]="hide">Plante ajoutée avec succès</div>
+             <!-- message de succès -->
+       
         </form>
+        
     </div>
+    <div class="alert alert-success container text-center" role="alert" [hidden]="hide">
+        Plante ajoutée avec succés  <button type="button" (click)="onReset()" class="shop">Ajouter de nouveau</button>
+
+     </div>

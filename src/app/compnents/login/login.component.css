@@ -75,3 +75,10 @@ select.ng-invalid.ng-touched {
     border-left: 7px solid #591c1c;
 }
 
+a{
+    text-decoration:none;
+    color: #1C593A;
+}
+a:hover{
+    color:black;
+}

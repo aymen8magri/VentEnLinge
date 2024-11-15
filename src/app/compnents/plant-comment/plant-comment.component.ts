@@ -3,21 +3,22 @@ import { ListeComments } from '../../model/liste-comments';
 import { ActivatedRoute } from '@angular/router';
 import { ListeCommentsService } from '../../services/liste-comments.service';
 import { Commentaire } from '../../model/commentaire';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-plant-comment',
   standalone: true,
-  imports: [],
+  imports: [NgClass],
   templateUrl: './plant-comment.component.html',
   styleUrl: './plant-comment.component.css'
 })
 export class PlantCommentComponent {
   val:number=0;
-  liste!:ListeComments;
+  listecom!:ListeComments;
   route: ActivatedRoute = inject(ActivatedRoute);
   listeCommentsService: ListeCommentsService = inject(ListeCommentsService);  
   tabcom:Commentaire[]=[]; 
-  like:boolean=false;
+  
   
 
   
@@ -33,10 +34,10 @@ export class PlantCommentComponent {
       if (!isNaN(this.val)) {
         this.listeCommentsService.getListById(this.val).subscribe({
           next: (data) => {
-            this.liste=data;
-            this.tabcom=this.liste.liste
+            this.listecom=data;
+            this.tabcom=this.listecom.liste
            
-            console.log("Fetched comments:", this.liste);
+            console.log("Fetched comments:", this.listecom);
             console.log(this.tabcom);
           },
           error: (error) => console.error('Failed to fetch comments:', error),
@@ -63,9 +64,11 @@ export class PlantCommentComponent {
     )
   }
   onAddLike(i:number){
-    this.like=!this.like
-    if(this.like==true){
+    
+    console.log(this.tabcom[i]);
+    if(this.tabcom[i].liked==false){
       this.tabcom[i].nbLikes++;
+      this.tabcom[i].liked=true;
       console.log(this.tabcom);
       this.listeCommentsService.addLike(this.val,{liste:this.tabcom}).subscribe(
         data=>{console.log(data)
@@ -78,6 +81,7 @@ export class PlantCommentComponent {
     }
     else{
       this.tabcom[i].nbLikes--;
+      this.tabcom[i].liked=false
       console.log(this.tabcom);
       this.listeCommentsService.addLike(this.val,{liste:this.tabcom}).subscribe(
         data=>{console.log(data)
