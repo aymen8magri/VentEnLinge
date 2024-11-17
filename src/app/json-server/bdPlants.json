@@ -454,7 +454,7 @@
       "in_stock": false,
       "category": "Plantes fleuries",
       "fun_filter": "Facile à vivre",
-      "price": 2222,
+      "price": 10.99,
       "stock": 0,
       "date_ajout": "2024-10-08",
       "images": "https://d31ucaydsf5avx.cloudfront.net/10742-large_default/geranium-rose-artificiel.jpg",
@@ -2851,17 +2851,17 @@
     },
     {
       "id": "79",
-      "name": "",
-      "personality": "",
-      "description": "",
+      "name": "Menthe",
+      "personality": "Rafraîchissante",
+      "description": "Herbe aromatique vivace idéale pour les thés et la cuisine.",
       "entretien": "facile",
-      "dureeVie": "",
+      "dureeVie": "1-2 ans",
       "in_stock": true,
       "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": "",
-      "stock": "",
-      "date_ajout": null,
+      "fun_filter": "Energitique",
+      "price": "9.99",
+      "stock": "15",
+      "date_ajout": "2024-11-17T00:00:00.000Z",
       "arrosage": [
         {
           "saison": "été",
@@ -2869,54 +2869,12 @@
           "quantite": "600 ml"
         },
         {
-          "saison": "été",
-          "frequence": "Chaque jour",
-          "quantite": "600 ml"
-        },
-        {
-          "saison": "été",
-          "frequence": "Chaque jour",
-          "quantite": "600 ml"
-        },
-        {
-          "saison": "été",
-          "frequence": "Chaque jour",
-          "quantite": "600 ml"
+          "saison": "printemps",
+          "frequence": "Tous les 3 jours",
+          "quantite": "350 ml"
         }
       ],
-      "images": ""
-    },
-    {
-      "id": "80",
-      "name": "",
-      "personality": "",
-      "description": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": "",
-      "stock": "",
-      "date_ajout": null,
-      "arrosage": [],
-      "images": ""
-    },
-    {
-      "id": "81",
-      "name": "",
-      "personality": "",
-      "description": "",
-      "entretien": "facile",
-      "dureeVie": "",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Bavarde",
-      "price": "",
-      "stock": "",
-      "date_ajout": null,
-      "arrosage": [],
-      "images": ""
+      "images": "https://www.tuttogreen.it/wp-content/uploads/2016/02/shutterstock_258321500-700x459.jpg"
     }
   ]
 }

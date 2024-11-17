@@ -25,10 +25,10 @@ export class PasserCommandeComponent implements OnInit{
   fb:FormBuilder=inject(FormBuilder);
   ngOnInit(): void {
     this.commandeForm=this.fb.group({
-      nom:['',Validators.required],
-      prenom:['',Validators.required],
+      nom:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20),Validators.pattern('[a-zA-Z]+')]],
+      prenom:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20),Validators.pattern('[a-zA-Z]+')]],
       tel:['',[Validators.required,Validators.pattern('[0-9]{8}')]],
-      adresse:['',Validators.required]
+      adresse:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20)]]
 
     })
   }

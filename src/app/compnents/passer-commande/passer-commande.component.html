@@ -11,19 +11,33 @@
             <div class="mb-3">
                 <label for="name" class="form-label">Nom :</label>
                 <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" formControlName="nom"/>
+                @if(nom?.errors?.['minlength'] && nom?.touched){
+                    <p class="pAlert">Minimum 3 caractères</p>
+                }
+                @if(nom?.errors?.['maxlength'] && nom?.touched){
+                    <p class="pAlert">Maximum 20 caractères</p>
+                }
+                @if(nom?.errors?.['pattern'] && nom?.touched){
+                    <p class="pAlert">Seuls les lettres sont autorisées</p>
+                }
                 @if(nom?.invalid && nom?.touched){
-                    <div class="alert alert-warning">
-                        Veuillez remplir ce champ
-                    </div>
+                    <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
             <div class="mb-3">
                 <label for="firstname" class="form-label">Prénom :</label>
                 <input type="text" class="form-control" id="firstname" placeholder="Entrez votre prénom" name="firstname" formControlName="prenom" />
+                @if(prenom?.errors?.['minlength'] && prenom?.touched){
+                    <p class="pAlert">Minimum 3 caractères</p>
+                }
+                @if(prenom?.errors?.['maxlength'] && prenom?.touched){
+                    <p class="pAlert">Maximum 20 caractères</p>
+                }
+                @if(prenom?.errors?.['pattern'] && prenom?.touched){
+                    <p class="pAlert">Seuls les lettres sont autorisées</p>
+                }
                 @if(prenom?.invalid && prenom?.touched){
-                    <div class="alert alert-warning">
-                        Veuillez remplir ce champ
-                    </div>
+                    <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
             <div class="mb-3">
@@ -31,13 +45,9 @@
                 <input type="number" class="form-control" id="tel" placeholder="Entrez votre téléphone" name="tel"
                     formControlName="tel" />
                     @if(tel?.errors?.['pattern'] && tel?.dirty){
-                        <div class="alert alert-warning">
-                            Numéro de téléphone invalide
-                        </div>
+                        <p class="pAlert">Numéro de téléphone invalide</p>
                     }@else if(tel?.invalid && tel?.touched){
-                        <div class="alert alert-warning">
-                            Veuillez remplir ce champ
-                        </div>
+                        <p class="pAlert">Veuillez remplir ce champ</p>
                     }
             </div>
             <div class="mb-3">
@@ -45,9 +55,13 @@
                 <input type="text" class="form-control" id="Adresse" placeholder="Entrez votre adresse" name="adresse"
                     formControlName="adresse" />
                     @if(adresse?.invalid && adresse?.touched){
-                        <div class="alert alert-warning">
-                            Veuillez remplir ce champ
-                        </div>
+                        <p class="pAlert">Veuillez remplir ce champ</p>
+                    }
+                    @if(adresse?.errors?.['minlength'] && adresse?.touched){
+                        <p class="pAlert">Minimum 3 caractères</p>
+                    }
+                    @if(adresse?.errors?.['maxlength'] && adresse?.touched){
+                        <p class="pAlert">Maximum 20 caractères</p>
                     }
             </div>
             <button type="submit" class="submit-btn" [disabled]="commandeForm.invalid">Passer la commande <i class="bi bi-cash-coin"

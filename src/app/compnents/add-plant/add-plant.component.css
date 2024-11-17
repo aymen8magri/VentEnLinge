@@ -91,3 +91,68 @@ select.ng-invalid.ng-touched {
     transition: color 0.3s ease;
 }
 
+/*btn*/
+.btnBack {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #79BA91;
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #1C593A;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btnBack:hover {
+    background-color: #1C593A;
+    color: #000;
+}
+
+.btnBack .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+}
+
+.btnBack:active {
+    background-color: #1C593A;
+}
+
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+}
+
+.alert{
+    background-image: url(../../../../public/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+}
+.alert p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

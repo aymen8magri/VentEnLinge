@@ -38,13 +38,13 @@ export class AddPlantComponent implements OnInit {
         nom: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
         categorie: [Categorie.Pure],
         personalite: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
-        description: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(50)]],
+        description: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(100)]],
         maintenance: [Maintenance.facile],
         filter: [Filter.bavarde],
         prix: ['', [Validators.required, Validators.min(5),Validators.pattern('^[0-9]+(\\.[0-9]{1,2})?$')]],
         stock: ['', [Validators.required, Validators.min(1), Validators.pattern('^[0-9]+$')]],
         enStock: [true],
-        dateAjout: ['', Validators.required],
+        dateAjout: ['', [Validators.required, Validators.pattern('^\\d{4}-\\\d{2}-\\\d{2}$')]],
         durVie: ['', [
           Validators.required,
           Validators.pattern('^\\d+-\\d+\\s*(ans|years)$')

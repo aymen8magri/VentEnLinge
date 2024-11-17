@@ -21,7 +21,7 @@ export class WishlistComponent {
     console.log(this.tabplants);
     this.interval = setInterval(() => {
       this.tabplants = this.palntService.tabplants;
-    }, 500);
+    }, 200);
   }
 
   clearAll(): void {

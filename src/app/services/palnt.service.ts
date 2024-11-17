@@ -69,12 +69,7 @@ export class PalntService {
   public tabcart: Plant[] = [];
   //add plant to cart
   public addPlantToCart(plant: Plant): void {
-    if(plant.stock > 0){
-      this.tabcart.push(plant);
-    }
-    else{
-      alert("La plante n'est pas en stock");
-    }
+    this.tabcart.push(plant);
   }
   //delete plant from cart
   public deleteFromCart(plant: Plant): void {

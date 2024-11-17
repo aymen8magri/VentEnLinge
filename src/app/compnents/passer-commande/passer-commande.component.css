@@ -61,3 +61,23 @@ input{
     cursor: pointer;
     transition: color 0.3s ease;
 }
+
+.pAlert{
+    color: #591c1c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: left;
+}
+input.ng-valid.ng-touched,
+textarea.ng-valid.ng-touched,
+select.ng-valid.ng-touched {
+    border-left: 7px solid #1C593A;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+    border-left: 7px solid #591c1c;
+}

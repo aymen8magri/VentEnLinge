@@ -1,5 +1,5 @@
     <!-- titre de la page -->
-    <div class="section-title">
+    <div class="section-title" [hidden]="hidef">
         <h1>Ajouter une plante </h1>
     </div>
     <!-- formulaire de ajout de la plante par le admin -->
@@ -56,7 +56,7 @@
                 <p class="pAlert">Minimum 3 caractères</p>
                 }
                 @if(description?.errors?.['maxlength'] && description?.touched){
-                <p class="pAlert">Maximum 20 caractères</p>
+                <p class="pAlert">Maximum 100 caractères</p>
                 }
             </div>
             <!-- champ maintenance de la plante -->
@@ -186,7 +186,13 @@
         
     </div>
     <br><br>
-    <div class="alert alert-success container text-center" role="alert" [hidden]="hide">
-        Plante ajoutée avec succés  <a  (click)="onReset()" class="shop">Ajouter de nouveau</a>
-
+    <div class="alert" [hidden]="hide">
+        <p>
+            Merci pour votre ajout,
+            <br>
+            Plante ajoutée avec succés
+        </p>
+        <button class="btnBack" (click)="onReset()">
+            <i class="animation"></i>Ajouter une autre plante<i class="animation"></i>
+        </button>
     </div>
