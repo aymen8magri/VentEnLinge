@@ -52,7 +52,7 @@ export class PlantCommentComponent {
   onAddComment(name:string,comment:string){
     
     const com=new Commentaire(name,comment);
-    this.tabcom.push(com)
+    this.tabcom.unshift(com)
     this.listeCommentsService.addComment(this.val,{liste:this.tabcom}).subscribe(
       data=>{
         this.listeCommentsService.getListById(this.val).subscribe(

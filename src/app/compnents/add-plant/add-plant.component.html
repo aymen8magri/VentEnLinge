@@ -165,7 +165,7 @@
 
             </div>
             <!-- bouton pour ajouter une saison -->
-            <button type="button" class="btn btn-warning" (click)="onAjouterArrosage()">Ajouter une Saison</button>
+            <button type="button" class="btn btn-warning" (click)="onAjouterArrosage()" [disabled]="watering.length>=4">Ajouter une Saison</button>
             <!-- champ image de la plante -->
             <div class="mb-3">
                 <label for="img" class="form-label">Image URL</label>
@@ -177,7 +177,7 @@
             </div>
             <!-- bouton pour ajouter la plante -->
             <div class="mb-3 d-flex justify-content-between gap-3 ">
-                <button type="submit" class="submit-btn" >Ajouter la plante</button>
+                <button type="submit" class="submit-btn" [disabled]="planteForm.invalid">Ajouter la plante</button>
             </div>
             <!-- message de succès -->
              <!-- message de succès -->
@@ -185,7 +185,8 @@
         </form>
         
     </div>
+    <br><br>
     <div class="alert alert-success container text-center" role="alert" [hidden]="hide">
-        Plante ajoutée avec succés  <button type="button" (click)="onReset()" class="shop">Ajouter de nouveau</button>
+        Plante ajoutée avec succés  <a  (click)="onReset()" class="shop">Ajouter de nouveau</a>
 
     </div>
