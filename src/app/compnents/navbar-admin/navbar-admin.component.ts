@@ -6,6 +6,7 @@ import { CurrencyPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from '../footer/footer.component';
 import { AdminService } from '../../services/admin.service';
+import { Admin } from '../../model/admin';
 
 @Component({
   selector: 'app-navbar-admin',
@@ -16,30 +17,19 @@ import { AdminService } from '../../services/admin.service';
 })
 export class NavbarAdminComponent {
   router:Router=inject(Router);
-  goToPanier(){
-   
-    this.router.navigate(['/panier']);
-  }
-
-  tabcart: Plant[] = [];
-  tabsearch: Plant[] = [];
-
-  constructor(private palntService: PalntService) {}
-  interval: any;
+  adminService:AdminService=inject(AdminService);
+  admin!:Admin;
+  adminId!:any
 
   ngOnInit(): void {
-    this.tabcart = this.palntService.tabcart;
-    console.log(this.tabcart);
-    this.interval = setInterval(() => {
-      this.tabcart = this.palntService.tabcart;
-    }, 1000);
+    if(typeof(Storage)!="undefined"){
+      this.adminId=localStorage.getItem("user");
+    }
+    this.adminService.getAdminById(this.adminId).subscribe(
+      data=>this.admin=data
+    )
   }
 
-  get total(): number {
-    return this.tabcart.reduce((acc, plant) => acc + plant.price, 0);
-  }
-
-  searchTerm: string = '';
   
   onDisconnect(){
      localStorage.removeItem('user');

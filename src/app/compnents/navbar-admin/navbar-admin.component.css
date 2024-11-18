@@ -20,6 +20,7 @@
     background-color: #f9bc60;
     width: 100%;
     padding-left: 10px;
+    cursor: pointer;
 }
 .login-container:hover {
     background-color: #ce9c50;
@@ -74,3 +75,4 @@ img{
 img:hover{
     transform: scale(1.05);
 }
+

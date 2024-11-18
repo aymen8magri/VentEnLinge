@@ -21,6 +21,7 @@ import { ListeCommandesComponent } from './compnents/liste-commandes/liste-comma
 import { NavbarComponent } from './compnents/navbar/navbar.component';
 import { ProfilAdminComponent } from './compnents/profil-admin/profil-admin.component';
 import { authGuard } from './auth.guard';
+import { APIComponent } from './compnents/api/api.component';
 
 export const routes: Routes = [
     //partie client
@@ -36,6 +37,7 @@ export const routes: Routes = [
             { path: 'panier', title: 'Panier', component: PanierComponent },
             { path: 'wishlist', title: 'Wishlist', component: WishlistComponent },
             { path: 'passerCommande', title: 'Passer Commande', component: PasserCommandeComponent },
+            { path: 'newEnvironnement', title: 'New Environnement', component: APIComponent },
             {
                 path: 'plant/:id', title: 'Plant', component: PlantDetaillComponent, children: [
                     { path: 'description', component: PlantInformationComponent },
