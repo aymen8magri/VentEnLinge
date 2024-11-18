@@ -18,36 +18,50 @@ import { PlantCommentAdminComponent } from './compnents/plant-comment-admin/plan
 import { NavbarAdminComponent } from './compnents/navbar-admin/navbar-admin.component';
 import { PasserCommandeComponent } from './compnents/passer-commande/passer-commande.component';
 import { ListeCommandesComponent } from './compnents/liste-commandes/liste-commandes.component';
+import { NavbarComponent } from './compnents/navbar/navbar.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home', title: 'Home', component: HomeComponent },
-    { path: 'listePlantes', title: 'Liste des Plantes', component: ListPlantsComponent },
-    { path: 'aboutUs', title: 'About Us', component: AboutUsComponent },
-    { path: 'contactUs', title: 'Contact Us', component: ContactUsComponent },
-    { path: 'login', title: 'Login', component: LoginComponent },
-    { path: 'panier', title: 'Panier', component: PanierComponent },
-    { path: 'wishlist', title: 'Wishlist', component: WishlistComponent },
-    { path: 'passerCommande', title: 'Passer Commande', component: PasserCommandeComponent },
+    //partie client
     {
-        path: 'plant/:id', title: 'Plant', component: PlantDetaillComponent, children: [
-            { path: 'description', component: PlantInformationComponent },
-            { path: 'comments', component: PlantCommentComponent },
-            { path: '', redirectTo: 'description', pathMatch: 'full' }      // Redirect to description by default
+        path: '', component: NavbarComponent,
+        children: [
+            { path: '', redirectTo: 'home', pathMatch: 'full' },
+            { path: 'home', title: 'Home', component: HomeComponent },
+            { path: 'listePlantes', title: 'Liste des Plantes', component: ListPlantsComponent },
+            { path: 'aboutUs', title: 'About Us', component: AboutUsComponent },
+            { path: 'contactUs', title: 'Contact Us', component: ContactUsComponent },
+            { path: 'login', title: 'Login', component: LoginComponent },
+            { path: 'panier', title: 'Panier', component: PanierComponent },
+            { path: 'wishlist', title: 'Wishlist', component: WishlistComponent },
+            { path: 'passerCommande', title: 'Passer Commande', component: PasserCommandeComponent },
+            {
+                path: 'plant/:id', title: 'Plant', component: PlantDetaillComponent, children: [
+                    { path: 'description', component: PlantInformationComponent },
+                    { path: 'comments', component: PlantCommentComponent },
+                    { path: '', redirectTo: 'description', pathMatch: 'full' }      // Redirect to description by default
 
+                ]
+            }
         ]
     },
-    { path: 'navbarAdmin', title: 'navbarAdmin', component: NavbarAdminComponent },
-    { path: 'ListePlantesAdmin', title: 'ListeAdmin', component: ListPlantsAdminComponent },
+
+    //partie admin
     {
-        path: 'plantAdmin/:id', title: 'Plant', component: PlantDetailAdminComponent, children: [
-            { path: 'descriptionAdmin', component: PlantInformationAdminComponent },
-            { path: 'commentsAdmin', component: PlantCommentAdminComponent },
-            { path: '', redirectTo: 'descriptionAdmin', pathMatch: 'full' },
+        path: '', component: NavbarAdminComponent,
+        children: [
+            { path: '', redirectTo: 'ListePlantesAdmin', pathMatch: 'full' },
+            { path: 'ListePlantesAdmin', title: 'ListeAdmin', component: ListPlantsAdminComponent },
+            {
+                path: 'plantAdmin/:id', title: 'Plant', component: PlantDetailAdminComponent, children: [
+                    { path: 'descriptionAdmin', component: PlantInformationAdminComponent },
+                    { path: 'commentsAdmin', component: PlantCommentAdminComponent },
+                    { path: '', redirectTo: 'descriptionAdmin', pathMatch: 'full' },
+                ]
+            },
+            { path: 'addPlant', title: 'AddPlant', component: AddPlantComponent },
+            { path: 'listeCommandes', title: 'listeCommandes', component: ListeCommandesComponent },
         ]
     },
-    { path: 'addPlant', title: 'AddPlant', component: AddPlantComponent },
-    { path: 'listeCommandes', title: 'listeCommandes', component: ListeCommandesComponent },
 
     { path: '**', title: '404', component: ErrorComponent }
 

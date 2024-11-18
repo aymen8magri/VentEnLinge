@@ -11,38 +11,6 @@
     font-size: 20px;    
 }
 
-
-.search-container {
-    width: 280px;
-    max-width: 400px;
-    margin: 10px auto;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.search-input {
-    border: none;
-    border-radius: 0;
-    padding: 10px;
-}
-
-.search-button {
-    border-radius: 0;
-    border: none;
-    padding: 10px 15px;
-    background-color: #f9bc60;
-    color: #1C593A;
-}
-
-.search-button:hover {
-    background-color: #ce9c50;
-}
-
-.search-input::placeholder {
-    font-style: italic;
-}
-
 .login-container {
     margin-top: 10px;
     display: flex;
@@ -50,7 +18,8 @@
     justify-content: center;
     border-radius: 30px;
     background-color: #f9bc60;
-    width: 70%;
+    width: 100%;
+    padding-left: 10px;
 }
 .login-container:hover {
     background-color: #ce9c50;
