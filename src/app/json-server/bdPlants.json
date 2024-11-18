@@ -10,8 +10,8 @@
       "in_stock": true,
       "category": "Plantes fleuries",
       "fun_filter": "Bavarde",
-      "price": 12.99,
-      "stock": 10,
+      "price": 7,
+      "stock": 8,
       "date_ajout": "2024-10-21",
       "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
       "arrosage": [
@@ -2859,8 +2859,8 @@
       "in_stock": true,
       "category": "Plantes purificatrices d'air",
       "fun_filter": "Energitique",
-      "price": "9.99",
-      "stock": "15",
+      "price": 20,
+      "stock": 44,
       "date_ajout": "2024-11-17T00:00:00.000Z",
       "arrosage": [
         {

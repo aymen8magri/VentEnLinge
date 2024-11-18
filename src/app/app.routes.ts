@@ -20,6 +20,7 @@ import { PasserCommandeComponent } from './compnents/passer-commande/passer-comm
 import { ListeCommandesComponent } from './compnents/liste-commandes/liste-commandes.component';
 import { NavbarComponent } from './compnents/navbar/navbar.component';
 import { ProfilAdminComponent } from './compnents/profil-admin/profil-admin.component';
+import { authGuard } from './auth.guard';
 
 export const routes: Routes = [
     //partie client
@@ -48,7 +49,7 @@ export const routes: Routes = [
 
     //partie admin
     {
-        path: '', component: NavbarAdminComponent,
+        path: '', component: NavbarAdminComponent, canActivate:[authGuard],
         children: [
             { path: '', redirectTo: 'ListePlantesAdmin', pathMatch: 'full' },
             { path: 'ListePlantesAdmin', title: 'ListeAdmin', component: ListPlantsAdminComponent },

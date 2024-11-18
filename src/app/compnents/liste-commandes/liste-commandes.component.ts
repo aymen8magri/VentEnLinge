@@ -62,11 +62,10 @@ export class ListeCommandesComponent implements OnInit {
   }
 
   //valider commande par id
-  onValiderCommande(id: string) {
-    this.commandeService.changeState(id, { etat: "Validée" }).subscribe(
-      data => this.commandeService.getCommande().subscribe(
-        data => this.commandes = data
-      )
+  onValiderCommande(commande:Commande) {
+    this.commandeService.changeState(commande.id, { etat: "Validée" }).subscribe(
+      data => commande.etat="Validée"
+      
     )
   }
 

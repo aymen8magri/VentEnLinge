@@ -50,20 +50,16 @@ export class PlantInformationAdminComponent implements OnInit{
     const p=parseFloat(prix);
     this.palntService.updatePrice(this.val,{price:p}).subscribe(
       data=>{
-        this.palntService.getPlantById(this.val).subscribe(
-          data=>this.plant=data
-        )
+        this.plant.price=data.price
       }
     )
     this.hidePrix=true;
   }
   onSaveStock(stock:string){
     const s=parseInt(stock);
-    this.palntService.updatePrice(this.val,{stock:s}).subscribe(
-      data=>{
-        this.palntService.getPlantById(this.val).subscribe(
-          data=>this.plant=data
-        )
+    this.palntService.updateStock(this.val,{stock:s}).subscribe(
+      data=>{this.plant.stock=data.stock
+        
       }
     )
     this.hideStock=true;

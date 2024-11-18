@@ -52,16 +52,10 @@ export class PlantCommentComponent {
   onAddComment(name:string,comment:string){
     
     const com=new Commentaire(name,comment);
-    this.tabcom.unshift(com)
     this.listeCommentsService.addComment(this.val,{liste:this.tabcom}).subscribe(
-      data=>{
-        this.listeCommentsService.getListById(this.val).subscribe(
-          data=>{
-            this.tabcom=data.liste
-          }
-        )
-      }
+      data=>console.log(data)
     )
+    this.tabcom.unshift(com)
   }
   onAddLike(i:number){
     
@@ -71,11 +65,9 @@ export class PlantCommentComponent {
       this.tabcom[i].liked=true;
       console.log(this.tabcom);
       this.listeCommentsService.addLike(this.val,{liste:this.tabcom}).subscribe(
-        data=>{console.log(data)
-          this.listeCommentsService.getListById(this.val).subscribe(
-            data=>{this.tabcom=data.liste}
-          )
-
+        data=>{
+          console.log(data)
+          this.tabcom=data.liste
         }
       )
     }
@@ -85,9 +77,7 @@ export class PlantCommentComponent {
       console.log(this.tabcom);
       this.listeCommentsService.addLike(this.val,{liste:this.tabcom}).subscribe(
         data=>{console.log(data)
-          this.listeCommentsService.getListById(this.val).subscribe(
-            data=>{this.tabcom=data.liste}
-          )
+          this.tabcom=data.liste
 
         }
       )

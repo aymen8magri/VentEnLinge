@@ -5,6 +5,7 @@ import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/rou
 import { CurrencyPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from '../footer/footer.component';
+import { AdminService } from '../../services/admin.service';
 
 @Component({
   selector: 'app-navbar-admin',
@@ -15,7 +16,6 @@ import { FooterComponent } from '../footer/footer.component';
 })
 export class NavbarAdminComponent {
   router:Router=inject(Router);
-
   goToPanier(){
    
     this.router.navigate(['/panier']);
@@ -40,6 +40,11 @@ export class NavbarAdminComponent {
   }
 
   searchTerm: string = '';
-
+  
+  onDisconnect(){
+     localStorage.removeItem('user');
+     localStorage.setItem("cnx","disconnected");
+     this.router.navigate(['/home']);
+  }
 
 }

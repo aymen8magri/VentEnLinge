@@ -26,7 +26,7 @@
                     <td>{{c.total | number:'1.2-2'}}$</td>
                     <td>{{c.tel}}</td>
                     <td>{{c.adresse}}</td>
-                    <td><button (click)="onValiderCommande(c.id)"
+                    <td><button (click)="onValiderCommande(c)"
                             [ngClass]="(c.etat == 'en attente') ? 'btn btn-warning' : 'btn btn-success'">{{c.etat}}</button>
                     </td>
                     <td>

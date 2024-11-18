@@ -383,7 +383,7 @@
       "prenom": "vvva",
       "tel": 14785236,
       "adresse": "ccc",
-      "etat": "en attente",
+      "etat": "Validée",
       "total": 51.96,
       "articles": [
         {
@@ -542,7 +542,7 @@
       "prenom": "ali",
       "tel": 20202302,
       "adresse": "avn",
-      "etat": "en attente",
+      "etat": "Validée",
       "total": 118.93999999999998,
       "articles": [
         {
