@@ -1,0 +1,25 @@
+<div class="profile-container">
+    <h1>Profil Administrateur</h1>
+    <div class="profile-info">
+        <p><strong>Nom : </strong><span id="admin-name">Aymen Magri</span></p>
+        <p><strong>Mot de passe actuel : </strong><span id="admin-password">12345678</span></p>
+    </div>
+    <button id="edit-password-btn">Modifier le mot de passe</button>
+
+    <div id="password-form" class="">
+        <h2>Modifier le mot de passe</h2>
+        <form id="change-password-form">
+            <label for="current-password">Mot de passe actuel :</label>
+            <input type="password" id="current-password" required>
+
+            <label for="new-password">Nouveau mot de passe :</label>
+            <input type="password" id="new-password" required>
+
+            <label for="confirm-password">Confirmer le mot de passe :</label>
+            <input type="password" id="confirm-password" required>
+
+            <button type="submit">Confirmer</button>
+            <button type="button" id="cancel-btn">Annuler</button>
+        </form>
+    </div>
+</div>

@@ -19,6 +19,7 @@ import { NavbarAdminComponent } from './compnents/navbar-admin/navbar-admin.comp
 import { PasserCommandeComponent } from './compnents/passer-commande/passer-commande.component';
 import { ListeCommandesComponent } from './compnents/liste-commandes/liste-commandes.component';
 import { NavbarComponent } from './compnents/navbar/navbar.component';
+import { ProfilAdminComponent } from './compnents/profil-admin/profil-admin.component';
 
 export const routes: Routes = [
     //partie client
@@ -60,6 +61,7 @@ export const routes: Routes = [
             },
             { path: 'addPlant', title: 'AddPlant', component: AddPlantComponent },
             { path: 'listeCommandes', title: 'listeCommandes', component: ListeCommandesComponent },
+            {path:'profilAdmin', title:'Profil Admin' , component:ProfilAdminComponent}
         ]
     },
 
