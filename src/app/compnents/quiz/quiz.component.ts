@@ -11,23 +11,23 @@ import { PlantItemComponent } from '../plant-item/plant-item.component';
   styleUrl: './quiz.component.css'
 })
 export class QuizComponent implements OnInit {
-  tabRes:Plant[]=[];
-  private plantService:PalntService=inject(PalntService);
-  tabPlant:Plant[]=[];
+  tabRes:Plant[]=[];//tableau pour stocker les résultats du quiz
+  private plantService:PalntService=inject(PalntService);//service pour les plantes
+  tabPlant:Plant[]=[];//tableau pour stocker les plantes recommandées
   ngOnInit(): void {
     //this.calculateResult();
   }
   calculateResult() {
-    this.tabRes=[];
-    this.tabPlant=[];
-    const answers = [];
+    this.tabRes=[];//réinitialiser le tableau des résultats
+    this.tabPlant=[];//réinitialiser le tableau des plantes recommandées
+    const answers = [];//tableau pour stocker les réponses du quiz
     //get answers from the quiz
     for (let i = 1; i <= 5; i++) {
-        const answer = document.querySelector(`input[name="q${i}"]:checked`) as HTMLInputElement;
-        if (answer) answers.push(answer.value);
+        const answer = document.querySelector(`input[name="q${i}"]:checked`) as HTMLInputElement;//récupérer la réponse de la question i
+        if (answer) answers.push(answer.value);//ajouter la réponse à la liste des réponses
     }
 
-    //check if all answers are answered
+    //vérifier si toutes les réponses sont répondues
     if (answers.length < 5) {
       const resultElement = document.getElementById('result');
       if (resultElement) {
@@ -36,7 +36,7 @@ export class QuizComponent implements OnInit {
       return;
     }
 
-    //count the answers
+    //compter les réponses
     const answerCounts: { [key: string]: number } = { A: 0, B: 0, C: 0 };
     answers.forEach(answer => {
         if (answerCounts.hasOwnProperty(answer)) {
@@ -44,12 +44,12 @@ export class QuizComponent implements OnInit {
         }
     });
 
-    //get the most answered answer
+    //obtenir la réponse la plus fréquente
     const maxAnswer = ['A', 'B', 'C'].reduce((a, b) =>
       answerCounts[a] > answerCounts[b] ? a : b
     );
 
-    //get the plants by the most answered answer
+    //obtenir les plantes correspondant à la réponse la plus fréquente
     switch (maxAnswer) {
         case 'A':
           this.plantService.getPlantsByCategory('Plantes fleuries').subscribe(data => {

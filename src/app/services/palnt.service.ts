@@ -45,6 +45,10 @@ export class PalntService {
   public updateStock(id:number,stock:any):Observable<Plant>{
     return this.http.patch<Plant>(API_URL+'/'+id,stock);
   }
+  //update in stock
+  public updateInStock(id:number,in_stock:any):Observable<Plant>{
+    return this.http.patch<Plant>(API_URL+'/'+id,in_stock);
+  }
   /*--------------------* Wishlist *---------------------------*/
   //wishlist
   public tabplants: Plant[] = [];

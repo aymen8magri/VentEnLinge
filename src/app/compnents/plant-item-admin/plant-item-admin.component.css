@@ -78,7 +78,22 @@ button{
 .image:hover {
     filter: brightness(1.1) contrast(1.05);
 }
-/* .card:hover{
-    box-shadow: 0 4px 8px 0 #1C593A;
-    transform: scale(1.01);
-} */
+
+#delete-btn{
+    color: #fff;
+}
+#delete-btn:hover{
+    background-color: #6d3434;
+    color: #fff;
+}
+
+#viewPlant{
+    background-color: #529F76;
+    color: #fff;
+    border: 1px solid #529F76;
+}
+#viewPlant:hover{
+    background-color: #79BA91;
+    color: #1C593A;
+    border: 1px solid #1C593A;
+}

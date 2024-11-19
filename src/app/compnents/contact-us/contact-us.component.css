@@ -34,7 +34,7 @@
     width: 50%;
     font-size: 1rem;
     padding: 10px;
-    border: none;
+    border: 1px solid #1C593A;
     border-radius: 5px;
     cursor: pointer;
 }

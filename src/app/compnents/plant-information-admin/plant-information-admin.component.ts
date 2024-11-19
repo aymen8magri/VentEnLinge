@@ -16,7 +16,8 @@ export class PlantInformationAdminComponent implements OnInit{
   route: ActivatedRoute = inject(ActivatedRoute);
   val!: number;
   hidePrix=true;
-     hideStock=true;
+  hideStock=true;
+  hideInStock=true;
   ngOnInit(): void {
      
     this.route.parent?.paramMap.subscribe(params => { // Use `parent` to access `id`
@@ -46,6 +47,9 @@ export class PlantInformationAdminComponent implements OnInit{
   onHideStock(){
     this.hideStock=!this.hideStock;
   }
+  onHideInStock(){
+    this.hideInStock=!this.hideInStock;
+  }
   onSavePrix(prix:string){
     const p=parseFloat(prix);
     this.palntService.updatePrice(this.val,{price:p}).subscribe(
@@ -63,5 +67,12 @@ export class PlantInformationAdminComponent implements OnInit{
       }
     )
     this.hideStock=true;
+  }
+  onSaveInStock(event:Event){
+    const value= (event.target as HTMLSelectElement).value;
+    this.palntService.updateInStock(this.val,{in_stock:value==='true'}).subscribe(
+      data=>{this.plant.in_stock=data.in_stock}
+    )
+    this.hideInStock=true;
   }
 }

@@ -42,7 +42,7 @@ export class APIComponent implements OnInit{
 
         // Create and configure the image element
         let img = document.createElement('img');
-        img.src = article.image_url || '../img/news-800x500-1.jpg'; // Use article image or fallback
+        img.src = article.image_url || '../../../../public/PlantBuddy.png'; // Use article image or fallback
         img.style.width = '100%';
         img.style.height = '250px';
         img.className = 'card-img-top';

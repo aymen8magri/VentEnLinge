@@ -1,8 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { Plant } from '../../model/plant';
-import { PalntService } from '../../services/palnt.service';
 import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { CurrencyPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from '../footer/footer.component';
 import { AdminService } from '../../services/admin.service';
@@ -11,7 +8,7 @@ import { Admin } from '../../model/admin';
 @Component({
   selector: 'app-navbar-admin',
   standalone: true,
-  imports: [CurrencyPipe,FormsModule,RouterLink,RouterOutlet,FooterComponent, RouterLinkActive],
+  imports: [FormsModule,RouterLink,RouterOutlet,FooterComponent, RouterLinkActive],
   templateUrl: './navbar-admin.component.html',
   styleUrl: './navbar-admin.component.css'
 })
