@@ -24,13 +24,13 @@
                 <span class="new-price">{{plant.price | number:'1.2-2' | currency:'USD'}}</span>
                 <small class="old-price">{{plant.price + 2 | number:'1.2-2' | currency:'USD'}}</small>
             </div>
-            <p class="card-text" style=" font-size: 17px;"><span class="title">Description : </span>
-                {{plant.description}}.</p>
+            <p class="card-text" style=" font-size: 17px;"><span class="title">Personnalité: </span>
+                {{plant.personality}}.</p>
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item"
                 style=" font-size: 17px; background-color: #bddac2; border-bottom: 1px solid #1C593A;"><span
-                    class="title">Fun_filter : </span> {{plant.fun_filter}}</li>
+                    class="title">Type : </span> {{plant.fun_filter}}</li>
         </ul>
         <div class="card-body d-flex justify-content-between" style="background-color: #bddac2;">
             <button class="btn" style="background-color: #1C593A; color: #fff;" (click)="addToCart(plant)"

@@ -43,7 +43,7 @@ export class PalntService {
   }
   //update stock
   public updateStock(id:number,stock:any):Observable<Plant>{
-    return this.http.patch<Plant>(API_URL+'/'+id,stock);
+    return this.http.patch<Plant>(API_URL+'/'+id ,stock);
   }
   /*--------------------* Wishlist *---------------------------*/
   //wishlist

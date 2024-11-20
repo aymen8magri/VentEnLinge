@@ -57,6 +57,7 @@ export class ProfilAdminComponent implements OnInit {
       )
       this.hideForm = true;
     }
+    
   }
   onReset() {
     this.profilForm.reset();

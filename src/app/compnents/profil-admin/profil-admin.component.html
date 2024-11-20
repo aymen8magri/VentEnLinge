@@ -12,18 +12,14 @@
             <h2>Modifier le mot de passe</h2>
             <label for="current-password">Mot de passe actuel :</label>
             <input type="password" id="current-password" formControlName="mdpActuel">
-            @if(mdp?.invalid && mdp?.touched){
-            <p class="pAlert">Veuillez remplir ce champ</p>
+            @if(mdp?.value !== admin.pwd && mdp?.dirty){
+                <p class="pAlert">Mot de passe incorrect</p>
             }
-            @if(mdp?.errors?.['minlength'] && mdp?.touched){
-            <p class="pAlert">Minimum 3 caractères</p>
-            }
-            @if(mdp?.errors?.['maxlength'] && mdp?.touched){
-            <p class="pAlert">Maximum 20 caractères</p>
-            }
-
             <label for="new-password">Nouveau mot de passe :</label>
             <input type="password" id="new-password" formControlName="mdpNew">
+            @if(newPwd?.value !== mdpconfirm?.value && mdpconfirm?.dirty){
+                <p class="pAlert">Ces champs doivent être identiques </p>
+            }
             @if(newPwd?.invalid && newPwd?.touched){
             <p class="pAlert">Veuillez remplir ce champ</p>
             }
@@ -36,6 +32,9 @@
 
             <label for="confirm-password">Confirmer le mot de passe :</label>
             <input type="password" id="confirm-password" formControlName="mdpConfirm">
+            @if(newPwd?.value !== mdpconfirm?.value && mdpconfirm?.dirty){
+                <p class="pAlert">Ces champs doivent être identiques </p>
+            }
             @if(mdpconfirm?.invalid && mdpconfirm?.touched){
             <p class="pAlert">Veuillez remplir ce champ</p>
             }
@@ -46,7 +45,7 @@
             <p class="pAlert">Maximum 20 caractères</p>
             }   
 
-            <button type="submit">Confirmer</button>
+            <button type="submit" [disabled]=" newPwd?.value !== mdpconfirm?.value  ">Confirmer</button>
             <button type="button" id="cancel-btn" (click)="onReset()">Annuler</button>
         </form>
     </div>

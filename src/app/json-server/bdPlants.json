@@ -10,8 +10,8 @@
       "in_stock": true,
       "category": "Plantes fleuries",
       "fun_filter": "Bavarde",
-      "price": 7,
-      "stock": 8,
+      "price": 12.99,
+      "stock": 10,
       "date_ajout": "2024-10-21",
       "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
       "arrosage": [
@@ -454,7 +454,7 @@
       "in_stock": false,
       "category": "Plantes fleuries",
       "fun_filter": "Facile à vivre",
-      "price": 10.99,
+      "price": 2222,
       "stock": 0,
       "date_ajout": "2024-10-08",
       "images": "https://d31ucaydsf5avx.cloudfront.net/10742-large_default/geranium-rose-artificiel.jpg",
@@ -2848,33 +2848,6 @@
           "quantite": "150 ml"
         }
       ]
-    },
-    {
-      "id": "79",
-      "name": "Menthe",
-      "personality": "Rafraîchissante",
-      "description": "Herbe aromatique vivace idéale pour les thés et la cuisine.",
-      "entretien": "facile",
-      "dureeVie": "1-2 ans",
-      "in_stock": true,
-      "category": "Plantes purificatrices d'air",
-      "fun_filter": "Energitique",
-      "price": 20,
-      "stock": 44,
-      "date_ajout": "2024-11-17T00:00:00.000Z",
-      "arrosage": [
-        {
-          "saison": "été",
-          "frequence": "Chaque jour",
-          "quantite": "600 ml"
-        },
-        {
-          "saison": "printemps",
-          "frequence": "Tous les 3 jours",
-          "quantite": "350 ml"
-        }
-      ],
-      "images": "https://www.tuttogreen.it/wp-content/uploads/2016/02/shutterstock_258321500-700x459.jpg"
     }
   ]
 }
