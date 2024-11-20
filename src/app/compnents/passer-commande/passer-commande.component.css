@@ -30,11 +30,11 @@
 
 .submit-btn {
     background-color: #1C593A;
+    border: 1px solid #1C593A;
     color: #ffffff;
     width: 50%;
     font-size: 1rem;
     padding: 10px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
 }

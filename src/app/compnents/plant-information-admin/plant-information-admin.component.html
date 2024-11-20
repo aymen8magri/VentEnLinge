@@ -11,19 +11,32 @@
 
     <div class="plant-details">
         <h3>Détails</h3>
+        <!-- prix -->
         <p><strong>Prix :</strong> {{plant.price}} $</p>
         <button class="save-btn" (click)="onHidePrix()">Modifier le prix</button>
         <div [hidden]="hidePrix">
             <input type="text" placeholder="Tapez le prix" class="modif-form" #prix>
             <button class="save-btn" (click)="onSavePrix(prix.value)">Enregistrer</button>
         </div>
+        <!-- stock -->
         <p><strong>En Stock :</strong> {{plant.stock}} pièces</p>
         <button class="save-btn" (click)="onHideStock()">Modifier le stock</button>
         <div [hidden]="hideStock">
             <input type="text" placeholder="Tapez le stock" class="modif-form" #stock>
             <button class="save-btn" (click)="onSaveStock(stock.value)">Enregistrer</button>
         </div>
+        <!-- en stock ou non -->
+        <p><strong>En Stock ou non :</strong> {{plant.in_stock ? 'Oui, en stock' : 'Non, n\'est pas en stock'}}</p>
+        <button class="save-btn" (click)="onHideInStock()">Modifier l'état de stock</button>
+        <div [hidden]="hideInStock">
+            <select name="inStock" id="inStock" class="modif-form" (change)="onSaveInStock($event)">
+                <option value="true" [selected]="plant.in_stock">Oui, en stock</option>
+                <option value="false" [selected]="!plant.in_stock">Non, n'est pas en stock</option>
+            </select>
+        </div>
+        <!-- date d'ajout -->
         <p><strong>Date d'ajout :</strong> {{plant.date_ajout}}</p>
+        <!-- durée de vie -->
         <p><strong>Durée de vie :</strong> {{plant.dureeVie}}</p>
     </div>
 
@@ -39,11 +52,11 @@
             </thead>
             <tbody>
                 @for(w of plant.arrosage;track $index){
-                    <tr>
-                        <td>{{w.saison}}</td>
-                        <td>{{w.frequence}}</td>
-                        <td>{{w.quantite}}</td>
-                    </tr>
+                <tr>
+                    <td>{{w.saison}}</td>
+                    <td>{{w.frequence}}</td>
+                    <td>{{w.quantite}}</td>
+                </tr>
                 }
             </tbody>
         </table>

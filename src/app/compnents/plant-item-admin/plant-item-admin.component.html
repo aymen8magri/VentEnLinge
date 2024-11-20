@@ -22,13 +22,17 @@
         <li class="list-group-item" style=" font-size: 17px; background-color: #bddac2; border-bottom: 1px solid #1C593A;"><span class="title">Type : </span> {{plant.fun_filter}}</li>
     </ul>
     <div class="card-body d-flex justify-content-between" style="background-color: #bddac2;">
-        <button class="btn" 
-                style="background-color: red; color: #fff;" 
-                title="delete" 
+        <!-- bouton pour supprimer un article -->
+        <button class="btn btn-danger" 
+                id="delete-btn" 
+                title="supprimer l'article" 
                 data-bs-toggle="modal" 
                 [attr.data-bs-target]="'#exampleModal'+plant.id">Supprimer</button>
+        <!-- bouton pour voir plus -->
         <a [routerLink]="['/plantAdmin', plant.id]">
-            <button class="btn" style="background-color: #529F76; color: #fff;" title="View plant">Voir plus</button>
+            <button class="btn" 
+                    id="viewPlant" 
+                    title="voir plus">Voir plus</button>
         </a>
     </div>
     <!-- Modal pour supprimer un article -->

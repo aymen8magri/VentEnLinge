@@ -1,6 +1,7 @@
 <div class="div1">
     <h1>Quelle plante est faite pour toi ?</h1>
     <form id="plant-quiz">
+        <!-- question 1 -->
         <div class="question">
             <p>1. Quelle est ta saison préférée ?</p>
             <div class="option-group">
@@ -18,6 +19,7 @@
             </div>
         </div>
 
+        <!-- question 2 -->
         <div class="question">
             <p>2. Quel type de colocataire es-tu ?</p>
             <div class="option-group">
@@ -35,6 +37,7 @@
             </div>
         </div>
 
+        <!-- question 3 -->
         <div class="question">
             <p>3. Quand tu travailles ou étudies, ton environnement préféré est...</p>
             <div class="option-group">
@@ -52,6 +55,7 @@
             </div>
         </div>
 
+        <!-- question 4 -->
         <div class="question">
             <p>4. À quelle fréquence es-tu prêt à t'occuper de ta plante ?</p>
             <div class="option-group">
@@ -69,6 +73,7 @@
             </div>
         </div>
 
+        <!-- question 5 -->
         <div class="question">
             <p>5. Qu'est-ce qui te décrit le mieux ?</p>
             <div class="option-group">
@@ -86,8 +91,11 @@
             </div>
         </div>
 
+        <!-- bouton pour obtenir les résultats -->
         <button type="button" (click)="calculateResult()">Résultat</button>
     </form>
+
+    <!-- afficher les résultats -->
     <div>
         @if(tabPlant.length>0){
             <h2 class="text-center mt-5 ">Nous avons trouvé pour toi :</h2>

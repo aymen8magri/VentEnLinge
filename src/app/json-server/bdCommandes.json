@@ -378,165 +378,6 @@
       ]
     },
     {
-      "id": "21d4",
-      "nom": "aaa",
-      "prenom": "vvva",
-      "tel": 14785236,
-      "adresse": "ccc",
-      "etat": "Validée",
-      "total": 51.96,
-      "articles": [
-        {
-          "id": "1",
-          "name": "Rose",
-          "personality": "Romantique",
-          "description": "Plante emblématique de l'amour.",
-          "entretien": "Facile",
-          "dureeVie": "3-5 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Bavarde",
-          "price": 12.99,
-          "stock": 10,
-          "date_ajout": "2024-10-21",
-          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Chaque jour",
-              "quantite": "600 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 3 jours",
-              "quantite": "350 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Tous les 6 jours",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "150 ml"
-            }
-          ]
-        },
-        {
-          "id": "3",
-          "name": "Orchidée",
-          "personality": "Raffinée",
-          "description": "Symbolise la rareté et l'élégance.",
-          "entretien": "Difficile",
-          "dureeVie": "5-7 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Énergique",
-          "price": 14.99,
-          "stock": 7,
-          "date_ajout": "2024-10-17",
-          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 3 jours",
-              "quantite": "450 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 4 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Chaque semaine",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "6",
-          "name": "Lavande",
-          "personality": "Relaxante",
-          "description": "Plante au parfum apaisant.",
-          "entretien": "Facile",
-          "dureeVie": "4-6 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Facile à vivre",
-          "price": 11.99,
-          "stock": 8,
-          "date_ajout": "2024-10-18",
-          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 2 jours",
-              "quantite": "500 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 3 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Tous les 5 jours",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "6",
-          "name": "Lavande",
-          "personality": "Relaxante",
-          "description": "Plante au parfum apaisant.",
-          "entretien": "Facile",
-          "dureeVie": "4-6 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Facile à vivre",
-          "price": 11.99,
-          "stock": 8,
-          "date_ajout": "2024-10-18",
-          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 2 jours",
-              "quantite": "500 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 3 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Tous les 5 jours",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "2d44",
       "nom": "ali",
       "prenom": "ali",
@@ -866,6 +707,472 @@
           "stock": 10,
           "date_ajout": "2024-10-25",
           "images": "https://jnina.tn/411-large_default/maranta.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a870",
+      "nom": "nour",
+      "prenom": "bouraoui",
+      "tel": 58448980,
+      "adresse": "ariana",
+      "etat": "Validée",
+      "total": 14.99,
+      "articles": [
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2739",
+      "nom": "MAGRI",
+      "prenom": "AYMEN",
+      "tel": 93552014,
+      "adresse": "Gfvn",
+      "etat": "en attente",
+      "total": 148.62,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Lavande",
+          "personality": "Relaxante",
+          "description": "Plante au parfum apaisant.",
+          "entretien": "Facile",
+          "dureeVie": "4-6 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 11.99,
+          "stock": 8,
+          "date_ajout": "2024-10-18",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "name": "Anthurium",
+          "personality": "Exubérant",
+          "description": "Plante fleurie exotique avec des feuilles et fleurs colorées.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 17.99,
+          "stock": 12,
+          "date_ajout": "2024-10-16",
+          "images": "https://www.boutique.bencheikhgarden.tn/278-large_default/anthurium-rouge.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "name": "Jasmin",
+          "personality": "Senteur",
+          "description": "Une plante grimpante aux fleurs odorantes.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 12,
+          "date_ajout": "2024-10-10",
+          "images": "https://img.freepik.com/photos-premium/vase-illustration-jasmin-du-caractere_435599-2637.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "32",
+          "name": "Canna Lily",
+          "personality": "Éclatante",
+          "description": "Plante tropicale aux grandes fleurs colorées.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 15.99,
+          "stock": 10,
+          "date_ajout": "2024-10-25",
+          "images": "https://cdn2.bigcommerce.com/server4900/4f8a6/products/726/images/2847/canna_lily_red__24245.1725145014.1280.1280.jpg?c=2",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "name": "Fuchsia",
+          "personality": "Enchantée",
+          "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 8,
+          "date_ajout": "2024-10-20",
+          "images": "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "name": "Fuchsia",
+          "personality": "Enchantée",
+          "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 8,
+          "date_ajout": "2024-10-20",
+          "images": "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "name": "Fuchsia",
+          "personality": "Enchantée",
+          "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 8,
+          "date_ajout": "2024-10-20",
+          "images": "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg",
           "arrosage": [
             {
               "saison": "Été",
