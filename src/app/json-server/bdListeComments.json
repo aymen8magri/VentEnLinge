@@ -353,8 +353,8 @@
         {
           "nom": "Alice",
           "message": "I love how succulents require so little maintenance!",
-          "nbLikes": 35,
-          "liked": true
+          "nbLikes": 34,
+          "liked": false
         },
         {
           "nom": "Clara",

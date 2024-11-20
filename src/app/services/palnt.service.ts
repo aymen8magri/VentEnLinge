@@ -86,5 +86,33 @@ export class PalntService {
   public  total(): number {
     return this.tabcart.reduce((acc, plant) => acc + plant.price, 0);
   }
+  /*--------------------* API *---------------------------*/
+  //get plants from api
+  private apiUrl = 'https://house-plants2.p.rapidapi.com/all-lite';
+  private httpOptions = {
+    headers: {
+      'x-rapidapi-key': '3192d0fcf3mshe2323029dd97bc3p1f98f6jsn8329a2eb8e04',
+      'x-rapidapi-host': 'house-plants2.p.rapidapi.com'
+    }
+  };
+  //get all plants from api
+  getPlantApi(): Observable<any[]> {
+    return this.http.get<any[]>(this.apiUrl, this.httpOptions);
+  }
+
+
+  //get plant by category from api
+  private baseUrl = 'https://house-plants2.p.rapidapi.com/category';
+  private apiHttpOptions = {
+    headers: {
+      'x-rapidapi-key': '3192d0fcf3mshe2323029dd97bc3p1f98f6jsn8329a2eb8e04',
+      'x-rapidapi-host': 'house-plants2.p.rapidapi.com'
+    }
+  };
+  // Récupérer les plantes par catégorie
+  getPlantApiByCategory(category: string): Observable<any[]> {
+    const url = `${this.baseUrl}/${category}`;
+    return this.http.get<any[]>(url, this.apiHttpOptions);
+  }
 
 }
