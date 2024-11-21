@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { Plant } from '../../model/plant';
-import { CurrencyPipe } from '@angular/common';
+import { CurrencyPipe, NgClass } from '@angular/common';
 import { PalntService } from '../../services/palnt.service';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from '../footer/footer.component';
@@ -9,11 +9,13 @@ import { FooterComponent } from '../footer/footer.component';
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive, CurrencyPipe, FormsModule,RouterOutlet,FooterComponent],
+  imports: [RouterLink, RouterLinkActive, CurrencyPipe, FormsModule,RouterOutlet,FooterComponent,NgClass],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+  isNavbarCollapsed = true; 
+
 
   router:Router=inject(Router);
 

@@ -18,12 +18,12 @@
 <nav class="navbar navbar-expand-lg m-2 nav2 sticky">
   <div class="container-fluid">
     <!-- ------------------------------ le bouton pour ouvrir le menu ------------------------------ -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="color: #fffffe;">
-      <span class="navbar-toggler-icon text-white"></span>
+    <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
+      aria-controls="navbarNavDropdown" [attr.aria-expanded]="!isNavbarCollapsed" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div id="navbarNavDropdown" class="collapse navbar-collapse" [ngClass]="{'show': !isNavbarCollapsed}">
       <!-- ------------------------------ les liens du menu ------------------------------ -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <!------------ le lien pour aller à l'accueil --------------- -->

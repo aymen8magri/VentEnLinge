@@ -59,6 +59,9 @@ export class PasserCommandeComponent implements OnInit{
     )
     this.formHide=true;
     this.msgHide=false;
+    // for(const t of this.tabcom){
+    //     this.plantService.updateStock(t.id,{stock:t.stock-1})
+    // }
   }
 
 
