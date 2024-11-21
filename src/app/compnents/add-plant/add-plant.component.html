@@ -70,7 +70,7 @@
             </div>
             <!-- champ filtre de la plante -->
             <div class="mb-3">
-                <label for="filter" class="form-label">Fun filter</label>
+                <label for="filter" class="form-label">Type</label>
                 <select name="filter" id="filter" class="form-select" formControlName="filter">
                     @for(f of filter;track $index){
                     <option [value]="f">{{f}}</option>

@@ -15,8 +15,8 @@ export class PlantItemAdminComponent {
   @Output() notify=new EventEmitter<number>();
   
 
-  onDelete(id:string) {
+  onDelete(id:number) {
   
-    this.notify.emit(parseInt(id));
+    this.notify.emit(id);
   }
 }

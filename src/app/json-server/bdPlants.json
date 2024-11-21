@@ -10,8 +10,8 @@
       "in_stock": true,
       "category": "Plantes fleuries",
       "fun_filter": "Bavarde",
-      "price": 7.9,
-      "stock": 8,
+      "price": 10,
+      "stock": 5,
       "date_ajout": "2024-10-21",
       "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
       "arrosage": [
@@ -85,7 +85,7 @@
       "category": "Plantes fleuries",
       "fun_filter": "Énergique",
       "price": 14.99,
-      "stock": 7,
+      "stock": 5,
       "date_ajout": "2024-10-17",
       "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
       "arrosage": [
@@ -2875,6 +2875,3373 @@
         }
       ],
       "images": "https://www.tuttogreen.it/wp-content/uploads/2016/02/shutterstock_258321500-700x459.jpg"
+    },
+    {
+      "id": "80",
+      "name": "newp",
+      "personality": "sssss",
+      "description": "ddd",
+      "entretien": "facile",
+      "dureeVie": "99-999 ans",
+      "in_stock": true,
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": "06",
+      "stock": "07",
+      "date_ajout": "2024-11-21T00:00:00.000Z",
+      "arrosage": [
+        {
+          "saison": "été",
+          "frequence": "Chaque jour",
+          "quantite": "600 ml"
+        }
+      ],
+      "images": "lessgooo"
+    }
+  ],
+  "ListeComments": [
+    {
+      "id": "1",
+      "liste": [
+        {
+          "nom": "ghzela",
+          "message": "ghzela",
+          "nbLikes": 0,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 33,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 48,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 8,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 48,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "liste": [
+        {
+          "nom": "lolo",
+          "message": "lolo",
+          "nbLikes": 0,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 28,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 0,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 10,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 8,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 39,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 3,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 49,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 6,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 31,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 20,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 50,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 40,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 19,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 11,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 25,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 39,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 12,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 31,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 42,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 31,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 24,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 10,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 17,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 44,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 49,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 2,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 6,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 25,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 35,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 8,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 4,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 0,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 33,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 42,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 25,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 34,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 8,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 11,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 5,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 14,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 0,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 34,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 20,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 26,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 22,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 4,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 13,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 26,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 2,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 23,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 47,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 36,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 29,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 46,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 46,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 41,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 23,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 4,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 0,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 18,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 42,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 23,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 5,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 25,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 18,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 32,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 40,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 26,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 1,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 46,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 28,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 35,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 31,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 21,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 27,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 37,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 10,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 46,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 34,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 17,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 20,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 22,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 0,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 4,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 13,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 20,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 5,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 36,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 44,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 12,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 25,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 48,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 12,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 22,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 29,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 14,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 29,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 26,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 38,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 17,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 12,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 23,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 49,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 4,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 6,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 18,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 37,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 27,
+          "liked": true
+        },
+        {
+          "nom": "Bob",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 39,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 11,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 11,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 42,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 25,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 14,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 36,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 30,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 21,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 0,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 27,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 30,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 16,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 48,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 9,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 26,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 14,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 36,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 19,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 20,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 34,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 45,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 18,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 38,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 18,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 24,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 11,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 47,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 30,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 41,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 16,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 49,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 33,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 21,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 17,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 49,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 35,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 11,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 26,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 24,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 10,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 3,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 40,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 40,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 3,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 4,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 0,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 6,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 17,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 23,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 42,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 34,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 14,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 17,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 24,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 13,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 49,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 17,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 22,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 10,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 35,
+          "liked": true
+        },
+        {
+          "nom": "Bob",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 32,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 16,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 39,
+          "liked": true
+        },
+        {
+          "nom": "Bob",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 45,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 30,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 8,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 45,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 38,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 12,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 27,
+          "liked": false
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 20,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 14,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 24,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 12,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 1,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 8,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 40,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 44,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 16,
+          "liked": false
+        },
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 40,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 31,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 31,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 50,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 28,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "liste": [
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 36,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 46,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 3,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 9,
+          "liked": true
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 45,
+          "liked": true
+        },
+        {
+          "nom": "Clara",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 6,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 12,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 31,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 32,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 49,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 39,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 33,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 8,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 46,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 20,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 3,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 25,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 32,
+          "liked": false
+        },
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 49,
+          "liked": true
+        },
+        {
+          "nom": "Eve",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 7,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "liste": [
+        {
+          "nom": "Clara",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 32,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 10,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "I enjoy propagating pothos plants. So easy and fun!",
+          "nbLikes": 20,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 20,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 1,
+          "liked": true
+        },
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 29,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 50,
+          "liked": true
+        },
+        {
+          "nom": "Bob",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 34,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "liste": [
+        {
+          "nom": "David",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 5,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 13,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "liste": [
+        {
+          "nom": "Frank",
+          "message": "I love how succulents require so little maintenance!",
+          "nbLikes": 23,
+          "liked": false
+        },
+        {
+          "nom": "David",
+          "message": "Snake plants are great for purifying the air.",
+          "nbLikes": 12,
+          "liked": false
+        },
+        {
+          "nom": "Eve",
+          "message": "Monstera plants add such a tropical vibe to any room.",
+          "nbLikes": 17,
+          "liked": false
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "liste": [
+        {
+          "nom": "Bob",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 27,
+          "liked": true
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "liste": [
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 15,
+          "liked": false
+        },
+        {
+          "nom": "Bob",
+          "message": "I recently got a fiddle leaf fig. It's stunning!",
+          "nbLikes": 16,
+          "liked": true
+        },
+        {
+          "nom": "Alice",
+          "message": "Cacti are so resilient and perfect for beginners.",
+          "nbLikes": 9,
+          "liked": true
+        }
+      ]
+    }
+  ],
+  "commandes": [
+    {
+      "id": "77bb",
+      "nom": "aymen",
+      "prenom": "magri",
+      "tel": "93552014",
+      "adresse": "Al-Ghazala ",
+      "etat": "Validée",
+      "total": 39.97,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Lavande",
+          "personality": "Relaxante",
+          "description": "Plante au parfum apaisant.",
+          "entretien": "Facile",
+          "dureeVie": "4-6 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 11.99,
+          "stock": 8,
+          "date_ajout": "2024-10-18",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "142f",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "Validée",
+      "total": 38.97,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04ab",
+      "nom": "anas",
+      "prenom": "lemjid",
+      "tel": 96226617,
+      "adresse": "rue moscow, cite ennour, kelibia 8090",
+      "etat": "Validée",
+      "total": 14.99,
+      "articles": [
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2d44",
+      "nom": "ali",
+      "prenom": "ali",
+      "tel": 20202302,
+      "adresse": "avn",
+      "etat": "Validée",
+      "total": 118.93999999999998,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 12.99,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Lavande",
+          "personality": "Relaxante",
+          "description": "Plante au parfum apaisant.",
+          "entretien": "Facile",
+          "dureeVie": "4-6 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 11.99,
+          "stock": 8,
+          "date_ajout": "2024-10-18",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "40",
+          "name": "Cymbidium",
+          "personality": "Élégant",
+          "description": "Orchidée qui produit des fleurs spectaculaires et durables.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 29.99,
+          "stock": 8,
+          "date_ajout": "2024-10-22",
+          "images": "https://ff-florist.s3.amazonaws.com/s/thefloweralley/product/cymbidium-orchids-in-modern-vase/product_photo/cymbidium-orchids-in-modern-vase-large-29d0291d1df1f3e5ca91e5cb66b0f227.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "46",
+          "name": "Orchidée Phalaenopsis",
+          "personality": "Sublime",
+          "description": "Orchidée élégante avec des fleurs en forme de papillon.",
+          "entretien": "Moyen",
+          "dureeVie": "2-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 29.99,
+          "stock": 7,
+          "date_ajout": "2024-10-22",
+          "images": "https://img.freepik.com/photos-premium/belles-fleurs-vase-table-orchidees-roses-orchidee-phalaenopsis-rose-fond-rose-pastel_410516-4886.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "50",
+          "name": "Mandevilla",
+          "personality": "Enjouée",
+          "description": "Plante grimpante aux fleurs en forme de trompette.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 18.99,
+          "stock": 12,
+          "date_ajout": "2024-10-25",
+          "images": "https://iqdho.com/wp-content/uploads/2024/04/Sun-Parasol-Bluephoria-Original-XP-Mandevilla-002-scaled-e1714504162149.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1938",
+      "nom": "rabeb",
+      "prenom": "rar",
+      "tel": 99999999,
+      "adresse": "city",
+      "etat": "en attente",
+      "total": 63.97,
+      "articles": [
+        {
+          "id": "31",
+          "name": "Ficus lyrata",
+          "personality": "Majestueux",
+          "description": "Plante d'intérieur populaire avec de grandes feuilles en forme de violon.",
+          "entretien": "Moyen",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Énergique",
+          "price": 24.99,
+          "stock": 5,
+          "date_ajout": "2024-10-19",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZPvDeCrIHLYHv8-mx5lZKrk8_UKpJWAmWg&s",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "44",
+          "name": "Ficus lyrata",
+          "personality": "Majestueuse",
+          "description": "Plante à grandes feuilles qui apporte une touche tropicale.",
+          "entretien": "Moyen",
+          "dureeVie": "5-10 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 24.99,
+          "stock": 10,
+          "date_ajout": "2024-10-25",
+          "images": "https://images.panierdachat.app/984/xjs7GBRO_img-7197-a2112853-b3af-48ff-904c-c84fb72aa40e.jpg?w=1512&h=2016",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "21",
+          "name": "Maranta",
+          "personality": "Artiste",
+          "description": "Plante à feuilles décoratives qui se plie la nuit.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": 13.99,
+          "stock": 10,
+          "date_ajout": "2024-10-25",
+          "images": "https://jnina.tn/411-large_default/maranta.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a870",
+      "nom": "nour",
+      "prenom": "bouraoui",
+      "tel": 58448980,
+      "adresse": "ariana",
+      "etat": "Validée",
+      "total": 14.99,
+      "articles": [
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2739",
+      "nom": "MAGRI",
+      "prenom": "AYMEN",
+      "tel": 93552014,
+      "adresse": "Gfvn",
+      "etat": "en attente",
+      "total": 148.62,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Lavande",
+          "personality": "Relaxante",
+          "description": "Plante au parfum apaisant.",
+          "entretien": "Facile",
+          "dureeVie": "4-6 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Facile à vivre",
+          "price": 11.99,
+          "stock": 8,
+          "date_ajout": "2024-10-18",
+          "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "name": "Anthurium",
+          "personality": "Exubérant",
+          "description": "Plante fleurie exotique avec des feuilles et fleurs colorées.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 17.99,
+          "stock": 12,
+          "date_ajout": "2024-10-16",
+          "images": "https://www.boutique.bencheikhgarden.tn/278-large_default/anthurium-rouge.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "name": "Jasmin",
+          "personality": "Senteur",
+          "description": "Une plante grimpante aux fleurs odorantes.",
+          "entretien": "Moyen",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 12,
+          "date_ajout": "2024-10-10",
+          "images": "https://img.freepik.com/photos-premium/vase-illustration-jasmin-du-caractere_435599-2637.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "32",
+          "name": "Canna Lily",
+          "personality": "Éclatante",
+          "description": "Plante tropicale aux grandes fleurs colorées.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 15.99,
+          "stock": 10,
+          "date_ajout": "2024-10-25",
+          "images": "https://cdn2.bigcommerce.com/server4900/4f8a6/products/726/images/2847/canna_lily_red__24245.1725145014.1280.1280.jpg?c=2",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "name": "Fuchsia",
+          "personality": "Enchantée",
+          "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 8,
+          "date_ajout": "2024-10-20",
+          "images": "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "name": "Fuchsia",
+          "personality": "Enchantée",
+          "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 8,
+          "date_ajout": "2024-10-20",
+          "images": "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "36",
+          "name": "Fuchsia",
+          "personality": "Enchantée",
+          "description": "Plante à fleurs tombantes, souvent utilisée dans les jardins suspendus.",
+          "entretien": "Moyen",
+          "dureeVie": "2-3 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 15.99,
+          "stock": 8,
+          "date_ajout": "2024-10-20",
+          "images": "https://cdn.mos.cms.futurecdn.net/AVieGMt8afqV35Q9GtutsX.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 2 jours",
+              "quantite": "500 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 5 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "78f9",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech ",
+      "etat": "en attente",
+      "total": 7.9,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb12",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa",
+      "etat": "en attente",
+      "total": "006",
+      "articles": [
+        {
+          "id": "80",
+          "name": "newp",
+          "personality": "sssss",
+          "description": "ddd",
+          "entretien": "facile",
+          "dureeVie": "99-999 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Bavarde",
+          "price": "06",
+          "stock": "07",
+          "date_ajout": "2024-11-21T00:00:00.000Z",
+          "arrosage": [
+            {
+              "saison": "été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            }
+          ],
+          "images": "lessgooo"
+        }
+      ]
+    },
+    {
+      "id": "25ec",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech ré",
+      "etat": "en attente",
+      "total": 34.99,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 10,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 10,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cfb6",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayec",
+      "etat": "en attente",
+      "total": 34.99,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 10,
+          "stock": 9,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 10,
+          "stock": 9,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 6,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9f8b",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fay",
+      "etat": "en attente",
+      "total": 20,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 10,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 10,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "username": "Sara",
+      "pwd": "nnn"
+    },
+    {
+      "id": "2",
+      "username": "Aymen",
+      "pwd": "admin"
     }
   ]
 }

@@ -109,7 +109,7 @@ export class AddPlantComponent implements OnInit {
     console.log(this.watering?.value);
     this.date = new Date(this.planteForm.value['dateAjout']);
     this.plant = new Plant(
-      String(this.plants.length + 2),
+      this.plants.length + 2,
       this.planteForm.value['nom'],
       this.planteForm.value['personalite'],
       this.planteForm.value['description'],

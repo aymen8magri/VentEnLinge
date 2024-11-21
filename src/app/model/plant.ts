@@ -1,7 +1,7 @@
 import { Watering } from "./watering";
 
 export class Plant {
-    id: string;
+    id: number;
     name: string;
     personality: string;
     description: string;
@@ -16,7 +16,7 @@ export class Plant {
     arrosage:Watering[]
     images: string;
 
-    constructor(id: string, name: string, personality: string, description: string,  entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, images: string, arrosage:Watering[],) {
+    constructor(id: number, name: string, personality: string, description: string,  entretien: string, dureeVie: string, in_stock: boolean, category: string, fun_filter: string, price: number, stock: number, date_ajout: Date, images: string, arrosage:Watering[],) {
         this.id = id;
         this.name = name;
         this.personality = personality;

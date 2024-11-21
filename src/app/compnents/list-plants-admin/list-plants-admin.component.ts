@@ -34,7 +34,7 @@ export class ListPlantsAdminComponent implements OnInit {
   }
   onDeletePlant(id: number) {
     this.plantService.deletePlant(id).subscribe(
-      data => { this.filteredPlants = this.filteredPlants.filter((i) => parseInt(i.id) !== id) }
+      data => { this.filteredPlants = this.filteredPlants.filter((i) => i.id !== id) }
     )
   }
   

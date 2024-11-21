@@ -28,7 +28,7 @@ export class PasserCommandeComponent implements OnInit{
       nom:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20),Validators.pattern('[a-zA-Z]+')]],
       prenom:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20),Validators.pattern('[a-zA-Z]+')]],
       tel:['',[Validators.required,Validators.pattern('[0-9]{8}')]],
-      adresse:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20)]]
+      adresse:['',[Validators.required,Validators.minLength(3),Validators.maxLength(50)]]
 
     })
   }
@@ -59,9 +59,15 @@ export class PasserCommandeComponent implements OnInit{
     )
     this.formHide=true;
     this.msgHide=false;
-    // for(const t of this.tabcom){
-    //     this.plantService.updateStock(t.id,{stock:t.stock-1})
-    // }
+    for (const t of this.tabcom){
+      t.stock=t.stock-1;
+      this.plantService.updateStock(t.id,{stock:t.stock-1}).subscribe(
+        data=>{console.log(data)
+          }
+        
+      )
+      
+    }
   }
 
 

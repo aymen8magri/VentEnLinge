@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Plant } from '../model/plant';
 import { ListeComments } from '../model/liste-comments';
-const url="http://localhost:4000/ListeComments";
+const url="http://localhost:3000/ListeComments";
 @Injectable({
   providedIn: 'root'
 })
