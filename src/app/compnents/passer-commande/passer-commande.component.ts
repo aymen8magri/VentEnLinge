@@ -61,7 +61,7 @@ export class PasserCommandeComponent implements OnInit{
     this.msgHide=false;
     for (const t of this.tabcom){
       t.stock=t.stock-1;
-      this.plantService.updateStock(t.id,{stock:t.stock-1}).subscribe(
+      this.plantService.updateStock(t.id,{stock:t.stock}).subscribe(
         data=>{console.log(data)
           }
         
