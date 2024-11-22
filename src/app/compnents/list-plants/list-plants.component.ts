@@ -15,17 +15,17 @@ import { FilterPipe } from '../../filter.pipe';
 })
 export class ListPlantsComponent implements OnInit {
 
-    plants: Plant[] = [];            // Complete list of plants
-    filteredPlants: Plant[] = [];     // List of plants after filtering
-    selectedFunFilter: string = '';   // Stores the selected fun filter value
-    selectedCategory: string = '';    // Stores the selected category value
+    plants: Plant[] = [];            // Liste complète des plantes
+    filteredPlants: Plant[] = [];     // Liste des plantes après filtrage
+    selectedFunFilter: string = '';   // Stockage de la valeur du filtre de fonction
+    selectedCategory: string = '';    // Stockage de la valeur de la catégorie
 
-    private plantService: PalntService = inject(PalntService);
+    private plantService: PalntService = inject(PalntService); //service pour les plantes
 
     ngOnInit(): void {
         // Fetch the list of plants from the service on component load
         this.plantService.getPlants().subscribe((data: Plant[]) => {
-            this.plants = data;
+            this.plants = data; //récupérer les plantes de la base de données
             this.filteredPlants = data;  // Initialize with the full list
         });
     }
@@ -58,7 +58,7 @@ export class ListPlantsComponent implements OnInit {
     }
 
     /*--------------------* Search *---------------------------*/
-    searchTerm: any;
+    searchTerm: any; //terme de recherche pour les plantes
 
 
 

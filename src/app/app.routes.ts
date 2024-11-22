@@ -1,4 +1,4 @@
-import { RouterModule, Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 import { HomeComponent } from './compnents/home/home.component';
 import { AboutUsComponent } from './compnents/about-us/about-us.component';
 import { ContactUsComponent } from './compnents/contact-us/contact-us.component';
@@ -22,7 +22,6 @@ import { NavbarComponent } from './compnents/navbar/navbar.component';
 import { ProfilAdminComponent } from './compnents/profil-admin/profil-admin.component';
 import { authGuard } from './auth.guard';
 import { APIComponent } from './compnents/api/api.component';
-import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
     //partie client

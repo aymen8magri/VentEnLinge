@@ -17,6 +17,7 @@
     padding: 10px;
 }
 
+
 .form-control:focus {
     color: #000;
 }
@@ -78,7 +79,7 @@
     border: 1px solid #1C593A;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 83px;
+    margin-right: 53px;
 
 }
 

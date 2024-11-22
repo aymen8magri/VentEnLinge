@@ -78,8 +78,8 @@
         @for(plant of plants; track plant.id){
         <div class="col-md-4">
             <div class="card mb-4">
-                <!-- <img [src]="plant?.Img || '../../../../public/logo.png'" class="card-img-top" > -->
-                <img src="logo.png" class="card-img-top" >
+                <img [src]="plant?.Img || '../../../../public/logo.png'" class="card-img-top" >
+                <!-- <img src="logo.png" class="card-img-top" > -->
                 <div class="card-body">
                     <!-- Nom commun -->
                     {{ plant['Common name']?.[0] || 'Nom inconnu' }}

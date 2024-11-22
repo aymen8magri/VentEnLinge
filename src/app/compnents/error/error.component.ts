@@ -10,8 +10,9 @@ import { Router } from '@angular/router';
 })
 export class ErrorComponent {
 
-  router: Router = inject(Router);
+  router: Router = inject(Router); //service pour la navigation
 
+  //rediriger vers la page d'accueil
   goHome() {
     this.router.navigate(['/']);
   }

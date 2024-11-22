@@ -61,11 +61,13 @@ export class AddPlantComponent implements OnInit {
     )
 
   }
+  //getter pour les arrosages
   public get watering() {
     return this.planteForm.get('arrosage') as FormArray;
   }
-  onAjouterArrosage() {
 
+  //ajouter un arrosage
+  onAjouterArrosage() {
     const arrosageGroup = this.fb.group({
       saison: ['été'],   // Saison
       frequence: ['Chaque jour'],   // Fréquence
@@ -75,6 +77,7 @@ export class AddPlantComponent implements OnInit {
     console.log(this.planteForm.invalid)
   }
 
+  //getters
   get nom() {
     return this.planteForm.get('nom');
   }
@@ -104,8 +107,8 @@ export class AddPlantComponent implements OnInit {
 
 
 
+  //ajouter une plante
   onAjouter() {
-
     console.log(this.watering?.value);
     this.date = new Date(this.planteForm.value['dateAjout']);
     this.plant = new Plant(
@@ -129,10 +132,12 @@ export class AddPlantComponent implements OnInit {
       data => console.log(data)
 
     )
-    this.hide=false;
-    this.hidef = true;
+    this.hide=false; //afficher le message de succès si la plante est ajoutée
+    this.hidef = true; //masquer le formulaire si la plante est ajoutée
     
   }
+
+  //reset le formulaire
   onReset() {
     this.plantService.getPlants().subscribe(
       data => this.plants = data

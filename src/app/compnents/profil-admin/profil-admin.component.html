@@ -1,5 +1,6 @@
 <div class="profile-container">
     <h1>Profil Administrateur</h1>
+    <!--afficher le nom et le mot de passe actuel de l'admin-->
     <div class="profile-info">
         <p><strong>Nom : </strong><span id="admin-name">{{admin.username}}</span></p>
         <p><strong>Mot de passe actuel : </strong><span id="admin-password">{{admin.pwd}}</span></p>
@@ -7,7 +8,7 @@
     <button id="edit-password-btn" (click)="onModifier()">Modifier le mot de passe</button>
 
     <div id="password-form" class="">
-
+        <!--form pour modifier le mot de passe de l'admin-->
         <form id="change-password-form" [formGroup]="profilForm" (ngSubmit)="onConfirmer()" [hidden]="hideForm">
             <h2>Modifier le mot de passe</h2>
             <!-- Mot de passe actuel -->

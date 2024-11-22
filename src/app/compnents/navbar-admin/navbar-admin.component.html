@@ -17,6 +17,7 @@
 <!---navbar2-->
 <nav class="navbar navbar-expand-lg m-2 nav2 sticky">
   <div class="container-fluid">
+    <!--bouton pour afficher la navbar en mode responsive-->
     <button class="navbar-toggler p-2 m-2" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
       aria-controls="navbarNavDropdown" [attr.aria-expanded]="!isNavbarCollapsed" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,16 +26,17 @@
     <div id="navbarNavDropdown" class="collapse navbar-collapse" [ngClass]="{'show': !isNavbarCollapsed}">
       <!-- Left Aligned Navbar Links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-
+        <!--lien pour accéder au catalogue des plantes-->
         <li class="nav-item">
           <a class="nav-link" style="color: #fffffe;" routerLink="/ListePlantesAdmin"
             routerLinkActive="active">Catalogue des Plantes</a>
         </li>
+        <!--lien pour ajouter une plante-->
         <li class="nav-item">
           <a class="nav-link" style="color: #fffffe;" routerLink="/addPlant" routerLinkActive="active">Ajouter une
             plante</a>
         </li>
+        <!--lien pour accéder à la liste des commandes-->
         <li class="nav-item">
           <a class="nav-link" style="color: #fffffe;" routerLink="/listeCommandes" routerLinkActive="active">Liste des
             commandes</a>
@@ -42,11 +44,14 @@
 
       </ul>
     </div>
+    <!--bouton pour accéder au profil de l'admin-->
     <button class="btn cart-button" routerLink="profilAdmin">
       <i class="bi bi-person-lines-fill"></i> Profil <strong>{{admin.username}}</strong>
     </button>
   </div>
 </nav>
 
+<!--contenu de la page-->
 <router-outlet></router-outlet>
+<!--footer-->
 <app-footer></app-footer>

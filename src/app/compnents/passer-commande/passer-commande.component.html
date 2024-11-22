@@ -1,5 +1,5 @@
 <div class="row align-items-center py-5 m-4">
-
+    
     <div class="col-lg-4 contact-details">
         <img src="passerCommande.png" alt="Login Image" />
         <h2>Passer à la caisse</h2>
@@ -7,7 +7,9 @@
     </div>
 
     <div class="col-lg-8 contact-form">
+        <!--formulaire pour passer une commande-->
         <form [formGroup]="commandeForm" [hidden]="formHide" (ngSubmit)="onCommande()">
+            <!--champ pour le nom-->
             <div class="mb-3">
                 <label for="name" class="form-label">Nom :</label>
                 <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" name="name" formControlName="nom"/>
@@ -24,6 +26,7 @@
                     <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
+            <!--champ pour le prénom-->
             <div class="mb-3">
                 <label for="firstname" class="form-label">Prénom :</label>
                 <input type="text" class="form-control" id="firstname" placeholder="Entrez votre prénom" name="firstname" formControlName="prenom" />
@@ -40,6 +43,7 @@
                     <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
+            <!--champ pour le téléphone-->
             <div class="mb-3">
                 <label for="tel" class="form-label">Téléphone :</label>
                 <input type="number" class="form-control" id="tel" placeholder="Entrez votre téléphone" name="tel"
@@ -50,6 +54,7 @@
                         <p class="pAlert">Veuillez remplir ce champ</p>
                     }
             </div>
+            <!--champ pour l'adresse-->
             <div class="mb-3">
                 <label for="adresse" class="form-label"> Adresse</label>
                 <input type="text" class="form-control" id="Adresse" placeholder="Entrez votre adresse" name="adresse"
@@ -62,9 +67,13 @@
                     }
                    
             </div>
-            <button type="submit" class="submit-btn" [disabled]="commandeForm.invalid">Passer la commande <i class="bi bi-cash-coin"
-                    style="margin-left: 10px;"></i></button>
+            <!--bouton pour passer la commande-->
+            <button type="submit" 
+                    class="submit-btn" 
+                    [disabled]="commandeForm.invalid">Passer la commande <i class="bi bi-cash-coin" style="margin-left: 10px;"></i>
+            </button>
         </form>
+        <!--message de succès de la commande si elle est passée-->
         <div class="alert alert-success container text-center" role="alert" [hidden]="msgHide">
            Commande passsée avec succés ! Faites un tour dans la  <a routerLink="/home" class="shop" title="Back to shop"> page d'accueil</a> 
         </div>

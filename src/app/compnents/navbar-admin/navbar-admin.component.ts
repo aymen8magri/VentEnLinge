@@ -14,23 +14,23 @@ import { NgClass } from '@angular/common';
   styleUrl: './navbar-admin.component.css'
 })
 export class NavbarAdminComponent {
-  router:Router=inject(Router);
-  adminService:AdminService=inject(AdminService);
-  admin!:Admin;
-  adminId!:any; 
- isNavbarCollapsed = true; 
+  router:Router=inject(Router); //router pour la navigation
+  adminService:AdminService=inject(AdminService); //service pour les admins
+  admin!:Admin; //admin connecté
+  adminId!:any; //id de l'admin connecté
+  isNavbarCollapsed = true; //boolean pour savoir si la navbar est collée
 
 
   ngOnInit(): void {
     if(typeof(Storage)!="undefined"){
-      this.adminId=localStorage.getItem("user");
+      this.adminId=localStorage.getItem("user"); //récupérer l'id de l'admin connecté
     }
     this.adminService.getAdminById(this.adminId).subscribe(
-      data=>this.admin=data
+      data=>this.admin=data //récupérer l'admin connecté
     )
   }
 
-  
+  //déconnecter l'admin
   onDisconnect(){
      localStorage.removeItem('user');
      localStorage.setItem("cnx","disconnected");

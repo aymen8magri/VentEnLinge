@@ -15,23 +15,22 @@ import { FilterPipe } from '../../filter.pipe';
 })
 export class ListPlantsAdminComponent implements OnInit {
   
-  plants: Plant[] = [];            // Complete list of plants
-  filteredPlants: Plant[] = [];     // List of plants after filtering
-  selectedFunFilter: string = '';   // Stores the selected fun filter value
-  selectedCategory: string = '';    // Stores the selected category value
+  plants: Plant[] = [];            // Liste complète des plantes
+  filteredPlants: Plant[] = [];     // Liste des plantes après filtrage
+  selectedFunFilter: string = '';   // Stockage de la valeur du filtre de fonction
+  selectedCategory: string = '';    // Stockage de la valeur de la catégorie
 
 
-  private plantService: PalntService = inject(PalntService);
+  private plantService: PalntService = inject(PalntService); //service pour les plantes
 
   ngOnInit(): void {
-
-    
     this.plantService.getPlants().subscribe((data: Plant[]) => {
-      this.plants = data;
-      this.filteredPlants = data;  // Initialize with the full list
+      this.plants = data; //récupérer les plantes de la base de données
+      this.filteredPlants = data;  // Initialiser avec la liste complète 
     });
 
   }
+  //supprimer une plante par id
   onDeletePlant(id: number) {
     this.plantService.deletePlant(id).subscribe(
       data => { this.filteredPlants = this.filteredPlants.filter((i) => i.id !== id) }

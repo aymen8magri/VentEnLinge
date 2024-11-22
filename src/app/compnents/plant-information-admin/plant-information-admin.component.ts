@@ -11,13 +11,13 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './plant-information-admin.component.css'
 })
 export class PlantInformationAdminComponent implements OnInit{
-  plant!: Plant;
-  palntService: PalntService = inject(PalntService);
-  route: ActivatedRoute = inject(ActivatedRoute);
-  val!: number;
-  hidePrix=true;
-  hideStock=true;
-  hideInStock=true;
+  plant!: Plant; //plante à afficher
+  palntService: PalntService = inject(PalntService); //service pour les plantes
+  route: ActivatedRoute = inject(ActivatedRoute); //route pour récupérer l'id de la plante
+  val!: number; //id de la plante
+  hidePrix=true; //masquer le prix
+  hideStock=true; //masquer le stock
+  hideInStock=true; //masquer l'état de stock
   ngOnInit(): void {
      
     this.route.parent?.paramMap.subscribe(params => { // Use `parent` to access `id`
@@ -40,16 +40,19 @@ export class PlantInformationAdminComponent implements OnInit{
       }
     });
   }
+  //fonction pour masquer le prix
   onHidePrix(){
     this.hidePrix=!this.hidePrix;
-
   }
+  //fonction pour masquer le stock
   onHideStock(){
     this.hideStock=!this.hideStock;
   }
+  //fonction pour masquer l'état de stock
   onHideInStock(){
     this.hideInStock=!this.hideInStock;
   }
+  //fonction pour enregistrer le prix
   onSavePrix(prix:string){
     const p=parseFloat(prix);
     this.palntService.updatePrice(this.val,{price:p}).subscribe(
@@ -57,8 +60,9 @@ export class PlantInformationAdminComponent implements OnInit{
         this.plant.price=data.price
       }
     )
-    this.hidePrix=true;
+    this.hidePrix=true; //masquer le prix
   }
+  //fonction pour enregistrer le stock
   onSaveStock(stock:string){
     const s=parseInt(stock);
     this.palntService.updateStock(this.val,{stock:s}).subscribe(
@@ -66,13 +70,14 @@ export class PlantInformationAdminComponent implements OnInit{
         
       }
     )
-    this.hideStock=true;
+    this.hideStock=true; //masquer le stock
   }
+  //fonction pour enregistrer l'état de stock
   onSaveInStock(event:Event){
     const value= (event.target as HTMLSelectElement).value;
     this.palntService.updateInStock(this.val,{in_stock:value==='true'}).subscribe(
       data=>{this.plant.in_stock=data.in_stock}
     )
-    this.hideInStock=true;
+    this.hideInStock=true; //masquer l'état de stock
   }
 }

@@ -14,29 +14,29 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  isNavbarCollapsed = true; 
+  isNavbarCollapsed = true; //boolean pour savoir si la navbar est collée
+  router:Router=inject(Router); //router pour la navigation
 
-
-  router:Router=inject(Router);
-
+  //naviguer vers le panier
   goToPanier(){
     this.router.navigate(['/panier']);
   }
 
-  tabcart: Plant[] = [];
-  tabsearch: Plant[] = [];
+  tabcart: Plant[] = []; //tableau des plantes dans le panier
+  tabsearch: Plant[] = []; //tableau des plantes dans la recherche
 
-  constructor(private palntService: PalntService) {}
-  interval: any;
+  constructor(private palntService: PalntService) {} //service pour les plantes
+  interval: any; //interval pour actualiser le panier
 
   ngOnInit(): void {
-    this.tabcart = this.palntService.tabcart;
+    this.tabcart = this.palntService.tabcart; //récupérer le panier
     console.log(this.tabcart);
     this.interval = setInterval(() => {
-      this.tabcart = this.palntService.tabcart;
+      this.tabcart = this.palntService.tabcart; //actualiser le panier
     }, 500);
   }
 
+  //calculer le total du panier
   get total(): number {
     return this.tabcart.reduce((acc, plant) => acc + plant.price, 0);
   }

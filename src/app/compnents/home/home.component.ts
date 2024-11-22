@@ -11,23 +11,16 @@ import { ContactUsComponent } from "../contact-us/contact-us.component";
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  router:Router = inject(Router);
-    onAboutUs(){
-        this.router.navigate(['/aboutUs']);
-    } 
-    onShowAllPlants(){
-        this.router.navigate(['/listePlantes']);
-    }
+  router:Router = inject(Router); //service pour la navigation
 
-    // goToFleur() {
-    //   this.router.navigate(['/listePlantes'], { fragment: 'fleur' });
-    // }
-    
-    // goToCact() {
-    //   this.router.navigate(['/listePlantes'], { fragment: 'cact' });
-    // }
-    // goToPur() {
-    //   this.router.navigate(['/listePlantes'], { fragment: 'pur' });
-    // }
+
+  //rediriger vers la page about us
+  onAboutUs(){
+        this.router.navigate(['/aboutUs']);
+  } 
+  //rediriger vers la page liste des plantes
+  onShowAllPlants(){
+        this.router.navigate(['/listePlantes']);
   }
+}
 

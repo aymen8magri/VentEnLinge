@@ -12,18 +12,21 @@ import { RouterLink } from '@angular/router';
   styleUrl: './wishlist.component.css'
 })
 export class WishlistComponent {
-  tabplants: Plant[] = [];
-  interval:any;
-  constructor(private palntService: PalntService) {}
+  tabplants: Plant[] = []; //liste des plantes dans wishlist
+  interval:any; //interval pour rafraichir la liste des plantes dans wishlist
+  constructor(private palntService: PalntService) {} //service pour les plantes
 
+  //initialiser la liste des plantes dans wishlist et l'interval pour rafraichir la liste
   ngOnInit(): void {
     this.tabplants = this.palntService.tabplants;
     console.log(this.tabplants);
+    //rafraichir la liste des plantes dans wishlist toutes les 200ms
     this.interval = setInterval(() => {
       this.tabplants = this.palntService.tabplants;
     }, 200);
   }
 
+  //vider la wishlist
   clearAll(): void {
     this.palntService.clearWishlist();
     this.tabplants = this.palntService.tabplants;

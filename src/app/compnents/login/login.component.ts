@@ -12,12 +12,10 @@ import * as bootstrap from 'bootstrap';
   styleUrl: './login.component.css'
 })
 export class LoginComponent implements OnInit {
-    authService:AuthService=inject(AuthService);
-    router:Router=inject(Router);
-  // variables
-  loginForm!: FormGroup;
-  // form builder
-  fb: FormBuilder = inject(FormBuilder);
+    authService:AuthService=inject(AuthService); //service pour l'authentification
+    router:Router=inject(Router); //router pour la navigation
+    loginForm!: FormGroup; //formulaire de connexion
+    fb: FormBuilder = inject(FormBuilder); //builder pour le formulaire
 
   // initialisation du formulaire
   ngOnInit(): void {

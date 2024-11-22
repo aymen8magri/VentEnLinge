@@ -2,20 +2,24 @@
 <div class="cart-container">
     <h2 class="cart-header">Vos coups de coeur <i class="bi bi-bag-heart" style="margin-left: 20px;"></i></h2>
 
-
-@if (tabplants.length > 0) {
+    <!--liste des plantes dans wishlist si elle n'est pas vide-->
+    @if (tabplants.length > 0) {
     <div class="d-flex flex-wrap justify-content-center p-3 mb-3">
         @for (plant of tabplants; track plant.id) {
-            <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
+        <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
         }
     </div>
     <div class="d-flex justify-content-center gap-3 mb-5">
-        <button class="btn btn-danger" title="Clear All" (click)="clearAll()">Clear All <i class="bi bi-trash3-fill"></i></button>
+        <button class="btn btn-danger" title="Clear All" (click)="clearAll()">Clear All <i
+                class="bi bi-trash3-fill"></i></button>
     </div>
-} 
-@else {
+    }
+    <!--message si wishlist est vide-->
+    @else {
     <div class="alert alert-success container text-center" role="alert">
-        Pas de coups de coeur ? Visitez notre  <a routerLink="/listePlantes" class="shop" title="Back to shop">catalogue</a>
+        Pas de coups de coeur ? Visitez notre <a routerLink="/listePlantes" class="shop"
+            title="Back to shop">catalogue</a>
     </div>
-}
+    }
+    
 </div>

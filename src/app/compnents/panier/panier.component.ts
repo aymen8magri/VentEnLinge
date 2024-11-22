@@ -3,6 +3,7 @@ import { Plant } from '../../model/plant';
 import { PalntService } from '../../services/palnt.service';
 import { CurrencyPipe } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
+import * as bootstrap from 'bootstrap';
 
 @Component({
   selector: 'app-panier',
@@ -18,7 +19,8 @@ export class PanierComponent {
   tabcom:Plant[]= [];
   nbDispo:number=0;
   router:Router=inject(Router);
-
+  stock!:number;
+  name!:string;
 
   constructor(private palntService: PalntService) {}
   removeDuplicates(): void {
@@ -64,8 +66,10 @@ export class PanierComponent {
 
       }
       else {
-        
-        alert("on ne peut fournir que "+t.stock +"de"+t.name )
+        this.stock=t.stock;  
+        this.name=t.name;
+        const stockModal = new bootstrap.Modal(document.getElementById('stockModal')!);
+        stockModal.show();        
         this.router.navigate(['/panier']);
 
         break;

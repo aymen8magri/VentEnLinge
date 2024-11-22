@@ -9,19 +9,10 @@ import { Router } from '@angular/router';
   styleUrl: './about-us.component.css'
 })
 export class AboutUsComponent {
-  router: Router = inject(Router);
+  router: Router = inject(Router); //service pour la navigation
 
+  //rediriger vers la page contact us
   onContactUs() {
     this.router.navigate(['/contactUs']);
   }
-
-  tabImg = [
-    'logo.jpg',
-    'logo.jpg',
-    'logo.jpg',
-    'logo.jpg',
-    'logo.jpg',
-    'logo.jpg',
-  ]
-
 }

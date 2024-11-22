@@ -20,20 +20,21 @@ export class APIComponent implements OnInit {
     'Fern', 'Grass', 'Ground Cover'
   ];
   selectedCategory: string = 'All'; // Catégorie sélectionnée
-  isLoading = false;
-  errorMessage: string = '';
+  isLoading = false; //chargement en cours
+  errorMessage: string = ''; //message d'erreur
 
-  plantService: PalntService = inject(PalntService);
+  plantService: PalntService = inject(PalntService); //service pour les plantes
 
   ngOnInit(): void {
     this.fetchPlants('All'); // Charger toutes les plantes par défaut
   }
 
+  //charger les plantes en fonction de la catégorie
   fetchPlants(category: string): void {
     this.isLoading = true;
     this.errorMessage = '';
 
-    if (category === 'All') {
+    if (category === 'All') { //charger toutes les plantes
       this.plantService.getPlantApi().subscribe({
         next: (data) => {
           this.plants = data;
@@ -41,7 +42,7 @@ export class APIComponent implements OnInit {
           this.isLoading = false;
         }
       });
-    } else {
+    } else { //charger les plantes en fonction de la catégorie
       this.plantService.getPlantApiByCategory(category).subscribe({
         next: (data) => {
           this.plants = data;
@@ -56,6 +57,7 @@ export class APIComponent implements OnInit {
     }
   }
 
+  //changer la catégorie
   onCategoryChange(): void {
     this.fetchPlants(this.selectedCategory);
   }

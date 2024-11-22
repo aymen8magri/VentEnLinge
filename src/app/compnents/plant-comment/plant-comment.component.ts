@@ -14,14 +14,14 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
   styleUrl: './plant-comment.component.css'
 })
 export class PlantCommentComponent {
-  val:number=0;
-  listecom!:ListeComments;
-  route: ActivatedRoute = inject(ActivatedRoute);
-  listeCommentsService: ListeCommentsService = inject(ListeCommentsService);  
-  tabcom:Commentaire[]=[]; 
+  val:number=0; //id de la plante à afficher
+  listecom!:ListeComments; //liste des commentaires de la plante
+  route: ActivatedRoute = inject(ActivatedRoute); //route pour récupérer l'id de la plante
+  listeCommentsService: ListeCommentsService = inject(ListeCommentsService); //service pour les commentaires
+  tabcom:Commentaire[]=[]; //tableau des commentaires de la plante
   
-  commentForm!:FormGroup;
-  fb:FormBuilder=inject(FormBuilder);
+  commentForm!:FormGroup; //formulaire pour ajouter un commentaire
+  fb:FormBuilder=inject(FormBuilder); //builder pour le formulaire
 
   
 
@@ -55,22 +55,24 @@ export class PlantCommentComponent {
    
     
   }
+  //récupérer le nom de l'utilisateur
   get user(){
     return this.commentForm.get('user');
   }
+  //récupérer le commentaire
   get comment(){
     return this.commentForm.get('comment');
   }
+  //ajouter un commentaire
   onAddComment(){
-    
     const com=new Commentaire(this.user?.value,this.comment?.value);
     this.listeCommentsService.addComment(this.val,{liste:this.tabcom}).subscribe(
       data=>console.log(data)
     )
-    this.tabcom.unshift(com)
+    this.tabcom.unshift(com) //ajouter le commentaire au tableau au début
   }
+  //ajouter un like
   onAddLike(i:number){
-    
     console.log(this.tabcom[i]);
     if(this.tabcom[i].liked==false){
       this.tabcom[i].nbLikes++;

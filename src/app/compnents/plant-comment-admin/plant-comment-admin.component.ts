@@ -12,12 +12,12 @@ import { Commentaire } from '../../model/commentaire';
   styleUrl: './plant-comment-admin.component.css'
 })
 export class PlantCommentAdminComponent {
-  val:number=0;
-  liste!:ListeComments;
-  route: ActivatedRoute = inject(ActivatedRoute);
-  listeCommentsService: ListeCommentsService = inject(ListeCommentsService);  
-  tabcom:Commentaire[]=[]; 
-  like:boolean=false;
+  val:number=0; //id de la plante à afficher
+  liste!:ListeComments; //liste des commentaires de la plante
+  route: ActivatedRoute = inject(ActivatedRoute); //route pour récupérer l'id de la plante
+  listeCommentsService: ListeCommentsService = inject(ListeCommentsService); //service pour les commentaires
+  tabcom:Commentaire[]=[]; //tableau des commentaires de la plante
+  like:boolean=false; //boolean pour savoir si le commentaire est liké
   
 
   
@@ -48,6 +48,8 @@ export class PlantCommentAdminComponent {
    
     
   }
+
+  //supprimer un commentaire
   onDelete(i:number){
     this.tabcom.splice(i,1);
     this.listeCommentsService.deleteComment(this.val,{liste:this.tabcom}).subscribe(

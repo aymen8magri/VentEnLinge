@@ -1,48 +1,52 @@
 <div class="container justify-content-center">
+    <!--ajouter un commentaire-->
     <form action="" [formGroup]="commentForm" (ngSubmit)="onAddComment()">
-    <div class="d-flex justify-content-center pt-5 pb-2"> 
-        <input type="text" name="text" placeholder="Votre nom +" formControlName="user" class="form-control addtxt">
-        @if(user?.errors?.['required'] && user?.touched){
-            <p class="pAlert">Veuillez remplir ce champ</p>
-            }
-            @if(user?.errors?.['minlength'] && user?.touched){
-            <p class="pAlert">Minimum 3 caractères</p>
-            }
-    </div>
-    <div class="d-flex justify-content-center pt-3 pb-2"> 
-        <input type="text" name="text" placeholder="Votre commentaire +" formControlName="comment" class="form-control addtxt">
-        @if(comment?.errors?.['required'] && comment?.touched){
-            <p class="pAlert">Veuillez remplir ce champ</p>
-            }
-            @if(comment?.errors?.['minlength'] && comment?.touched){
-            <p class="pAlert">Minimum 3 caractères</p>
-            }
-    </div>
-    <div class="d-flex justify-content-end btn-add">
-         <button class="submit-btn" [disabled]="commentForm.invalid"  >Ajouter</button> 
-    </div>
-</form>
-        <!------------------------liste des commentaires--------------------------------> 
-    <div class="mb-5 mt-2">  
+            <div class="d-flex flex-column align-items-center justify-content-center pt-5 pb-2">
+                <input type="text" name="text" placeholder="Votre nom +" formControlName="user"
+                    class="form-control addtxt">
+                @if(user?.errors?.['required'] && user?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(user?.errors?.['minlength'] && user?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
+                }
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center pt-3 pb-2">
+                <input type="text" name="text" placeholder="Votre commentaire +" formControlName="comment"
+                    class="form-control addtxt">
+                @if(comment?.errors?.['required'] && comment?.touched){
+                <p class="pAlert">Veuillez remplir ce champ</p>
+                }
+                @if(comment?.errors?.['minlength'] && comment?.touched){
+                <p class="pAlert">Minimum 3 caractères</p>
+                }
+            </div>
+        <div class="d-flex justify-content-end btn-add">
+            <button class="submit-btn" [disabled]="commentForm.invalid">Ajouter</button>
+        </div>
+    </form>
+    <!------------------------liste des commentaires-------------------------------->
+    <div class="mb-5 mt-2">
         @for(com of tabcom;track $index){
-            <div class="d-flex justify-content-center py-2">
-                <div class="second py-2 px-3"> 
-                    <span class="text1">{{com.message}}</span>
-                    <div class="d-flex justify-content-between py-1 pt-2">
-                        <div>
-                            <img src="icone.png" width="28"><span class="text2">{{com.nom}}</span>
-                        </div>
-                        <div>
-                            <span class="text3">{{com.nbLikes}}</span>
-                           
-                            <button class="like" (click)="onAddLike($index)" [ngClass]="{'liked': com.liked}"><i class="bi bi-emoji-heart-eyes"></i></button>
-                           
-                        
-                        </div>
+        <div class="d-flex justify-content-center py-2">
+            <div class="second py-2 px-3">
+                <span class="text1">{{com.message}}</span>
+                <div class="d-flex justify-content-between py-1 pt-2">
+                    <div>
+                        <img src="icone.png" width="28"><span class="text2">{{com.nom}}</span>
+                    </div>
+                    <div>
+                        <span class="text3">{{com.nbLikes}}</span>
+
+                        <button class="like" (click)="onAddLike($index)" [ngClass]="{'liked': com.liked}"><i
+                                class="bi bi-emoji-heart-eyes"></i></button>
+
+
                     </div>
                 </div>
             </div>
-        } 
-   </div>
-   
+        </div>
+        }
+    </div>
+
 </div>

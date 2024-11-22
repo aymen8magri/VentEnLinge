@@ -15,14 +15,15 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 })
 export class PasserCommandeComponent implements OnInit{
   
-  plantService:PalntService=inject(PalntService);
-  tabcom:Plant[]=this.plantService.tabcart;
-  commandeService:commandeService=inject(commandeService)
-  com!:Commande;
-  formHide!:boolean;
-  msgHide:boolean=true;
-  commandeForm!:FormGroup;
-  fb:FormBuilder=inject(FormBuilder);
+  plantService:PalntService=inject(PalntService); //service pour les plantes
+  tabcom:Plant[]=this.plantService.tabcart; //tableau des plantes dans le panier
+  commandeService:commandeService=inject(commandeService) //service pour les commandes
+  com!:Commande; //commande à passer
+  formHide!:boolean; //boolean pour masquer le formulaire
+  msgHide:boolean=true; //boolean pour masquer le message de succès
+  commandeForm!:FormGroup; //formulaire pour passer une commande
+  fb:FormBuilder=inject(FormBuilder); //builder pour le formulaire
+
   ngOnInit(): void {
     this.commandeForm=this.fb.group({
       nom:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20),Validators.pattern('[a-zA-Z]+')]],
@@ -32,23 +33,24 @@ export class PasserCommandeComponent implements OnInit{
 
     })
   }
+  //récupérer le nom
   get nom(){
     return this.commandeForm.get('nom');
   }
-
+  //récupérer le prénom
   get prenom(){
     return this.commandeForm.get('prenom');
   }
-
+  //récupérer le téléphone
   get tel(){
     return this.commandeForm.get('tel');
   }
-
+  //récupérer l'adresse
   get adresse(){
     return this.commandeForm.get('adresse');
   }
 
- 
+  //passer la commande
   onCommande(){
     console.log(this.tabcom);
    
@@ -73,7 +75,7 @@ export class PasserCommandeComponent implements OnInit{
       }
     }
     
-     this.plantService.tabcart=[]; 
+     this.plantService.tabcart=[]; //vider le panier
     }
 
   }

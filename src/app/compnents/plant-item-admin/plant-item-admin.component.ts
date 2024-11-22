@@ -11,12 +11,12 @@ import { CurrencyPipe, NgClass } from '@angular/common';
   styleUrl: './plant-item-admin.component.css'
 })
 export class PlantItemAdminComponent {
-  @Input() plant!: Plant;
-  @Output() notify=new EventEmitter<number>();
+  @Input() plant!: Plant; //plante à afficher
+  @Output() notify=new EventEmitter<number>(); //émetteur d'événement pour notifier le parent
   
 
+  //fonction pour supprimer une plante
   onDelete(id:number) {
-  
-    this.notify.emit(id);
+    this.notify.emit(id); //émettre l'id de la plante à supprimer
   }
 }

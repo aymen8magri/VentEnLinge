@@ -78,7 +78,6 @@
         <div class="section-title container">
             <h4 class=" text-uppercase" id="fleur">Plantes fleuries</h4>
         </div>
-
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
             @if (plant.category === "Plantes fleuries") {
@@ -95,7 +94,6 @@
         <div class="section-title container">
             <h4 class=" text-uppercase" id="cact">Cactus et succulentes</h4>
         </div>
-
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
             @if (plant.category === "Cactus et succulentes") {
@@ -112,7 +110,6 @@
         <div class="section-title container">
             <h4 class=" text-uppercase" id="pur">Plantes purificatrices d'air</h4>
         </div>
-
         <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
             @for (plant of filteredPlants | filter:searchTerm; track plant.id) {
             @if (plant.category === "Plantes purificatrices d'air") {

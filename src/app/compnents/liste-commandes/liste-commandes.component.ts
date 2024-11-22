@@ -12,12 +12,13 @@ import { DecimalPipe, NgClass } from '@angular/common';
   styleUrl: './liste-commandes.component.css'
 })
 export class ListeCommandesComponent implements OnInit {
-  commandeService: commandeService = inject(commandeService);
-  commandes: Commande[] = [];
-  articles: Plant[] = [];
-  uniqueArticles:Plant[]=[];
+  commandeService: commandeService = inject(commandeService); //service pour les commandes
+  commandes: Commande[] = []; //tableau des commandes
+  articles: Plant[] = []; //tableau des plantes
+  uniqueArticles:Plant[]=[]; //tableau des plantes uniques
+
   ngOnInit(): void {
-    //get commandes
+    //get commandes de la base de données
     this.commandeService.getCommande().subscribe(
       data => {
         this.commandes = data,
@@ -34,6 +35,7 @@ export class ListeCommandesComponent implements OnInit {
       this.removeDuplicates();
     });
   }
+  //supprimer les doublons
   removeDuplicates(): void {
     this.uniqueArticles = this.articles.filter((value, index, self) => 
       index === self.findIndex((t) => (

@@ -11,13 +11,13 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './plant-information.component.css'
 })
 export class PlantInformationComponent implements OnInit {
-  plant!: Plant;
-  palntService: PalntService = inject(PalntService);
-  route: ActivatedRoute = inject(ActivatedRoute);
-  val!: number;
+  plant!: Plant; //plante à afficher
+  palntService: PalntService = inject(PalntService); //service pour les plantes
+  route: ActivatedRoute = inject(ActivatedRoute); //route pour récupérer l'id de la plante
+  val!: number; //id de la plante
   
   ngOnInit(): void {
-    this.route.parent?.paramMap.subscribe(params => { // Use `parent` to access `id`
+    this.route.parent?.paramMap.subscribe(params => { // Utiliser `parent` pour accéder à `id`
       const idParam = params.get('id');
       console.log("ID Param (string):", idParam);
   

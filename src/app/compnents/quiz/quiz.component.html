@@ -95,19 +95,20 @@
         <button type="button" (click)="calculateResult()">Résultat</button>
     </form>
 
-    <!-- afficher les résultats -->
+    <!-- afficher les résultats si tabPlant n'est pas vide (liste des plantes trouvées)-->
     <div>
         @if(tabPlant.length>0){
-            <h2 class="text-center mt-5 ">Nous avons trouvé pour toi :</h2>
-            <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
-                @for (plant of tabPlant; track plant.id) {
-                    <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
-                }
-            </div>
+        <h2 class="text-center mt-5 ">Nous avons trouvé pour toi :</h2>
+        <div class="section-decriptipon d-flex flex-wrap justify-content-center p-3">
+            @for (plant of tabPlant; track plant.id) {
+            <app-plant-item [plant]="plant" class="m-2"></app-plant-item>
+            }
+        </div>
         }
+        <!--message si tabPlant est vide-->
         @else{
-            <p id="result">Répondez à toutes les questions pour voir les résultats...</p>
+        <p id="result">Répondez à toutes les questions pour voir les résultats...</p>
         }
     </div>
-    
+
 </div>

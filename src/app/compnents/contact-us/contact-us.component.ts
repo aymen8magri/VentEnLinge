@@ -12,13 +12,10 @@ import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
   styleUrl: './contact-us.component.css'
 })
 export class ContactUsComponent implements OnInit {
-
-  // variables
-  formHide: boolean = false;
-  msgHide: boolean = true;
-  mailForm!: FormGroup;
-  // form builder
-  fb: FormBuilder = inject(FormBuilder);
+  formHide: boolean = false; //masquer le formulaire
+  msgHide: boolean = true; //masquer le message de succès
+  mailForm!: FormGroup; //formulaire de contact
+  fb: FormBuilder = inject(FormBuilder); //service pour le formulaire
 
   // initialisation du formulaire
   ngOnInit(): void {
