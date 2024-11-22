@@ -23,7 +23,7 @@
                 @if(prenom?.errors?.['pattern'] && prenom?.touched){
                 <p class="pAlert">Seuls les lettres sont autorisées</p>
                 }
-                @if(prenom?.invalid && prenom?.touched){
+                @if(prenom?.errors?.['required'] && prenom?.touched){
                 <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
@@ -41,7 +41,7 @@
                 @if(nom?.errors?.['pattern'] && nom?.touched){
                 <p class="pAlert">Seuls les lettres sont autorisées</p>
                 }
-                @if(nom?.invalid && nom?.touched){
+                @if(nom?.errors?.['required'] && nom?.touched){
                 <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
@@ -52,7 +52,7 @@
                     formControlName="mail" />
                 @if(mail?.errors?.['pattern'] && mail?.touched){
                 <p class="pAlert">Adresse email invalide</p>
-                }@else if(mail?.invalid && mail?.touched){
+                }@else if(mail?.errors?.['required'] && mail?.touched){
                 <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
@@ -61,7 +61,7 @@
                 <label for="subject" class="form-label">Objet:</label>
                 <input type="text" class="form-control" id="subject" placeholder="Objet" name="subject"
                     formControlName="objet" />
-                @if(objet?.invalid && objet?.touched){
+                @if(objet?.errors?.['required'] && objet?.touched){
                 <p class="pAlert">Veuillez remplir ce champ</p>
                 }
                 @if(objet?.errors?.['minlength'] && objet?.touched){
@@ -76,7 +76,7 @@
                 <label for="message" class="form-label">Message:</label>
                 <textarea class="form-control" name="message" rows="4" placeholder="Votre message"
                     formControlName="message"></textarea>
-                @if(message?.invalid && message?.touched){
+                @if(message?.errors?.['required'] && message?.touched){
                 <p class="pAlert">Veuillez remplir ce champ</p>
                 }
                 @if(message?.errors?.['minlength'] && message?.touched){

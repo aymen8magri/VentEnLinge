@@ -9,10 +9,12 @@
 
     <!-- Liste des articles -->
     @if (tabcart.length > 0) {
-    @for (plant of tabcart; track plant.id) {
+    @for (plant of tabcom; track plant.id) {
     <div class="cart-item">
         <img [src]="plant.images" width="120" height="110" alt="Product 1">
         <span class="text-dark fw-bold fs-5">{{plant.name}}</span>
+        <span class="text-dark fw-bold fs-5">Quantité: {{calculateQuantity(plant.name)}}</span>
+
         <span class="text-danger fw-bold fs-5">{{plant.price | currency:'USD'}}</span>
         <div class="btn-group">
             <button class="btn btn-primary" routerLink="/plant/{{plant.id}}/description" title="Voir"><i
@@ -48,8 +50,7 @@
     }
     <!-- Boutons d'action -->
     <div class="text-center mt-3 d-flex justify-content-around">
-        <button class="btn btn-primary" routerLink="/passerCommande" title="Passer à la caisse">Passer au
-            payement</button>
+        <button class="btn btn-primary"  title="Passer à la caisse" (click)="onPanier()">Passer commande</button>
         <button class="btn btn-danger" 
                 data-bs-toggle="modal" 
                 [attr.data-bs-target]="'#exampleModalClear'"

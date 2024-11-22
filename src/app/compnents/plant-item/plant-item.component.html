@@ -4,7 +4,7 @@
             <!-- Affichage du stock de la plante -->
             <div class="d-flex justify-content-between align-items-center">
 
-                <span class="discount" [ngClass]="{'c1': plant.in_stock, 'c2': !plant.in_stock}">{{plant.in_stock ? 'En stock' : 'Rupture de stock'}}</span>
+                <span class="discount" [ngClass]="{'c1': plant.in_stock || plant.stock>0, 'c2': !plant.in_stock || plant.stock==0}">{{plant.in_stock==true && plant.stock>0 ? 'En stock'  : 'Rupture de stock'}}</span>
                 @if(inWishlist(plant)){
                 <button class="wishlist inWishlist" title="Add to wishlist" (click)="addToWishlist(plant)"
                     (click)="removeFromWishlist(plant)"><i class="bi bi-heart" style="font-size: 20px;"></i></button>

@@ -13,7 +13,7 @@
                 <label for="user" class="form-label">Nom d'utilisateur :</label>
                 <input type="text" class="form-control" id="user" placeholder="Entrez votre Nom d'utilisateur"
                     name="user" formControlName="user" />
-                @if(user?.invalid && user?.touched){
+                @if(user?.errors?.['required'] && user?.touched){
                 <p class="pAlert">Veuillez remplir ce champ</p>
                 }
                 @if(user?.errors?.['pattern'] && user?.touched){
@@ -31,7 +31,7 @@
                 <label for="password" class="form-label">Mot de passe :</label>
                 <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe"
                     name="password" formControlName="pwd" />
-                @if(pwd?.invalid && pwd?.touched){
+                @if(pwd?.errors?.['required'] && pwd?.touched){
                 <p class="pAlert">Veuillez remplir ce champ</p>
                 }
                 @if(pwd?.errors?.['pattern'] && pwd?.touched){

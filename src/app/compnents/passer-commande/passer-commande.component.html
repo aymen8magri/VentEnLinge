@@ -20,7 +20,7 @@
                 @if(nom?.errors?.['pattern'] && nom?.touched){
                     <p class="pAlert">Seuls les lettres sont autorisées</p>
                 }
-                @if(nom?.invalid && nom?.touched){
+                @if(nom?.errors?.['required'] && nom?.touched){
                     <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
@@ -36,7 +36,7 @@
                 @if(prenom?.errors?.['pattern'] && prenom?.touched){
                     <p class="pAlert">Seuls les lettres sont autorisées</p>
                 }
-                @if(prenom?.invalid && prenom?.touched){
+                @if(prenom?.errors?.['required'] && prenom?.touched){
                     <p class="pAlert">Veuillez remplir ce champ</p>
                 }
             </div>
@@ -46,7 +46,7 @@
                     formControlName="tel" />
                     @if(tel?.errors?.['pattern'] && tel?.dirty){
                         <p class="pAlert">Numéro de téléphone invalide</p>
-                    }@else if(tel?.invalid && tel?.touched){
+                    }@else if(tel?.errors?.['required'] && tel?.touched){
                         <p class="pAlert">Veuillez remplir ce champ</p>
                     }
             </div>
@@ -54,15 +54,13 @@
                 <label for="adresse" class="form-label"> Adresse</label>
                 <input type="text" class="form-control" id="Adresse" placeholder="Entrez votre adresse" name="adresse"
                     formControlName="adresse" />
-                    @if(adresse?.invalid && adresse?.touched){
+                    @if(adresse?.errors?.['required'] && adresse?.touched){
                         <p class="pAlert">Veuillez remplir ce champ</p>
                     }
                     @if(adresse?.errors?.['minlength'] && adresse?.touched){
                         <p class="pAlert">Minimum 3 caractères</p>
                     }
-                    @if(adresse?.errors?.['maxlength'] && adresse?.touched){
-                        <p class="pAlert">Maximum 20 caractères</p>
-                    }
+                   
             </div>
             <button type="submit" class="submit-btn" [disabled]="commandeForm.invalid">Passer la commande <i class="bi bi-cash-coin"
                     style="margin-left: 10px;"></i></button>

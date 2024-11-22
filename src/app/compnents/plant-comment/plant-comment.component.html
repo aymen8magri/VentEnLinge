@@ -1,14 +1,27 @@
 <div class="container justify-content-center">
+    <form action="" [formGroup]="commentForm" (ngSubmit)="onAddComment()">
     <div class="d-flex justify-content-center pt-5 pb-2"> 
-        <input type="text" name="text" placeholder="Votre nom +" #name class="form-control addtxt">
+        <input type="text" name="text" placeholder="Votre nom +" formControlName="user" class="form-control addtxt">
+        @if(user?.errors?.['required'] && user?.touched){
+            <p class="pAlert">Veuillez remplir ce champ</p>
+            }
+            @if(user?.errors?.['minlength'] && user?.touched){
+            <p class="pAlert">Minimum 3 caractères</p>
+            }
     </div>
     <div class="d-flex justify-content-center pt-3 pb-2"> 
-        <input type="text" name="text" placeholder="Votre commentaire +" #comment class="form-control addtxt"> 
+        <input type="text" name="text" placeholder="Votre commentaire +" formControlName="comment" class="form-control addtxt">
+        @if(comment?.errors?.['required'] && comment?.touched){
+            <p class="pAlert">Veuillez remplir ce champ</p>
+            }
+            @if(comment?.errors?.['minlength'] && comment?.touched){
+            <p class="pAlert">Minimum 3 caractères</p>
+            }
     </div>
     <div class="d-flex justify-content-end btn-add">
-         <button class="btn" (click)="onAddComment(name.value,comment.value)">Ajouter</button> 
+         <button class="submit-btn" [disabled]="commentForm.invalid"  >Ajouter</button> 
     </div>
-
+</form>
         <!------------------------liste des commentaires--------------------------------> 
     <div class="mb-5 mt-2">  
         @for(com of tabcom;track $index){

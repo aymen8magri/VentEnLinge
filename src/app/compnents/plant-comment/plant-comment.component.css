@@ -1,5 +1,5 @@
 .container {
-    background-color: #1C593A; 
+    background-color: #1C593A;
     border-radius: 10px;
     border: 2px solid #5B8F6D;
     box-shadow: 0 0 15px #1C593A;
@@ -18,7 +18,7 @@
 }
 
 .form-control:focus {
-    color: #000;    
+    color: #000;
 }
 
 .second {
@@ -53,25 +53,64 @@
     border: none;
     background-color: #B9F1C3;
 }
+
 .like:hover {
     color: blue;
     transform: scale(1.2);
 }
+
 .like:active {
     color: #00a5f4;
-    transform: scale(1);     
+    transform: scale(1);
 }
-.liked{color: blue;
-    transform: scale(1.2);}
-.btn-add{
-    margin-right: 50px;
+
+.liked {
+    color: blue;
+    transform: scale(1.2);
 }
-.btn{
-    background-color: #629A74;
+
+.submit-btn {
+    background-color: #1C593A;
     color: #ffffff;
-    border: none;
+    width: 20%;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #1C593A;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 83px;
+
 }
-.btn:hover{
-    background-color: #507a5d;
-    color: #ffffff;
+
+.submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.submit-btn:hover {
+    background-color: #79BA91;
+    color: #1C593A;
+    border: 1px solid #1C593A;
+}
+
+.pAlert {
+    color: #591c1c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+input.ng-valid.ng-touched,
+textarea.ng-valid.ng-touched,
+select.ng-valid.ng-touched {
+    border-left: 7px solid #1C593A;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+    border-left: 7px solid #591c1c;
 }

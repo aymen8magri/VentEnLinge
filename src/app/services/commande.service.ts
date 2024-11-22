@@ -33,4 +33,5 @@ public getArticles(id:string): Observable<Plant[]> {
     map(commandes => commandes.find(commande => commande.id === id)?.articles || [])
   );
 } 
+
 }

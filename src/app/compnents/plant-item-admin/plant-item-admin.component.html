@@ -4,7 +4,7 @@
 
         <div class="d-flex justify-content-between align-items-center">
 
-            <span class="discount" [ngClass]="{'c1': plant.in_stock, 'c2': !plant.in_stock}">{{plant.in_stock ? 'In stock' : 'Out of stock'}}</span>
+            <span class="discount" [ngClass]="{'c1': plant.in_stock || plant.stock>0, 'c2': !plant.in_stock || plant.stock==0}">{{plant.in_stock==true && plant.stock>0 ? 'En stock'  : 'Rupture de stock'}}</span>
         </div>
     </div>
 

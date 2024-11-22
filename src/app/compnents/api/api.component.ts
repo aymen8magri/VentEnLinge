@@ -37,6 +37,7 @@ export class APIComponent implements OnInit {
       this.plantService.getPlantApi().subscribe({
         next: (data) => {
           this.plants = data;
+          console.log(data);
           this.isLoading = false;
         }
       });

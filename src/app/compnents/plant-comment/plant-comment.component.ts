@@ -4,11 +4,12 @@ import { ActivatedRoute } from '@angular/router';
 import { ListeCommentsService } from '../../services/liste-comments.service';
 import { Commentaire } from '../../model/commentaire';
 import { NgClass } from '@angular/common';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-plant-comment',
   standalone: true,
-  imports: [NgClass],
+  imports: [NgClass,ReactiveFormsModule],
   templateUrl: './plant-comment.component.html',
   styleUrl: './plant-comment.component.css'
 })
@@ -19,11 +20,16 @@ export class PlantCommentComponent {
   listeCommentsService: ListeCommentsService = inject(ListeCommentsService);  
   tabcom:Commentaire[]=[]; 
   
-  
+  commentForm!:FormGroup;
+  fb:FormBuilder=inject(FormBuilder);
 
   
 
   ngOnInit(): void {
+    this.commentForm = this.fb.group({
+      user: ['', [Validators.required, Validators.minLength(3)]],
+      comment: ['',[ Validators.required, Validators.minLength(3)]]
+    })
     this.route.parent?.paramMap.subscribe(params => { // Use `parent` to access `id`
       const idParam = params.get('id');
       console.log("ID Param (string):", idParam);
@@ -49,9 +55,15 @@ export class PlantCommentComponent {
    
     
   }
-  onAddComment(name:string,comment:string){
+  get user(){
+    return this.commentForm.get('user');
+  }
+  get comment(){
+    return this.commentForm.get('comment');
+  }
+  onAddComment(){
     
-    const com=new Commentaire(name,comment);
+    const com=new Commentaire(this.user?.value,this.comment?.value);
     this.listeCommentsService.addComment(this.val,{liste:this.tabcom}).subscribe(
       data=>console.log(data)
     )

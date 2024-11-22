@@ -21,14 +21,14 @@ export class PasserCommandeComponent implements OnInit{
   com!:Commande;
   formHide!:boolean;
   msgHide:boolean=true;
-  commandeForm!:FormGroup
+  commandeForm!:FormGroup;
   fb:FormBuilder=inject(FormBuilder);
   ngOnInit(): void {
     this.commandeForm=this.fb.group({
       nom:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20),Validators.pattern('[a-zA-Z]+')]],
       prenom:['',[Validators.required,Validators.minLength(3),Validators.maxLength(20),Validators.pattern('[a-zA-Z]+')]],
       tel:['',[Validators.required,Validators.pattern('[0-9]{8}')]],
-      adresse:['',[Validators.required,Validators.minLength(3),Validators.maxLength(50)]]
+      adresse:['',[Validators.required,Validators.minLength(3)]]
 
     })
   }
@@ -59,16 +59,24 @@ export class PasserCommandeComponent implements OnInit{
     )
     this.formHide=true;
     this.msgHide=false;
-    for (const t of this.tabcom){
-      t.stock=t.stock-1;
+    for(const t of this.tabcom){
+      t.stock--;
       this.plantService.updateStock(t.id,{stock:t.stock}).subscribe(
         data=>{console.log(data)
           }
         
       )
-      
+      if(t.stock==0){
+        this.plantService.updateInStock(t.id,{in_stock:false}).subscribe(
+          data=>console.log(data)
+        )
+      }
     }
+    
+     this.plantService.tabcart=[]; 
+    }
+
   }
 
 
-}
+

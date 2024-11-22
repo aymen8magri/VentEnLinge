@@ -18,4 +18,16 @@ export class HomeComponent {
     onShowAllPlants(){
         this.router.navigate(['/listePlantes']);
     }
-}
+
+    // goToFleur() {
+    //   this.router.navigate(['/listePlantes'], { fragment: 'fleur' });
+    // }
+    
+    // goToCact() {
+    //   this.router.navigate(['/listePlantes'], { fragment: 'cact' });
+    // }
+    // goToPur() {
+    //   this.router.navigate(['/listePlantes'], { fragment: 'pur' });
+    // }
+  }
+

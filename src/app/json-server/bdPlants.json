@@ -7,11 +7,11 @@
       "description": "Plante emblématique de l'amour.",
       "entretien": "Facile",
       "dureeVie": "3-5 ans",
-      "in_stock": true,
+      "in_stock": false,
       "category": "Plantes fleuries",
       "fun_filter": "Bavarde",
       "price": 7.9,
-      "stock": 5,
+      "stock": 0,
       "date_ajout": "2024-10-21",
       "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
       "arrosage": [
@@ -196,7 +196,7 @@
       "category": "Plantes fleuries",
       "fun_filter": "Facile à vivre",
       "price": 11.99,
-      "stock": 8,
+      "stock": 13,
       "date_ajout": "2024-10-18",
       "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
       "arrosage": [
@@ -2952,10 +2952,16 @@
       "id": "3",
       "liste": [
         {
+          "nom": "louuu",
+          "message": "waywa",
+          "nbLikes": 0,
+          "liked": false
+        },
+        {
           "nom": "David",
           "message": "Snake plants are great for purifying the air.",
-          "nbLikes": 39,
-          "liked": false
+          "nbLikes": 40,
+          "liked": true
         },
         {
           "nom": "Eve",
@@ -5217,7 +5223,7 @@
       "prenom": "rar",
       "tel": 99999999,
       "adresse": "city",
-      "etat": "en attente",
+      "etat": "Validée",
       "total": 63.97,
       "articles": [
         {
@@ -5387,7 +5393,7 @@
       "prenom": "ali",
       "tel": 88888888,
       "adresse": "sousse",
-      "etat": "en attente",
+      "etat": "Validée",
       "total": 39.5,
       "articles": [
         {
@@ -6160,6 +6166,2602 @@
           "fun_filter": "Énergique",
           "price": 14.99,
           "stock": 6,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5bbf",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa faye",
+      "etat": "en attente",
+      "total": 23.700000000000003,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6750",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 14.99,
+      "articles": [
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 1,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ba1",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 15.8,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d5e6",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 83.66,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 6,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 6,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 6,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 6,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9901",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 60.77,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 9,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 9,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5c5e",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 53.68000000000001,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 8,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 8,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7c3e",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 60.77,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 7,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d947",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 29.98,
+      "articles": [
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 2,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 2,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0b2b",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 29.98,
+      "articles": [
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 10,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 10,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f0c5",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 38.690000000000005,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 8,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 10,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bd04",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 174.41000000000003,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bac3",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 53.68000000000001,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 10,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 10,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 10,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e116",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 30.79,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 7,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 9,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5be1",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 84.47,
+      "articles": [
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Rose",
+          "personality": "Romantique",
+          "description": "Plante emblématique de l'amour.",
+          "entretien": "Facile",
+          "dureeVie": "3-5 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Bavarde",
+          "price": 7.9,
+          "stock": 5,
+          "date_ajout": "2024-10-21",
+          "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 8,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 8,
+          "date_ajout": "2024-10-17",
+          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Orchidée",
+          "personality": "Raffinée",
+          "description": "Symbolise la rareté et l'élégance.",
+          "entretien": "Difficile",
+          "dureeVie": "5-7 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 8,
           "date_ajout": "2024-10-17",
           "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
           "arrosage": [
