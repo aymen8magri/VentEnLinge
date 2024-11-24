@@ -109,10 +109,11 @@ export class AddPlantComponent implements OnInit {
 
   //ajouter une plante
   onAjouter() {
+    const last=this.plants.slice(-1)[0]
     console.log(this.watering?.value);
     this.date = new Date(this.planteForm.value['dateAjout']);
     this.plant = new Plant(
-      this.plants.length + 2,
+      Number(last.id)+1,
       this.planteForm.value['nom'],
       this.planteForm.value['personalite'],
       this.planteForm.value['description'],
