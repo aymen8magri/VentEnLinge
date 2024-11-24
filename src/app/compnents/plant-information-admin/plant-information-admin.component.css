@@ -28,8 +28,7 @@
     background-color: #B9F1C3;
     border: 3px solid #629A74;
 }
-label{
-    font-weight: bold;  
+strong{
     color: #6BAE86;
     font-size: 18px;
     letter-spacing: 1px;
@@ -38,56 +37,4 @@ p{
     color: #A2DAAF;
     font-size: 18px;
     letter-spacing: 1px;
-}
-
-.edit-btn {
-    background-color: #B9F1C3;
-    color: #1C593A;
-    width: 40%;
-    font-size: 1rem;
-    padding: 10px;
-    border: 1px solid #1C593A;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 15px;
-}
-.edit-btn:disabled {
-    background-color: #ccc;  
-    cursor: not-allowed;
-    opacity: 0.6;            
-}
-input, textarea, select{
-    background-color: #B9F1C3;
-    border: 3px solid #629A74;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px;
-    margin-left: 15px;
-    width: 70%;
-}
-
-.edit-btn:hover {
-    background-color: #79BA91; 
-    color: #1C593A; 
-    border: 1px solid #1C593A;
-}
-.pAlert{
-    color: #591c1c;
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 0;
-    text-align: left;
-}
-
-input.ng-valid.ng-touched,
-textarea.ng-valid.ng-touched,
-select.ng-valid.ng-touched {
-    border-left: 7px solid #1C593A;
-}
-
-input.ng-invalid.ng-touched,
-textarea.ng-invalid.ng-touched,
-select.ng-invalid.ng-touched {
-    border-left: 7px solid #591c1c;
 }

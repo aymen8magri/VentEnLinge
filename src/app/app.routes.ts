@@ -22,6 +22,7 @@ import { NavbarComponent } from './compnents/navbar/navbar.component';
 import { ProfilAdminComponent } from './compnents/profil-admin/profil-admin.component';
 import { authGuard } from './auth.guard';
 import { APIComponent } from './compnents/api/api.component';
+import { PlantModificationAdminComponent } from './compnents/plant-modification-admin/plant-modification-admin.component';
 
 export const routes: Routes = [
     //partie client
@@ -58,6 +59,7 @@ export const routes: Routes = [
             {
                 path: 'plantAdmin/:id', title: 'Plant', component: PlantDetailAdminComponent, children: [
                     { path: 'descriptionAdmin', component: PlantInformationAdminComponent },
+                    { path: 'modificationAdmin', component: PlantModificationAdminComponent },
                     { path: 'commentsAdmin', component: PlantCommentAdminComponent },
                     { path: '', redirectTo: 'descriptionAdmin', pathMatch: 'full' },
                 ]

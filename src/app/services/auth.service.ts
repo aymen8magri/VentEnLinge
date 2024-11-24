@@ -9,10 +9,12 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AuthService {
-  adminService: AdminService = inject(AdminService);
-  admin: Admin[] = [];
+  adminService: AdminService = inject(AdminService);//service pour gérer les admins
+  admin: Admin[] = []; //tableau pour stocker les admins
+  //se connecter
   login(nom: string, mdp: string): Observable<boolean> {
     return this.adminService.getAdmin().pipe(
+      //récupérer les admins
       map((data) => {
         this.admin = data;
 
@@ -24,11 +26,11 @@ export class AuthService {
         ) {
           i++;
         }
-
+        //si l'admin n'existe pas
         if (i >= this.admin.length) {
           localStorage.setItem('cnx', 'disconnected');
           return false;
-        } else {
+        } else { //si l'admin existe
           localStorage.setItem('cnx', 'connected');
           localStorage.setItem("user", this.admin[i].id)
 

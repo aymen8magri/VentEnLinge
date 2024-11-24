@@ -1,152 +1,41 @@
 <div class="plant-card">
-    <form [formGroup]="planteForm" (ngSubmit)="onUpdatePlant()">
-        <div class="plant-info d-flex flex-column">
-            <h2>Informations sur la plante</h2>
-              <!--Nom-->
-              <label for="nom">Nom :</label>
-              <input class="modif-form" type="text" id="nom" formControlName="nom" >
-                 
-              @if(nom?.errors?.['required'] && nom?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-                @if(nom?.errors?.['minlength'] && nom?.touched){
-                <p class="pAlert">Minimum 3 caractères</p>
-                }
-                @if(nom?.errors?.['maxlength'] && nom?.touched){
-                <p class="pAlert">Maximum 20 caractères</p>
-                }<!--categorie-->
-            <label for="categorie">Catégorie :</label>
-            <select name="category" id="category" class="form-select" formControlName="categorie">
-                @for(c of cat ; track $index){
-                <option [value]="c">{{c}}</option>
-                }
-            </select>
+    <div class="plant-info">
+        <h2>Informations sur la plante</h2>
+        <p><strong>Personnalité :</strong> {{plant.personality}}</p>
+        <p><strong>Description :</strong> {{plant.description}}</p>
+        <p><strong>Maintenance :</strong> {{plant.entretien}}</p>
+        <p><strong>Type :</strong> {{plant.fun_filter}}</p>
+    </div>
 
-            <!--Personnalité-->
-            <label for="personality">Personnalité :</label>
-            <input class="modif-form" type="text" id="personality" formControlName="personalite" >
-           
-            @if(personalite?.errors?.['required'] && personalite?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-                @if(personalite?.errors?.['minlength'] && personalite?.touched){
-                <p class="pAlert">Minimum 3 caractères</p>
-                }
-                @if(personalite?.errors?.['maxlength'] && personalite?.touched){
-                <p class="pAlert">Maximum 20 caractères</p>
-                }
-                 <!--Description-->
-            <label for="description">Description :</label>
-            <textarea id="description" formControlName="description"></textarea>
-            @if(description?.errors?.['required'] && description?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-                @if(description?.errors?.['minlength'] && description?.touched){
-                <p class="pAlert">Minimum 3 caractères</p>
-                }
-                @if(description?.errors?.['maxlength'] && description?.touched){
-                <p class="pAlert">Maximum 100 caractères</p>
-                }
-            <!--Maintenance-->
-            <label for="entretien">Maintenance :</label>
-            <select name="" id="" formControlName="maintenance">
-                @for(m of maintenance;track $index){
-                    <option [value]="m">{{m}}</option>
-                }
-            </select>
-            <!--Type-->
-            <label for="fun_filter">Type :</label>
-            <select  id="fun_filter" formControlName="filter">
-                @for(f of filter;track $index){
-                <option [value]="f">{{f}}</option>
-                }
-            </select>
-        </div>
+    <div class="plant-details">
+        <h3>Détails</h3>
+        <p><strong>Prix :</strong> {{plant.price}} $</p>
+        <p><strong>Nombre dans le stock :</strong> {{plant.stock}} pièces</p>
+        <p><strong>En Stock :</strong> {{plant.in_stock}}</p>
+        <p><strong>Date d'ajout :</strong> {{plant.date_ajout}}</p>
+        <p><strong>Durée de vie :</strong> {{plant.dureeVie}}</p>
+    </div>
 
-        <div class="plant-details d-flex flex-column">
-            <h3>Détails</h3>
-            <!--Prix-->
-            <label for="price">Prix :</label>
-            <input type="number" id="price" formControlName="prix">
-            @if(prix?.errors?.['min'] && prix?.dirty){
-                <p class="pAlert">Le prix doit être supérieur a 5</p>
-                }
-                @if(prix?.errors?.['required'] && prix?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-                @if(prix?.errors?.['pattern'] && prix?.touched){
-                <p class="pAlert">Le prix doit être un nombre</p>
-                }
-            <!--Stock-->
-            <label for="stock">En Stock :</label>
-            <input type="number" id="stock" formControlName="stock">
-            @if(stock?.errors?.['min'] && stock?.dirty){
-                <p class="pAlert">Minimum 1 en stock</p>
-                }
-                @if(stock?.errors?.['required'] && stock?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-                @if(stock?.errors?.['pattern'] && stock?.touched){
-                <p class="pAlert">Le stock doit être un nombre</p>
-                }
-            <!--In Stock-->
-            <label for="in_stock">En Stock ou non :</label>
-            <select id="in_stock" formControlName="enStock">
-                <option [value]="true">Oui, en stock</option>
-                <option [value]="false">Non, n'est pas en stock</option>
-            </select>
-            <!--Date d'ajout-->
-            <label for="date_ajout">Date d'ajout :</label>
-            <input type="date" id="date_ajout" formControlName="dateAjout">
-            @if(dateAjout?.errors?.['required'] && dateAjout?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-            <!--Durée de vie-->
-            <label for="dureeVie">Durée de vie :</label>
-            <input type="text" id="dureeVie" formControlName="durVie">
-            @if(durVie?.errors?.['required'] && durVie?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-                @if(durVie?.errors?.['pattern'] && durVie?.touched){
-                <p class="pAlert">La durée de vie doit être sous la forme "1-2 ans"</p>
-                }
-            <!-- image -->
-            <label for="img">Image</label>
-            <input type="text" id="img" formControlName="img">
-            @if(img?.errors?.['required'] && img?.touched){
-                <p class="pAlert">Veuillez remplir ce champ</p>
-                }
-        </div>
-
-        <div class="plant-watering">
-            <!--Arrosage-->
-            <h3>Arrosage</h3>
-            <table class="tab table-striped table-bordered table-hover table-sm">
-                <thead>
+    <!-- afficher les informations d'arrosage de la plante -->
+    <div class="plant-watering">
+        <h3>Arrosage</h3>
+        <table class="tab table-striped table-bordered table-hover table-sm">
+            <thead>
+                <tr>
+                    <th>Saison</th>
+                    <th>Fréquence</th>
+                    <th>Quantité</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for(w of plant.arrosage;track $index){
                     <tr>
-                        <th>Saison</th>
-                        <th>Fréquence</th>
-                        <th>Quantité</th>
+                        <td>{{w.saison}}</td>
+                        <td>{{w.frequence}}</td>
+                        <td>{{w.quantite}}</td>
                     </tr>
-                </thead>
-                <tbody formArrayName="arrosage">
-                    @for(w of watering.controls;track $index){
-                    <tr [formGroupName]="$index">
-                        <td>
-                            <input type="text" formControlName="saison" >
-                        </td>
-                        <td>
-                            <input type="text" formControlName="frequence">
-                        </td>
-                        <td>
-                            <input type="text" formControlName="quantite">
-                        </td>
-                    </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-
-        <button type="submit" class="edit-btn" [disabled]="planteForm.invalid">Enregistrer les modifications</button>
-    </form>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
