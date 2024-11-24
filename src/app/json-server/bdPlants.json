@@ -2739,7 +2739,7 @@
       ]
     },
     {
-      "id": "76",
+      "id": 76,
       "name": "Jade",
       "personality": "Chanceuse",
       "description": "Succulente réputée pour apporter la prospérité.",
@@ -4213,9 +4213,7 @@
           "liked": true
         },
         {
-          "nom": "Bob",
-          "message": "I recently got a fiddle leaf fig. It's stunning!",
-          "nbLikes": 32,
+
           "liked": true
         }
       ]
@@ -5781,4 +5779,4 @@
       "pwd": "aymen"
     }
   ]
-}
+}         
