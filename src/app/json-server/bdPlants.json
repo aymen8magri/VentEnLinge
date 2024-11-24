@@ -1407,43 +1407,6 @@
       ]
     },
     {
-      "id": "40",
-      "name": "Cymbidium",
-      "personality": "Élégant",
-      "description": "Orchidée qui produit des fleurs spectaculaires et durables.",
-      "entretien": "Moyen",
-      "dureeVie": "2-3 ans",
-      "in_stock": true,
-      "category": "Plantes fleuries",
-      "fun_filter": "Énergique",
-      "price": 29.99,
-      "stock": 8,
-      "date_ajout": "2024-10-22",
-      "images": "https://ff-florist.s3.amazonaws.com/s/thefloweralley/product/cymbidium-orchids-in-modern-vase/product_photo/cymbidium-orchids-in-modern-vase-large-29d0291d1df1f3e5ca91e5cb66b0f227.jpg",
-      "arrosage": [
-        {
-          "saison": "Été",
-          "frequence": "Tous les 3 jours",
-          "quantite": "450 ml"
-        },
-        {
-          "saison": "Printemps",
-          "frequence": "Tous les 4 jours",
-          "quantite": "400 ml"
-        },
-        {
-          "saison": "Automne",
-          "frequence": "Chaque semaine",
-          "quantite": "300 ml"
-        },
-        {
-          "saison": "Hiver",
-          "frequence": "Chaque semaine",
-          "quantite": "200 ml"
-        }
-      ]
-    },
-    {
       "id": "41",
       "name": "Kalanchoe",
       "personality": "Colorée",
@@ -1528,7 +1491,7 @@
       "category": "Plantes purificatrices d'air",
       "fun_filter": "Facile à vivre",
       "price": 17.99,
-      "stock": 15,
+      "stock": 12,
       "date_ajout": "2024-10-22",
       "images": "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg",
       "arrosage": [
@@ -2882,10 +2845,16 @@
       "id": "1",
       "liste": [
         {
-          "nom": "ghzela",
-          "message": "ghzela",
+          "nom": "couca",
+          "message": "addd",
           "nbLikes": 0,
           "liked": false
+        },
+        {
+          "nom": "ghzela",
+          "message": "ghzela",
+          "nbLikes": 1,
+          "liked": true
         },
         {
           "nom": "Eve",
@@ -5826,6 +5795,128 @@
               "saison": "Hiver",
               "frequence": "Chaque semaine",
               "quantite": "200 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cf7c",
+      "nom": "jjjhg",
+      "prenom": "jhjhgluhu",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 53.97,
+      "articles": [
+        {
+          "id": "43",
+          "name": "Tilleul",
+          "personality": "Calme",
+          "description": "Plante d'intérieur qui purifie l'air et est connue pour ses feuilles apaisantes.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 17.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "43",
+          "name": "Tilleul",
+          "personality": "Calme",
+          "description": "Plante d'intérieur qui purifie l'air et est connue pour ses feuilles apaisantes.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 17.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
+            }
+          ]
+        },
+        {
+          "id": "43",
+          "name": "Tilleul",
+          "personality": "Calme",
+          "description": "Plante d'intérieur qui purifie l'air et est connue pour ses feuilles apaisantes.",
+          "entretien": "Facile",
+          "dureeVie": "10-15 ans",
+          "in_stock": true,
+          "category": "Plantes purificatrices d'air",
+          "fun_filter": "Facile à vivre",
+          "price": 17.99,
+          "stock": 15,
+          "date_ajout": "2024-10-22",
+          "images": "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Chaque jour",
+              "quantite": "600 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 3 jours",
+              "quantite": "350 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Tous les 6 jours",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "150 ml"
             }
           ]
         }
