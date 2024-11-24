@@ -1,5 +1,5 @@
 {
-"plants": [
+  "plants": [
     {
       "id": "1",
       "name": "Rose",
@@ -1302,11 +1302,11 @@
       "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
       "entretien": "Moyen",
       "dureeVie": "1-2 ans",
-      "in_stock": true,
+      "in_stock": false,
       "category": "Plantes fleuries",
       "fun_filter": "Énergique",
       "price": 14.99,
-      "stock": 12,
+      "stock": 0,
       "date_ajout": "2024-10-22",
       "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
       "arrosage": [
@@ -5371,6 +5371,461 @@
               "saison": "Hiver",
               "frequence": "Chaque semaine",
               "quantite": "150 ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2743",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
+      "etat": "en attente",
+      "total": 179.88000000000002,
+      "articles": [
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
             }
           ]
         }

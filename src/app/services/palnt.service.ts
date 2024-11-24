@@ -37,18 +37,15 @@ export class PalntService {
   public addPlant(p:Plant):Observable<Plant>{
     return this.http.post<Plant>(API_URL,p);
   }
-  //update price
-  public updatePrice(id:number,price:any):Observable<Plant>{
-    return this.http.patch<Plant>(API_URL+"/"+id,price);
+  //update plant
+  public updatePlant(id:number,plant:any):Observable<Plant>{
+    return this.http.put<Plant>(API_URL+"/"+id,plant);
   }
   //update stock
   public updateStock(id:number,stock:any):Observable<Plant>{
-    return this.http.patch<Plant>(API_URL+'/'+id ,stock);
-  }
-  //update in stock
-  public updateInStock(id:number,in_stock:any):Observable<Plant>{
-    return this.http.patch<Plant>(API_URL+'/'+id,in_stock);
-  }
+    return this.http.patch<Plant>(API_URL+"/"+id,stock);
+  } 
+ 
   /*--------------------* Wishlist *---------------------------*/
   //wishlist
   public tabplants: Plant[] = [];

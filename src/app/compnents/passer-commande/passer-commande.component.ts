@@ -69,7 +69,7 @@ export class PasserCommandeComponent implements OnInit{
         
       )
       if(t.stock==0){
-        this.plantService.updateInStock(t.id,{in_stock:false}).subscribe(
+        this.plantService.updateStock(t.id,{in_stock:false}).subscribe(
           data=>console.log(data)
         )
       }
