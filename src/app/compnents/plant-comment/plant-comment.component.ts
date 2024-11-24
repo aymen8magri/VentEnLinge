@@ -66,10 +66,11 @@ export class PlantCommentComponent {
   //ajouter un commentaire
   onAddComment(){
     const com=new Commentaire(this.user?.value,this.comment?.value);
+    this.tabcom.unshift(com)
     this.listeCommentsService.addComment(this.val,{liste:this.tabcom}).subscribe(
       data=>console.log(data)
     )
-    this.tabcom.unshift(com) //ajouter le commentaire au tableau au début
+     //ajouter le commentaire au tableau au début
   }
   //ajouter un like
   onAddLike(i:number){
