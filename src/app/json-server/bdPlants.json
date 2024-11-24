@@ -11,7 +11,7 @@
       "category": "Plantes fleuries",
       "fun_filter": "Bavarde",
       "price": 7.9,
-      "stock": 7,
+      "stock": 8,
       "date_ajout": "2024-10-21",
       "images": "https://fyf.tac-cdn.net/images/products/small/FYF-118.jpg",
       "arrosage": [
@@ -85,7 +85,7 @@
       "category": "Plantes fleuries",
       "fun_filter": "Énergique",
       "price": 14.99,
-      "stock": 6,
+      "stock": 7,
       "date_ajout": "2024-10-17",
       "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
       "arrosage": [
@@ -196,7 +196,7 @@
       "category": "Plantes fleuries",
       "fun_filter": "Facile à vivre",
       "price": 11.99,
-      "stock": 13,
+      "stock": 8,
       "date_ajout": "2024-10-18",
       "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCN0SA2UsyjnxrLnsLWZgG0y_GMQUDMQwJr5MVfN2liOGWuik",
       "arrosage": [
@@ -418,7 +418,7 @@
       "category": "Plantes purificatrices d'air",
       "fun_filter": "Facile à vivre",
       "price": 12.49,
-      "stock": 17,
+      "stock": 18,
       "date_ajout": "2024-10-13",
       "images": "https://www.boutique.bencheikhgarden.tn/338-large_default/pothos.jpg",
       "arrosage": [
@@ -1121,7 +1121,7 @@
       "category": "Plantes fleuries",
       "fun_filter": "Énergique",
       "price": 15.99,
-      "stock": 9,
+      "stock": 10,
       "date_ajout": "2024-10-25",
       "images": "https://cdn2.bigcommerce.com/server4900/4f8a6/products/726/images/2847/canna_lily_red__24245.1725145014.1280.1280.jpg?c=2",
       "arrosage": [
@@ -1528,7 +1528,7 @@
       "category": "Plantes purificatrices d'air",
       "fun_filter": "Facile à vivre",
       "price": 17.99,
-      "stock": 12,
+      "stock": 15,
       "date_ajout": "2024-10-22",
       "images": "https://www.jardindesgazelles.fr/upload/image/tilleul-a-grandes-feuilles---tilleul-de-hollande---taille-60-90-cm---racines-nues-p-image-31534-grande.jpg",
       "arrosage": [
@@ -1676,7 +1676,7 @@
       "category": "Plantes fleuries",
       "fun_filter": "Énergique",
       "price": 11.99,
-      "stock": 14,
+      "stock": 15,
       "date_ajout": "2024-10-22",
       "images": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0724000/724980_2115432.jpg?width=700&height=700&store=fr&image-type=image",
       "arrosage": [
@@ -1713,7 +1713,7 @@
       "category": "Cactus et succulentes",
       "fun_filter": "Facile à vivre",
       "price": 8.99,
-      "stock": 19,
+      "stock": 20,
       "date_ajout": "2024-10-22",
       "images": "https://www.floristik24.fr/media/images/popup/Schneegloeckchen_weiss_Eis_Topf_25cm_64861-1.jpg",
       "arrosage": [
@@ -1824,7 +1824,7 @@
       "category": "Cactus et succulentes",
       "fun_filter": "Facile à vivre",
       "price": 15.99,
-      "stock": 12,
+      "stock": 13,
       "date_ajout": "2024-10-22",
       "images": "https://www.lesterps.fr/medias/2022/06/Euphorbe-des-garrigues.jpg",
       "arrosage": [
@@ -2046,7 +2046,7 @@
       "category": "Cactus et succulentes",
       "fun_filter": "Facile à vivre",
       "price": 7.99,
-      "stock": 24,
+      "stock": 25,
       "date_ajout": "2024-10-22",
       "images": "https://www.usinenouvelle.com/mediatheque/7/0/3/001195307_896x598_c.jpg",
       "arrosage": [
@@ -2120,7 +2120,7 @@
       "category": "Cactus et succulentes",
       "fun_filter": "Énergique",
       "price": 10.99,
-      "stock": 14,
+      "stock": 15,
       "date_ajout": "2024-10-22",
       "images": "https://www.florasuculenta.com/wp-content/uploads/2021/07/Rebutia_muscula.jpg",
       "arrosage": [
@@ -2875,6 +2875,22 @@
         }
       ],
       "images": "https://www.tuttogreen.it/wp-content/uploads/2016/02/shutterstock_258321500-700x459.jpg"
+    },
+    {
+      "id": 80,
+      "name": "newp",
+      "personality": "xxf",
+      "description": "ffff",
+      "entretien": "Facile",
+      "dureeVie": "1-3 ans",
+      "in_stock": true,
+      "category": "Plantes purificatrices d'air",
+      "fun_filter": "Bavarde",
+      "price": "06",
+      "stock": "06",
+      "date_ajout": "2024-11-16T00:00:00.000Z",
+      "arrosage": [],
+      "images": "ccccc"
     }
   ],
   "ListeComments": [
@@ -2882,10 +2898,16 @@
       "id": "1",
       "liste": [
         {
-          "nom": "ghzela",
-          "message": "ghzela",
+          "nom": "couca",
+          "message": "addd",
           "nbLikes": 0,
           "liked": false
+        },
+        {
+          "nom": "ghzela",
+          "message": "ghzela",
+          "nbLikes": 1,
+          "liked": true
         },
         {
           "nom": "Eve",
@@ -5375,102 +5397,28 @@
       ]
     },
     {
-      "id": "9cc2",
-      "nom": "aymen",
-      "prenom": "magri",
-      "tel": 11222333,
-      "adresse": "ariana",
+      "id": "2743",
+      "nom": "Kalai",
+      "prenom": "Sara",
+      "tel": 28997072,
+      "adresse": "rue chrifa fayech résidence ilyes riadh al andalous",
       "etat": "en attente",
-      "total": 133.92999999999998,
+      "total": 179.88000000000002,
       "articles": [
         {
-          "id": "3",
-          "name": "Orchidée",
-          "personality": "Raffinée",
-          "description": "Symbolise la rareté et l'élégance.",
-          "entretien": "Difficile",
-          "dureeVie": "5-7 ans",
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
           "in_stock": true,
           "category": "Plantes fleuries",
           "fun_filter": "Énergique",
           "price": 14.99,
-          "stock": 7,
-          "date_ajout": "2024-10-17",
-          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 3 jours",
-              "quantite": "450 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 4 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Chaque semaine",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "32",
-          "name": "Canna Lily",
-          "personality": "Éclatante",
-          "description": "Plante tropicale aux grandes fleurs colorées.",
-          "entretien": "Moyen",
-          "dureeVie": "2-3 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Énergique",
-          "price": 15.99,
-          "stock": 10,
-          "date_ajout": "2024-10-25",
-          "images": "https://cdn2.bigcommerce.com/server4900/4f8a6/products/726/images/2847/canna_lily_red__24245.1725145014.1280.1280.jpg?c=2",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 3 jours",
-              "quantite": "450 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 4 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Chaque semaine",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "40",
-          "name": "Cymbidium",
-          "personality": "Élégant",
-          "description": "Orchidée qui produit des fleurs spectaculaires et durables.",
-          "entretien": "Moyen",
-          "dureeVie": "2-3 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Énergique",
-          "price": 29.99,
-          "stock": 8,
+          "stock": 12,
           "date_ajout": "2024-10-22",
-          "images": "https://ff-florist.s3.amazonaws.com/s/thefloweralley/product/cymbidium-orchids-in-modern-vase/product_photo/cymbidium-orchids-in-modern-vase-large-29d0291d1df1f3e5ca91e5cb66b0f227.jpg",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
           "arrosage": [
             {
               "saison": "Été",
@@ -5495,93 +5443,19 @@
           ]
         },
         {
-          "id": "3",
-          "name": "Orchidée",
-          "personality": "Raffinée",
-          "description": "Symbolise la rareté et l'élégance.",
-          "entretien": "Difficile",
-          "dureeVie": "5-7 ans",
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
           "in_stock": true,
           "category": "Plantes fleuries",
           "fun_filter": "Énergique",
           "price": 14.99,
-          "stock": 7,
-          "date_ajout": "2024-10-17",
-          "images": "https://www.boutique.bencheikhgarden.tn/521-large_default/orchidee-.jpg",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 3 jours",
-              "quantite": "450 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 4 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Chaque semaine",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "32",
-          "name": "Canna Lily",
-          "personality": "Éclatante",
-          "description": "Plante tropicale aux grandes fleurs colorées.",
-          "entretien": "Moyen",
-          "dureeVie": "2-3 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Énergique",
-          "price": 15.99,
-          "stock": 10,
-          "date_ajout": "2024-10-25",
-          "images": "https://cdn2.bigcommerce.com/server4900/4f8a6/products/726/images/2847/canna_lily_red__24245.1725145014.1280.1280.jpg?c=2",
-          "arrosage": [
-            {
-              "saison": "Été",
-              "frequence": "Tous les 3 jours",
-              "quantite": "450 ml"
-            },
-            {
-              "saison": "Printemps",
-              "frequence": "Tous les 4 jours",
-              "quantite": "400 ml"
-            },
-            {
-              "saison": "Automne",
-              "frequence": "Chaque semaine",
-              "quantite": "300 ml"
-            },
-            {
-              "saison": "Hiver",
-              "frequence": "Chaque semaine",
-              "quantite": "200 ml"
-            }
-          ]
-        },
-        {
-          "id": "40",
-          "name": "Cymbidium",
-          "personality": "Élégant",
-          "description": "Orchidée qui produit des fleurs spectaculaires et durables.",
-          "entretien": "Moyen",
-          "dureeVie": "2-3 ans",
-          "in_stock": true,
-          "category": "Plantes fleuries",
-          "fun_filter": "Énergique",
-          "price": 29.99,
-          "stock": 8,
+          "stock": 12,
           "date_ajout": "2024-10-22",
-          "images": "https://ff-florist.s3.amazonaws.com/s/thefloweralley/product/cymbidium-orchids-in-modern-vase/product_photo/cymbidium-orchids-in-modern-vase-large-29d0291d1df1f3e5ca91e5cb66b0f227.jpg",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
           "arrosage": [
             {
               "saison": "Été",
@@ -5606,33 +5480,366 @@
           ]
         },
         {
-          "id": "47",
-          "name": "Fleur de Lantana",
-          "personality": "Joyeuse",
-          "description": "Plante aux fleurs colorées qui attirent les papillons.",
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
           "entretien": "Moyen",
-          "dureeVie": "3-5 ans",
+          "dureeVie": "1-2 ans",
           "in_stock": true,
           "category": "Plantes fleuries",
           "fun_filter": "Énergique",
-          "price": 11.99,
-          "stock": 15,
+          "price": 14.99,
+          "stock": 12,
           "date_ajout": "2024-10-22",
-          "images": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0724000/724980_2115432.jpg?width=700&height=700&store=fr&image-type=image",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
           "arrosage": [
             {
               "saison": "Été",
-              "frequence": "Tous les 2 jours",
-              "quantite": "500 ml"
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
             },
             {
               "saison": "Printemps",
-              "frequence": "Tous les 3 jours",
+              "frequence": "Tous les 4 jours",
               "quantite": "400 ml"
             },
             {
               "saison": "Automne",
-              "frequence": "Tous les 5 jours",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
+              "quantite": "300 ml"
+            },
+            {
+              "saison": "Hiver",
+              "frequence": "Chaque semaine",
+              "quantite": "200 ml"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "name": "Lisianthus",
+          "personality": "Sensible",
+          "description": "Fleur délicate et élégante, souvent utilisée dans les bouquets.",
+          "entretien": "Moyen",
+          "dureeVie": "1-2 ans",
+          "in_stock": true,
+          "category": "Plantes fleuries",
+          "fun_filter": "Énergique",
+          "price": 14.99,
+          "stock": 12,
+          "date_ajout": "2024-10-22",
+          "images": "https://dy1yydbfzm05w.cloudfront.net/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/p/i/pink_lisi_medium_royal_windsor.jpg",
+          "arrosage": [
+            {
+              "saison": "Été",
+              "frequence": "Tous les 3 jours",
+              "quantite": "450 ml"
+            },
+            {
+              "saison": "Printemps",
+              "frequence": "Tous les 4 jours",
+              "quantite": "400 ml"
+            },
+            {
+              "saison": "Automne",
+              "frequence": "Chaque semaine",
               "quantite": "300 ml"
             },
             {
@@ -5776,7 +5983,7 @@
     {
       "id": "2",
       "username": "Aymen",
-      "pwd": "aymen"
+      "pwd": "admin"
     }
   ]
 }         

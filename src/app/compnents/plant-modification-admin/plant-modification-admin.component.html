@@ -121,6 +121,8 @@
         <div class="plant-watering">
             <!--Arrosage-->
             <h3>Arrosage</h3>
+            <!-- bouton pour ajouter une saison -->
+            <button type="button" class="btn btn-warning" (click)="onAjouterArrosage()" [disabled]="watering.length>=4">Ajouter une Saison</button>
             <table class="tab table-striped table-bordered table-hover table-sm">
                 <thead>
                     <tr>
@@ -145,6 +147,7 @@
                     }
                 </tbody>
             </table>
+              
         </div>
 
         <button type="submit" class="edit-btn" [disabled]="planteForm.invalid">Enregistrer les modifications</button>

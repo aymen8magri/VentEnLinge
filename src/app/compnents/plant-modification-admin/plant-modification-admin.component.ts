@@ -156,6 +156,16 @@ export class PlantModificationAdminComponent implements OnInit{
       });
     }
   }
+  //ajouter un arrosage
+  onAjouterArrosage() {
+    const arrosageGroup = this.fb.group({
+      saison: ['été'],   // Saison
+      frequence: ['Chaque jour'],   // Fréquence
+      quantite: ['600 ml']    // Quantité
+    });
+    this.watering?.push(arrosageGroup);
+    console.log(this.planteForm.invalid)
+  }
 
   //mettre à jour la plante avec les informations du formulaire
   onUpdatePlant(){
